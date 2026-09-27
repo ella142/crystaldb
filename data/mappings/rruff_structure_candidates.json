@@ -1,0 +1,14 @@
+[
+  {
+    "rruff_sample_id": "R080016",
+    "structure_source": "COD",
+    "structure_source_id": "9000253",
+    "cif_path": "data/raw/cod/9000253.cif"
+  },
+  {
+    "rruff_sample_id": "R050336",
+    "structure_source": "AMCSD",
+    "structure_source_id": "0012672",
+    "cif_path": "data/raw/amcsd/0012672.cif"
+  }
+]

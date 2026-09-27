@@ -1,0 +1,799 @@
+{
+  "Abellaite": {
+    "query": "Abellaite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9017418"
+    ]
+  },
+  "Abelsonite": {
+    "query": "Abelsonite",
+    "status": "ok",
+    "candidate_count": 2,
+    "cod_ids": [
+      "1551886",
+      "9017145"
+    ]
+  },
+  "Abhurite": {
+    "query": "Abhurite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9009804"
+    ]
+  },
+  "Acanthite": {
+    "query": "Acanthite",
+    "status": "ok",
+    "candidate_count": 3,
+    "cod_ids": [
+      "7221650",
+      "9000253",
+      "9011414"
+    ]
+  },
+  "Actinolite": {
+    "query": "Actinolite",
+    "status": "ok",
+    "candidate_count": 21,
+    "cod_ids": [
+      "8104258",
+      "9001920",
+      "9001921",
+      "9001922",
+      "9001923",
+      "9001924",
+      "9001925",
+      "9001926",
+      "9001927",
+      "9001928",
+      "9001929",
+      "9001930",
+      "9001931",
+      "9001932",
+      "9001933",
+      "9001934",
+      "9001935",
+      "9001936",
+      "9001937",
+      "9001938",
+      "9001939"
+    ]
+  },
+  "Adamite": {
+    "query": "Adamite",
+    "status": "ok",
+    "candidate_count": 11,
+    "cod_ids": [
+      "1010925",
+      "1544636",
+      "1544637",
+      "1544638",
+      "1544680",
+      "1544681",
+      "9000521",
+      "9000767",
+      "9004101",
+      "9011188",
+      "9015676"
+    ]
+  },
+  "Adamsite-(Y)": {
+    "query": "Adamsite-(Y)",
+    "status": "ok",
+    "candidate_count": 2,
+    "cod_ids": [
+      "1521070",
+      "9004610"
+    ]
+  },
+  "Adelite": {
+    "query": "Adelite",
+    "status": "ok",
+    "candidate_count": 8,
+    "cod_ids": [
+      "1536778",
+      "9000068",
+      "9000069",
+      "9004061",
+      "9004063",
+      "9009360",
+      "9012798",
+      "9015230"
+    ]
+  },
+  "Aegirine": {
+    "query": "Aegirine",
+    "status": "ok",
+    "candidate_count": 70,
+    "cod_ids": [
+      "8103771",
+      "8103772",
+      "8103773",
+      "8103774",
+      "8103775",
+      "8103776",
+      "8103777",
+      "8103778",
+      "8103779",
+      "9000327",
+      "9000328",
+      "9000329",
+      "9000330",
+      "9001615",
+      "9005430",
+      "9005431",
+      "9005432",
+      "9005433",
+      "9005434",
+      "9005435",
+      "9005436",
+      "9005437",
+      "9005438",
+      "9005439",
+      "9005843",
+      "9005882",
+      "9006969",
+      "9006970",
+      "9006971",
+      "9009331",
+      "9010072",
+      "9010073",
+      "9010074",
+      "9010075",
+      "9010076",
+      "9010077",
+      "9010078",
+      "9010079",
+      "9010080",
+      "9010081",
+      "9010082",
+      "9010083",
+      "9010084",
+      "9010085",
+      "9010086",
+      "9010087",
+      "9010088",
+      "9010089",
+      "9010090",
+      "9010091",
+      "9010092",
+      "9010093",
+      "9010094",
+      "9010095",
+      "9010323",
+      "9010324",
+      "9010325",
+      "9010326",
+      "9010327",
+      "9010328",
+      "9010329",
+      "9013272",
+      "9013273",
+      "9013274",
+      "9013275",
+      "9013276",
+      "9013277",
+      "9013278",
+      "9013279",
+      "9014598"
+    ]
+  },
+  "Aenigmatite": {
+    "query": "Aenigmatite",
+    "status": "ok",
+    "candidate_count": 11,
+    "cod_ids": [
+      "2016499",
+      "8104290",
+      "9000218",
+      "9000219",
+      "9002038",
+      "9002266",
+      "9003770",
+      "9003771",
+      "9003772",
+      "9010147",
+      "9013389"
+    ]
+  },
+  "Aeschynite-(Y)": {
+    "query": "Aeschynite-(Y)",
+    "status": "ok",
+    "candidate_count": 7,
+    "cod_ids": [
+      "1531205",
+      "1531208",
+      "9005422",
+      "9005423",
+      "9005424",
+      "9005425",
+      "9005426"
+    ]
+  },
+  "Afghanite": {
+    "query": "Afghanite",
+    "status": "ok",
+    "candidate_count": 3,
+    "cod_ids": [
+      "1539628",
+      "9005290",
+      "9016533"
+    ]
+  },
+  "Afmite": {
+    "query": "Afmite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9014258"
+    ]
+  },
+  "Afwillite": {
+    "query": "Afwillite",
+    "status": "ok",
+    "candidate_count": 3,
+    "cod_ids": [
+      "9007428",
+      "9007611",
+      "9013984"
+    ]
+  },
+  "Agardite-(Y)": {
+    "query": "Agardite-(Y)",
+    "status": "ok",
+    "candidate_count": 2,
+    "cod_ids": [
+      "2238575",
+      "9017350"
+    ]
+  },
+  "Agrellite": {
+    "query": "Agrellite",
+    "status": "ok",
+    "candidate_count": 2,
+    "cod_ids": [
+      "9000709",
+      "9015227"
+    ]
+  },
+  "Ahlfeldite": {
+    "query": "Ahlfeldite",
+    "status": "ok",
+    "candidate_count": 3,
+    "cod_ids": [
+      "9009363",
+      "9009364",
+      "9012071"
+    ]
+  },
+  "Aikinite": {
+    "query": "Aikinite",
+    "status": "ok",
+    "candidate_count": 16,
+    "cod_ids": [
+      "1541279",
+      "9004554",
+      "9004661",
+      "9004676",
+      "9004977",
+      "9004978",
+      "9007524",
+      "9007615",
+      "9008200",
+      "9010570",
+      "9010571",
+      "9010572",
+      "9010573",
+      "9010574",
+      "9013937",
+      "9013938"
+    ]
+  },
+  "Ajoite": {
+    "query": "Ajoite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9009649"
+    ]
+  },
+  "Akatoreite": {
+    "query": "Akatoreite",
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='www.crystallography.net', port=443): Max retries exceeded with url: /cod/result?text=Akatoreite&format=lst (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))",
+    "candidate_count": 0,
+    "cod_ids": []
+  },
+  "Akermanite": {
+    "query": "Akermanite",
+    "status": "ok",
+    "candidate_count": 34,
+    "cod_ids": [
+      "1000048",
+      "1530431",
+      "1537179",
+      "1537182",
+      "1537186",
+      "2100936",
+      "8103583",
+      "8103584",
+      "9006112",
+      "9006113",
+      "9006114",
+      "9006115",
+      "9006116",
+      "9006448",
+      "9006449",
+      "9006450",
+      "9006451",
+      "9006452",
+      "9006453",
+      "9006454",
+      "9006935",
+      "9006936",
+      "9006937",
+      "9006938",
+      "9006939",
+      "9006940",
+      "9006941",
+      "9009730",
+      "9013636",
+      "9013637",
+      "9013638",
+      "9014854",
+      "9015368",
+      "9017542"
+    ]
+  },
+  "Akrochordite": {
+    "query": "Akrochordite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9001183"
+    ]
+  },
+  "AlSO4(OH)": {
+    "query": "AlSO4(OH)",
+    "status": "ok",
+    "candidate_count": 0,
+    "cod_ids": []
+  },
+  "Alabandite": {
+    "query": "Alabandite",
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='www.crystallography.net', port=443): Max retries exceeded with url: /cod/result?text=Alabandite&format=lst (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))",
+    "candidate_count": 0,
+    "cod_ids": []
+  },
+  "Alacranite": {
+    "query": "Alacranite",
+    "status": "ok",
+    "candidate_count": 8,
+    "cod_ids": [
+      "9003096",
+      "9004630",
+      "9010097",
+      "9010098",
+      "9010099",
+      "9010100",
+      "9010101",
+      "9016439"
+    ]
+  },
+  "Alamosite": {
+    "query": "Alamosite",
+    "status": "ok",
+    "candidate_count": 2,
+    "cod_ids": [
+      "1537555",
+      "9008141"
+    ]
+  },
+  "Albite": {
+    "query": "Albite",
+    "status": "ok",
+    "candidate_count": 91,
+    "cod_ids": [
+      "1544370",
+      "1556998",
+      "1556999",
+      "2107372",
+      "2310574",
+      "9000135",
+      "9000386",
+      "9000525",
+      "9000526",
+      "9000527",
+      "9000528",
+      "9000529",
+      "9000530",
+      "9000531",
+      "9000584",
+      "9000585",
+      "9000586",
+      "9000681",
+      "9000682",
+      "9000702",
+      "9000703",
+      "9000704",
+      "9000705",
+      "9000706",
+      "9000707",
+      "9000708",
+      "9000783",
+      "9000784",
+      "9000785",
+      "9000786",
+      "9000993",
+      "9001030",
+      "9001031",
+      "9001257",
+      "9001312",
+      "9001313",
+      "9001401",
+      "9001402",
+      "9001403",
+      "9001630",
+      "9001631",
+      "9001632",
+      "9001633",
+      "9001634",
+      "9001635",
+      "9002196",
+      "9002197",
+      "9002198",
+      "9002199",
+      "9002200",
+      "9002201",
+      "9002202",
+      "9002203",
+      "9003700",
+      "9003701",
+      "9003702",
+      "9005077",
+      "9005078",
+      "9005079",
+      "9009663",
+      "9011422",
+      "9011423",
+      "9012815",
+      "9016731",
+      "9016732",
+      "9016733",
+      "9016734",
+      "9016735",
+      "9016736",
+      "9016747",
+      "9016748",
+      "9016749",
+      "9016750",
+      "9016751",
+      "9016752",
+      "9016753",
+      "9016754",
+      "9016755",
+      "9016756",
+      "9016757",
+      "9016758",
+      "9016759",
+      "9016760",
+      "9016771",
+      "9016772",
+      "9016773",
+      "9016774",
+      "9016775",
+      "9016776",
+      "9016777",
+      "9016778"
+    ]
+  },
+  "Alforsite": {
+    "query": "Alforsite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9007630"
+    ]
+  },
+  "Allabogdanite": {
+    "query": "Allabogdanite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9002809"
+    ]
+  },
+  "Allactite": {
+    "query": "Allactite",
+    "status": "ok",
+    "candidate_count": 2,
+    "cod_ids": [
+      "9000164",
+      "9015450"
+    ]
+  },
+  "Allanite-(Ce)": {
+    "query": "Allanite-(Ce)",
+    "status": "ok",
+    "candidate_count": 3,
+    "cod_ids": [
+      "9000221",
+      "9004261",
+      "9004767"
+    ]
+  },
+  "Allanite-(La)": {
+    "query": "Allanite-(La)",
+    "status": "ok",
+    "candidate_count": 4,
+    "cod_ids": [
+      "9004971",
+      "9016680",
+      "9017605",
+      "9017606"
+    ]
+  },
+  "Allanpringite": {
+    "query": "Allanpringite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9010772"
+    ]
+  },
+  "Alleghanyite": {
+    "query": "Alleghanyite",
+    "status": "ok",
+    "candidate_count": 2,
+    "cod_ids": [
+      "8103668",
+      "9000949"
+    ]
+  },
+  "Alloclasite": {
+    "query": "Alloclasite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9004112"
+    ]
+  },
+  "Alloriite": {
+    "query": "Alloriite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9013996"
+    ]
+  },
+  "Almandine": {
+    "query": "Almandine",
+    "status": "ok",
+    "candidate_count": 29,
+    "cod_ids": [
+      "1010999",
+      "1531283",
+      "9000233",
+      "9001422",
+      "9001423",
+      "9001424",
+      "9001425",
+      "9001426",
+      "9001427",
+      "9001428",
+      "9001429",
+      "9001430",
+      "9001431",
+      "9002507",
+      "9006107",
+      "9006108",
+      "9006109",
+      "9006110",
+      "9006111",
+      "9006277",
+      "9006278",
+      "9006279",
+      "9006280",
+      "9006281",
+      "9006282",
+      "9006283",
+      "9006319",
+      "9006320",
+      "9006321"
+    ]
+  },
+  "Altaite": {
+    "query": "Altaite",
+    "status": "ok",
+    "candidate_count": 4,
+    "cod_ids": [
+      "9000003",
+      "9008696",
+      "9011357",
+      "9011358"
+    ]
+  },
+  "Althausite": {
+    "query": "Althausite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9000771"
+    ]
+  },
+  "Alum-(K)": {
+    "query": "Alum-(K)",
+    "status": "ok",
+    "candidate_count": 5,
+    "cod_ids": [
+      "2102034",
+      "2102035",
+      "9014255",
+      "9017147",
+      "9017148"
+    ]
+  },
+  "Alum-(Na)": {
+    "query": "Alum-(Na)",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9014781"
+    ]
+  },
+  "Alumoklyuchevskite": {
+    "query": "Alumoklyuchevskite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9014802"
+    ]
+  },
+  "Alunite": {
+    "query": "Alunite",
+    "status": "ok",
+    "candidate_count": 43,
+    "cod_ids": [
+      "1010965",
+      "1521445",
+      "1527596",
+      "1529783",
+      "1529784",
+      "2310693",
+      "9000013",
+      "9000032",
+      "9000033",
+      "9000034",
+      "9000840",
+      "9004448",
+      "9005189",
+      "9009284",
+      "9009285",
+      "9009297",
+      "9010576",
+      "9010877",
+      "9011764",
+      "9012350",
+      "9013634",
+      "9013635",
+      "9013778",
+      "9014708",
+      "9015096",
+      "9015624",
+      "9016102",
+      "9016392",
+      "9016445",
+      "9016497",
+      "9017577",
+      "9017580",
+      "9017581",
+      "9017582",
+      "9017583",
+      "9017615",
+      "9017616",
+      "9017617",
+      "9017618",
+      "9017619",
+      "9017620",
+      "9017621",
+      "9017783"
+    ]
+  },
+  "Alunogen": {
+    "query": "Alunogen",
+    "status": "ok",
+    "candidate_count": 3,
+    "cod_ids": [
+      "9000507",
+      "9009574",
+      "9017832"
+    ]
+  },
+  "Amarantite": {
+    "query": "Amarantite",
+    "status": "ok",
+    "candidate_count": 7,
+    "cod_ids": [
+      "1531345",
+      "9008150",
+      "9017474",
+      "9017475",
+      "9017886",
+      "9017911",
+      "9017913"
+    ]
+  },
+  "Amblygonite": {
+    "query": "Amblygonite",
+    "status": "ok",
+    "candidate_count": 25,
+    "cod_ids": [
+      "1531115",
+      "1531396",
+      "9001290",
+      "9001291",
+      "9001292",
+      "9001293",
+      "9001294",
+      "9001295",
+      "9001296",
+      "9002867",
+      "9002868",
+      "9002869",
+      "9002870",
+      "9002871",
+      "9002872",
+      "9002873",
+      "9002874",
+      "9002875",
+      "9002876",
+      "9002877",
+      "9002878",
+      "9002879",
+      "9002880",
+      "9002881",
+      "9016479"
+    ]
+  },
+  "Ameghinite": {
+    "query": "Ameghinite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9000459"
+    ]
+  },
+  "Amesite": {
+    "query": "Amesite",
+    "status": "ok",
+    "candidate_count": 6,
+    "cod_ids": [
+      "2310680",
+      "9000795",
+      "9001331",
+      "9004515",
+      "9015571",
+      "9015989"
+    ]
+  },
+  "Amicite": {
+    "query": "Amicite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9007633"
+    ]
+  },
+  "Aminoffite": {
+    "query": "Aminoffite",
+    "status": "ok",
+    "candidate_count": 1,
+    "cod_ids": [
+      "9004680"
+    ]
+  }
+}

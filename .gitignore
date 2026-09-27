@@ -1,0 +1,68 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Local secrets / config
+# -------------------------
+.env
+.env.*
+*.local
+
+# -------------------------
+# Logs / temporary files
+# -------------------------
+*.log
+tmp/
+temp/
+
+# -------------------------
+# Large/raw project data
+# -------------------------
+data/raw/
+data/interim/
+data/processed/
+data/canonical/
+
+# -------------------------
+# Generated reports/results
+# -------------------------
+reports/
+
+# -------------------------
+# Database/export files
+# -------------------------
+*.bson
+*.archive
+*.dump
+
+# -------------------------
+# Large scientific files
+# -------------------------
+*.zip

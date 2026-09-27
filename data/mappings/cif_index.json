@@ -1,0 +1,2622 @@
+[
+  {
+    "source": "COD",
+    "source_id": "1010925",
+    "file_path": "data/raw/cod/1010925.cif",
+    "data_block": "1010925",
+    "mineral_name": "Adamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": 8.31,
+      "b": 8.51,
+      "c": 6.06,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 428.6
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1521070",
+    "file_path": "data/raw/cod/1521070.cif",
+    "data_block": "1521070",
+    "mineral_name": null,
+    "formula": "C2 H12 Na O12 Y",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 6.2592,
+      "b": 13.0838,
+      "c": 13.2271,
+      "alpha": 91.13,
+      "beta": 103.554,
+      "gamma": 90.188,
+      "volume": 1052.814
+    },
+    "atom_count": 32,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1536778",
+    "file_path": "data/raw/cod/1536778.cif",
+    "data_block": "1536778",
+    "mineral_name": null,
+    "formula": "H O5 Pb V Zn",
+    "space_group": "P n m a",
+    "cell_parameters": {
+      "a": 7.607,
+      "b": 6.074,
+      "c": 9.446,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 436.452
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1544636",
+    "file_path": "data/raw/cod/1544636.cif",
+    "data_block": "1544636",
+    "mineral_name": "Adamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1544637",
+    "file_path": "data/raw/cod/1544637.cif",
+    "data_block": "1544637",
+    "mineral_name": "paradamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null,
+      "volume": null
+    },
+    "atom_count": 9,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1544638",
+    "file_path": "data/raw/cod/1544638.cif",
+    "data_block": "1544638",
+    "mineral_name": "legrandite",
+    "formula": "As H3 O6 Zn2",
+    "space_group": "P 1 21/c 1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": null,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 24,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1544680",
+    "file_path": "data/raw/cod/1544680.cif",
+    "data_block": "1544680",
+    "mineral_name": "adamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1544681",
+    "file_path": "data/raw/cod/1544681.cif",
+    "data_block": "1544681",
+    "mineral_name": "paradamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null,
+      "volume": null
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1551886",
+    "file_path": "data/raw/cod/1551886.cif",
+    "data_block": "1551886",
+    "mineral_name": "abelsonite",
+    "formula": "C31 H32 N4 Ni",
+    "space_group": null,
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null,
+      "volume": null
+    },
+    "atom_count": 75,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "2016499",
+    "file_path": "data/raw/cod/2016499.cif",
+    "data_block": "2016499",
+    "mineral_name": null,
+    "formula": "Ge6 Mn5.26 Na2.74 O20",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null,
+      "volume": null
+    },
+    "atom_count": 36,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "7221650",
+    "file_path": "data/raw/cod/7221650.cif",
+    "data_block": "7221650",
+    "mineral_name": "Argentite",
+    "formula": "Ag2 S",
+    "space_group": "I m -3 m",
+    "cell_parameters": {
+      "a": 4.8741,
+      "b": 4.8741,
+      "c": 4.8741,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 115.793
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103771",
+    "file_path": "data/raw/cod/8103771.cif",
+    "data_block": "8103771",
+    "mineral_name": null,
+    "formula": "Fe Li0.899 Na0.101 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6542,
+      "b": 8.6768,
+      "c": 5.2917,
+      "alpha": 90.0,
+      "beta": 109.903,
+      "gamma": 90.0,
+      "volume": 416.796
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103772",
+    "file_path": "data/raw/cod/8103772.cif",
+    "data_block": "8103772",
+    "mineral_name": null,
+    "formula": "Fe Li0.962 Na0.038 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6583,
+      "b": 8.6695,
+      "c": 5.2905,
+      "alpha": 90.0,
+      "beta": 110.045,
+      "gamma": 90.0,
+      "volume": 416.153
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103773",
+    "file_path": "data/raw/cod/8103773.cif",
+    "data_block": "8103773",
+    "mineral_name": null,
+    "formula": "Fe Li0.052 Na0.948 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.648,
+      "b": 8.7796,
+      "c": 5.2896,
+      "alpha": 90.0,
+      "beta": 107.645,
+      "gamma": 90.0,
+      "volume": 426.979
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103774",
+    "file_path": "data/raw/cod/8103774.cif",
+    "data_block": "8103774",
+    "mineral_name": null,
+    "formula": "Fe Li0.11 Na0.89 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6439,
+      "b": 8.778,
+      "c": 5.2942,
+      "alpha": 90.0,
+      "beta": 107.9,
+      "gamma": 90.0,
+      "volume": 426.482
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103775",
+    "file_path": "data/raw/cod/8103775.cif",
+    "data_block": "8103775",
+    "mineral_name": null,
+    "formula": "Fe Li0.182 Na0.818 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6483,
+      "b": 8.7667,
+      "c": 5.2973,
+      "alpha": 90.0,
+      "beta": 108.125,
+      "gamma": 90.0,
+      "volume": 425.833
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103776",
+    "file_path": "data/raw/cod/8103776.cif",
+    "data_block": "8103776",
+    "mineral_name": null,
+    "formula": "Fe Li0.389 Na0.611 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6428,
+      "b": 8.7416,
+      "c": 5.2963,
+      "alpha": 90.0,
+      "beta": 108.554,
+      "gamma": 90.0,
+      "volume": 423.239
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103777",
+    "file_path": "data/raw/cod/8103777.cif",
+    "data_block": "8103777",
+    "mineral_name": null,
+    "formula": "Fe Li0.501 Na0.499 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.645,
+      "b": 8.7288,
+      "c": 5.2988,
+      "alpha": 90.0,
+      "beta": 108.927,
+      "gamma": 90.0,
+      "volume": 421.983
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103778",
+    "file_path": "data/raw/cod/8103778.cif",
+    "data_block": "8103778",
+    "mineral_name": null,
+    "formula": "Fe Li0.727 Na0.273 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6444,
+      "b": 8.6996,
+      "c": 5.2968,
+      "alpha": 90.0,
+      "beta": 109.436,
+      "gamma": 90.0,
+      "volume": 419.089
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8103779",
+    "file_path": "data/raw/cod/8103779.cif",
+    "data_block": "8103779",
+    "mineral_name": null,
+    "formula": "Fe Li0.765 Na0.235 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6503,
+      "b": 8.6908,
+      "c": 5.293,
+      "alpha": 90.0,
+      "beta": 109.702,
+      "gamma": 90.0,
+      "volume": 417.93
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8104258",
+    "file_path": "data/raw/cod/8104258.cif",
+    "data_block": "8104258",
+    "mineral_name": null,
+    "formula": "Al0.4 Ca1.76 Fe3.04 H2 Mg1.88 Mn0.16 Na0.08 O24 Si7.68",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.891,
+      "b": 18.2,
+      "c": 5.305,
+      "alpha": 90.0,
+      "beta": 104.64,
+      "gamma": 90.0,
+      "volume": 923.98
+    },
+    "atom_count": 21,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "8104290",
+    "file_path": "data/raw/cod/8104290.cif",
+    "data_block": "8104290",
+    "mineral_name": null,
+    "formula": "Fe2.8 Ge5.6 Mg3.6 Na2 O20",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 8.994,
+      "b": 9.924,
+      "c": 10.495,
+      "alpha": 64.3,
+      "beta": 84.07,
+      "gamma": 65.87,
+      "volume": 767.202
+    },
+    "atom_count": 44,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000068",
+    "file_path": "data/raw/cod/9000068.cif",
+    "data_block": "9000068",
+    "mineral_name": "Pyrobelonite",
+    "formula": "H Mn O7 Pb V",
+    "space_group": "P n m a",
+    "cell_parameters": {
+      "a": 7.663,
+      "b": 6.191,
+      "c": 9.522,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 451.739
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000069",
+    "file_path": "data/raw/cod/9000069.cif",
+    "data_block": "9000069",
+    "mineral_name": "Brackebuschite",
+    "formula": "Mn O8 Pb2 V2",
+    "space_group": "B 1 21/m 1",
+    "cell_parameters": {
+      "a": 7.681,
+      "b": 6.155,
+      "c": 16.524,
+      "alpha": 90.0,
+      "beta": 93.75,
+      "gamma": 90.0,
+      "volume": 779.525
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000218",
+    "file_path": "data/raw/cod/9000218.cif",
+    "data_block": "9000218",
+    "mineral_name": "Aenigmatite",
+    "formula": "Fe5 Na2 O20 Si6 Ti",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.406,
+      "b": 10.813,
+      "c": 8.926,
+      "alpha": 104.93,
+      "beta": 96.87,
+      "gamma": 125.32,
+      "volume": 744.464
+    },
+    "atom_count": 35,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000219",
+    "file_path": "data/raw/cod/9000219.cif",
+    "data_block": "9000219",
+    "mineral_name": "Aenigmatite",
+    "formula": "Fe5.16 Na2 O20 Si5.74 Ti1.1",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.406,
+      "b": 10.813,
+      "c": 8.926,
+      "alpha": 104.93,
+      "beta": 96.87,
+      "gamma": 125.32,
+      "volume": 744.464
+    },
+    "atom_count": 45,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000253",
+    "file_path": "data/raw/cod/9000253.cif",
+    "data_block": "9000253",
+    "mineral_name": "Acanthite",
+    "formula": "Ag2 S",
+    "space_group": "P 1 21/n 1",
+    "cell_parameters": {
+      "a": 4.229,
+      "b": 6.931,
+      "c": 7.862,
+      "alpha": 90.0,
+      "beta": 99.61,
+      "gamma": 90.0,
+      "volume": 227.211
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000327",
+    "file_path": "data/raw/cod/9000327.cif",
+    "data_block": "9000327",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.658,
+      "b": 8.795,
+      "c": 5.294,
+      "alpha": 90.0,
+      "beta": 107.42,
+      "gamma": 90.0,
+      "volume": 429.059
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000328",
+    "file_path": "data/raw/cod/9000328.cif",
+    "data_block": "9000328",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.677,
+      "b": 8.829,
+      "c": 5.298,
+      "alpha": 90.0,
+      "beta": 107.33,
+      "gamma": 90.0,
+      "volume": 432.104
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000329",
+    "file_path": "data/raw/cod/9000329.cif",
+    "data_block": "9000329",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.699,
+      "b": 8.855,
+      "c": 5.307,
+      "alpha": 90.0,
+      "beta": 107.32,
+      "gamma": 90.0,
+      "volume": 435.123
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000330",
+    "file_path": "data/raw/cod/9000330.cif",
+    "data_block": "9000330",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.711,
+      "b": 8.876,
+      "c": 5.312,
+      "alpha": 90.0,
+      "beta": 107.29,
+      "gamma": 90.0,
+      "volume": 437.177
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000521",
+    "file_path": "data/raw/cod/9000521.cif",
+    "data_block": "9000521",
+    "mineral_name": "Adamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": 8.306,
+      "b": 8.524,
+      "c": 6.043,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 427.846
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000767",
+    "file_path": "data/raw/cod/9000767.cif",
+    "data_block": "9000767",
+    "mineral_name": "Paradamite",
+    "formula": "As O5 Zn2",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 5.83,
+      "b": 6.711,
+      "c": 5.648,
+      "alpha": 104.7,
+      "beta": 92.3,
+      "gamma": 76.8,
+      "volume": 208.061
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001615",
+    "file_path": "data/raw/cod/9001615.cif",
+    "data_block": "9001615",
+    "mineral_name": "Aegirine-augite",
+    "formula": "Ca0.774 Fe0.11 Mg0.901 Na0.226 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.689,
+      "b": 8.824,
+      "c": 5.28,
+      "alpha": 90.0,
+      "beta": 107.6,
+      "gamma": 90.0,
+      "volume": 430.287
+    },
+    "atom_count": 9,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001920",
+    "file_path": "data/raw/cod/9001920.cif",
+    "data_block": "9001920",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.122 Ca1.802 Fe0.575 H1.94 K0.014 Mg4.479 Mn0.016 Na0.124 O24 Si7.94\n Ti0.002\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.834,
+      "b": 18.078,
+      "c": 5.283,
+      "alpha": 90.0,
+      "beta": 104.63,
+      "gamma": 90.0,
+      "volume": 908.755
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001921",
+    "file_path": "data/raw/cod/9001921.cif",
+    "data_block": "9001921",
+    "mineral_name": "Actinolite",
+    "formula": "Al0.138 Ca1.774 Fe0.594 H1.976 K0.01 Mg4.43 Mn0.02 Na0.132 O24 Si7.952",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.833,
+      "b": 18.078,
+      "c": 5.282,
+      "alpha": 90.0,
+      "beta": 104.58,
+      "gamma": 90.0,
+      "volume": 908.697
+    },
+    "atom_count": 27,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001922",
+    "file_path": "data/raw/cod/9001922.cif",
+    "data_block": "9001922",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.252 Ca1.904 F0.726 Fe0.905 H1.566 K0.096 Mg4.083 Mn0.02 Na0.232 O23.274\r\n Si7.788 Ti0.014\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.855,
+      "b": 18.069,
+      "c": 5.283,
+      "alpha": 90.0,
+      "beta": 104.79,
+      "gamma": 90.0,
+      "volume": 909.575
+    },
+    "atom_count": 29,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001923",
+    "file_path": "data/raw/cod/9001923.cif",
+    "data_block": "9001923",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.204 Ca1.954 F0.276 Fe0.947 H1.696 K0.096 Mg4.031 Mn0.014 Na0.152 O23.724\r\n Si7.82 Ti0.004\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.852,
+      "b": 18.066,
+      "c": 5.282,
+      "alpha": 90.0,
+      "beta": 104.89,
+      "gamma": 90.0,
+      "volume": 908.555
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001924",
+    "file_path": "data/raw/cod/9001924.cif",
+    "data_block": "9001924",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.256 Ca1.856 F0.464 Fe1.133 H1.436 K0.09 Mg3.879 Mn0.02 Na0.286 O23.536\r\n Si7.776 Ti0.02\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.866,
+      "b": 18.098,
+      "c": 5.284,
+      "alpha": 90.0,
+      "beta": 104.77,
+      "gamma": 90.0,
+      "volume": 912.308
+    },
+    "atom_count": 29,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001925",
+    "file_path": "data/raw/cod/9001925.cif",
+    "data_block": "9001925",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.182 Ca1.89 Cl0.034 F0.406 Fe1.166 H1.556 K0.066 Mg2.71 Mn0.444 Na0.212\r\n O23.56 Si7.836 Ti0.004\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.863,
+      "b": 18.09,
+      "c": 5.282,
+      "alpha": 90.0,
+      "beta": 104.78,
+      "gamma": 90.0,
+      "volume": 911.241
+    },
+    "atom_count": 30,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001926",
+    "file_path": "data/raw/cod/9001926.cif",
+    "data_block": "9001926",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.194 Ca1.922 Fe1.538 H1.92 K0.01 Mg3.364 Mn0.052 Na0.052 O24 Si7.888\r\n Ti0.002\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.881,
+      "b": 18.139,
+      "c": 5.298,
+      "alpha": 90.0,
+      "beta": 104.78,
+      "gamma": 90.0,
+      "volume": 918.149
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001927",
+    "file_path": "data/raw/cod/9001927.cif",
+    "data_block": "9001927",
+    "mineral_name": "Actinolite",
+    "formula": ";Al3.806 Ca1.898 Cl0.014 F0.184 Fe1.94 H1.844 K0.066 Mg2.964 Mn0.046 Na0.212\r\n O23.802 Si4.312 Ti0.012\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.886,
+      "b": 18.15,
+      "c": 5.3,
+      "alpha": 90.0,
+      "beta": 104.79,
+      "gamma": 90.0,
+      "volume": 919.476
+    },
+    "atom_count": 30,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001928",
+    "file_path": "data/raw/cod/9001928.cif",
+    "data_block": "9001928",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.008 Ca1.838 Cl0.036 F0.038 Fe2.762 H1.854 Mg2.336 Mn0.024 Na0.036 O23.926\r\n Si8\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.891,
+      "b": 18.19,
+      "c": 5.297,
+      "alpha": 90.0,
+      "beta": 104.54,
+      "gamma": 90.0,
+      "volume": 922.499
+    },
+    "atom_count": 26,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001929",
+    "file_path": "data/raw/cod/9001929.cif",
+    "data_block": "9001929",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.016 Ca1.77 Cl0.036 F0.046 Fe2.711 H1.878 K0.004 Mg2.423 Mn0.026 Na0.112\r\n O23.918 Si7.984\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.89,
+      "b": 18.198,
+      "c": 5.296,
+      "alpha": 90.0,
+      "beta": 104.57,
+      "gamma": 90.0,
+      "volume": 922.512
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001930",
+    "file_path": "data/raw/cod/9001930.cif",
+    "data_block": "9001930",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.02 Ca1.78 Cl0.036 F0.046 Fe2.755 H1.88 K0.012 Mg2.395 Mn0.03 Na0.076\r\n O23.918 Si7.98\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.891,
+      "b": 18.2,
+      "c": 5.296,
+      "alpha": 90.0,
+      "beta": 104.55,
+      "gamma": 90.0,
+      "volume": 922.79
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001931",
+    "file_path": "data/raw/cod/9001931.cif",
+    "data_block": "9001931",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.016 Ca1.782 Cl0.04 F0.048 Fe2.757 H1.876 K0.004 Mg2.385 Mn0.026 Na0.074\r\n O23.912 Si7.988\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.89,
+      "b": 18.192,
+      "c": 5.294,
+      "alpha": 90.0,
+      "beta": 104.53,
+      "gamma": 90.0,
+      "volume": 922.026
+    },
+    "atom_count": 29,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001932",
+    "file_path": "data/raw/cod/9001932.cif",
+    "data_block": "9001932",
+    "mineral_name": "Actinolite",
+    "formula": "Al0.08 Ca1.824 Fe2.711 H1.88 K0.016 Mg2.395 Mn0.04 Na0.12 O24 Si7.92 Ti0.002",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.886,
+      "b": 18.171,
+      "c": 5.297,
+      "alpha": 90.0,
+      "beta": 104.61,
+      "gamma": 90.0,
+      "volume": 920.777
+    },
+    "atom_count": 27,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001933",
+    "file_path": "data/raw/cod/9001933.cif",
+    "data_block": "9001933",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.072 Ca1.872 Cl0.02 F0.048 Fe2.673 H1.886 K0.004 Mg2.405 Mn0.042 Na0.096\r\n O23.932 Si7.928\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.9,
+      "b": 18.198,
+      "c": 5.299,
+      "alpha": 90.0,
+      "beta": 104.63,
+      "gamma": 90.0,
+      "volume": 923.716
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001934",
+    "file_path": "data/raw/cod/9001934.cif",
+    "data_block": "9001934",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.294 Ca1.772 F0.048 Fe2.757 H1.836 K0.022 Mg2.049 Mn0.316 Na0.192 O23.952\r\n Si7.756 Ti0.004\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.884,
+      "b": 18.189,
+      "c": 5.302,
+      "alpha": 90.0,
+      "beta": 104.6,
+      "gamma": 90.0,
+      "volume": 922.415
+    },
+    "atom_count": 29,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001935",
+    "file_path": "data/raw/cod/9001935.cif",
+    "data_block": "9001935",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.282 Ca1.736 F0.048 Fe2.823 H1.894 K0.024 Mg1.979 Mn0.336 Na0.176 O23.952\r\n Si7.792 Ti0.006\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.89,
+      "b": 18.194,
+      "c": 5.306,
+      "alpha": 90.0,
+      "beta": 104.62,
+      "gamma": 90.0,
+      "volume": 923.841
+    },
+    "atom_count": 29,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001936",
+    "file_path": "data/raw/cod/9001936.cif",
+    "data_block": "9001936",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.024 Ca1.814 Cl0.03 F0.01 Fe3.112 H1.86 Mg1.954 Mn0.088 Na0.018 O23.96\r\n Si7.988 Ti0.002\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.908,
+      "b": 18.218,
+      "c": 5.301,
+      "alpha": 90.0,
+      "beta": 104.59,
+      "gamma": 90.0,
+      "volume": 925.996
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001937",
+    "file_path": "data/raw/cod/9001937.cif",
+    "data_block": "9001937",
+    "mineral_name": "Actinolite",
+    "formula": ";Al0.028 Ca1.814 Cl0.026 F0.048 Fe3.17 H1.872 K0.004 Mg1.906 Mn0.092 Na0.038\r\n O23.926 Si7.972\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.903,
+      "b": 18.211,
+      "c": 5.299,
+      "alpha": 90.0,
+      "beta": 104.64,
+      "gamma": 90.0,
+      "volume": 924.614
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001938",
+    "file_path": "data/raw/cod/9001938.cif",
+    "data_block": "9001938",
+    "mineral_name": "Ferro-actinolite",
+    "formula": "Al0.02 Ca1.97 Fe3.98 H1.88 K0.044 Mg0.88 Mn0.196 Na0.028 O24 Si7.98 Ti0.002",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.977,
+      "b": 18.287,
+      "c": 5.308,
+      "alpha": 90.0,
+      "beta": 104.81,
+      "gamma": 90.0,
+      "volume": 936.269
+    },
+    "atom_count": 26,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001939",
+    "file_path": "data/raw/cod/9001939.cif",
+    "data_block": "9001939",
+    "mineral_name": "Ferro-actinolite",
+    "formula": ";Al0.02 Ca1.952 Cl0.006 F0.01 Fe4.104 H1.868 K0.048 Mg0.742 Mn0.18 Na0.024 O24\r\n Si7.98 Ti0.004\r\n;",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.986,
+      "b": 18.296,
+      "c": 5.306,
+      "alpha": 90.0,
+      "beta": 104.79,
+      "gamma": 90.0,
+      "volume": 937.308
+    },
+    "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002038",
+    "file_path": "data/raw/cod/9002038.cif",
+    "data_block": "9002038",
+    "mineral_name": "Aenigmatite",
+    "formula": "Fe0.65 Mg2.163 Na O10 Si3.188",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.328,
+      "b": 10.724,
+      "c": 8.805,
+      "alpha": 105.15,
+      "beta": 96.85,
+      "gamma": 125.47,
+      "volume": 719.667
+    },
+    "atom_count": 49,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002266",
+    "file_path": "data/raw/cod/9002266.cif",
+    "data_block": "9002266",
+    "mineral_name": "Aenigmatite",
+    "formula": "Al0.08 H2 Mg5.92 Na2 O20 Si6",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.2925,
+      "b": 10.7052,
+      "c": 8.8027,
+      "alpha": 105.28,
+      "beta": 96.712,
+      "gamma": 125.256,
+      "volume": 718.083
+    },
+    "atom_count": 38,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9003770",
+    "file_path": "data/raw/cod/9003770.cif",
+    "data_block": "9003770",
+    "mineral_name": "Makarochkinite",
+    "formula": ";Al0.54 Be0.9 Ca1.69 Fe5.19 Mg0.25 Mn0.1 Na0.21 Nb0.04 O20 Si4.49 Ta0.01\r\n Ti0.59\r\n;",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.355,
+      "b": 10.751,
+      "c": 8.873,
+      "alpha": 105.757,
+      "beta": 96.227,
+      "gamma": 124.861,
+      "volume": 735.302
+    },
+    "atom_count": 52,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9003771",
+    "file_path": "data/raw/cod/9003771.cif",
+    "data_block": "9003771",
+    "mineral_name": "Makarochkinite",
+    "formula": ";Al0.48 Be Ca1.77 Fe5.145 Mg0.225 Mn0.04 Na0.19 Nb0.07 O20 Si4.52 Sn0.02\r\n Ti0.54\r\n;",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.373,
+      "b": 10.768,
+      "c": 8.878,
+      "alpha": 105.794,
+      "beta": 96.183,
+      "gamma": 124.934,
+      "volume": 737.315
+    },
+    "atom_count": 52,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9003772",
+    "file_path": "data/raw/cod/9003772.cif",
+    "data_block": "9003772",
+    "mineral_name": "Hogtuvaite",
+    "formula": "Al0.38 Be1.06 Ca1.71 Fe5.61 Mg0.12 Na0.29 O20 Si4.56 Sn0.03 Ti0.24",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.322,
+      "b": 10.729,
+      "c": 8.8624,
+      "alpha": 105.802,
+      "beta": 96.185,
+      "gamma": 124.758,
+      "volume": 731.673
+    },
+    "atom_count": 50,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004061",
+    "file_path": "data/raw/cod/9004061.cif",
+    "data_block": "9004061",
+    "mineral_name": "Conichalcite",
+    "formula": "As Ca Cu H O5",
+    "space_group": "P 21 21 21",
+    "cell_parameters": {
+      "a": 7.4,
+      "b": 5.84,
+      "c": 9.21,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 398.019
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004063",
+    "file_path": "data/raw/cod/9004063.cif",
+    "data_block": "9004063",
+    "mineral_name": "Descloizite",
+    "formula": "H O5 Pb V Zn",
+    "space_group": "P 21 21 21",
+    "cell_parameters": {
+      "a": 7.6,
+      "b": 6.07,
+      "c": 9.44,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 435.486
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004101",
+    "file_path": "data/raw/cod/9004101.cif",
+    "data_block": "9004101",
+    "mineral_name": "Adamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": 8.304,
+      "b": 8.53,
+      "c": 6.047,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 428.328
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004610",
+    "file_path": "data/raw/cod/9004610.cif",
+    "data_block": "9004610",
+    "mineral_name": "Adamsite-(Y)",
+    "formula": ";C2 H4.89 Ce0.01 Dy0.06 Er0.05 Gd0.04 Ho0.02 Na Nd0.03 O12 Sm0.02 Tb0.01\r\n Tm0.01 Y0.72 Yb0.02\r\n;",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 6.2592,
+      "b": 13.0838,
+      "c": 13.2271,
+      "alpha": 91.13,
+      "beta": 103.554,
+      "gamma": 90.188,
+      "volume": 1052.814
+    },
+    "atom_count": 52,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005430",
+    "file_path": "data/raw/cod/9005430.cif",
+    "data_block": "9005430",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.94 Fe Na0.06 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8475,
+      "b": 9.0277,
+      "c": 5.2495,
+      "alpha": 90.0,
+      "beta": 104.805,
+      "gamma": 90.0,
+      "volume": 451.189
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005431",
+    "file_path": "data/raw/cod/9005431.cif",
+    "data_block": "9005431",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.9 Fe Na0.1 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8472,
+      "b": 9.0288,
+      "c": 5.2466,
+      "alpha": 90.0,
+      "beta": 104.789,
+      "gamma": 90.0,
+      "volume": 451.014
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005432",
+    "file_path": "data/raw/cod/9005432.cif",
+    "data_block": "9005432",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.75 Fe Na0.25 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7951,
+      "b": 8.9698,
+      "c": 5.2634,
+      "alpha": 90.0,
+      "beta": 105.523,
+      "gamma": 90.0,
+      "volume": 445.574
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005433",
+    "file_path": "data/raw/cod/9005433.cif",
+    "data_block": "9005433",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.6 Fe Na0.4 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7598,
+      "b": 8.9277,
+      "c": 5.2748,
+      "alpha": 90.0,
+      "beta": 106.041,
+      "gamma": 90.0,
+      "volume": 441.712
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005434",
+    "file_path": "data/raw/cod/9005434.cif",
+    "data_block": "9005434",
+    "mineral_name": "Clinopyroxene",
+    "formula": "Ca0.5 Fe Na0.5 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7441,
+      "b": 8.9103,
+      "c": 5.2791,
+      "alpha": 90.0,
+      "beta": 106.225,
+      "gamma": 90.0,
+      "volume": 440.091
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005435",
+    "file_path": "data/raw/cod/9005435.cif",
+    "data_block": "9005435",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.4 Fe Na0.6 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7189,
+      "b": 8.8818,
+      "c": 5.2835,
+      "alpha": 90.0,
+      "beta": 106.598,
+      "gamma": 90.0,
+      "volume": 437.075
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005436",
+    "file_path": "data/raw/cod/9005436.cif",
+    "data_block": "9005436",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.25 Fe Na0.75 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6977,
+      "b": 8.8519,
+      "c": 5.2861,
+      "alpha": 90.0,
+      "beta": 106.765,
+      "gamma": 90.0,
+      "volume": 434.488
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005437",
+    "file_path": "data/raw/cod/9005437.cif",
+    "data_block": "9005437",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.1 Fe Na0.9 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6714,
+      "b": 8.8152,
+      "c": 5.2926,
+      "alpha": 90.0,
+      "beta": 107.166,
+      "gamma": 90.0,
+      "volume": 431.122
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005438",
+    "file_path": "data/raw/cod/9005438.cif",
+    "data_block": "9005438",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6549,
+      "b": 8.7947,
+      "c": 5.2938,
+      "alpha": 90.0,
+      "beta": 107.394,
+      "gamma": 90.0,
+      "volume": 428.952
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005439",
+    "file_path": "data/raw/cod/9005439.cif",
+    "data_block": "9005439",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6543,
+      "b": 8.807,
+      "c": 5.2943,
+      "alpha": 90.0,
+      "beta": 107.316,
+      "gamma": 90.0,
+      "volume": 429.748
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005843",
+    "file_path": "data/raw/cod/9005843.cif",
+    "data_block": "9005843",
+    "mineral_name": "Aegirine-augite",
+    "formula": "Al0.03 Ca0.34 Fe0.52 Mg0.36 Mn0.09 Na0.66 O6 Si1.99 Ti0.01",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6787,
+      "b": 8.8394,
+      "c": 5.2755,
+      "alpha": 90.0,
+      "beta": 106.903,
+      "gamma": 90.0,
+      "volume": 431.841
+    },
+    "atom_count": 12,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005882",
+    "file_path": "data/raw/cod/9005882.cif",
+    "data_block": "9005882",
+    "mineral_name": "Aegirine",
+    "formula": "Fe0.992 Na0.978 O6 Si1.96",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.68,
+      "b": 8.83,
+      "c": 5.3,
+      "alpha": 90.0,
+      "beta": 107.3,
+      "gamma": 90.0,
+      "volume": 432.52
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006969",
+    "file_path": "data/raw/cod/9006969.cif",
+    "data_block": "9006969",
+    "mineral_name": null,
+    "formula": "Fe Li O6 Si2",
+    "space_group": "P 1 21/c 1",
+    "cell_parameters": {
+      "a": 9.6223,
+      "b": 8.6638,
+      "c": 5.2655,
+      "alpha": 90.0,
+      "beta": 109.95,
+      "gamma": 90.0,
+      "volume": 412.62
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006970",
+    "file_path": "data/raw/cod/9006970.cif",
+    "data_block": "9006970",
+    "mineral_name": null,
+    "formula": "Fe Li O6 Si2",
+    "space_group": "P 1 21/c 1",
+    "cell_parameters": {
+      "a": 9.635,
+      "b": 8.665,
+      "c": 5.275,
+      "alpha": 90.0,
+      "beta": 110.0,
+      "gamma": 90.0,
+      "volume": 413.836
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006971",
+    "file_path": "data/raw/cod/9006971.cif",
+    "data_block": "9006971",
+    "mineral_name": null,
+    "formula": "Fe Li O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.684,
+      "b": 8.661,
+      "c": 5.292,
+      "alpha": 90.0,
+      "beta": 110.12,
+      "gamma": 90.0,
+      "volume": 416.77
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009331",
+    "file_path": "data/raw/cod/9009331.cif",
+    "data_block": "9009331",
+    "mineral_name": "Bazirite",
+    "formula": "Ba O9 Si3 Ti0.03 Zr0.97",
+    "space_group": "P -6 c 2",
+    "cell_parameters": {
+      "a": 6.742,
+      "b": 6.742,
+      "c": 9.93,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 390.893
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009360",
+    "file_path": "data/raw/cod/9009360.cif",
+    "data_block": "9009360",
+    "mineral_name": "Tangeite",
+    "formula": "As0.41 Ca0.924 Cu H O5 Pb0.076 V0.59",
+    "space_group": "P 21 21 21",
+    "cell_parameters": {
+      "a": 5.836,
+      "b": 7.43,
+      "c": 9.347,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 405.3
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009804",
+    "file_path": "data/raw/cod/9009804.cif",
+    "data_block": "9009804",
+    "mineral_name": "Abhurite",
+    "formula": "Cl16 H14 O20 Sn21",
+    "space_group": "R 3 2 :H",
+    "cell_parameters": {
+      "a": 10.018,
+      "b": 10.018,
+      "c": 44.03,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 3826.849
+    },
+    "atom_count": 17,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010072",
+    "file_path": "data/raw/cod/9010072.cif",
+    "data_block": "9010072",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca Fe O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.845,
+      "b": 9.0293,
+      "c": 5.245,
+      "alpha": 90.0,
+      "beta": 104.775,
+      "gamma": 90.0,
+      "volume": 450.83
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010073",
+    "file_path": "data/raw/cod/9010073.cif",
+    "data_block": "9010073",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca Fe O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8395,
+      "b": 9.0177,
+      "c": 5.2425,
+      "alpha": 90.0,
+      "beta": 104.724,
+      "gamma": 90.0,
+      "volume": 449.89
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010074",
+    "file_path": "data/raw/cod/9010074.cif",
+    "data_block": "9010074",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca Fe O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8357,
+      "b": 9.0078,
+      "c": 5.2408,
+      "alpha": 90.0,
+      "beta": 104.664,
+      "gamma": 90.0,
+      "volume": 449.2
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010075",
+    "file_path": "data/raw/cod/9010075.cif",
+    "data_block": "9010075",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.949 Fe Na0.051 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8354,
+      "b": 9.0108,
+      "c": 5.256,
+      "alpha": 90.0,
+      "beta": 105.088,
+      "gamma": 90.0,
+      "volume": 449.754
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010076",
+    "file_path": "data/raw/cod/9010076.cif",
+    "data_block": "9010076",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.904 Fe Na0.096 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8248,
+      "b": 8.9973,
+      "c": 5.2549,
+      "alpha": 90.0,
+      "beta": 105.013,
+      "gamma": 90.0,
+      "volume": 448.66
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010077",
+    "file_path": "data/raw/cod/9010077.cif",
+    "data_block": "9010077",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.85 Fe Na0.15 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8067,
+      "b": 8.9852,
+      "c": 5.2886,
+      "alpha": 90.0,
+      "beta": 105.356,
+      "gamma": 90.0,
+      "volume": 449.369
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010078",
+    "file_path": "data/raw/cod/9010078.cif",
+    "data_block": "9010078",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.758 Fe Na0.242 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7929,
+      "b": 8.9656,
+      "c": 5.2696,
+      "alpha": 90.0,
+      "beta": 105.496,
+      "gamma": 90.0,
+      "volume": 445.848
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010079",
+    "file_path": "data/raw/cod/9010079.cif",
+    "data_block": "9010079",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.742 Fe Na0.258 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7938,
+      "b": 8.9685,
+      "c": 5.2632,
+      "alpha": 90.0,
+      "beta": 105.52,
+      "gamma": 90.0,
+      "volume": 445.44
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010080",
+    "file_path": "data/raw/cod/9010080.cif",
+    "data_block": "9010080",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.615 Fe Na0.385 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.756,
+      "b": 8.9252,
+      "c": 5.2739,
+      "alpha": 90.0,
+      "beta": 106.031,
+      "gamma": 90.0,
+      "volume": 441.363
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010081",
+    "file_path": "data/raw/cod/9010081.cif",
+    "data_block": "9010081",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.55 Fe Na0.45 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7428,
+      "b": 8.9091,
+      "c": 5.275,
+      "alpha": 90.0,
+      "beta": 106.126,
+      "gamma": 90.0,
+      "volume": 439.852
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010082",
+    "file_path": "data/raw/cod/9010082.cif",
+    "data_block": "9010082",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.506 Fe Na0.494 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7412,
+      "b": 8.9086,
+      "c": 5.2776,
+      "alpha": 90.0,
+      "beta": 106.221,
+      "gamma": 90.0,
+      "volume": 439.76
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010083",
+    "file_path": "data/raw/cod/9010083.cif",
+    "data_block": "9010083",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.488 Fe Na0.512 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7412,
+      "b": 8.9086,
+      "c": 5.2776,
+      "alpha": 90.0,
+      "beta": 106.221,
+      "gamma": 90.0,
+      "volume": 439.76
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010084",
+    "file_path": "data/raw/cod/9010084.cif",
+    "data_block": "9010084",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.503 Fe Na0.497 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7361,
+      "b": 8.902,
+      "c": 5.2733,
+      "alpha": 90.0,
+      "beta": 106.099,
+      "gamma": 90.0,
+      "volume": 439.118
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010085",
+    "file_path": "data/raw/cod/9010085.cif",
+    "data_block": "9010085",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.501 Fe Na0.499 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7266,
+      "b": 8.8959,
+      "c": 5.2691,
+      "alpha": 90.0,
+      "beta": 106.067,
+      "gamma": 90.0,
+      "volume": 438.11
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010086",
+    "file_path": "data/raw/cod/9010086.cif",
+    "data_block": "9010086",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.45 Fe Na0.55 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 10.0,
+      "b": 9.0,
+      "c": 5.0,
+      "alpha": 90.0,
+      "beta": 106.0,
+      "gamma": 90.0,
+      "volume": 432.568
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010087",
+    "file_path": "data/raw/cod/9010087.cif",
+    "data_block": "9010087",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.396 Fe Na0.604 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.7176,
+      "b": 8.8792,
+      "c": 5.2828,
+      "alpha": 90.0,
+      "beta": 106.53,
+      "gamma": 90.0,
+      "volume": 436.985
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010088",
+    "file_path": "data/raw/cod/9010088.cif",
+    "data_block": "9010088",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.289 Fe Na0.711 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6993,
+      "b": 8.8579,
+      "c": 5.2813,
+      "alpha": 90.0,
+      "beta": 106.637,
+      "gamma": 90.0,
+      "volume": 434.75
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010089",
+    "file_path": "data/raw/cod/9010089.cif",
+    "data_block": "9010089",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.249 Fe Na0.751 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6953,
+      "b": 8.8491,
+      "c": 5.2856,
+      "alpha": 90.0,
+      "beta": 106.778,
+      "gamma": 90.0,
+      "volume": 434.172
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010090",
+    "file_path": "data/raw/cod/9010090.cif",
+    "data_block": "9010090",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.175 Fe Na0.825 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6804,
+      "b": 8.8337,
+      "c": 5.2831,
+      "alpha": 90.0,
+      "beta": 106.877,
+      "gamma": 90.0,
+      "volume": 432.32
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010091",
+    "file_path": "data/raw/cod/9010091.cif",
+    "data_block": "9010091",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.149 Fe Na0.851 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6654,
+      "b": 8.8184,
+      "c": 5.2805,
+      "alpha": 90.0,
+      "beta": 106.976,
+      "gamma": 90.0,
+      "volume": 430.464
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010092",
+    "file_path": "data/raw/cod/9010092.cif",
+    "data_block": "9010092",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.102 Fe Na0.898 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6666,
+      "b": 8.8099,
+      "c": 5.2916,
+      "alpha": 90.0,
+      "beta": 107.195,
+      "gamma": 90.0,
+      "volume": 430.5
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010093",
+    "file_path": "data/raw/cod/9010093.cif",
+    "data_block": "9010093",
+    "mineral_name": "Aegirine",
+    "formula": "Ca0.049 Fe Na0.951 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6554,
+      "b": 8.7998,
+      "c": 5.29,
+      "alpha": 90.0,
+      "beta": 107.304,
+      "gamma": 90.0,
+      "volume": 429.125
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010094",
+    "file_path": "data/raw/cod/9010094.cif",
+    "data_block": "9010094",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6554,
+      "b": 8.7952,
+      "c": 5.2942,
+      "alpha": 90.0,
+      "beta": 107.396,
+      "gamma": 90.0,
+      "volume": 429.026
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010095",
+    "file_path": "data/raw/cod/9010095.cif",
+    "data_block": "9010095",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6554,
+      "b": 8.7952,
+      "c": 5.2942,
+      "alpha": 90.0,
+      "beta": 107.396,
+      "gamma": 90.0,
+      "volume": 429.026
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010147",
+    "file_path": "data/raw/cod/9010147.cif",
+    "data_block": "9010147",
+    "mineral_name": "Welshite",
+    "formula": "Al1.71 As0.27 Be3.33 Ca3.78 Fe0.96 Mg7.87 Mn1.35 O40 Sb3 Si5.73",
+    "space_group": "P 1",
+    "cell_parameters": {
+      "a": 10.394,
+      "b": 10.777,
+      "c": 8.896,
+      "alpha": 105.953,
+      "beta": 96.294,
+      "gamma": 124.948,
+      "volume": 738.874
+    },
+    "atom_count": 87,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010323",
+    "file_path": "data/raw/cod/9010323.cif",
+    "data_block": "9010323",
+    "mineral_name": "Jadeite",
+    "formula": "Al Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.4278,
+      "b": 8.5651,
+      "c": 5.2262,
+      "alpha": 90.0,
+      "beta": 107.624,
+      "gamma": 90.0,
+      "volume": 402.208
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010324",
+    "file_path": "data/raw/cod/9010324.cif",
+    "data_block": "9010324",
+    "mineral_name": "Jadeite",
+    "formula": "Al0.74 Fe0.26 Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.4781,
+      "b": 8.618,
+      "c": 5.2449,
+      "alpha": 90.0,
+      "beta": 107.57,
+      "gamma": 90.0,
+      "volume": 408.429
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010325",
+    "file_path": "data/raw/cod/9010325.cif",
+    "data_block": "9010325",
+    "mineral_name": "Aegirine",
+    "formula": "Al0.35 Fe0.65 Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.5663,
+      "b": 8.704,
+      "c": 5.2733,
+      "alpha": 90.0,
+      "beta": 107.6,
+      "gamma": 90.0,
+      "volume": 418.529
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010326",
+    "file_path": "data/raw/cod/9010326.cif",
+    "data_block": "9010326",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6623,
+      "b": 8.8,
+      "c": 5.2956,
+      "alpha": 90.0,
+      "beta": 107.579,
+      "gamma": 90.0,
+      "volume": 429.248
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010327",
+    "file_path": "data/raw/cod/9010327.cif",
+    "data_block": "9010327",
+    "mineral_name": "Jadeite",
+    "formula": "Al0.52 Ca0.47 Fe0.51 Na0.53 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6031,
+      "b": 8.7735,
+      "c": 5.2656,
+      "alpha": 90.0,
+      "beta": 106.725,
+      "gamma": 90.0,
+      "volume": 424.874
+    },
+    "atom_count": 9,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010328",
+    "file_path": "data/raw/cod/9010328.cif",
+    "data_block": "9010328",
+    "mineral_name": "Hedenbergite",
+    "formula": "Al0.24 Ca0.76 Fe0.76 Na0.24 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.734,
+      "b": 8.9103,
+      "c": 5.2682,
+      "alpha": 90.0,
+      "beta": 105.904,
+      "gamma": 90.0,
+      "volume": 439.436
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010329",
+    "file_path": "data/raw/cod/9010329.cif",
+    "data_block": "9010329",
+    "mineral_name": "Hedenbergite",
+    "formula": "Ca0.99 Fe1.01 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.8447,
+      "b": 9.0234,
+      "c": 5.2509,
+      "alpha": 90.0,
+      "beta": 104.862,
+      "gamma": 90.0,
+      "volume": 450.847
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9011188",
+    "file_path": "data/raw/cod/9011188.cif",
+    "data_block": "9011188",
+    "mineral_name": "Zincolivenite",
+    "formula": "As Cu0.86 H O5 Zn1.14",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": 8.5,
+      "b": 8.52,
+      "c": 5.99,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 433.796
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9011414",
+    "file_path": "data/raw/cod/9011414.cif",
+    "data_block": "9011414",
+    "mineral_name": "Acanthite",
+    "formula": "Ag2 S",
+    "space_group": "P 1 21/n 1",
+    "cell_parameters": {
+      "a": 4.23,
+      "b": 6.91,
+      "c": 7.87,
+      "alpha": 90.0,
+      "beta": 99.58,
+      "gamma": 90.0,
+      "volume": 226.827
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9012798",
+    "file_path": "data/raw/cod/9012798.cif",
+    "data_block": "9012798",
+    "mineral_name": "Adelite",
+    "formula": "As0.931 Ca H Mg O5 P0.069",
+    "space_group": "P 21 21 21",
+    "cell_parameters": {
+      "a": 7.468,
+      "b": 8.953,
+      "c": 5.941,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 397.221
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013272",
+    "file_path": "data/raw/cod/9013272.cif",
+    "data_block": "9013272",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6539,
+      "b": 8.7928,
+      "c": 5.2935,
+      "alpha": 90.0,
+      "beta": 107.436,
+      "gamma": 90.0,
+      "volume": 428.692
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013273",
+    "file_path": "data/raw/cod/9013273.cif",
+    "data_block": "9013273",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.6067,
+      "b": 8.7501,
+      "c": 5.2698,
+      "alpha": 90.0,
+      "beta": 107.258,
+      "gamma": 90.0,
+      "volume": 423.034
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013274",
+    "file_path": "data/raw/cod/9013274.cif",
+    "data_block": "9013274",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.5667,
+      "b": 8.7128,
+      "c": 5.2484,
+      "alpha": 90.0,
+      "beta": 107.095,
+      "gamma": 90.0,
+      "volume": 418.141
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013275",
+    "file_path": "data/raw/cod/9013275.cif",
+    "data_block": "9013275",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.5148,
+      "b": 8.6568,
+      "c": 5.2188,
+      "alpha": 90.0,
+      "beta": 106.844,
+      "gamma": 90.0,
+      "volume": 411.418
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013276",
+    "file_path": "data/raw/cod/9013276.cif",
+    "data_block": "9013276",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.4711,
+      "b": 8.6068,
+      "c": 5.1915,
+      "alpha": 90.0,
+      "beta": 106.633,
+      "gamma": 90.0,
+      "volume": 405.482
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013277",
+    "file_path": "data/raw/cod/9013277.cif",
+    "data_block": "9013277",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.4426,
+      "b": 8.5727,
+      "c": 5.174,
+      "alpha": 90.0,
+      "beta": 106.482,
+      "gamma": 90.0,
+      "volume": 401.618
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013278",
+    "file_path": "data/raw/cod/9013278.cif",
+    "data_block": "9013278",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.422,
+      "b": 8.548,
+      "c": 5.1597,
+      "alpha": 90.0,
+      "beta": 106.371,
+      "gamma": 90.0,
+      "volume": 398.71
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013279",
+    "file_path": "data/raw/cod/9013279.cif",
+    "data_block": "9013279",
+    "mineral_name": "Aegirine",
+    "formula": "Fe Na O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.4038,
+      "b": 8.5221,
+      "c": 5.1465,
+      "alpha": 90.0,
+      "beta": 106.256,
+      "gamma": 90.0,
+      "volume": 395.952
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013389",
+    "file_path": "data/raw/cod/9013389.cif",
+    "data_block": "9013389",
+    "mineral_name": "Aenigmatite",
+    "formula": "Ca0.129 Fe4.759 Mg0.327 Na1.871 O20 Si5.914 Ti",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.415,
+      "b": 10.84,
+      "c": 8.931,
+      "alpha": 105.107,
+      "beta": 96.61,
+      "gamma": 125.398,
+      "volume": 746.778
+    },
+    "atom_count": 41,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9014598",
+    "file_path": "data/raw/cod/9014598.cif",
+    "data_block": "9014598",
+    "mineral_name": "Diopside",
+    "formula": "Ca0.58 Fe0.5 Mg0.5 Na0.42 O6 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 9.663,
+      "b": 8.813,
+      "c": 5.2184,
+      "alpha": 90.0,
+      "beta": 106.4,
+      "gamma": 90.0,
+      "volume": 426.318
+    },
+    "atom_count": 9,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9015230",
+    "file_path": "data/raw/cod/9015230.cif",
+    "data_block": "9015230",
+    "mineral_name": null,
+    "formula": "As Cd Cu H O5",
+    "space_group": "P n m a",
+    "cell_parameters": {
+      "a": 7.415,
+      "b": 5.89,
+      "c": 9.016,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 393.768
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9015676",
+    "file_path": "data/raw/cod/9015676.cif",
+    "data_block": "9015676",
+    "mineral_name": "Paradamite",
+    "formula": "As H O5 Zn2",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 5.638,
+      "b": 5.827,
+      "c": 6.692,
+      "alpha": 103.25,
+      "beta": 104.37,
+      "gamma": 87.72,
+      "volume": 207.268
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017145",
+    "file_path": "data/raw/cod/9017145.cif",
+    "data_block": "9017145",
+    "mineral_name": "Abelsonite",
+    "formula": "C31 H32 Cr0.02 Fe0.05 N4 Ni0.93",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 8.4416,
+      "b": 10.8919,
+      "c": 7.2749,
+      "alpha": 90.465,
+      "beta": 113.158,
+      "gamma": 78.08,
+      "volume": 599.743
+    },
+    "atom_count": 77,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017418",
+    "file_path": "data/raw/cod/9017418.cif",
+    "data_block": "9017418",
+    "mineral_name": "Abellaite",
+    "formula": "C2 H Na O7 Pb2",
+    "space_group": "P 3 1 c",
+    "cell_parameters": {
+      "a": 5.268,
+      "b": 5.268,
+      "c": 13.48,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 323.975
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "AMCSD",
+    "source_id": "0012672",
+    "file_path": "data/raw/amcsd/0012672.cif",
+    "data_block": "global",
+    "mineral_name": "Ferro-hornblende",
+    "formula": "Na Ca2 Fe5 Si8 O24 H2",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.984,
+      "b": 18.223,
+      "c": 5.327,
+      "alpha": 90.0,
+      "beta": 105.05,
+      "gamma": 90.0,
+      "volume": 935.943
+    },
+    "atom_count": 14,
+    "parse_status": "ok"
+  }
+]
