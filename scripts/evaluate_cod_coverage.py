@@ -149,19 +149,128 @@ def main():
             # Only use COD IDs retrieved for
             # this mineral.
             # --------------------------------
+            # Only use COD IDs retrieved for
+            # this mineral.
+            #
+            # Keep retrieval failures separate
+            # from matching failures.
+            # --------------------------------
+
+            manifest_item = manifest.get(
+                mineral,
+                {},
+            )
+
+            retrieval_status = (
+                manifest_item.get("status")
+            )
 
             cod_ids = (
-                manifest
-                .get(mineral, {})
-                .get("cod_ids", [])
+                manifest_item.get(
+                    "cod_ids",
+                    [],
+                )
             )
+
+            # Broad COD text search produced
+            # too many candidates. Do not treat
+            # this as a matching failure.
+            if retrieval_status == "too_broad":
+
+                print(
+                    f"COD retrieval too broad: "
+                    f"{len(cod_ids)} candidates"
+                )
+
+                results.append(
+                    {
+                        "rruff_sample_id":
+                            sample_id,
+
+                        "mineral":
+                            mineral,
+
+                        "ideal_chemistry":
+                            ideal_chemistry,
+
+                        "cod_search_count":
+                            len(cod_ids),
+
+                        "finder_candidate_count":
+                            0,
+
+                        "sample_structure_count":
+                            0,
+
+                        "strong_sample_match_count":
+                            0,
+
+                        "reference_structure_count":
+                            0,
+
+                        "matches": [],
+
+                        "status":
+                            "retrieval_too_broad",
+                    }
+                )
+
+                continue
+
+
+            # Search succeeded but COD returned
+            # no structures for this mineral.
+            if (
+                retrieval_status == "ok"
+                and not cod_ids
+            ):
+
+                print(
+                    "COD search returned "
+                    "no candidates"
+                )
+
+                results.append(
+                    {
+                        "rruff_sample_id":
+                            sample_id,
+
+                        "mineral":
+                            mineral,
+
+                        "ideal_chemistry":
+                            ideal_chemistry,
+
+                        "cod_search_count":
+                            0,
+
+                        "finder_candidate_count":
+                            0,
+
+                        "sample_structure_count":
+                            0,
+
+                        "strong_sample_match_count":
+                            0,
+
+                        "reference_structure_count":
+                            0,
+
+                        "matches": [],
+
+                        "status":
+                            "no_cod_candidates",
+                    }
+                )
+
+                continue
+
 
             local_candidates = [
                 cod_index_by_id[cod_id]
                 for cod_id in cod_ids
                 if cod_id in cod_index_by_id
             ]
-
             candidates = find_candidates(
                 signature,
                 local_candidates,
@@ -400,6 +509,21 @@ def main():
         if item.get("status")
         == "no_finder_candidate"
     )
+
+    no_cod_candidates = sum(
+        1
+        for item in results
+        if item.get("status")
+        == "no_cod_candidates"
+    )
+
+    retrieval_too_broad = sum(
+        1
+        for item in results
+        if item.get("status")
+        == "retrieval_too_broad"
+    )
+
     errors = sum(
         1
         for item in results
@@ -447,6 +571,14 @@ def main():
     print(
         f"No finder candidate:        "
         f"{no_finder_candidate}"
+    )
+    print(
+        f"No COD candidates:           "
+        f"{no_cod_candidates}"
+    )
+    print(
+        f"Retrieval too broad:        "
+        f"{retrieval_too_broad}"
     )
     print(
         f"Errors:                     "

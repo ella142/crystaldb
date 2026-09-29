@@ -17,22 +17,32 @@ def resolve_space_group(space_group):
     original = str(space_group).strip()
 
     # RRUFF may contain CIF-style underscores such as P2_1/n.
-    # Gemmi expects P21/n.
     cleaned = original.replace("_", "")
 
-    sg = gemmi.find_spacegroup_by_name(cleaned)
+    # Known RRUFF shorthand that Gemmi does not resolve directly.
+    space_group_aliases = {
+        "P21/b": "P 21/b 1 1",
+    }
 
+    resolved_name = space_group_aliases.get(
+        cleaned,
+        cleaned,
+    )
+
+    sg = gemmi.find_spacegroup_by_name(
+        resolved_name
+    )
     if sg is None:
         return {
             "recognized": False,
             "input": original,
-            "cleaned": cleaned,
+            "cleaned": resolved_name,
         }
 
     return {
         "recognized": True,
         "input": original,
-        "cleaned": cleaned,
+        "cleaned": resolved_name,
         "number": sg.number,
         "hm": sg.hm,
         "xhm": sg.xhm(),

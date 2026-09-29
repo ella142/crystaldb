@@ -64,12 +64,31 @@ def find_candidates(
         # --------------------------------
         # Space-group evidence
         # --------------------------------
-        sg_equivalent = (
-            comparison
-            .get("space_group", {})
-            .get("equivalent")
+        space_group = comparison.get(
+            "space_group",
+            {},
         )
 
+        sg_equivalent = space_group.get(
+            "equivalent"
+        )
+
+        sg_a_input = (
+            space_group
+            .get("a", {})
+            .get("input")
+        )
+
+        sg_b_input = (
+            space_group
+            .get("b", {})
+            .get("input")
+        )
+
+        space_group_missing = (
+            sg_a_input is None
+            or sg_b_input is None
+        )
         # --------------------------------
         # Unit-cell evidence
         # --------------------------------
@@ -100,7 +119,7 @@ def find_candidates(
         # --------------------------------
 
         candidate_type = None
-
+        review_reason = None
 
         # ========================================
         # 1. Sample -> CIF candidate
@@ -169,7 +188,19 @@ def find_candidates(
             candidate_type = (
                 "symmetry_conflict_candidate"
             )
+        # ========================================
+        # 4. Missing-space-group review candidate
+        # ========================================
 
+        elif (
+            chemistry_compatible is not False
+            and sample_name_match
+            and broad_cell_match
+            and sg_equivalent is None
+            and space_group_missing
+        ):
+            candidate_type = "review_candidate"
+            review_reason = "missing_space_group"
 
         else:
             continue
@@ -185,6 +216,9 @@ def find_candidates(
                 "candidate_type":
                     candidate_type,
 
+                "review_reason":
+                    review_reason,
+                    
                 "chemistry":
                     chemistry,
 

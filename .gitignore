@@ -1,4 +1,4 @@
-# -------------------------
+﻿# -------------------------
 # Python
 # -------------------------
 __pycache__/
@@ -66,3 +66,10 @@ reports/
 # Large scientific files
 # -------------------------
 *.zip
+paper/~*.tmp
+
+# Microsoft Word temporary files
+~$*.docx
+~*.tmp
+
+data/mappings/cod_coverage_results.json

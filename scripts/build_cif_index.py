@@ -12,8 +12,12 @@ OUTPUT_FILE = (
     / "mappings"
     / "cif_index.json"
 )
-
-
+COD_MANIFEST_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "mappings"
+    / "cod_search_manifest.json"
+)
 CIF_SOURCES = [
     {
         "source": "COD",
@@ -35,10 +39,26 @@ CIF_SOURCES = [
     },
 ]
 
-
 def build_index():
     records = []
 
+    with COD_MANIFEST_FILE.open(
+        "r",
+        encoding="utf-8",
+    ) as f:
+        cod_manifest = json.load(f)
+
+    accepted_cod_ids = {
+        cod_id
+        for item in cod_manifest.values()
+        if item.get("status") == "ok"
+        for cod_id in item.get("cod_ids", [])
+    }
+
+    print(
+        f"Accepted COD IDs from manifest: "
+        f"{len(accepted_cod_ids)}"
+    )
     for source_info in CIF_SOURCES:
         source = source_info["source"]
         directory = source_info["directory"]
@@ -52,6 +72,12 @@ def build_index():
         for cif_path in sorted(
             directory.rglob("*.cif")
         ):
+            if (
+                source == "COD"
+                and cif_path.stem
+                not in accepted_cod_ids
+            ):
+                continue            
             print(
                 f"Parsing {source}: "
                 f"{cif_path.name}"

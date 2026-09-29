@@ -24,6 +24,21 @@ MANIFEST_FILE = (
     / "cod_search_manifest.json"
 )
 
+MAX_COD_CANDIDATES = 100
+
+
+def save_manifest(search_manifest):
+    with MANIFEST_FILE.open(
+        "w",
+        encoding="utf-8",
+    ) as f:
+        json.dump(
+            search_manifest,
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
+
 
 def main():
     rruff_db = get_database(
@@ -44,6 +59,18 @@ def main():
     )
 
     # --------------------------------
+    # Load existing manifest
+    # --------------------------------
+    if MANIFEST_FILE.exists():
+        with MANIFEST_FILE.open(
+            "r",
+            encoding="utf-8",
+        ) as f:
+            search_manifest = json.load(f)
+    else:
+        search_manifest = {}
+
+    # --------------------------------
     # 1. Collect unique mineral names
     # --------------------------------
     minerals = sorted(
@@ -54,9 +81,8 @@ def main():
         if name
     )
 
-    # Day 4 first batch:
-    # only test 50unique minerals.
-    minerals = minerals[:50]
+    # Later batch test:
+    # minerals = minerals[:50]
 
     print(
         f"Unique minerals in this batch: "
@@ -65,11 +91,10 @@ def main():
 
     seen_cod_ids = set()
 
-    search_manifest = {}
-
     total_downloaded = 0
     total_existing = 0
     total_errors = 0
+    total_too_broad = 0
 
     # --------------------------------
     # 2. Search COD mineral by mineral
@@ -92,6 +117,8 @@ def main():
         )
 
         try:
+            # Do NOT truncate here if we want
+            # to detect overly broad queries.
             cod_ids = search_cod_by_text(
                 mineral
             )
@@ -110,17 +137,67 @@ def main():
             }
 
             total_errors += 1
-            continue
 
-        search_manifest[mineral] = {
-            "query": mineral,
-            "status": "ok",
-            "candidate_count": len(cod_ids),
-            "cod_ids": cod_ids,
-        }
+            save_manifest(
+                search_manifest
+            )
+
+            continue
 
         print(
             f"COD candidates: {len(cod_ids)}"
+        )
+
+        # --------------------------------
+        # Protect against overly broad
+        # COD text searches
+        # --------------------------------
+        if len(cod_ids) > MAX_COD_CANDIDATES:
+
+            search_manifest[mineral] = {
+                "query": mineral,
+                "status": "too_broad",
+                "candidate_count":
+                    len(cod_ids),
+
+                # Do not necessarily need to
+                # store hundreds/thousands IDs.
+                "cod_ids": [],
+            }
+
+            total_too_broad += 1
+
+            print(
+                f"TOO BROAD: {len(cod_ids)} "
+                f"candidates > "
+                f"{MAX_COD_CANDIDATES}"
+            )
+
+            print(
+                "Skipping CIF downloads for "
+                "this query."
+            )
+
+            save_manifest(
+                search_manifest
+            )
+
+            continue
+
+        # --------------------------------
+        # Normal search result
+        # --------------------------------
+        search_manifest[mineral] = {
+            "query": mineral,
+            "status": "ok",
+            "candidate_count":
+                len(cod_ids),
+            "cod_ids":
+                cod_ids,
+        }
+
+        save_manifest(
+            search_manifest
         )
 
         # --------------------------------
@@ -128,8 +205,6 @@ def main():
         # --------------------------------
         for cod_id in cod_ids:
 
-            # Same COD structure may appear
-            # in searches for multiple minerals.
             if cod_id in seen_cod_ids:
                 continue
 
@@ -148,8 +223,6 @@ def main():
                     COD_DIR,
                 )
 
-                # Only mark as seen after the
-                # download/check succeeded.
                 seen_cod_ids.add(
                     cod_id
                 )
@@ -168,18 +241,11 @@ def main():
                 total_errors += 1
 
     # --------------------------------
-    # 4. Save search manifest
+    # 4. Final manifest save
     # --------------------------------
-    with MANIFEST_FILE.open(
-        "w",
-        encoding="utf-8",
-    ) as f:
-        json.dump(
-            search_manifest,
-            f,
-            indent=2,
-            ensure_ascii=False,
-        )
+    save_manifest(
+        search_manifest
+    )
 
     # --------------------------------
     # Summary
@@ -214,6 +280,11 @@ def main():
     print(
         f"Newly downloaded:    "
         f"{total_downloaded}"
+    )
+
+    print(
+        f"Too broad skipped:   "
+        f"{total_too_broad}"
     )
 
     print(
