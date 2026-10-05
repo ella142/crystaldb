@@ -1,0 +1,122 @@
+{
+  "schema_version": "crystaldb_api_pilot_build_v012",
+  "generated_at": "2026-10-05T06:22:23.083557+00:00",
+  "target_database": "crystaldb_api_pilot",
+  "source_databases_read": [
+    "rruff",
+    "opxrd",
+    "dara",
+    "crystaldb"
+  ],
+  "counts": {
+    "rruff": {
+      "patterns": [
+        "RRUFF_PAT_R080016_1",
+        "RRUFF_PAT_R040043_1"
+      ],
+      "structures": [
+        "STR_COD_9000253"
+      ],
+      "measurements": [
+        "RRUFF_MEAS_R080016_1",
+        "RRUFF_MEAS_R040043_1"
+      ],
+      "samples": [
+        "RRUFF_SAM_R080016",
+        "RRUFF_SAM_R040043"
+      ]
+    },
+    "dara": {
+      "patterns": [
+        "DARA_PAT_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_2min",
+        "DARA_PAT_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_8min"
+      ],
+      "measurements": [
+        "DARA_MEAS_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_2min",
+        "DARA_MEAS_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_8min"
+      ],
+      "samples": [
+        "DARA_SAM_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004"
+      ]
+    },
+    "dara_single_precursors": {
+      "patterns": [
+        "DARA_PAT_Bi2O3_SINGLE_PRECURSOR",
+        "DARA_PAT_In2O3_SINGLE_PRECURSOR",
+        "DARA_PAT_La_OH_3_SINGLE_PRECURSOR",
+        "DARA_PAT_Li2CO3_SINGLE_PRECURSOR",
+        "DARA_PAT_MnCO3_SINGLE_PRECURSOR",
+        "DARA_PAT_NiO_SINGLE_PRECURSOR",
+        "DARA_PAT_TiO2_SINGLE_PRECURSOR",
+        "DARA_PAT_V2O5_SINGLE_PRECURSOR",
+        "DARA_PAT_ZnO_SINGLE_PRECURSOR",
+        "DARA_PAT_ZrO2_SINGLE_PRECURSOR"
+      ],
+      "measurements": [
+        "DARA_MEAS_Bi2O3_SINGLE_PRECURSOR",
+        "DARA_MEAS_In2O3_SINGLE_PRECURSOR",
+        "DARA_MEAS_La_OH_3_SINGLE_PRECURSOR",
+        "DARA_MEAS_Li2CO3_SINGLE_PRECURSOR",
+        "DARA_MEAS_MnCO3_SINGLE_PRECURSOR",
+        "DARA_MEAS_NiO_SINGLE_PRECURSOR",
+        "DARA_MEAS_TiO2_SINGLE_PRECURSOR",
+        "DARA_MEAS_V2O5_SINGLE_PRECURSOR",
+        "DARA_MEAS_ZnO_SINGLE_PRECURSOR",
+        "DARA_MEAS_ZrO2_SINGLE_PRECURSOR"
+      ],
+      "samples": [
+        "DARA_SAM_Bi2O3_SINGLE_PRECURSOR",
+        "DARA_SAM_In2O3_SINGLE_PRECURSOR",
+        "DARA_SAM_La_OH_3_SINGLE_PRECURSOR",
+        "DARA_SAM_Li2CO3_SINGLE_PRECURSOR",
+        "DARA_SAM_MnCO3_SINGLE_PRECURSOR",
+        "DARA_SAM_NiO_SINGLE_PRECURSOR",
+        "DARA_SAM_TiO2_SINGLE_PRECURSOR",
+        "DARA_SAM_V2O5_SINGLE_PRECURSOR",
+        "DARA_SAM_ZnO_SINGLE_PRECURSOR",
+        "DARA_SAM_ZrO2_SINGLE_PRECURSOR"
+      ]
+    },
+    "opxrd": {
+      "patterns": [
+        "OPXRD_PAT_CNRS_pattern_0"
+      ],
+      "measurements": [
+        "OPXRD_MEAS_CNRS_pattern_0"
+      ]
+    },
+    "lab": {
+      "patterns": [
+        "LAB_PAT_000001"
+      ],
+      "measurements": [
+        "LAB_MEAS_000001"
+      ],
+      "samples": [
+        "LAB_SAM_000001"
+      ]
+    },
+    "cod": {
+      "structures": [
+        "STR_COD_1100908"
+      ],
+      "measurements": [
+        "COD_MEAS_1100908"
+      ],
+      "reflection_sets": [
+        "REFL_COD_1100908"
+      ]
+    }
+  },
+  "database_counts": {
+    "sources": 5,
+    "samples": 14,
+    "measurements": 17,
+    "patterns": 16,
+    "structures": 2,
+    "reflection_sets": 1,
+    "relations": 2,
+    "releases": 1
+  },
+  "unavailable_pilot_categories": []
+}
