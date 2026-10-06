@@ -1,0 +1,82 @@
+{
+  "schema_version": "rruff_final_staging_validation_v1",
+  "generated_at": "2026-10-05T17:33:13.673536+00:00",
+  "target_database": "crystaldb_rruff_final_v1_staging",
+  "input_manifest": "data/mappings/rruff_experimental_final_v1.csv",
+  "database_counts": {
+    "sources": 2,
+    "samples": 1062,
+    "measurements": 1064,
+    "patterns": 1064,
+    "structures": 2988,
+    "relations": 5454,
+    "releases": 1
+  },
+  "source_groups": {
+    "curated_807": 807,
+    "dif_outside_177": 177,
+    "rescue_80": 80
+  },
+  "candidate_structures": {
+    "total": 2988,
+    "from_cif_index": 2946,
+    "staging_qc_fallback": 42
+  },
+  "checks": {
+    "patterns": true,
+    "duplicate_pattern_id": 0,
+    "duplicate_measurement_id": 0,
+    "one_filename_sample_id_per_measurement": true,
+    "missing_experimental_xy": 0,
+    "broken_structure_relation": 0,
+    "missing_referenced_cif": 0,
+    "all_patterns_experimental": true,
+    "resolved_unique_relation": true,
+    "unlinked_empty_relation": true,
+    "candidate_relation_complete": true
+  },
+  "details": {
+    "missing_xy_pattern_ids": [],
+    "broken_relations": [],
+    "missing_cif_structure_ids": [],
+    "resolved_relation_bad": [],
+    "unlinked_relation_bad": [],
+    "candidate_relation_bad": []
+  },
+  "api_smoke_test": {
+    "status": "PASS",
+    "base_url": "http://127.0.0.1:8012/api/v1",
+    "database": "crystaldb_rruff_final_v1_staging",
+    "endpoints": {
+      "health": 200,
+      "stats": 200,
+      "patterns": 200,
+      "resolved_pattern": 200,
+      "ambiguous_pattern": 200,
+      "inconclusive_pattern": 200,
+      "unlinked_pattern": 200,
+      "xy": 200,
+      "structure": 200,
+      "cif": 200
+    },
+    "sample_ids": {
+      "resolved": "RRUFF_PAT_R040001_1",
+      "ambiguous": "RRUFF_PAT_R040014_1",
+      "inconclusive": "RRUFF_PAT_D120001_1",
+      "unlinked": "RRUFF_PAT_D120003_1",
+      "structure": "STR_COD_9000239"
+    },
+    "stats_powder_pattern_count": 1064
+  },
+  "formal_crystaldb_snapshot_after": {
+    "sources": 2,
+    "samples": 952,
+    "measurements": 59964,
+    "patterns": 1018,
+    "structures": 58948,
+    "relations": 0,
+    "releases": 0
+  },
+  "formal_database_modified_by_task": false,
+  "validation": "PASS"
+}

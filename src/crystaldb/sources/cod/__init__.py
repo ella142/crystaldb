@@ -1,3 +1,5 @@
+"""COD download client and single-crystal data parsers."""
+
 from pathlib import Path
 import re
 import time
@@ -16,6 +18,7 @@ COD_CIF_URL = (
 DEFAULT_TIMEOUT = (10, 45)
 DEFAULT_MAX_RETRIES = 4
 DEFAULT_BACKOFF_SECONDS = 2
+DEFAULT_REQUEST_DELAY_SECONDS = 0.0
 
 RETRYABLE_STATUS_CODES = {
     429,
@@ -33,6 +36,8 @@ def _get_with_retry(
     timeout=DEFAULT_TIMEOUT,
     max_retries=DEFAULT_MAX_RETRIES,
     backoff_seconds=DEFAULT_BACKOFF_SECONDS,
+    session=None,
+    request_delay_seconds=DEFAULT_REQUEST_DELAY_SECONDS,
 ):
     """
     GET one URL with retry/backoff.
@@ -45,13 +50,17 @@ def _get_with_retry(
     """
 
     last_error = None
+    client = session or requests
 
     for attempt in range(
         1,
         max_retries + 1,
     ):
         try:
-            response = requests.get(
+            if request_delay_seconds:
+                time.sleep(request_delay_seconds)
+
+            response = client.get(
                 url,
                 params=params,
                 timeout=timeout,
@@ -128,10 +137,31 @@ def _get_with_retry(
     )
 
 
+def build_cod_session(*, trust_env=True):
+    """Build one reusable COD HTTP session.
+
+    The session deliberately keeps Requests' normal environment-proxy and
+    certificate-verification behavior.  v3 owns the request pacing and retry
+    policy while this helper provides connection reuse.
+    """
+
+    session = requests.Session()
+    session.trust_env = trust_env
+    session.headers.update(
+        {
+            "User-Agent": "crystaldb/0.1 COD client",
+        }
+    )
+    return session
+
+
 def search_cod_by_text(
     text,
     timeout=DEFAULT_TIMEOUT,
     max_retries=DEFAULT_MAX_RETRIES,
+    *,
+    session=None,
+    request_delay_seconds=DEFAULT_REQUEST_DELAY_SECONDS,
 ):
     """
     Search COD broadly by text/mineral name.
@@ -147,6 +177,8 @@ def search_cod_by_text(
         },
         timeout=timeout,
         max_retries=max_retries,
+        session=session,
+        request_delay_seconds=request_delay_seconds,
     )
 
     cod_ids = []
@@ -160,12 +192,60 @@ def search_cod_by_text(
     return cod_ids
 
 
+def search_cod_targeted(
+    text,
+    *,
+    query_kind=None,
+    timeout=DEFAULT_TIMEOUT,
+    max_retries=DEFAULT_MAX_RETRIES,
+    session=None,
+    request_delay_seconds=DEFAULT_REQUEST_DELAY_SECONDS,
+):
+    """Run one targeted COD text query with URL/provenance retained.
+
+    This is a thin extension of the existing COD client.  It intentionally
+    returns the raw response text as well as IDs so a v3 workflow can retain
+    the exact query URL and inspect metadata formats without broad-library
+    downloads.
+    """
+
+    response = _get_with_retry(
+        COD_SEARCH_URL,
+        params={
+            "text": text,
+            "format": "lst",
+        },
+        timeout=timeout,
+        max_retries=max_retries,
+        session=session,
+        request_delay_seconds=request_delay_seconds,
+    )
+
+    cod_ids = [
+        line.strip()
+        for line in response.text.splitlines()
+        if line.strip().isdigit()
+    ]
+
+    return {
+        "query_kind": query_kind,
+        "query_text": text,
+        "url": response.url,
+        "status_code": response.status_code,
+        "cod_ids": cod_ids,
+        "raw_text": response.text,
+    }
+
+
 def download_cod_cif(
     cod_id,
     output_dir,
     timeout=DEFAULT_TIMEOUT,
     max_retries=DEFAULT_MAX_RETRIES,
     overwrite=False,
+    *,
+    session=None,
+    request_delay_seconds=DEFAULT_REQUEST_DELAY_SECONDS,
 ):
     """
     Download one COD CIF file.
@@ -199,6 +279,8 @@ def download_cod_cif(
         url,
         timeout=timeout,
         max_retries=max_retries,
+        session=session,
+        request_delay_seconds=request_delay_seconds,
     )
 
     text = response.text

@@ -1,0 +1,87 @@
+{
+  "schema_version": "crystaldb_api_pilot_build_v1",
+  "generated_at": "2026-10-04T13:36:30.701094+00:00",
+  "target_database": "crystaldb_api_pilot",
+  "source_databases_read": [
+    "rruff",
+    "opxrd",
+    "dara",
+    "crystaldb"
+  ],
+  "counts": {
+    "rruff": {
+      "patterns": [
+        "RRUFF_PAT_R080016_1",
+        "RRUFF_PAT_R040043_1"
+      ],
+      "structures": [
+        "STR_COD_9000253"
+      ],
+      "measurements": [
+        "RRUFF_MEAS_R080016_1",
+        "RRUFF_MEAS_R040043_1"
+      ],
+      "samples": [
+        "RRUFF_SAM_R080016",
+        "RRUFF_SAM_R040043"
+      ]
+    },
+    "dara": {
+      "patterns": [
+        "DARA_PAT_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_2min",
+        "DARA_PAT_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_8min"
+      ],
+      "measurements": [
+        "DARA_MEAS_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_2min",
+        "DARA_MEAS_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_8min"
+      ],
+      "samples": [
+        "DARA_SAM_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_2min",
+        "DARA_SAM_In2O3_0p3022_La_OH_3_0p5014_TiO2_0p2004_8min"
+      ]
+    },
+    "opxrd": {
+      "patterns": [
+        "OPXRD_PAT_CNRS_pattern_0"
+      ],
+      "measurements": [
+        "OPXRD_MEAS_CNRS_pattern_0"
+      ]
+    },
+    "lab": {
+      "patterns": [
+        "LAB_PAT_000001"
+      ],
+      "measurements": [
+        "LAB_MEAS_000001"
+      ],
+      "samples": [
+        "LAB_SAM_000001"
+      ]
+    },
+    "cod": {
+      "structures": [
+        "STR_COD_1100908"
+      ],
+      "measurements": [
+        "COD_MEAS_1100908"
+      ],
+      "reflection_sets": [
+        "COD_REFL_1100908"
+      ]
+    }
+  },
+  "database_counts": {
+    "sources": 5,
+    "samples": 5,
+    "measurements": 7,
+    "patterns": 6,
+    "structures": 2,
+    "reflection_sets": 1,
+    "relations": 2,
+    "releases": 1
+  },
+  "unavailable_pilot_categories": [
+    "DARA single-phase precursor: no separate single-phase collection was found in the audited DARA database."
+  ]
+}

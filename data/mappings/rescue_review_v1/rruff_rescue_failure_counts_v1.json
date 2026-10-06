@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-05T09:49:15.424614+00:00",
+  "target_sample_count": 304,
+  "original_status_counts": {
+    "needs_review_only": 240,
+    "reference_structure_only": 64
+  },
+  "candidate_row_count": 1361,
+  "candidate_failure_pattern_counts": {
+    "space_group_unknown": 151,
+    "multiple_conflicting_evidence_types": 1010,
+    "reference_structure_only_by_original_rule": 116,
+    "space_group_mismatch": 75,
+    "threshold_borderline_cell": 9
+  },
+  "sample_dominant_failure_reason_counts": {
+    "space_group_unknown_or_conflicting": 135,
+    "space_group_mismatch": 66,
+    "reference_candidate_chemistry_incompatible": 49,
+    "multiple_plausible_or_near_equivalent_candidates": 14,
+    "weak_evidence_across_candidates": 8,
+    "threshold_borderline_cell": 32
+  },
+  "sample_failure_signal_counts": {
+    "space_group_unknown": 138,
+    "multiple_candidate_rows": 146,
+    "chemistry_uncertain": 213,
+    "space_group_mismatch": 69,
+    "chemistry_incompatible": 57,
+    "threshold_borderline": 41,
+    "multiple_plausible_candidates": 14,
+    "reference_name_without_sample_name": 11
+  },
+  "rescue_category_counts": {
+    "diffraction_validation_needed": 160,
+    "low_priority_review": 56,
+    "not_rescuable_with_current_evidence": 52,
+    "high_priority_rescue": 36
+  },
+  "threshold_counts": {
+    "candidate_window_borderline": 214,
+    "length_over_candidate_threshold": 148,
+    "angle_over_candidate_threshold": 78,
+    "sample_with_threshold_borderline": 41
+  },
+  "reference_structure_only_analysis": {
+    "samples_with_reference_name_match": 64,
+    "samples_with_sample_name_match": 55,
+    "samples_with_structurally_plausible_reference_candidate": 10,
+    "samples_with_chemistry_uncertain": 10,
+    "samples_with_chemistry_incompatible": 54,
+    "samples_with_possible_substitution_or_ratio_difference": 20,
+    "samples_with_different_element_set": 39,
+    "samples_with_any_space_group_mismatch": 6,
+    "samples_with_any_cell_outside_candidate_window": 2
+  },
+  "existing_diffraction_evidence_scan": [
+    {
+      "file": "data/mappings/rruff_auto_match_results.json",
+      "target_id_hits": 3,
+      "target_ids": [
+        "R040027",
+        "R040029",
+        "R040036"
+      ],
+      "contains_diffraction_metrics_key": false
+    }
+  ],
+  "definitions": {
+    "evidence_count": "Count of positive sample/reference-name, chemistry=true, SG=equivalent, and broad-cell evidence signals.",
+    "structural_support": "SG equivalent + broad finder-window cell + name support  + chemistry true or unknown.",
+    "threshold_borderline": "Inside the old 5%/2 degree finder window but outside the 2%/1 degree candidate window.",
+    "equivalent_group_candidate": "At least two structural-support candidates with same SG number/setting compatibility, close cells, and matching candidate element sets."
+  }
+}

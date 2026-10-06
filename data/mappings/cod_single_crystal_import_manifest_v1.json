@@ -1,0 +1,62 @@
+{
+  "source": "Crystallography Open Database",
+  "source_short_name": "COD",
+  "source_pair_count": 58947,
+  "selected_pair_count": 58947,
+  "import_timestamp_utc": "2026-10-02T17:43:08.807690+00:00",
+  "parser_versions": {
+    "cif": "cod_single_crystal_parser_v1",
+    "hkl": "cod_hkl_parser_v2",
+    "importer": "cod_single_crystal_importer_v2"
+  },
+  "file_copy_summary": {
+    "input_cif": 58947,
+    "input_hkl": 58947,
+    "complete_source_pairs": 58947,
+    "cif_copied_new": 58847,
+    "cif_skipped_same": 100,
+    "hkl_copied_new": 58847,
+    "hkl_skipped_same": 100,
+    "hash_verified_cif": 58947,
+    "hash_verified_hkl": 58947
+  },
+  "hash_summary": {
+    "conflict_count": 0,
+    "conflicts": []
+  },
+  "cif_parse_summary": {
+    "ok": 58908,
+    "partial": 39,
+    "failed": 0
+  },
+  "hkl_parse_summary": {
+    "ok": 56953,
+    "partial": 1994,
+    "failed": 0
+  },
+  "mongo_import_summary": {
+    "structures_cod_count": 58947,
+    "measurements_cod_count": 58947,
+    "reflection_sets_cod_count": 58947,
+    "absolute_path_violations": 0,
+    "indexes_requested": [
+      "structures.structure_id_unique",
+      "structures.source_source_structure_id_unique",
+      "structures.elements",
+      "structures.space_group_number",
+      "measurements.measurement_id_unique",
+      "measurements.source_record_measurement_type_unique",
+      "measurements.structure_id",
+      "measurements.reflection_set_id",
+      "reflection_sets.reflection_set_id_unique",
+      "reflection_sets.source_source_record_id_unique",
+      "sources.source_id_unique"
+    ]
+  },
+  "failed_cod_ids": [],
+  "failure_count": 0,
+  "conflicts": [],
+  "mapping_count": 58947,
+  "data_root": "D:\\document\\aiformaterials\\crystaldb\\data",
+  "last_run_selected_pair_count": 55
+}

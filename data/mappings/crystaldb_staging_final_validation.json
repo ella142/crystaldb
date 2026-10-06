@@ -1,0 +1,250 @@
+{
+  "schema_version": "crystaldb_staging_final_validation_v1",
+  "generated_at_utc": "2026-10-05T18:33:28.022567+00:00",
+  "target_database": "crystaldb_staging",
+  "build_status": "PASS",
+  "actual_inputs": {
+    "rruff": {
+      "manifest": "data/mappings/rruff_experimental_final_v1.csv",
+      "rows": 1064,
+      "source_group_counts": {
+        "curated_807": 807,
+        "dif_outside_177": 177,
+        "rescue_80": 80
+      },
+      "frozen_rruff_staging_database": "crystaldb_rruff_final_v1_staging"
+    },
+    "opxrd": {
+      "paired_manifest": "data/powder/opxrd/opxrd_cod_pairs.csv",
+      "json_directory": "data/powder/opxrd/json",
+      "cif_directory": "data/powder/opxrd/cif",
+      "rows": 845
+    },
+    "dara": {
+      "single_phase_directory": "data/powder/dara",
+      "single_phase_files": [
+        "Bi2O3.txt",
+        "In2O3.txt",
+        "La(OH)3.txt",
+        "Li2CO3.txt",
+        "MnCO3.txt",
+        "NiO.txt",
+        "TiO2.txt",
+        "V2O5.txt",
+        "ZnO.txt",
+        "ZrO2.txt"
+      ],
+      "multi_phase_directory": "data/multi-phase/dara",
+      "multi_phase_files": 40,
+      "source_annotation_collection": "dara.precursor_mixture_20"
+    },
+    "lab": {
+      "manifest": "data/powder/lab/manifests/lab_xrd_manifest_v1.csv",
+      "canonical_directory": "data/powder/lab/patterns",
+      "rows": 1016,
+      "manifest_rows": 1043,
+      "canonical_usable_rows": 1016,
+      "excluded_no_canonical_xy": 27
+    },
+    "cod": {
+      "import_manifest": "data/mappings/cod_single_crystal_import_manifest_v1.json",
+      "id_map": "data/mappings/cod_single_crystal_id_map_v1.json",
+      "import_records": "data/mappings/cod_single_crystal_import_records_v1.jsonl",
+      "cif_directory": "data/single_crystal/cod/cif",
+      "hkl_directory": "data/single_crystal/cod/hkl",
+      "cif_index": "data/mappings/cif_index.json",
+      "selected_pairs": 58947
+    }
+  },
+  "sources": {
+    "RRUFF": {
+      "samples": 1062,
+      "measurements": 1064,
+      "patterns": 1064,
+      "structures_linked": 2458
+    },
+    "OPXRD": {
+      "samples": 845,
+      "measurements": 845,
+      "patterns": 845
+    },
+    "DARA": {
+      "samples": 30,
+      "measurements": 50,
+      "patterns": 50
+    },
+    "LAB": {
+      "samples": 951,
+      "measurements": 1016,
+      "patterns": 1016
+    },
+    "COD": {
+      "structures": 58947,
+      "structures_total_in_global": 62642,
+      "reflection_sets": 58947
+    }
+  },
+  "global": {
+    "samples": 2888,
+    "measurements": 61922,
+    "patterns": 2975,
+    "structures": 62642,
+    "reflection_sets": 58947,
+    "relations": 65246,
+    "refinements": 0,
+    "releases": 1
+  },
+  "integrity": {
+    "duplicate_ids_by_collection": {
+      "sources": 0,
+      "samples": 0,
+      "measurements": 0,
+      "patterns": 0,
+      "reflection_sets": 0,
+      "structures": 0,
+      "relations": 0,
+      "releases": 0
+    },
+    "duplicate_ids": 0,
+    "broken_pattern_to_measurement": 0,
+    "broken_measurement_to_sample": 0,
+    "broken_relation_to_pattern": 0,
+    "broken_relation_to_structure": 0,
+    "missing_referenced_cif": 0,
+    "missing_referenced_hkl": 0,
+    "xy_length_mismatch": 0,
+    "empty_xy": 0
+  },
+  "expected_checks": {
+    "rruff": true,
+    "opxrd": true,
+    "dara": true,
+    "lab": true,
+    "cod_reflection_sets": true,
+    "rruff_patterns": true,
+    "integrity_zero": true
+  },
+  "build_details": {
+    "rruff_staging_counts": {
+      "samples": 1062,
+      "measurements": 1064,
+      "patterns": 1064,
+      "structures": 2988,
+      "relations": 5454
+    },
+    "cod_import_counts": {
+      "structures": 58947,
+      "measurements": 58947,
+      "reflection_sets": 58947,
+      "relations": 58947
+    },
+    "opxrd_patterns": 845,
+    "opxrd_new_structure_documents": 707,
+    "opxrd_relations": 845,
+    "dara_patterns": 50,
+    "lab_patterns": 1016
+  },
+  "api_smoke_test": {
+    "status": "PASS",
+    "port": 60825,
+    "endpoints": {
+      "health": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "stats": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "patterns": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "structures": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "reflection_sets": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "sources": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "rruff_resolved": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "rruff_ambiguous": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "rruff_unlinked": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "opxrd_pattern": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "dara_single_phase": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "dara_multi_phase": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "lab_pattern": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "cod_structure": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "cod_reflection_set": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "cif_endpoint": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "str"
+      },
+      "xy_endpoint": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "dict"
+      },
+      "hkl_endpoint": {
+        "status_code": 200,
+        "ok": true,
+        "body_type": "str"
+      }
+    }
+  },
+  "cleanup_audit": {
+    "KEEP": 10833,
+    "ARCHIVE": 10,
+    "SAFE_TO_DELETE_AFTER_PROMOTION": 199,
+    "DO_NOT_KNOW": 0
+  },
+  "ready_for_final_promotion": "YES"
+}

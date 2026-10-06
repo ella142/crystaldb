@@ -61,6 +61,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1000036",
+    "file_path": "data/raw/cod/1000036.cif",
+    "data_block": "1000036",
+    "mineral_name": "Vermiculite",
+    "formula": "H2 Mg3 O12 Si4",
+    "space_group": "C 1 c 1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": null,
+      "gamma": 90.0,
+      "volume": 1409.3
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1000042",
     "file_path": "data/raw/cod/1000042.cif",
     "data_block": "1000042",
@@ -1741,6 +1761,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1001816",
+    "file_path": "data/raw/cod/1001816.cif",
+    "data_block": "1001816",
+    "mineral_name": "Bindheimite",
+    "formula": "O7 Pb2 Sb2",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 10.4,
+      "b": 10.4,
+      "c": 10.4,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1124.9
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1001820",
     "file_path": "data/raw/cod/1001820.cif",
     "data_block": "1001820",
@@ -2721,6 +2761,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1008756",
+    "file_path": "data/raw/cod/1008756.cif",
+    "data_block": "1008756",
+    "mineral_name": "Guyanaite",
+    "formula": "Cr H O2",
+    "space_group": "P 21 n m",
+    "cell_parameters": {
+      "a": 4.858,
+      "b": 4.292,
+      "c": 2.955,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 61.6
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1008758",
     "file_path": "data/raw/cod/1008758.cif",
     "data_block": "1008758",
@@ -3315,6 +3375,26 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 718.5
+    },
+    "atom_count": 1,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1010677",
+    "file_path": "data/raw/cod/1010677.cif",
+    "data_block": "1010677",
+    "mineral_name": "Montmorillonite",
+    "formula": "Al4 H4 O24 Si8",
+    "space_group": null,
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null,
+      "volume": null
     },
     "atom_count": 1,
     "parse_status": "ok"
@@ -4781,6 +4861,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1010960",
+    "file_path": "data/raw/cod/1010960.cif",
+    "data_block": "1010960",
+    "mineral_name": "Chrysotile",
+    "formula": "H8 Mg6 O18 Si4",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 14.66,
+      "b": 18.5,
+      "c": 5.33,
+      "alpha": 90.0,
+      "beta": 93.27,
+      "gamma": 90.0,
+      "volume": 1443.2
+    },
+    "atom_count": 17,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1010961",
     "file_path": "data/raw/cod/1010961.cif",
     "data_block": "1010961",
@@ -5601,6 +5701,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1011032",
+    "file_path": "data/raw/cod/1011032.cif",
+    "data_block": "1011032",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.32,
+      "b": 8.32,
+      "c": 8.32,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 575.9
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1011035",
     "file_path": "data/raw/cod/1011035.cif",
     "data_block": "1011035",
@@ -6221,6 +6341,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1011084",
+    "file_path": "data/raw/cod/1011084.cif",
+    "data_block": "1011084",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.4,
+      "b": 8.4,
+      "c": 8.4,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.7
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1011085",
     "file_path": "data/raw/cod/1011085.cif",
     "data_block": "1011085",
@@ -6561,6 +6701,46 @@
   },
   {
     "source": "COD",
+    "source_id": "1011125",
+    "file_path": "data/raw/cod/1011125.cif",
+    "data_block": "1011125",
+    "mineral_name": "Valleriite",
+    "formula": "Cu2 Fe4 S7",
+    "space_group": "P m m a",
+    "cell_parameters": {
+      "a": 6.13,
+      "b": 9.81,
+      "c": 11.4,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 685.5
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1011128",
+    "file_path": "data/raw/cod/1011128.cif",
+    "data_block": "1011128",
+    "mineral_name": "Pyrochlore",
+    "formula": "Ca2 Nb2 O7",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1105.5
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1011129",
     "file_path": "data/raw/cod/1011129.cif",
     "data_block": "1011129",
@@ -6597,6 +6777,26 @@
       "volume": 278.8
     },
     "atom_count": 2,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1011136",
+    "file_path": "data/raw/cod/1011136.cif",
+    "data_block": "1011136",
+    "mineral_name": "Pyrochlore",
+    "formula": "Ca1.125 Ce0.25 F0.25 Fe0.38 H0.8 K0.25 Na0.375 Nb1.63 O6.75",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1121.6
+    },
+    "atom_count": 11,
     "parse_status": "ok"
   },
   {
@@ -7541,6 +7741,46 @@
   },
   {
     "source": "COD",
+    "source_id": "1011216",
+    "file_path": "data/raw/cod/1011216.cif",
+    "data_block": "1011216",
+    "mineral_name": "Siderazot",
+    "formula": "Fe2 N",
+    "space_group": "P 3 1 2",
+    "cell_parameters": {
+      "a": 4.793,
+      "b": 4.793,
+      "c": 4.417,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 87.9
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1011217",
+    "file_path": "data/raw/cod/1011217.cif",
+    "data_block": "1011217",
+    "mineral_name": "Siderazot",
+    "formula": "Fe3 N",
+    "space_group": "P 3 1 2",
+    "cell_parameters": {
+      "a": 4.668,
+      "b": 4.668,
+      "c": 4.362,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 82.3
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1011218",
     "file_path": "data/raw/cod/1011218.cif",
     "data_block": "1011218",
@@ -7897,6 +8137,26 @@
       "volume": 530.3
     },
     "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1011243",
+    "file_path": "data/raw/cod/1011243.cif",
+    "data_block": "1011243",
+    "mineral_name": "Bindheimite",
+    "formula": "O7 Pb2 Sb2",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 10.44,
+      "b": 10.44,
+      "c": 10.44,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1137.9
+    },
+    "atom_count": 4,
     "parse_status": "ok"
   },
   {
@@ -8857,6 +9117,26 @@
       "volume": 636.8
     },
     "atom_count": 18,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1100106",
+    "file_path": "data/raw/cod/1100106.cif",
+    "data_block": "1100106",
+    "mineral_name": null,
+    "formula": null,
+    "space_group": "C2:b1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": null,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 12,
     "parse_status": "ok"
   },
   {
@@ -10590,6 +10870,26 @@
     "cell_parameters": {
       "a": null,
       "b": 5.7574,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1514227",
+    "file_path": "data/raw/cod/1514227.cif",
+    "data_block": "1514227",
+    "mineral_name": "Ramsdellite",
+    "formula": "Mn O2",
+    "space_group": "P n m a",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
       "c": null,
       "alpha": 90.0,
       "beta": 90.0,
@@ -24101,6 +24401,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1539747",
+    "file_path": "data/raw/cod/1539747.cif",
+    "data_block": "1539747",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F -4 3 m",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.456
+    },
+    "atom_count": 5,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1539824",
     "file_path": "data/raw/cod/1539824.cif",
     "data_block": "1539824",
@@ -28281,6 +28601,26 @@
   },
   {
     "source": "COD",
+    "source_id": "1548348",
+    "file_path": "data/raw/cod/1548348.cif",
+    "data_block": "1548348",
+    "mineral_name": null,
+    "formula": "C8 H9 N O2",
+    "space_group": "P c a b",
+    "cell_parameters": {
+      "a": 7.232,
+      "b": 11.76,
+      "c": 17.16,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1459.429
+    },
+    "atom_count": 20,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "1548551",
     "file_path": "data/raw/cod/1548551.cif",
     "data_block": "1548551",
@@ -29117,6 +29457,26 @@
       "volume": null
     },
     "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "1552115",
+    "file_path": "data/raw/cod/1552115.cif",
+    "data_block": "1552115",
+    "mineral_name": "chrysotile",
+    "formula": "H4 Mg3 O9 Si2",
+    "space_group": "C 1 c 1",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": null,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 14,
     "parse_status": "ok"
   },
   {
@@ -45441,6 +45801,26 @@
   },
   {
     "source": "COD",
+    "source_id": "3000607",
+    "file_path": "data/raw/cod/3000607.cif",
+    "data_block": "3000607",
+    "mineral_name": null,
+    "formula": "Al2 H4 O9 Si2",
+    "space_group": null,
+    "cell_parameters": {
+      "a": 5.153,
+      "b": 8.943,
+      "c": 7.391,
+      "alpha": 90.0,
+      "beta": 103.17,
+      "gamma": 90.0,
+      "volume": 331.643
+    },
+    "atom_count": 1,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "3500056",
     "file_path": "data/raw/cod/3500056.cif",
     "data_block": "3500056",
@@ -49917,6 +50297,26 @@
       "volume": null
     },
     "atom_count": 17,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "4510931",
+    "file_path": "data/raw/cod/4510931.cif",
+    "data_block": "4510931",
+    "mineral_name": null,
+    "formula": "C8 H9 N O2",
+    "space_group": "P c a b",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 20,
     "parse_status": "ok"
   },
   {
@@ -54481,6 +54881,26 @@
   },
   {
     "source": "COD",
+    "source_id": "7126913",
+    "file_path": "data/raw/cod/7126913.cif",
+    "data_block": "7126913",
+    "mineral_name": null,
+    "formula": "C8 H9 N O2",
+    "space_group": null,
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": null,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 20,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "7126943",
     "file_path": "data/raw/cod/7126943.cif",
     "data_block": "7126943",
@@ -55421,6 +55841,26 @@
   },
   {
     "source": "COD",
+    "source_id": "7228110",
+    "file_path": "data/raw/cod/7228110.cif",
+    "data_block": "7228110",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": null,
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "7229416",
     "file_path": "data/raw/cod/7229416.cif",
     "data_block": "7229416",
@@ -55447,6 +55887,46 @@
     "mineral_name": null,
     "formula": "H8 O32 Pb3.017 U8",
     "space_group": "P n m a",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 20,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "7232755",
+    "file_path": "data/raw/cod/7232755.cif",
+    "data_block": "7232755",
+    "mineral_name": null,
+    "formula": "C8 H9 N O2",
+    "space_group": "P b c a",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 20,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "7232757",
+    "file_path": "data/raw/cod/7232757.cif",
+    "data_block": "7232757",
+    "mineral_name": null,
+    "formula": "C8 H9 N O2",
+    "space_group": "P b c a",
     "cell_parameters": {
       "a": null,
       "b": null,
@@ -55737,6 +56217,26 @@
       "volume": null
     },
     "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "7241607",
+    "file_path": "data/raw/cod/7241607.cif",
+    "data_block": "7241607",
+    "mineral_name": null,
+    "formula": "C29 H33 N O9 S",
+    "space_group": null,
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": null,
+      "gamma": 90.0,
+      "volume": null
+    },
+    "atom_count": 73,
     "parse_status": "ok"
   },
   {
@@ -60541,6 +61041,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9000016",
+    "file_path": "data/raw/cod/9000016.cif",
+    "data_block": "9000016",
+    "mineral_name": "Vermiculite",
+    "formula": "H2 Mg3 O12 Si4",
+    "space_group": "C 1 c 1",
+    "cell_parameters": {
+      "a": 5.33,
+      "b": 9.18,
+      "c": 28.85,
+      "alpha": 90.0,
+      "beta": 93.25,
+      "gamma": 90.0,
+      "volume": 1409.343
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9000017",
     "file_path": "data/raw/cod/9000017.cif",
     "data_block": "9000017",
@@ -63681,6 +64201,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9000252",
+    "file_path": "data/raw/cod/9000252.cif",
+    "data_block": "9000252",
+    "mineral_name": "Naumannite",
+    "formula": "Ag2 Se",
+    "space_group": "P 21 21 21",
+    "cell_parameters": {
+      "a": 4.333,
+      "b": 7.062,
+      "c": 7.764,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 237.576
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9000253",
     "file_path": "data/raw/cod/9000253.cif",
     "data_block": "9000253",
@@ -63817,6 +64357,26 @@
       "volume": 272.194
     },
     "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000263",
+    "file_path": "data/raw/cod/9000263.cif",
+    "data_block": "9000263",
+    "mineral_name": "Talnakhite",
+    "formula": "Cu10.06 Fe7.06 S16",
+    "space_group": "I -4 3 m",
+    "cell_parameters": {
+      "a": 10.593,
+      "b": 10.593,
+      "c": 10.593,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1188.658
+    },
+    "atom_count": 10,
     "parse_status": "ok"
   },
   {
@@ -65437,6 +65997,26 @@
       "volume": 487.692
     },
     "atom_count": 12,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000377",
+    "file_path": "data/raw/cod/9000377.cif",
+    "data_block": "9000377",
+    "mineral_name": "Annite",
+    "formula": "Al1.282 Ca0.03 Cl0.05 F0.22 Fe2.43 H1.38 K0.88 Mg0.12 Mn0.03 Na0.07 O11.73 Si2.808 Ti0.21",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.386,
+      "b": 9.3241,
+      "c": 10.2683,
+      "alpha": 90.0,
+      "beta": 100.63,
+      "gamma": 90.0,
+      "volume": 506.82
+    },
+    "atom_count": 22,
     "parse_status": "ok"
   },
   {
@@ -68237,6 +68817,26 @@
       "volume": 685.552
     },
     "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000593",
+    "file_path": "data/raw/cod/9000593.cif",
+    "data_block": "9000593",
+    "mineral_name": "Zinnwaldite",
+    "formula": "Al1.908 F2 Fe0.93 K0.9 Li0.67 Mg0.01 Mn0.05 Na0.05 O10 Si3.092 Ti0.01",
+    "space_group": "C 1 2 1",
+    "cell_parameters": {
+      "a": 5.296,
+      "b": 9.14,
+      "c": 10.096,
+      "alpha": 90.0,
+      "beta": 100.83,
+      "gamma": 90.0,
+      "volume": 479.997
+    },
+    "atom_count": 19,
     "parse_status": "ok"
   },
   {
@@ -71301,6 +71901,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9000850",
+    "file_path": "data/raw/cod/9000850.cif",
+    "data_block": "9000850",
+    "mineral_name": "Zirkelite",
+    "formula": "Ca1.74 Fe0.91 Nb0.98 O14 Th0.26 Ti2.11 Zr2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 12.431,
+      "b": 7.224,
+      "c": 11.483,
+      "alpha": 90.0,
+      "beta": 100.33,
+      "gamma": 90.0,
+      "volume": 1014.477
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9000852",
     "file_path": "data/raw/cod/9000852.cif",
     "data_block": "9000852",
@@ -71557,6 +72177,26 @@
       "volume": 721.89
     },
     "atom_count": 12,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000874",
+    "file_path": "data/raw/cod/9000874.cif",
+    "data_block": "9000874",
+    "mineral_name": "Zirkelite",
+    "formula": "Ca0.84 Ce0.595 Fe Na0.31 Nb0.524 O14 Ta0.316 Th0.265 Ti2.16 Zr2",
+    "space_group": "P 31 2 1",
+    "cell_parameters": {
+      "a": 7.287,
+      "b": 7.287,
+      "c": 16.886,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 776.524
+    },
+    "atom_count": 23,
     "parse_status": "ok"
   },
   {
@@ -72177,6 +72817,26 @@
       "volume": 333.711
     },
     "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9000926",
+    "file_path": "data/raw/cod/9000926.cif",
+    "data_block": "9000926",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3958,
+      "b": 8.3958,
+      "c": 8.3958,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.815
+    },
+    "atom_count": 3,
     "parse_status": "ok"
   },
   {
@@ -75877,6 +76537,46 @@
       "volume": 540.587
     },
     "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001235",
+    "file_path": "data/raw/cod/9001235.cif",
+    "data_block": "9001235",
+    "mineral_name": "Coronadite",
+    "formula": "Mn2 O4 Pb0.268",
+    "space_group": "I 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.938,
+      "b": 2.8678,
+      "c": 9.834,
+      "alpha": 90.0,
+      "beta": 90.39,
+      "gamma": 90.0,
+      "volume": 280.264
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001236",
+    "file_path": "data/raw/cod/9001236.cif",
+    "data_block": "9001236",
+    "mineral_name": "Coronadite",
+    "formula": "Mn2 O4 Pb0.35",
+    "space_group": "I 1 2/m 1",
+    "cell_parameters": {
+      "a": 9.913,
+      "b": 2.8652,
+      "c": 9.843,
+      "alpha": 90.0,
+      "beta": 90.2,
+      "gamma": 90.0,
+      "volume": 279.566
+    },
+    "atom_count": 7,
     "parse_status": "ok"
   },
   {
@@ -81381,6 +82081,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9001787",
+    "file_path": "data/raw/cod/9001787.cif",
+    "data_block": "9001787",
+    "mineral_name": "Brewsterite-Sr",
+    "formula": "Al2.05 Ba0.45 H10 K0.01 O21 Si5.95 Sr0.5",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 6.786,
+      "b": 17.517,
+      "c": 7.742,
+      "alpha": 89.85,
+      "beta": 94.07,
+      "gamma": 90.12,
+      "volume": 917.969
+    },
+    "atom_count": 40,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9001788",
     "file_path": "data/raw/cod/9001788.cif",
     "data_block": "9001788",
@@ -81397,6 +82117,26 @@
       "volume": 918.149
     },
     "atom_count": 39,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9001789",
+    "file_path": "data/raw/cod/9001789.cif",
+    "data_block": "9001789",
+    "mineral_name": "Brewsterite-Sr",
+    "formula": "Al2.15 Ba0.24 H10 K0.01 O21 Si5.85 Sr0.67",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 6.785,
+      "b": 17.546,
+      "c": 7.74,
+      "alpha": 89.98,
+      "beta": 94.25,
+      "gamma": 90.06,
+      "volume": 918.91
+    },
+    "atom_count": 41,
     "parse_status": "ok"
   },
   {
@@ -86281,6 +87021,46 @@
   },
   {
     "source": "COD",
+    "source_id": "9002245",
+    "file_path": "data/raw/cod/9002245.cif",
+    "data_block": "9002245",
+    "mineral_name": "Tobermorite",
+    "formula": "Ca3 H O9 Si3",
+    "space_group": "C -1",
+    "cell_parameters": {
+      "a": 11.156,
+      "b": 7.303,
+      "c": 9.566,
+      "alpha": 101.08,
+      "beta": 92.83,
+      "gamma": 89.98,
+      "volume": 763.87
+    },
+    "atom_count": 15,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002246",
+    "file_path": "data/raw/cod/9002246.cif",
+    "data_block": "9002246",
+    "mineral_name": "Tobermorite",
+    "formula": "Ca2 H6 O11 Si3",
+    "space_group": "B 1 1 m",
+    "cell_parameters": {
+      "a": 6.735,
+      "b": 7.385,
+      "c": 22.487,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 123.25,
+      "volume": 935.351
+    },
+    "atom_count": 18,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9002247",
     "file_path": "data/raw/cod/9002247.cif",
     "data_block": "9002247",
@@ -87377,6 +88157,486 @@
       "volume": 990.951
     },
     "atom_count": 17,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002308",
+    "file_path": "data/raw/cod/9002308.cif",
+    "data_block": "9002308",
+    "mineral_name": "Annite",
+    "formula": "Al Fe3 K0.956 O12 Si3",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3899,
+      "b": 9.3367,
+      "c": 10.3086,
+      "alpha": 90.0,
+      "beta": 100.16,
+      "gamma": 90.0,
+      "volume": 510.634
+    },
+    "atom_count": 9,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002309",
+    "file_path": "data/raw/cod/9002309.cif",
+    "data_block": "9002309",
+    "mineral_name": "Annite",
+    "formula": "Al2.13 Fe1.94 K0.9 O12 Si2.84",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3944,
+      "b": 9.3454,
+      "c": 10.3284,
+      "alpha": 90.0,
+      "beta": 100.22,
+      "gamma": 90.0,
+      "volume": 512.423
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002310",
+    "file_path": "data/raw/cod/9002310.cif",
+    "data_block": "9002310",
+    "mineral_name": "Annite",
+    "formula": "Al1.64 Fe2.68 K0.96 O12 Si2.64",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3812,
+      "b": 9.3234,
+      "c": 10.2934,
+      "alpha": 90.0,
+      "beta": 100.22,
+      "gamma": 90.0,
+      "volume": 508.237
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002311",
+    "file_path": "data/raw/cod/9002311.cif",
+    "data_block": "9002311",
+    "mineral_name": "Annite",
+    "formula": "Al1.912 Fe2.568 K0.936 O12 Si2.592",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3732,
+      "b": 9.3097,
+      "c": 10.2807,
+      "alpha": 90.0,
+      "beta": 100.24,
+      "gamma": 90.0,
+      "volume": 506.079
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002312",
+    "file_path": "data/raw/cod/9002312.cif",
+    "data_block": "9002312",
+    "mineral_name": "Annite",
+    "formula": "Al2.152 Fe2.428 K0.94 O12 Si2.432",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3635,
+      "b": 9.2929,
+      "c": 10.2837,
+      "alpha": 90.0,
+      "beta": 100.28,
+      "gamma": 90.0,
+      "volume": 504.337
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002313",
+    "file_path": "data/raw/cod/9002313.cif",
+    "data_block": "9002313",
+    "mineral_name": "Annite",
+    "formula": "Al3.156 Fe1.624 K0.928 O12 Si2.32",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3607,
+      "b": 9.2874,
+      "c": 10.2664,
+      "alpha": 90.0,
+      "beta": 100.3,
+      "gamma": 90.0,
+      "volume": 502.896
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002314",
+    "file_path": "data/raw/cod/9002314.cif",
+    "data_block": "9002314",
+    "mineral_name": "Annite",
+    "formula": "Al2.52 Fe2.312 K0.92 O12 Si2.28",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3582,
+      "b": 9.2819,
+      "c": 10.2688,
+      "alpha": 90.0,
+      "beta": 100.39,
+      "gamma": 90.0,
+      "volume": 502.337
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002315",
+    "file_path": "data/raw/cod/9002315.cif",
+    "data_block": "9002315",
+    "mineral_name": "Annite",
+    "formula": "Al3.448 Fe3 K0.99 Na0.01 O12 Si2.552",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.377,
+      "b": 9.308,
+      "c": 10.283,
+      "alpha": 90.0,
+      "beta": 100.22,
+      "gamma": 90.0,
+      "volume": 506.489
+    },
+    "atom_count": 12,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002316",
+    "file_path": "data/raw/cod/9002316.cif",
+    "data_block": "9002316",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3965,
+      "b": 8.3965,
+      "c": 8.3965,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.963
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002317",
+    "file_path": "data/raw/cod/9002317.cif",
+    "data_block": "9002317",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3837,
+      "b": 8.3837,
+      "c": 8.3837,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 589.26
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002318",
+    "file_path": "data/raw/cod/9002318.cif",
+    "data_block": "9002318",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3685,
+      "b": 8.3685,
+      "c": 8.3685,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 586.061
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002319",
+    "file_path": "data/raw/cod/9002319.cif",
+    "data_block": "9002319",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3517,
+      "b": 8.3517,
+      "c": 8.3517,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 582.539
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002320",
+    "file_path": "data/raw/cod/9002320.cif",
+    "data_block": "9002320",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3122,
+      "b": 8.3122,
+      "c": 8.3122,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 574.312
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002321",
+    "file_path": "data/raw/cod/9002321.cif",
+    "data_block": "9002321",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.2966,
+      "b": 8.2966,
+      "c": 8.2966,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 571.085
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002322",
+    "file_path": "data/raw/cod/9002322.cif",
+    "data_block": "9002322",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.2626,
+      "b": 8.2626,
+      "c": 8.2626,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 564.092
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002323",
+    "file_path": "data/raw/cod/9002323.cif",
+    "data_block": "9002323",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.2547,
+      "b": 8.2547,
+      "c": 8.2547,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 562.476
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002324",
+    "file_path": "data/raw/cod/9002324.cif",
+    "data_block": "9002324",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.2396,
+      "b": 8.2396,
+      "c": 8.2396,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 559.395
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002325",
+    "file_path": "data/raw/cod/9002325.cif",
+    "data_block": "9002325",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.2321,
+      "b": 8.2321,
+      "c": 8.2321,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 557.869
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002326",
+    "file_path": "data/raw/cod/9002326.cif",
+    "data_block": "9002326",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.214,
+      "b": 8.214,
+      "c": 8.214,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 554.197
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002327",
+    "file_path": "data/raw/cod/9002327.cif",
+    "data_block": "9002327",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.1891,
+      "b": 8.1891,
+      "c": 8.1891,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 549.172
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002328",
+    "file_path": "data/raw/cod/9002328.cif",
+    "data_block": "9002328",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.171,
+      "b": 8.171,
+      "c": 8.171,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 545.539
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002329",
+    "file_path": "data/raw/cod/9002329.cif",
+    "data_block": "9002329",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.1509,
+      "b": 8.1509,
+      "c": 8.1509,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 541.523
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002330",
+    "file_path": "data/raw/cod/9002330.cif",
+    "data_block": "9002330",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.1177,
+      "b": 8.1177,
+      "c": 8.1177,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 534.933
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002331",
+    "file_path": "data/raw/cod/9002331.cif",
+    "data_block": "9002331",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.0636,
+      "b": 8.0636,
+      "c": 8.0636,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 524.309
+    },
+    "atom_count": 3,
     "parse_status": "ok"
   },
   {
@@ -90321,6 +91581,46 @@
   },
   {
     "source": "COD",
+    "source_id": "9002673",
+    "file_path": "data/raw/cod/9002673.cif",
+    "data_block": "9002673",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3851,
+      "b": 8.3851,
+      "c": 8.3851,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 589.556
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002674",
+    "file_path": "data/raw/cod/9002674.cif",
+    "data_block": "9002674",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3858,
+      "b": 8.3858,
+      "c": 8.3858,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 589.703
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9002675",
     "file_path": "data/raw/cod/9002675.cif",
     "data_block": "9002675",
@@ -91601,6 +92901,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9002779",
+    "file_path": "data/raw/cod/9002779.cif",
+    "data_block": "9002779",
+    "mineral_name": "Montmorillonite",
+    "formula": "Al2 Ca0.5 O12 Si4",
+    "space_group": "P 1",
+    "cell_parameters": {
+      "a": 5.18,
+      "b": 8.98,
+      "c": 15.0,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 697.746
+    },
+    "atom_count": 38,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9002795",
     "file_path": "data/raw/cod/9002795.cif",
     "data_block": "9002795",
@@ -92037,6 +93357,46 @@
       "volume": 1280.912
     },
     "atom_count": 16,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002840",
+    "file_path": "data/raw/cod/9002840.cif",
+    "data_block": "9002840",
+    "mineral_name": "Annite",
+    "formula": "Al F0.14 Fe2.68 H1.84 K0.93 Mg0.06 Mn0.18 Na0.07 O11.86 Si2.84 Ti0.09",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.4059,
+      "b": 9.3639,
+      "c": 10.3235,
+      "alpha": 90.0,
+      "beta": 100.2,
+      "gamma": 90.0,
+      "volume": 514.32
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9002841",
+    "file_path": "data/raw/cod/9002841.cif",
+    "data_block": "9002841",
+    "mineral_name": "Annite",
+    "formula": "Al1.71 F0.04 Fe2.37 H1.9 K Mg0.12 Mn0.03 O11.96 Si2.56 Ti0.03",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3741,
+      "b": 9.3083,
+      "c": 10.2829,
+      "alpha": 90.0,
+      "beta": 100.22,
+      "gamma": 90.0,
+      "volume": 506.228
+    },
+    "atom_count": 19,
     "parse_status": "ok"
   },
   {
@@ -94957,6 +96317,26 @@
       "volume": 506.984
     },
     "atom_count": 5,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9003475",
+    "file_path": "data/raw/cod/9003475.cif",
+    "data_block": "9003475",
+    "mineral_name": "Ramsdellite",
+    "formula": "Mn O2",
+    "space_group": "P n m a",
+    "cell_parameters": {
+      "a": 9.2734,
+      "b": 2.8638,
+      "c": 4.5219,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 120.089
+    },
+    "atom_count": 3,
     "parse_status": "ok"
   },
   {
@@ -98981,6 +100361,46 @@
   },
   {
     "source": "COD",
+    "source_id": "9004020",
+    "file_path": "data/raw/cod/9004020.cif",
+    "data_block": "9004020",
+    "mineral_name": "Pyrochlore",
+    "formula": ";Ca0.73 Ce0.03 F0.62 Fe0.03 H1.352 K0.02 La0.01 Mn0.04 Na0.37 Nb1.72 Nd0.01\n O6.38 Pb0.01 Si0.07 Sr0.07 Ta0.02 Ti0.16 U0.02\n;",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 10.42,
+      "b": 10.42,
+      "c": 10.42,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1131.366
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004021",
+    "file_path": "data/raw/cod/9004021.cif",
+    "data_block": "9004021",
+    "mineral_name": "Pyrochlore",
+    "formula": ";Ca0.72 Ce0.04 F0.46 Fe0.08 H1.908 K0.05 La0.01 Mn0.04 Na0.18 Nb1.48 Nd0.01\n O6.54 Pb0.01 Si0.24 Sr0.08 Ta0.04 Ti0.16 U0.02\n;",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 10.3738,
+      "b": 10.3738,
+      "c": 10.3738,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1116.384
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9004034",
     "file_path": "data/raw/cod/9004034.cif",
     "data_block": "9004034",
@@ -99477,6 +100897,106 @@
       "volume": 389.807
     },
     "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004065",
+    "file_path": "data/raw/cod/9004065.cif",
+    "data_block": "9004065",
+    "mineral_name": "Pyrochlore",
+    "formula": "Ca2 F Nb2 O6",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 10.43,
+      "b": 10.43,
+      "c": 10.43,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1134.627
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004066",
+    "file_path": "data/raw/cod/9004066.cif",
+    "data_block": "9004066",
+    "mineral_name": "Pyrochlore",
+    "formula": "Ca2 F Nb2 O6",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 10.393,
+      "b": 10.393,
+      "c": 10.393,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1122.594
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004067",
+    "file_path": "data/raw/cod/9004067.cif",
+    "data_block": "9004067",
+    "mineral_name": "Pyrochlore",
+    "formula": "Ca2 F Nb2 O6",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 10.428,
+      "b": 10.428,
+      "c": 10.428,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1133.974
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004068",
+    "file_path": "data/raw/cod/9004068.cif",
+    "data_block": "9004068",
+    "mineral_name": "Pyrochlore",
+    "formula": "Ca2 F Nb2 O6",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 10.3947,
+      "b": 10.3947,
+      "c": 10.3947,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1123.145
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004069",
+    "file_path": "data/raw/cod/9004069.cif",
+    "data_block": "9004069",
+    "mineral_name": "Pyrochlore",
+    "formula": "Ca2 F Nb2 O6",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 10.4205,
+      "b": 10.4205,
+      "c": 10.4205,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1131.529
+    },
+    "atom_count": 4,
     "parse_status": "ok"
   },
   {
@@ -100701,6 +102221,46 @@
   },
   {
     "source": "COD",
+    "source_id": "9004155",
+    "file_path": "data/raw/cod/9004155.cif",
+    "data_block": "9004155",
+    "mineral_name": "Magnetite",
+    "formula": "Al0.06 Ca0.01 Fe2.06 Mg0.1 Mn0.02 O4 Si0.01 Ti0.73 V0.01",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.481,
+      "b": 8.481,
+      "c": 8.481,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 610.016
+    },
+    "atom_count": 11,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004156",
+    "file_path": "data/raw/cod/9004156.cif",
+    "data_block": "9004156",
+    "mineral_name": "Magnetite",
+    "formula": "Al0.05 Ca0.01 Fe2.1 Mg0.06 Mn0.02 O4 Si0.01 Ti0.74 V0.01",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.504,
+      "b": 8.504,
+      "c": 8.504,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 614.992
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9004159",
     "file_path": "data/raw/cod/9004159.cif",
     "data_block": "9004159",
@@ -100857,6 +102417,26 @@
       "volume": 721.701
     },
     "atom_count": 15,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004174",
+    "file_path": "data/raw/cod/9004174.cif",
+    "data_block": "9004174",
+    "mineral_name": "Tungstite",
+    "formula": "H2 O4 W",
+    "space_group": "P m n b",
+    "cell_parameters": {
+      "a": 5.249,
+      "b": 10.711,
+      "c": 5.133,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 288.588
+    },
+    "atom_count": 6,
     "parse_status": "ok"
   },
   {
@@ -107097,6 +108677,26 @@
       "volume": 906.517
     },
     "atom_count": 24,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9004669",
+    "file_path": "data/raw/cod/9004669.cif",
+    "data_block": "9004669",
+    "mineral_name": "Leifite",
+    "formula": "Al1.98 Be2 Cs0.05 F2 H2 K0.1 Na6.57 O39.63 Rb0.11 Si15.84 Zn0.18",
+    "space_group": "P -3 m 1",
+    "cell_parameters": {
+      "a": 14.3608,
+      "b": 14.3608,
+      "c": 4.857,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 867.473
+    },
+    "atom_count": 18,
     "parse_status": "ok"
   },
   {
@@ -115321,6 +116921,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9005447",
+    "file_path": "data/raw/cod/9005447.cif",
+    "data_block": "9005447",
+    "mineral_name": "Tobermorite",
+    "formula": "Ca2.5 H O9 Si3",
+    "space_group": "C -1",
+    "cell_parameters": {
+      "a": 11.156,
+      "b": 7.303,
+      "c": 9.566,
+      "alpha": 101.08,
+      "beta": 92.83,
+      "gamma": 89.98,
+      "volume": 763.87
+    },
+    "atom_count": 15,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9005448",
     "file_path": "data/raw/cod/9005448.cif",
     "data_block": "9005448",
@@ -115717,6 +117337,86 @@
       "volume": 1410.293
     },
     "atom_count": 15,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005497",
+    "file_path": "data/raw/cod/9005497.cif",
+    "data_block": "9005497",
+    "mineral_name": "Tobermorite",
+    "formula": "Ca2 H3 O11 Si3",
+    "space_group": "F 2 d d",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 3741.652
+    },
+    "atom_count": 17,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005498",
+    "file_path": "data/raw/cod/9005498.cif",
+    "data_block": "9005498",
+    "mineral_name": "Tobermorite",
+    "formula": "Ca2 H5 O11 Si3",
+    "space_group": "B 1 1 m",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": null,
+      "volume": 935.351
+    },
+    "atom_count": 18,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005499",
+    "file_path": "data/raw/cod/9005499.cif",
+    "data_block": "9005499",
+    "mineral_name": "Tobermorite",
+    "formula": "Ca2.25 H7 O11 Si3",
+    "space_group": "B 1 1 m",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": null,
+      "volume": 941.668
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005500",
+    "file_path": "data/raw/cod/9005500.cif",
+    "data_block": "9005500",
+    "mineral_name": "Tobermorite",
+    "formula": "Ca2.25 H7 O11 Si3",
+    "space_group": "B 1 1 m",
+    "cell_parameters": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": null,
+      "volume": 941.668
+    },
+    "atom_count": 19,
     "parse_status": "ok"
   },
   {
@@ -119581,6 +121281,106 @@
   },
   {
     "source": "COD",
+    "source_id": "9005812",
+    "file_path": "data/raw/cod/9005812.cif",
+    "data_block": "9005812",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3778,
+      "b": 8.3778,
+      "c": 8.3778,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 588.017
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005813",
+    "file_path": "data/raw/cod/9005813.cif",
+    "data_block": "9005813",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3578,
+      "b": 8.3578,
+      "c": 8.3578,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 583.816
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005814",
+    "file_path": "data/raw/cod/9005814.cif",
+    "data_block": "9005814",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.339,
+      "b": 8.339,
+      "c": 8.339,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 579.885
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005815",
+    "file_path": "data/raw/cod/9005815.cif",
+    "data_block": "9005815",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3199,
+      "b": 8.3199,
+      "c": 8.3199,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 575.91
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005816",
+    "file_path": "data/raw/cod/9005816.cif",
+    "data_block": "9005816",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3153,
+      "b": 8.3153,
+      "c": 8.3153,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 574.955
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9005833",
     "file_path": "data/raw/cod/9005833.cif",
     "data_block": "9005833",
@@ -119635,6 +121435,146 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 131.717
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005836",
+    "file_path": "data/raw/cod/9005836.cif",
+    "data_block": "9005836",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3949,
+      "b": 8.3949,
+      "c": 8.3949,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.625
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005837",
+    "file_path": "data/raw/cod/9005837.cif",
+    "data_block": "9005837",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3862,
+      "b": 8.3862,
+      "c": 8.3862,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 589.788
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005838",
+    "file_path": "data/raw/cod/9005838.cif",
+    "data_block": "9005838",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.374,
+      "b": 8.374,
+      "c": 8.374,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 587.217
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005839",
+    "file_path": "data/raw/cod/9005839.cif",
+    "data_block": "9005839",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3656,
+      "b": 8.3656,
+      "c": 8.3656,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 585.452
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005840",
+    "file_path": "data/raw/cod/9005840.cif",
+    "data_block": "9005840",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3557,
+      "b": 8.3557,
+      "c": 8.3557,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 583.376
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005841",
+    "file_path": "data/raw/cod/9005841.cif",
+    "data_block": "9005841",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.344,
+      "b": 8.344,
+      "c": 8.344,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 580.929
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9005842",
+    "file_path": "data/raw/cod/9005842.cif",
+    "data_block": "9005842",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3332,
+      "b": 8.3332,
+      "c": 8.3332,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 578.676
     },
     "atom_count": 3,
     "parse_status": "ok"
@@ -122001,6 +123941,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9006184",
+    "file_path": "data/raw/cod/9006184.cif",
+    "data_block": "9006184",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.397,
+      "b": 8.397,
+      "c": 8.397,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.069
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9006185",
     "file_path": "data/raw/cod/9006185.cif",
     "data_block": "9006185",
@@ -122061,6 +124021,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9006189",
+    "file_path": "data/raw/cod/9006189.cif",
+    "data_block": "9006189",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.397,
+      "b": 8.397,
+      "c": 8.397,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.069
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9006195",
     "file_path": "data/raw/cod/9006195.cif",
     "data_block": "9006195",
@@ -122115,6 +124095,26 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 578.822
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006199",
+    "file_path": "data/raw/cod/9006199.cif",
+    "data_block": "9006199",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.397,
+      "b": 8.397,
+      "c": 8.397,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.069
     },
     "atom_count": 3,
     "parse_status": "ok"
@@ -122641,6 +124641,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9006242",
+    "file_path": "data/raw/cod/9006242.cif",
+    "data_block": "9006242",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.397,
+      "b": 8.397,
+      "c": 8.397,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.069
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9006245",
     "file_path": "data/raw/cod/9006245.cif",
     "data_block": "9006245",
@@ -122655,6 +124675,26 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 578.822
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006247",
+    "file_path": "data/raw/cod/9006247.cif",
+    "data_block": "9006247",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3271,
+      "b": 8.3271,
+      "c": 8.3271,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 577.406
     },
     "atom_count": 3,
     "parse_status": "ok"
@@ -122715,6 +124755,26 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 578.822
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006252",
+    "file_path": "data/raw/cod/9006252.cif",
+    "data_block": "9006252",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.397,
+      "b": 8.397,
+      "c": 8.397,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.069
     },
     "atom_count": 3,
     "parse_status": "ok"
@@ -124861,6 +126921,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9006564",
+    "file_path": "data/raw/cod/9006564.cif",
+    "data_block": "9006564",
+    "mineral_name": "Nontronite",
+    "formula": "Al0.536 Fe2 H2 Na0.5 O12 Si3.464",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.277,
+      "b": 9.14,
+      "c": 9.78,
+      "alpha": 90.0,
+      "beta": 101.0,
+      "gamma": 90.0,
+      "volume": 463.04
+    },
+    "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9006565",
     "file_path": "data/raw/cod/9006565.cif",
     "data_block": "9006565",
@@ -126397,6 +128477,66 @@
       "volume": 401.776
     },
     "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006920",
+    "file_path": "data/raw/cod/9006920.cif",
+    "data_block": "9006920",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.394,
+      "b": 8.394,
+      "c": 8.394,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.435
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006921",
+    "file_path": "data/raw/cod/9006921.cif",
+    "data_block": "9006921",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.91 O4 Si0.09",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.392,
+      "b": 8.392,
+      "c": 8.392,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.012
+    },
+    "atom_count": 5,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9006922",
+    "file_path": "data/raw/cod/9006922.cif",
+    "data_block": "9006922",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.719 O4 Si0.289",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.374,
+      "b": 8.374,
+      "c": 8.374,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 587.217
+    },
+    "atom_count": 5,
     "parse_status": "ok"
   },
   {
@@ -131861,6 +134001,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9007479",
+    "file_path": "data/raw/cod/9007479.cif",
+    "data_block": "9007479",
+    "mineral_name": "Brewsterite-Sr",
+    "formula": "Al1.98 Ba0.3 Ca0.14 H8 O20.9 Si6.02 Sr0.58",
+    "space_group": "P 1 21/m 1",
+    "cell_parameters": {
+      "a": 6.772,
+      "b": 17.51,
+      "c": 7.744,
+      "alpha": 90.0,
+      "beta": 94.3,
+      "gamma": 90.0,
+      "volume": 915.681
+    },
+    "atom_count": 23,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9007480",
     "file_path": "data/raw/cod/9007480.cif",
     "data_block": "9007480",
@@ -133441,6 +135601,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9007622",
+    "file_path": "data/raw/cod/9007622.cif",
+    "data_block": "9007622",
+    "mineral_name": "Brewsterite-Sr",
+    "formula": "Al2 Ba0.24 H10 K0.01 O21 Si6 Sr0.71",
+    "space_group": "P 1 21/m 1",
+    "cell_parameters": {
+      "a": 6.793,
+      "b": 17.573,
+      "c": 7.759,
+      "alpha": 90.0,
+      "beta": 94.54,
+      "gamma": 90.0,
+      "volume": 923.312
+    },
+    "atom_count": 23,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9007623",
     "file_path": "data/raw/cod/9007623.cif",
     "data_block": "9007623",
@@ -133677,6 +135857,26 @@
       "volume": 1858.503
     },
     "atom_count": 51,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9007644",
+    "file_path": "data/raw/cod/9007644.cif",
+    "data_block": "9007644",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3941,
+      "b": 8.3941,
+      "c": 8.3941,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.456
+    },
+    "atom_count": 3,
     "parse_status": "ok"
   },
   {
@@ -134235,6 +136435,46 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 784.798
+    },
+    "atom_count": 5,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9007706",
+    "file_path": "data/raw/cod/9007706.cif",
+    "data_block": "9007706",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3969,
+      "b": 8.3969,
+      "c": 8.3969,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.048
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9007707",
+    "file_path": "data/raw/cod/9007707.cif",
+    "data_block": "9007707",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.961 Mg0.039 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3975,
+      "b": 8.3975,
+      "c": 8.3975,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.175
     },
     "atom_count": 5,
     "parse_status": "ok"
@@ -136621,6 +138861,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9008211",
+    "file_path": "data/raw/cod/9008211.cif",
+    "data_block": "9008211",
+    "mineral_name": "Orpiment",
+    "formula": "As2 S3",
+    "space_group": "P 1 21/n 1",
+    "cell_parameters": {
+      "a": 11.475,
+      "b": 9.577,
+      "c": 4.256,
+      "alpha": 90.0,
+      "beta": 90.68,
+      "gamma": 90.0,
+      "volume": 467.685
+    },
+    "atom_count": 5,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9008213",
     "file_path": "data/raw/cod/9008213.cif",
     "data_block": "9008213",
@@ -138701,6 +140961,46 @@
   },
   {
     "source": "COD",
+    "source_id": "9008573",
+    "file_path": "data/raw/cod/9008573.cif",
+    "data_block": "9008573",
+    "mineral_name": "Arsenolamprite",
+    "formula": "As",
+    "space_group": "B m e b",
+    "cell_parameters": {
+      "a": 3.63,
+      "b": 4.45,
+      "c": 10.96,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 177.042
+    },
+    "atom_count": 1,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9008574",
+    "file_path": "data/raw/cod/9008574.cif",
+    "data_block": "9008574",
+    "mineral_name": "Arsenolamprite",
+    "formula": "As",
+    "space_group": "R -3 m :R",
+    "cell_parameters": {
+      "a": 4.131,
+      "b": 4.131,
+      "c": 4.131,
+      "alpha": 54.167,
+      "beta": 54.167,
+      "gamma": 54.167,
+      "volume": 43.061
+    },
+    "atom_count": 1,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9008596",
     "file_path": "data/raw/cod/9008596.cif",
     "data_block": "9008596",
@@ -140481,6 +142781,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9009230",
+    "file_path": "data/raw/cod/9009230.cif",
+    "data_block": "9009230",
+    "mineral_name": "Kaolinite",
+    "formula": "Al2 H4 O9 Si2",
+    "space_group": "C 1",
+    "cell_parameters": {
+      "a": 5.1554,
+      "b": 8.9448,
+      "c": 7.4048,
+      "alpha": 91.7,
+      "beta": 104.862,
+      "gamma": 89.822,
+      "volume": 329.893
+    },
+    "atom_count": 13,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9009231",
     "file_path": "data/raw/cod/9009231.cif",
     "data_block": "9009231",
@@ -140517,6 +142837,26 @@
       "volume": 8964.717
     },
     "atom_count": 120,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009234",
+    "file_path": "data/raw/cod/9009234.cif",
+    "data_block": "9009234",
+    "mineral_name": "Kaolinite",
+    "formula": "Al2 H4 O9 Si2",
+    "space_group": "C 1",
+    "cell_parameters": {
+      "a": 5.1535,
+      "b": 8.9419,
+      "c": 7.3906,
+      "alpha": 91.926,
+      "beta": 105.046,
+      "gamma": 89.797,
+      "volume": 328.708
+    },
+    "atom_count": 17,
     "parse_status": "ok"
   },
   {
@@ -140921,6 +143261,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9009278",
+    "file_path": "data/raw/cod/9009278.cif",
+    "data_block": "9009278",
+    "mineral_name": "Slavikite",
+    "formula": "Fe5 H78 Mg2 Na O67 S7",
+    "space_group": "R -3 :H",
+    "cell_parameters": {
+      "a": 12.2,
+      "b": 12.2,
+      "c": 35.13,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 4528.23
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9009279",
     "file_path": "data/raw/cod/9009279.cif",
     "data_block": "9009279",
@@ -140935,6 +143295,26 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 3488.673
+    },
+    "atom_count": 19,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009281",
+    "file_path": "data/raw/cod/9009281.cif",
+    "data_block": "9009281",
+    "mineral_name": "Slavikite",
+    "formula": "Fe5 H78 Mg2 Na O67 S7",
+    "space_group": "R -3 :H",
+    "cell_parameters": {
+      "a": 12.2,
+      "b": 12.2,
+      "c": 35.13,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 4528.23
     },
     "atom_count": 19,
     "parse_status": "ok"
@@ -141897,6 +144277,66 @@
       "volume": 401.578
     },
     "atom_count": 9,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009345",
+    "file_path": "data/raw/cod/9009345.cif",
+    "data_block": "9009345",
+    "mineral_name": "Burkeite",
+    "formula": "C0.61 Na3 O3.5 S0.89",
+    "space_group": "P m n m :1",
+    "cell_parameters": {
+      "a": 5.17,
+      "b": 9.217,
+      "c": 7.058,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 336.327
+    },
+    "atom_count": 13,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009346",
+    "file_path": "data/raw/cod/9009346.cif",
+    "data_block": "9009346",
+    "mineral_name": "Burkeite",
+    "formula": "C0.55 Na3 O3.5 S0.95",
+    "space_group": "P m n m :1",
+    "cell_parameters": {
+      "a": 5.177,
+      "b": 9.224,
+      "c": 7.066,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 337.42
+    },
+    "atom_count": 13,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009347",
+    "file_path": "data/raw/cod/9009347.cif",
+    "data_block": "9009347",
+    "mineral_name": "Burkeite",
+    "formula": "C0.49 Na3 O3.5 S1.01",
+    "space_group": "P m n m :1",
+    "cell_parameters": {
+      "a": 5.198,
+      "b": 9.255,
+      "c": 7.085,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 340.842
+    },
+    "atom_count": 13,
     "parse_status": "ok"
   },
   {
@@ -143937,6 +146377,26 @@
       "volume": 1544.959
     },
     "atom_count": 12,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009501",
+    "file_path": "data/raw/cod/9009501.cif",
+    "data_block": "9009501",
+    "mineral_name": "Frankamenite",
+    "formula": "Ca4.86 F2 H4 K2.87 Na3.14 O32.78 Si12",
+    "space_group": "P 1",
+    "cell_parameters": {
+      "a": 10.094,
+      "b": 12.691,
+      "c": 7.24,
+      "alpha": 90.0,
+      "beta": 111.02,
+      "gamma": 110.2,
+      "volume": 804.337
+    },
+    "atom_count": 64,
     "parse_status": "ok"
   },
   {
@@ -146121,6 +148581,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9009665",
+    "file_path": "data/raw/cod/9009665.cif",
+    "data_block": "9009665",
+    "mineral_name": "Illite",
+    "formula": "Al4 K O12 Si2",
+    "space_group": "C 1 2/c 1",
+    "cell_parameters": {
+      "a": 5.2226,
+      "b": 9.0183,
+      "c": 20.143,
+      "alpha": 90.0,
+      "beta": 95.665,
+      "gamma": 90.0,
+      "volume": 944.081
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9009667",
     "file_path": "data/raw/cod/9009667.cif",
     "data_block": "9009667",
@@ -146337,6 +148817,26 @@
       "volume": 331.261
     },
     "atom_count": 5,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009692",
+    "file_path": "data/raw/cod/9009692.cif",
+    "data_block": "9009692",
+    "mineral_name": "Argyrodite",
+    "formula": "Ag8 Ge S6",
+    "space_group": "P n a 21",
+    "cell_parameters": {
+      "a": 15.149,
+      "b": 7.476,
+      "c": 10.589,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1199.246
+    },
+    "atom_count": 15,
     "parse_status": "ok"
   },
   {
@@ -146995,6 +149495,46 @@
       "beta": 90.0,
       "gamma": 90.0,
       "volume": 355.825
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009768",
+    "file_path": "data/raw/cod/9009768.cif",
+    "data_block": "9009768",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.4045,
+      "b": 8.4045,
+      "c": 8.4045,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 593.657
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9009769",
+    "file_path": "data/raw/cod/9009769.cif",
+    "data_block": "9009769",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3873,
+      "b": 8.3873,
+      "c": 8.3873,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 590.02
     },
     "atom_count": 3,
     "parse_status": "ok"
@@ -151557,6 +154097,66 @@
       "volume": 167.782
     },
     "atom_count": 9,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010178",
+    "file_path": "data/raw/cod/9010178.cif",
+    "data_block": "9010178",
+    "mineral_name": "Annite",
+    "formula": "Al1.28 Fe1.41 K0.93 Mg1.02 Na0.07 O12 Si2.72 Ti0.46",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3207,
+      "b": 9.2099,
+      "c": 10.1034,
+      "alpha": 90.0,
+      "beta": 99.959,
+      "gamma": 90.0,
+      "volume": 487.638
+    },
+    "atom_count": 16,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010179",
+    "file_path": "data/raw/cod/9010179.cif",
+    "data_block": "9010179",
+    "mineral_name": "Annite",
+    "formula": "Al1.34 Fe1.35 K0.92 Mg1.11 Na0.07 O12 Si2.72 Ti0.18",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3216,
+      "b": 9.2114,
+      "c": 10.106,
+      "alpha": 90.0,
+      "beta": 99.949,
+      "gamma": 90.0,
+      "volume": 487.94
+    },
+    "atom_count": 18,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010180",
+    "file_path": "data/raw/cod/9010180.cif",
+    "data_block": "9010180",
+    "mineral_name": "Annite",
+    "formula": "Al1.34 Fe1.35 K0.92 Mg1.11 Na0.07 O12 Si2.72 Ti0.18",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.3213,
+      "b": 9.2034,
+      "c": 10.1048,
+      "alpha": 90.0,
+      "beta": 99.954,
+      "gamma": 90.0,
+      "volume": 487.424
+    },
+    "atom_count": 18,
     "parse_status": "ok"
   },
   {
@@ -157881,6 +160481,46 @@
   },
   {
     "source": "COD",
+    "source_id": "9010766",
+    "file_path": "data/raw/cod/9010766.cif",
+    "data_block": "9010766",
+    "mineral_name": "Nontronite",
+    "formula": "Fe H O6 Si2",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.277,
+      "b": 9.14,
+      "c": 9.78,
+      "alpha": 90.0,
+      "beta": 101.0,
+      "gamma": 90.0,
+      "volume": 463.04
+    },
+    "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010767",
+    "file_path": "data/raw/cod/9010767.cif",
+    "data_block": "9010767",
+    "mineral_name": "Nontronite",
+    "formula": "Fe2 Na0.41 O10.01 Si4",
+    "space_group": "P 1",
+    "cell_parameters": {
+      "a": 5.277,
+      "b": 9.14,
+      "c": 9.6,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 463.025
+    },
+    "atom_count": 38,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9010768",
     "file_path": "data/raw/cod/9010768.cif",
     "data_block": "9010768",
@@ -159441,6 +162081,66 @@
   },
   {
     "source": "COD",
+    "source_id": "9010939",
+    "file_path": "data/raw/cod/9010939.cif",
+    "data_block": "9010939",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.395,
+      "b": 8.395,
+      "c": 8.395,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.646
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010940",
+    "file_path": "data/raw/cod/9010940.cif",
+    "data_block": "9010940",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3198,
+      "b": 8.3198,
+      "c": 8.3198,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 575.889
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010941",
+    "file_path": "data/raw/cod/9010941.cif",
+    "data_block": "9010941",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.2634,
+      "b": 8.2634,
+      "c": 8.2634,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 564.256
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9010943",
     "file_path": "data/raw/cod/9010943.cif",
     "data_block": "9010943",
@@ -159701,6 +162401,86 @@
   },
   {
     "source": "COD",
+    "source_id": "9010956",
+    "file_path": "data/raw/cod/9010956.cif",
+    "data_block": "9010956",
+    "mineral_name": "Montmorillonite",
+    "formula": "Al0.86 Fe0.1 H Li0.08 Mg0.14 O10 Si3.9",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.175,
+      "b": 8.896,
+      "c": 12.45,
+      "alpha": 90.0,
+      "beta": 99.69,
+      "gamma": 90.0,
+      "volume": 564.981
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010957",
+    "file_path": "data/raw/cod/9010957.cif",
+    "data_block": "9010957",
+    "mineral_name": "Montmorillonite",
+    "formula": "Al0.86 Cs0.08 Fe0.1 H Mg0.14 O10 Si3.9",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.181,
+      "b": 8.945,
+      "c": 12.34,
+      "alpha": 90.0,
+      "beta": 99.62,
+      "gamma": 90.0,
+      "volume": 563.844
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010958",
+    "file_path": "data/raw/cod/9010958.cif",
+    "data_block": "9010958",
+    "mineral_name": "Montmorillonite",
+    "formula": "Al0.86 Fe0.1 H Li0.08 Mg0.14 O10 Si3.9",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.171,
+      "b": 8.957,
+      "c": 9.74,
+      "alpha": 90.0,
+      "beta": 96.1,
+      "gamma": 90.0,
+      "volume": 448.57
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9010959",
+    "file_path": "data/raw/cod/9010959.cif",
+    "data_block": "9010959",
+    "mineral_name": "Montmorillonite",
+    "formula": "Al0.86 Cs0.08 Fe0.1 H Mg0.14 O10 Si3.9",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.191,
+      "b": 8.976,
+      "c": 11.32,
+      "alpha": 90.0,
+      "beta": 100.56,
+      "gamma": 90.0,
+      "volume": 518.516
+    },
+    "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9010965",
     "file_path": "data/raw/cod/9010965.cif",
     "data_block": "9010965",
@@ -159917,6 +162697,26 @@
       "volume": 472.729
     },
     "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9011043",
+    "file_path": "data/raw/cod/9011043.cif",
+    "data_block": "9011043",
+    "mineral_name": "Foshagite",
+    "formula": "Ca4 H2 O11 Si3",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 10.32,
+      "b": 7.36,
+      "c": 7.04,
+      "alpha": 90.0,
+      "beta": 106.4,
+      "gamma": 90.0,
+      "volume": 512.969
+    },
+    "atom_count": 18,
     "parse_status": "ok"
   },
   {
@@ -166181,6 +168981,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9011864",
+    "file_path": "data/raw/cod/9011864.cif",
+    "data_block": "9011864",
+    "mineral_name": "Cymrite",
+    "formula": "Al2 Ba H3.5 O9 Si2",
+    "space_group": "P 1 21 1",
+    "cell_parameters": {
+      "a": 5.33,
+      "b": 36.59999,
+      "c": 7.67,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1496.248
+    },
+    "atom_count": 76,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9011871",
     "file_path": "data/raw/cod/9011871.cif",
     "data_block": "9011871",
@@ -167461,6 +170281,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9012091",
+    "file_path": "data/raw/cod/9012091.cif",
+    "data_block": "9012091",
+    "mineral_name": "Orpiment",
+    "formula": "As2 S3",
+    "space_group": "P 1 21/n 1",
+    "cell_parameters": {
+      "a": 11.46,
+      "b": 9.57,
+      "c": 4.22,
+      "alpha": 90.0,
+      "beta": 90.5,
+      "gamma": 90.0,
+      "volume": 462.799
+    },
+    "atom_count": 5,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9012092",
     "file_path": "data/raw/cod/9012092.cif",
     "data_block": "9012092",
@@ -167717,6 +170557,46 @@
       "volume": 547.614
     },
     "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9012129",
+    "file_path": "data/raw/cod/9012129.cif",
+    "data_block": "9012129",
+    "mineral_name": "Guyanaite",
+    "formula": "Cr H O2",
+    "space_group": "P 21 n m",
+    "cell_parameters": {
+      "a": 4.862,
+      "b": 4.298,
+      "c": 2.995,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 62.586
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9012131",
+    "file_path": "data/raw/cod/9012131.cif",
+    "data_block": "9012131",
+    "mineral_name": "Guyanaite",
+    "formula": "Cr H O2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": 4.862,
+      "b": 4.298,
+      "c": 2.995,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 62.586
+    },
+    "atom_count": 3,
     "parse_status": "ok"
   },
   {
@@ -172241,6 +175121,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9013006",
+    "file_path": "data/raw/cod/9013006.cif",
+    "data_block": "9013006",
+    "mineral_name": "Arsenolamprite",
+    "formula": "As",
+    "space_group": "B m a b",
+    "cell_parameters": {
+      "a": 3.65,
+      "b": 4.47,
+      "c": 11.0,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 179.471
+    },
+    "atom_count": 1,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9013067",
     "file_path": "data/raw/cod/9013067.cif",
     "data_block": "9013067",
@@ -174821,6 +177721,146 @@
   },
   {
     "source": "COD",
+    "source_id": "9013529",
+    "file_path": "data/raw/cod/9013529.cif",
+    "data_block": "9013529",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.3967,
+      "b": 8.3967,
+      "c": 8.3967,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.006
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013530",
+    "file_path": "data/raw/cod/9013530.cif",
+    "data_block": "9013530",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.904 O4 Ti0.096",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.4067,
+      "b": 8.4067,
+      "c": 8.4067,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 594.123
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013531",
+    "file_path": "data/raw/cod/9013531.cif",
+    "data_block": "9013531",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.902 O4 Ti0.098",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.4095,
+      "b": 8.4095,
+      "c": 8.4095,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 594.717
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013532",
+    "file_path": "data/raw/cod/9013532.cif",
+    "data_block": "9013532",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.814 O4 Ti0.186",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.4145,
+      "b": 8.4145,
+      "c": 8.4145,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 595.779
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013533",
+    "file_path": "data/raw/cod/9013533.cif",
+    "data_block": "9013533",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.758 O4 Ti0.242",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.425,
+      "b": 8.425,
+      "c": 8.425,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 598.012
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013534",
+    "file_path": "data/raw/cod/9013534.cif",
+    "data_block": "9013534",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.646 O4 Ti0.354",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.4348,
+      "b": 8.4348,
+      "c": 8.4348,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 600.101
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013535",
+    "file_path": "data/raw/cod/9013535.cif",
+    "data_block": "9013535",
+    "mineral_name": "Magnetite",
+    "formula": "Fe2.538 O4 Ti0.462",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.4569,
+      "b": 8.4569,
+      "c": 8.4569,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 604.83
+    },
+    "atom_count": 4,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9013548",
     "file_path": "data/raw/cod/9013548.cif",
     "data_block": "9013548",
@@ -175841,6 +178881,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9013701",
+    "file_path": "data/raw/cod/9013701.cif",
+    "data_block": "9013701",
+    "mineral_name": "Slavikite",
+    "formula": "Fe5 H66 Mg2 O67.669 S7",
+    "space_group": "R -3 :H",
+    "cell_parameters": {
+      "a": 12.1347,
+      "b": 12.1347,
+      "c": 34.706,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 4425.815
+    },
+    "atom_count": 33,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9013703",
     "file_path": "data/raw/cod/9013703.cif",
     "data_block": "9013703",
@@ -175877,6 +178937,146 @@
       "volume": 1423.147
     },
     "atom_count": 28,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013718",
+    "file_path": "data/raw/cod/9013718.cif",
+    "data_block": "9013718",
+    "mineral_name": "Illite",
+    "formula": "Al2 H2 K O12 Si4",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.2021,
+      "b": 8.9797,
+      "c": 10.226,
+      "alpha": 90.0,
+      "beta": 101.57,
+      "gamma": 90.0,
+      "volume": 467.984
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013719",
+    "file_path": "data/raw/cod/9013719.cif",
+    "data_block": "9013719",
+    "mineral_name": "Illite",
+    "formula": "Al2 H2 K O12 Si4",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.1994,
+      "b": 8.9815,
+      "c": 10.233,
+      "alpha": 90.0,
+      "beta": 101.6,
+      "gamma": 90.0,
+      "volume": 468.105
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013720",
+    "file_path": "data/raw/cod/9013720.cif",
+    "data_block": "9013720",
+    "mineral_name": "Illite",
+    "formula": "Al2 H2 K O12 Si4",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.208,
+      "b": 9.02,
+      "c": 10.166,
+      "alpha": 90.0,
+      "beta": 101.5,
+      "gamma": 90.0,
+      "volume": 467.972
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013721",
+    "file_path": "data/raw/cod/9013721.cif",
+    "data_block": "9013721",
+    "mineral_name": "Illite",
+    "formula": "Al2 H2 K O12 Si4",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.21,
+      "b": 9.02,
+      "c": 10.159,
+      "alpha": 90.0,
+      "beta": 101.4,
+      "gamma": 90.0,
+      "volume": 467.995
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013722",
+    "file_path": "data/raw/cod/9013722.cif",
+    "data_block": "9013722",
+    "mineral_name": "Illite",
+    "formula": "Al2 H2 K O12 Si4",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.235,
+      "b": 9.032,
+      "c": 10.14,
+      "alpha": 90.0,
+      "beta": 101.52,
+      "gamma": 90.0,
+      "volume": 469.786
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013723",
+    "file_path": "data/raw/cod/9013723.cif",
+    "data_block": "9013723",
+    "mineral_name": "Illite",
+    "formula": "Al2 H2 K O12 Si4",
+    "space_group": "C 1 2/m 1",
+    "cell_parameters": {
+      "a": 5.2042,
+      "b": 8.9852,
+      "c": 10.205,
+      "alpha": 90.0,
+      "beta": 101.49,
+      "gamma": 90.0,
+      "volume": 467.631
+    },
+    "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9013732",
+    "file_path": "data/raw/cod/9013732.cif",
+    "data_block": "9013732",
+    "mineral_name": "Illite",
+    "formula": "Al2 H2 K O12 Si4",
+    "space_group": "C 1 2 1",
+    "cell_parameters": {
+      "a": 5.1973,
+      "b": 8.999,
+      "c": 10.147,
+      "alpha": 90.0,
+      "beta": 99.0,
+      "gamma": 90.0,
+      "volume": 468.737
+    },
+    "atom_count": 11,
     "parse_status": "ok"
   },
   {
@@ -178321,6 +181521,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9013974",
+    "file_path": "data/raw/cod/9013974.cif",
+    "data_block": "9013974",
+    "mineral_name": "Plombierite",
+    "formula": "Ca2.5 H11 O12.5 Si3",
+    "space_group": "B 1 1 b",
+    "cell_parameters": {
+      "a": 6.735,
+      "b": 7.425,
+      "c": 27.987,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 123.25,
+      "volume": 1170.43
+    },
+    "atom_count": 20,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9013975",
     "file_path": "data/raw/cod/9013975.cif",
     "data_block": "9013975",
@@ -178957,6 +182177,26 @@
       "volume": 493.691
     },
     "atom_count": 12,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9014034",
+    "file_path": "data/raw/cod/9014034.cif",
+    "data_block": "9014034",
+    "mineral_name": "Burkeite",
+    "formula": "C0.61 Na4 O7.39 S1.39",
+    "space_group": "P m n m :2",
+    "cell_parameters": {
+      "a": 5.17,
+      "b": 9.217,
+      "c": 7.058,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 336.327
+    },
+    "atom_count": 13,
     "parse_status": "ok"
   },
   {
@@ -179777,6 +183017,26 @@
       "volume": 417.959
     },
     "atom_count": 8,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9014152",
+    "file_path": "data/raw/cod/9014152.cif",
+    "data_block": "9014152",
+    "mineral_name": "Leifite",
+    "formula": "Al2.66 Be2 F2 K0.46 Na6.2 O39 Si15.34",
+    "space_group": "P -3 m 1",
+    "cell_parameters": {
+      "a": 14.3446,
+      "b": 14.3446,
+      "c": 4.8455,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 863.468
+    },
+    "atom_count": 14,
     "parse_status": "ok"
   },
   {
@@ -182021,6 +185281,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9014459",
+    "file_path": "data/raw/cod/9014459.cif",
+    "data_block": "9014459",
+    "mineral_name": "Braitschite-(Ce)",
+    "formula": "B24 Ca6.16 Ce1.11 Dy0.042 Er0.015 Eu0.057 Gd0.042 H14.6 Ho0.015 La0.663 Na0.84 Nd0.534 O53 Pr0.144 Sm0.144 Tb0.015 Y0.216",
+    "space_group": "P 6/m",
+    "cell_parameters": {
+      "a": 12.1506,
+      "b": 12.1506,
+      "c": 7.3678,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0,
+      "volume": 942.028
+    },
+    "atom_count": 25,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9014460",
     "file_path": "data/raw/cod/9014460.cif",
     "data_block": "9014460",
@@ -183157,6 +186437,26 @@
       "volume": 1136.223
     },
     "atom_count": 22,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9014615",
+    "file_path": "data/raw/cod/9014615.cif",
+    "data_block": "9014615",
+    "mineral_name": "Guyanaite",
+    "formula": "Cr H2 O2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": 4.8691,
+      "b": 4.3184,
+      "c": 2.9594,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 62.226
+    },
+    "atom_count": 3,
     "parse_status": "ok"
   },
   {
@@ -186021,6 +189321,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9014967",
+    "file_path": "data/raw/cod/9014967.cif",
+    "data_block": "9014967",
+    "mineral_name": "Bukovskyite",
+    "formula": "As Fe2 H19 O18 S",
+    "space_group": "P -1",
+    "cell_parameters": {
+      "a": 7.549,
+      "b": 10.305,
+      "c": 10.904,
+      "alpha": 115.136,
+      "beta": 99.798,
+      "gamma": 92.864,
+      "volume": 749.581
+    },
+    "atom_count": 41,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9014971",
     "file_path": "data/raw/cod/9014971.cif",
     "data_block": "9014971",
@@ -186697,6 +190017,26 @@
       "volume": 205.97
     },
     "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9015059",
+    "file_path": "data/raw/cod/9015059.cif",
+    "data_block": "9015059",
+    "mineral_name": "Schwertmannite",
+    "formula": "Fe O2",
+    "space_group": "P 1",
+    "cell_parameters": {
+      "a": 10.821,
+      "b": 6.002,
+      "c": 10.514,
+      "alpha": 90.0,
+      "beta": 92.6,
+      "gamma": 90.0,
+      "volume": 682.157
+    },
+    "atom_count": 48,
     "parse_status": "ok"
   },
   {
@@ -187637,6 +190977,26 @@
       "volume": 863.853
     },
     "atom_count": 7,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9015185",
+    "file_path": "data/raw/cod/9015185.cif",
+    "data_block": "9015185",
+    "mineral_name": "Schwertmannite",
+    "formula": "Fe8 O17",
+    "space_group": "P 1",
+    "cell_parameters": {
+      "a": 10.821,
+      "b": 6.002,
+      "c": 10.514,
+      "alpha": 90.0,
+      "beta": 92.6,
+      "gamma": 90.0,
+      "volume": 682.157
+    },
+    "atom_count": 50,
     "parse_status": "ok"
   },
   {
@@ -188681,6 +192041,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9015329",
+    "file_path": "data/raw/cod/9015329.cif",
+    "data_block": "9015329",
+    "mineral_name": "Burkeite",
+    "formula": "C0.55 Na4 O7.45 S1.45",
+    "space_group": "P m n m :2",
+    "cell_parameters": {
+      "a": 5.177,
+      "b": 9.224,
+      "c": 7.066,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 337.42
+    },
+    "atom_count": 13,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9015333",
     "file_path": "data/raw/cod/9015333.cif",
     "data_block": "9015333",
@@ -188717,6 +192097,26 @@
       "volume": 891.91
     },
     "atom_count": 6,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9015340",
+    "file_path": "data/raw/cod/9015340.cif",
+    "data_block": "9015340",
+    "mineral_name": "Guyanaite",
+    "formula": "Cr H O2",
+    "space_group": "P 21 n m",
+    "cell_parameters": {
+      "a": 4.8623,
+      "b": 4.2972,
+      "c": 2.9567,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 61.778
+    },
+    "atom_count": 4,
     "parse_status": "ok"
   },
   {
@@ -193121,6 +196521,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9015967",
+    "file_path": "data/raw/cod/9015967.cif",
+    "data_block": "9015967",
+    "mineral_name": "Guyanaite",
+    "formula": "Cr H2 O2",
+    "space_group": "P n n m",
+    "cell_parameters": {
+      "a": 4.8623,
+      "b": 4.2972,
+      "c": 2.9567,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 61.778
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9015970",
     "file_path": "data/raw/cod/9015970.cif",
     "data_block": "9015970",
@@ -194577,6 +197997,26 @@
       "volume": 903.397
     },
     "atom_count": 17,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016181",
+    "file_path": "data/raw/cod/9016181.cif",
+    "data_block": "9016181",
+    "mineral_name": "Burkeite",
+    "formula": "C0.49 Na4 O7.51 S1.51",
+    "space_group": "P m n m :2",
+    "cell_parameters": {
+      "a": 5.198,
+      "b": 9.255,
+      "c": 7.085,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 340.842
+    },
+    "atom_count": 13,
     "parse_status": "ok"
   },
   {
@@ -199481,6 +202921,346 @@
   },
   {
     "source": "COD",
+    "source_id": "9016801",
+    "file_path": "data/raw/cod/9016801.cif",
+    "data_block": "9016801",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.394,
+      "b": 8.394,
+      "c": 8.394,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.435
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016802",
+    "file_path": "data/raw/cod/9016802.cif",
+    "data_block": "9016802",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.35,
+      "b": 8.35,
+      "c": 8.35,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 582.183
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016803",
+    "file_path": "data/raw/cod/9016803.cif",
+    "data_block": "9016803",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.328,
+      "b": 8.328,
+      "c": 8.328,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 577.593
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016804",
+    "file_path": "data/raw/cod/9016804.cif",
+    "data_block": "9016804",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.304,
+      "b": 8.304,
+      "c": 8.304,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 572.614
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016805",
+    "file_path": "data/raw/cod/9016805.cif",
+    "data_block": "9016805",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.272,
+      "b": 8.272,
+      "c": 8.272,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 566.02
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016806",
+    "file_path": "data/raw/cod/9016806.cif",
+    "data_block": "9016806",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.261,
+      "b": 8.261,
+      "c": 8.261,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 563.765
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016807",
+    "file_path": "data/raw/cod/9016807.cif",
+    "data_block": "9016807",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.249,
+      "b": 8.249,
+      "c": 8.249,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 561.311
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016808",
+    "file_path": "data/raw/cod/9016808.cif",
+    "data_block": "9016808",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.236,
+      "b": 8.236,
+      "c": 8.236,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 558.662
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016809",
+    "file_path": "data/raw/cod/9016809.cif",
+    "data_block": "9016809",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.225,
+      "b": 8.225,
+      "c": 8.225,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 556.426
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016810",
+    "file_path": "data/raw/cod/9016810.cif",
+    "data_block": "9016810",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.207,
+      "b": 8.207,
+      "c": 8.207,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 552.781
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016811",
+    "file_path": "data/raw/cod/9016811.cif",
+    "data_block": "9016811",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.198,
+      "b": 8.198,
+      "c": 8.198,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 550.965
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016812",
+    "file_path": "data/raw/cod/9016812.cif",
+    "data_block": "9016812",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.184,
+      "b": 8.184,
+      "c": 8.184,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 548.147
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016813",
+    "file_path": "data/raw/cod/9016813.cif",
+    "data_block": "9016813",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.174,
+      "b": 8.174,
+      "c": 8.174,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 546.14
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016814",
+    "file_path": "data/raw/cod/9016814.cif",
+    "data_block": "9016814",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.158,
+      "b": 8.158,
+      "c": 8.158,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 542.939
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016815",
+    "file_path": "data/raw/cod/9016815.cif",
+    "data_block": "9016815",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.149,
+      "b": 8.149,
+      "c": 8.149,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 541.144
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016816",
+    "file_path": "data/raw/cod/9016816.cif",
+    "data_block": "9016816",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.138,
+      "b": 8.138,
+      "c": 8.138,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 538.956
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9016817",
+    "file_path": "data/raw/cod/9016817.cif",
+    "data_block": "9016817",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :2",
+    "cell_parameters": {
+      "a": 8.125,
+      "b": 8.125,
+      "c": 8.125,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 536.377
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9016891",
     "file_path": "data/raw/cod/9016891.cif",
     "data_block": "9016891",
@@ -201437,6 +205217,46 @@
       "volume": 533.866
     },
     "atom_count": 10,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017038",
+    "file_path": "data/raw/cod/9017038.cif",
+    "data_block": "9017038",
+    "mineral_name": "Widenmannite",
+    "formula": "C H O4.926 Pb0.926 U0.5",
+    "space_group": "P m m n :1",
+    "cell_parameters": {
+      "a": 4.977,
+      "b": 9.3869,
+      "c": 8.9597,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 418.585
+    },
+    "atom_count": 12,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017039",
+    "file_path": "data/raw/cod/9017039.cif",
+    "data_block": "9017039",
+    "mineral_name": "Widenmannite",
+    "formula": "C H O4.824 Pb0.824 U0.5",
+    "space_group": "P m m n :1",
+    "cell_parameters": {
+      "a": 4.977,
+      "b": 9.3869,
+      "c": 8.9597,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 418.585
+    },
+    "atom_count": 12,
     "parse_status": "ok"
   },
   {
@@ -207901,6 +211721,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9017667",
+    "file_path": "data/raw/cod/9017667.cif",
+    "data_block": "9017667",
+    "mineral_name": "Grandaite",
+    "formula": "Al0.68 As1.77 Ba0.079 Ca0.452 Fe0.14 H Mg0.13 Mn0.12 O9 Sr1.469 V0.23",
+    "space_group": "P 1 21/m 1",
+    "cell_parameters": {
+      "a": 7.5764,
+      "b": 5.9507,
+      "c": 8.805,
+      "alpha": 90.0,
+      "beta": 112.551,
+      "gamma": 90.0,
+      "volume": 366.619
+    },
+    "atom_count": 20,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9017669",
     "file_path": "data/raw/cod/9017669.cif",
     "data_block": "9017669",
@@ -208677,6 +212517,46 @@
       "volume": 4427.393
     },
     "atom_count": 26,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017766",
+    "file_path": "data/raw/cod/9017766.cif",
+    "data_block": "9017766",
+    "mineral_name": "Kaolinite",
+    "formula": "Al1.992 Ca0.012 Fe0.016 H4 Mg0.008 O9 Si1.956 Ti0.018",
+    "space_group": "C 1",
+    "cell_parameters": {
+      "a": 5.1546,
+      "b": 8.9425,
+      "c": 7.4033,
+      "alpha": 91.704,
+      "beta": 104.735,
+      "gamma": 89.852,
+      "volume": 329.882
+    },
+    "atom_count": 21,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017767",
+    "file_path": "data/raw/cod/9017767.cif",
+    "data_block": "9017767",
+    "mineral_name": "Kaolinite",
+    "formula": "Al1.992 Ca0.012 Fe0.016 H4 Mg0.008 O9 Si1.956 Ti0.018",
+    "space_group": "C 1",
+    "cell_parameters": {
+      "a": 5.1528,
+      "b": 8.9415,
+      "c": 7.3985,
+      "alpha": 91.715,
+      "beta": 104.756,
+      "gamma": 89.866,
+      "volume": 329.482
+    },
+    "atom_count": 21,
     "parse_status": "ok"
   },
   {
@@ -209861,6 +213741,26 @@
   },
   {
     "source": "COD",
+    "source_id": "9017907",
+    "file_path": "data/raw/cod/9017907.cif",
+    "data_block": "9017907",
+    "mineral_name": "Artesunate",
+    "formula": "C19 O8",
+    "space_group": "P 21 21 21",
+    "cell_parameters": {
+      "a": 9.837,
+      "b": 10.517,
+      "c": 18.7594,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 1940.767
+    },
+    "atom_count": 27,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
     "source_id": "9017910",
     "file_path": "data/raw/cod/9017910.cif",
     "data_block": "9017910",
@@ -210077,6 +213977,86 @@
       "volume": 607.195
     },
     "atom_count": 33,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017923",
+    "file_path": "data/raw/cod/9017923.cif",
+    "data_block": "9017923",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.3969,
+      "b": 8.3969,
+      "c": 8.3969,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.048
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017924",
+    "file_path": "data/raw/cod/9017924.cif",
+    "data_block": "9017924",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.3941,
+      "b": 8.3941,
+      "c": 8.3941,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.456
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017925",
+    "file_path": "data/raw/cod/9017925.cif",
+    "data_block": "9017925",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.3985,
+      "b": 8.3985,
+      "c": 8.3985,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 592.387
+    },
+    "atom_count": 3,
+    "parse_status": "ok"
+  },
+  {
+    "source": "COD",
+    "source_id": "9017926",
+    "file_path": "data/raw/cod/9017926.cif",
+    "data_block": "9017926",
+    "mineral_name": "Magnetite",
+    "formula": "Fe3 O4",
+    "space_group": "F d -3 m :1",
+    "cell_parameters": {
+      "a": 8.3941,
+      "b": 8.3941,
+      "c": 8.3941,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 591.456
+    },
+    "atom_count": 3,
     "parse_status": "ok"
   },
   {

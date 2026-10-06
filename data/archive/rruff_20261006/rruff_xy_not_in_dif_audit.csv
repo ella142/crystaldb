@@ -1,0 +1,260 @@
+sample_id,filename_sample_id,has_raw,has_processed,raw_point_count,processed_point_count,mineral,diffraction_sample_description,filetype,profile_origin
+XD120001,D120001-1,True,False,999,,Artesunate,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120003,D120003-1,True,False,999,,Magnesium stearate,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120007,D120007-1,True,False,999,,Paracetamol,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120009,D120009-1,True,False,999,,Wheat starch,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120011,D120011-1,True,False,1000,,Artemisinin,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120016,D120016-1,True,False,999,,Atorvastatin,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120017,D120017-1,True,False,999,,Atenolol,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120024,D120024-1,True,False,999,,Artesunate,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+XD120025,D120025-1,True,False,999,,Colchicine,"Powder, Co-radiation",RAW Powder Diffraction Profile,experimental
+R040023,R040023-1,True,True,8501,8501,Hauyne,Powder,RAW Powder Diffraction Profile,experimental
+R040043,R040043-1,True,False,8500,,Marialite,"Powder, 78% marialite, 22% calcite, by weight",RAW Powder Diffraction Profile,experimental
+R040071,R040071-1,True,True,8500,8501,Humite,Powder,RAW Powder Diffraction Profile,experimental
+R040101,R040101-1,True,True,8500,8500,Trilithionite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R040138,R040138-1,True,True,8499,8499,Zinnwaldite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050037,R050037-1,True,True,8501,8501,Descloizite,Powder,RAW Powder Diffraction Profile,experimental
+R050043,R050043-1,True,True,8501,8501,Allanite-(Ce),"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050053,R050053-1,True,False,8499,,Chrysocolla,Powder,RAW Powder Diffraction Profile,experimental
+R050087,R050087-1,True,True,8501,8501,Talc,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050123,R050123-1,True,True,8501,8501,Marialite,Powder,RAW Powder Diffraction Profile,experimental
+R050134,R050134-1,True,False,8501,,Hectorite,Powder,RAW Powder Diffraction Profile,experimental
+R050152,R050152-9,False,True,,8501,Natrochalcite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050163,R050163-9,False,True,,8501,Penfieldite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050168,R050168-9,True,False,8501,,Kinoite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050169,R050169-9,False,True,,8501,Hydroxyapophyllite-(K),"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050170,R050170-9,True,False,8501,,Salesite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050175,R050175-1,True,True,8501,8501,Cylindrite,Powder,RAW Powder Diffraction Profile,experimental
+R050213,R050213-9,False,True,,8501,Lindgrenite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050234,R050234-1,True,True,8501,8501,Xanthoxenite,Powder,RAW Powder Diffraction Profile,experimental
+R050244,R050244-1,True,True,8501,8501,Mangano-mangani-ungarettiite,"Powder, appears to be a mix of ungarettiite and namansilite, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050264,R050264-9,True,True,1440,1440,Pseudomalachite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050265,R050265-9,True,False,8501,,Verplanckite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050268,R050268-1,True,True,5000,5000,Zaratite,Powder,RAW Powder Diffraction Profile,experimental
+R050325,R050325-9,True,False,1988,,Straczekite,"Single crystal spun on X8, with Mo radiation",RAW Powder Diffraction Profile,uncertain
+R050329,R050329-1,True,True,8501,8501,Cylindrite,Powder,RAW Powder Diffraction Profile,experimental
+R050338,R050338-9,True,False,8501,,Yedlinite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050380,R050380-1,False,True,,5059,Uranophane,Powder,Processed Powder Diffraction Profile,experimental
+R050381,R050381-9,True,False,8501,,Eddavidite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050422,R050422-9,False,True,,8501,Nosean,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050429,R050429-1,True,True,8501,8501,Baumhauerite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050432,R050432-1,True,True,8501,8501,Jamesonite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050437,R050437-1,True,True,8501,8501,Argyrodite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050451,R050451-1,True,True,8501,8501,Chalcophanite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050452,R050452-9,True,True,1632,1632,Tungstite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050464,R050464-1,True,True,8501,8501,Vivianite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050466,R050466-9,True,False,8501,,Sinkankasite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050467,R050467-9,True,False,8501,,Variscite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050490,R050490-1,True,True,8501,8501,Vermiculite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050510,R050510-1,True,True,8501,8501,Anapaite,Powder includes light and dark phases. Cell parameters from single crystal,RAW Powder Diffraction Profile,experimental
+R050531,R050531-9,True,True,1482,1482,Malachite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050534,R050534-1,True,False,2150,,Phurcalite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050537,R050537-9,False,True,,8501,Pharmacolite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050538,R050538-9,True,False,8501,,Calderonite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050542,R050542-1,True,True,8501,8501,Ferrimolybdite,Powder,RAW Powder Diffraction Profile,experimental
+R050542,R050542-9,True,True,1970,1970,Ferrimolybdite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050546,R050546-1,True,True,8501,8501,Bindheimite,Powder,RAW Powder Diffraction Profile,experimental
+R050552,R050552-1,True,False,8501,,Ramsdellite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050560,R050560-9,True,True,1970,1970,Picropharmacolite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050566,R050566-1,True,True,8501,8501,Ferrimolybdite,Powder,RAW Powder Diffraction Profile,experimental
+R050568,R050568-9,False,True,,8501,Stolzite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050572,R050572-9,True,True,1951,1951,Sampleite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050573,R050573-9,False,True,,8501,Walpurgite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050583,R050583-9,True,False,8501,,Zincolivenite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050584,R050584-9,False,True,,8501,Schultenite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050585,R050585-9,True,False,8501,,Keyite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050597,R050597-9,False,True,,8501,Pseudomalachite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R050619,R050619-1,True,True,8501,8501,Strunzite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050622,R050622-1,True,True,8501,8501,Frondelite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050630,R050630,True,True,1902,1902,Bukovskyite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R050630,R050630-1,True,True,8501,8501,Bukovskyite,Powder,RAW Powder Diffraction Profile,experimental
+R050635,R050635-9,True,False,8501,,Hydrozincite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R050647,R050647-9,True,False,8501,,Heulandite-Ca,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R050673,R050673-9,False,True,,8501,Gowerite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060007,R060007-9,True,True,1760,1760,Chalcosiderite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060008,R060008-9,True,True,1691,1691,Braitschite-(Ce),"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060012,R060012-9,False,True,,8501,Hydrokenoralstonite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060014,R060014-1,True,True,8501,8501,Alum-(K),Powder,RAW Powder Diffraction Profile,experimental
+R060022,R060022-1,True,False,8501,,Yttrotantalite-(Y),Powder,RAW Powder Diffraction Profile,experimental
+R060030,R060030-9,True,False,8501,,Kalsilite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060031,R060031-1,True,True,8501,8501,Howieite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060036,R060036-9,False,True,,8501,Wadeite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060046,R060046-1,True,True,8501,8501,Tritomite-(Ce),Powder,RAW Powder Diffraction Profile,experimental
+R060049,R060049-9,True,False,8501,,Cuspidine,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060051,R060051-9,True,False,8501,,Hexahydrite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060058,R060058-9,True,False,8501,,Eulytine,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060100,R060100-1,True,True,8501,8501,Frankamenite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060105,R060105-1,True,True,8501,8501,Orpiment,Powder,RAW Powder Diffraction Profile,experimental
+R060109,R060109-1,True,False,8501,,Getchellite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060112,R060112-1,True,True,39,8501,Burkeite,"Powder, mixed with thenardite",RAW Powder Diffraction Profile,experimental
+R060116,R060116-1,True,True,8501,8501,Orpiment,Powder,RAW Powder Diffraction Profile,experimental
+R060128,R060128-9,False,True,,8501,Bavenite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060140,R060140-9,True,False,8501,,Collinsite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060147,R060147-1,True,True,8501,8501,Tobermorite,Powder,RAW Powder Diffraction Profile,experimental
+R060152,R060152-9,True,False,8501,,Celsian,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060158,R060158-9,False,True,,8501,Gorceixite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060165,R060165-1,True,True,8501,8501,Pyrochlore,Powder,RAW Powder Diffraction Profile,experimental
+R060172,R060172-1,True,True,8501,8501,Polylithionite,"Powder, with trace corundum contamination from the grinding process",RAW Powder Diffraction Profile,experimental
+R060173,R060173-9,False,True,,8501,Diaphorite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060174,R060174-9,False,True,,8501,Freieslebenite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060176,R060176-9,False,True,,8501,Wakefieldite-(Ce),"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060188,R060188-1,True,True,8501,8501,Chamosite,Powder,RAW Powder Diffraction Profile,experimental
+R060204,R060204-1,True,False,8501,,Annite,Powder,RAW Powder Diffraction Profile,experimental
+R060209,R060209-9,True,False,8501,,Ferrilotharmeyerite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060210,R060210-9,False,True,,8501,Synchysite-(Ce),"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060211,R060211-1,True,True,8501,8501,Annite,Powder,RAW Powder Diffraction Profile,experimental
+R060212,R060212-9,False,True,,8501,Andalusite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060218,R060218-9,False,True,,8501,Ancylite-(Ce),"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060219,R060219-1,True,True,8501,8501,Leifite,Powder,RAW Powder Diffraction Profile,experimental
+R060220,R060220-9,False,True,,8501,Petarasite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060222,R060222-1,True,False,8501,,Magnetite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060223,R060223-9,False,True,,8501,Petarasite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060224,R060224-1,True,True,8501,8501,Sassolite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060235,R060235-9,False,True,,8501,Arthurite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060236,R060236-9,False,True,,8501,Jarosite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060238,R060238-9,True,False,8501,,Romerite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060241,R060241-9,False,True,,8501,Lindgrenite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060244,R060244-1,True,True,8501,8501,Balangeroite,Powder,RAW Powder Diffraction Profile,experimental
+R060245,R060245-9,False,True,,8501,Kentrolite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060251,R060251-9,False,True,,8501,Baotite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060259,R060259-1,True,True,8501,8501,Carlosturanite,Powder,RAW Powder Diffraction Profile,experimental
+R060265,R060265-1,True,True,8501,8501,Corvusite,Powder,RAW Powder Diffraction Profile,experimental
+R060271,R060271-9,False,True,,8501,Chalcophanite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060273,R060273-9,False,True,,8501,Sainfeldite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060291,R060291-1,True,True,8501,8501,Hydroxylclinohumite,Powder,RAW Powder Diffraction Profile,experimental
+R060293,R060293-1,True,True,8501,8501,Eosphorite,Powder,RAW Powder Diffraction Profile,experimental
+R060297,R060297-1,True,True,8501,8501,Marialite,Powder,RAW Powder Diffraction Profile,experimental
+R060302,R060302-9,True,True,1466,1466,Decrespignyite-(Y),"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060307,R060307-9,True,True,1544,1544,Karibibite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060312,R060312-1,True,True,8501,8501,Aeschynite-(Y),"Powder, pattern is consistent with a partially metamic sample of aeschynite-(Ce)",RAW Powder Diffraction Profile,experimental
+R060317,R060317-1,True,True,8501,8501,Bisbeeite,Powder,RAW Powder Diffraction Profile,experimental
+R060343,R060343-1,True,True,8501,8501,Siderazot,Powder,RAW Powder Diffraction Profile,experimental
+R060353,R060353-1,True,True,8501,8501,Hydroxylherderite,Powder,RAW Powder Diffraction Profile,experimental
+R060357,R060357-1,True,True,8501,8501,Libyan Desert glass,"Powder, amorphous",RAW Powder Diffraction Profile,experimental
+R060363,R060363-1,True,True,8501,8501,Rhodonite,Powder,RAW Powder Diffraction Profile,experimental
+R060382,R060382-1,True,True,8501,8501,Grossular,Powder,RAW Powder Diffraction Profile,experimental
+R060383,R060383-1,True,True,8501,8501,Eudidymite,Powder,RAW Powder Diffraction Profile,experimental
+R060389,R060389-1,True,True,8501,8501,Talnakhite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060411,R060411-9,False,True,,8501,Pharmacoalumite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060418,R060418-1,True,True,8501,8501,Allanite-(Ce),"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060440,R060440-1,True,True,8501,8501,Pyrrhotite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060474,R060474-1,True,True,8501,8501,Ilvaite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060489,R060489-1,True,True,8501,8501,Sanbornite,Powder,RAW Powder Diffraction Profile,experimental
+R060494,R060494-1,True,True,8501,8501,Lazulite,Powder,RAW Powder Diffraction Profile,experimental
+R060503,R060503-9,False,True,,8501,Connellite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R060540,R060540-1,True,True,8501,8501,Zirkelite,Powder,RAW Powder Diffraction Profile,experimental
+R060547,R060547-1,True,True,8501,8501,Chrysocolla,Powder,RAW Powder Diffraction Profile,experimental
+R060551,R060551-1,True,True,8501,8501,Forsterite,Powder,RAW Powder Diffraction Profile,experimental
+R060569,R060569-1,True,False,8501,,Amber,Powder,RAW Powder Diffraction Profile,experimental
+R060613,R060613-1,True,True,8501,8501,Brannerite,Powder,RAW Powder Diffraction Profile,experimental
+R060650,R060650-1,True,False,8501,,Opal,Powder,RAW Powder Diffraction Profile,experimental
+R060651,R060651-1,True,False,8501,,Opal,Powder,RAW Powder Diffraction Profile,experimental
+R060652,R060652-1,True,False,8501,,Opal,Powder,RAW Powder Diffraction Profile,experimental
+R060653,R060653-1,True,False,8501,,Opal,Powder,RAW Powder Diffraction Profile,experimental
+R060680,R060680-1,True,True,8501,8501,Arsenolamprite,Powder,RAW Powder Diffraction Profile,experimental
+R060688,R060688-9,True,True,1167,1167,Anilite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060701,R060701-9,True,False,8501,,Correianevesite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R060732,R060732-9,True,True,1960,1960,Haiweeite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060747,R060747-1,True,True,8501,8501,Wakabayashilite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060755,R060755-1,True,True,8501,8501,Metastibnite,Powder,RAW Powder Diffraction Profile,experimental
+R060762,R060762-9,True,True,2104,2104,Woodwardite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060842,R060842-9,True,True,1385,1385,Nakauriite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R060856,R060856-1,True,False,8501,,Euxenite-(Y),Powder,RAW Powder Diffraction Profile,experimental
+R060886,R060886-1,True,True,8501,8501,Murmanite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R060977,R060977-1,True,False,8501,,Orthoserpierite,Powder,RAW Powder Diffraction Profile,experimental
+R060994,R060994-1,True,True,8501,8501,Magadiite,Powder,RAW Powder Diffraction Profile,experimental
+R060999,R060999-1,True,True,8501,8501,Pyroxmangite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R061006,R061006-1,True,True,8501,8501,Reinhardbraunsite,Powder,RAW Powder Diffraction Profile,experimental
+R061080,R061080-1,True,True,8501,8501,Clinochlore,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R070008,R070008-1,True,True,8501,8501,Caryochroite,Powder,RAW Powder Diffraction Profile,experimental
+R070028,R070028,True,True,1511,1511,Calcurmolite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R070038,R070038,True,True,1550,1542,Uranophane,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R070088,R070088-1,True,True,8501,8501,Chrysotile,Powder,RAW Powder Diffraction Profile,experimental
+R070098,R070098-1,True,True,8501,8501,Foshagite,Powder,RAW Powder Diffraction Profile,experimental
+R070108,R070108-1,True,True,8501,8501,Godovikovite,Powder,RAW Powder Diffraction Profile,experimental
+R070132,R070132-1,True,True,8501,8501,Amesite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R070162,R070162-1,True,True,8501,8501,Plombierite,Powder,RAW Powder Diffraction Profile,experimental
+R070180,R070180-1,True,False,1528,,Caryopilite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R070227,R070227-1,True,True,8501,8501,Brewsterite-Sr,Powder,RAW Powder Diffraction Profile,experimental
+R070231,R070231-9,True,False,9001,,Augite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R070286,R070286-1,True,False,8501,,Nontronite,Powder,RAW Powder Diffraction Profile,experimental
+R070319,R070319-1,True,True,8501,8501,Arrojadite-(KFe),"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R070324,R070324-1,True,True,8501,8501,Euxenite-(Y),Powder,RAW Powder Diffraction Profile,experimental
+R070333,R070333-1,True,True,8501,8501,Djurleite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R070340,R070340-1,True,True,8501,8501,Gadolinite-(Y),Powder,RAW Powder Diffraction Profile,experimental
+R070345,R070345-1,True,True,8501,8501,Carnotite,Powder,RAW Powder Diffraction Profile,experimental
+R070372,R070372-1,True,True,8501,8501,Cobaltite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R070442,R070442-1,True,True,8501,8501,Ferroceladonite,Powder,RAW Powder Diffraction Profile,experimental
+R070444,R070444-1,True,True,8501,8501,Guyanaite,"Powder, mixture includes bracewellite, eskolaite and quartz",RAW Powder Diffraction Profile,experimental
+R070477,R070477-1,True,True,8501,8501,Zykaite,Powder,RAW Powder Diffraction Profile,experimental
+R070496,R070496-1,True,True,8501,8501,Ishikawaite,Powder,RAW Powder Diffraction Profile,experimental
+R070500,R070500-9,True,True,1462,1462,Cyanotrichite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R070505,R070505-9,True,True,1334,1334,Naumannite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R070513,R070513-9,True,True,1527,1504,Ilsemannite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R070598,R070598-1,True,True,8501,8501,Anorthite,"Powder, with other plagioclase-series minerals",RAW Powder Diffraction Profile,experimental
+R070611,R070611-9,True,False,8501,,Safflorite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R070627,R070627-1,True,False,8501,,Opal,Powder,RAW Powder Diffraction Profile,experimental
+R070644,R070644-9,True,False,8501,,Glaucodot,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R070742,R070742-1,True,True,8501,8501,Pyrochlore,Powder,RAW Powder Diffraction Profile,experimental
+R070750,R070750-1,True,True,8501,8501,Valleriite,Powder,RAW Powder Diffraction Profile,experimental
+R070755,R070755-1,True,True,8501,8501,Tunellite,"Powder, cell parameters are from single crystal",RAW Powder Diffraction Profile,experimental
+R080029,R080029-9,True,True,1421,1421,Widenmannite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R080032,R080032-9,True,True,1501,1501,Cymrite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R080046,R080046-1,True,True,8501,8501,Yttrotantalite-(Y),Powder,RAW Powder Diffraction Profile,experimental
+R080048,R080048-9,True,True,1512,1512,Slavikite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R080058,R080058-1,True,True,8501,8501,Pyrochlore,Powder,RAW Powder Diffraction Profile,experimental
+R080076,R080076,True,True,1505,1505,Borocookeite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R080092,R080092-1,True,True,8501,8501,Allanite-(Ce),Powder,RAW Powder Diffraction Profile,experimental
+R080123,R080123,True,True,2112,2112,Planerite,"Powder, using Mo radiation",RAW Powder Diffraction Profile,experimental
+R090056,R090056-1,True,False,8501,,Coronadite,"Powder, cannot refine cell parameters, though search match routines identify this is coronadite",RAW Powder Diffraction Profile,experimental
+R110052,R110052-1,True,False,8501,,Montmorillonite,Powder,RAW Powder Diffraction Profile,experimental
+R110053,R110053-1,True,False,8501,,Montmorillonite,Powder,RAW Powder Diffraction Profile,experimental
+R130003,R130003-1,True,True,8501,8501,Thorianite,Powder,RAW Powder Diffraction Profile,experimental
+R130008,R130008-9,False,True,,1287,Argesite,"Single crystal, powder profile is calculated",Processed Powder Diffraction Profile,calculated
+R130010,R130010-9,True,False,1025,,Zaccariniite,"Single crystal, powder profile is calculated with Cu radiation",RAW Powder Diffraction Profile,calculated
+R140004,R140004-1,True,False,8501,,Kaolinite,Powder,RAW Powder Diffraction Profile,experimental
+R140946,R140946-1,True,False,1890,,Lipuite,Powder,RAW Powder Diffraction Profile,experimental
+R150020,R150020-1,False,True,,8501,Calcite,Powder,Processed Powder Diffraction Profile,experimental
+R150021,R150021-1,True,False,8501,,Aragonite,Powder,RAW Powder Diffraction Profile,experimental
+R180016,R180016,True,False,2174,,Liudongshengite,,RAW Powder Diffraction Profile,uncertain
+R180022,R180022,True,False,3534,,Guite,Powder,RAW Powder Diffraction Profile,experimental
+R180023,R180023,True,False,3490,,Wuyanzhiite,Powder,RAW Powder Diffraction Profile,experimental
+R180024,R180024-1,True,False,8501,,Illite,Powder,RAW Powder Diffraction Profile,experimental
+R180028,R180028,True,False,3851,,Fluorcarletonite,Powder,RAW Powder Diffraction Profile,experimental
+R210008,R210008PowderX-raydiffractiondata,True,False,8401,,Petermegawite,,RAW Powder Diffraction Profile,uncertain
+R210010,R210010,True,False,7501,,Bernardevansite,Powder,RAW Powder Diffraction Profile,experimental
+R210017,R210017,True,False,8001,,Loomisite,,RAW Powder Diffraction Profile,uncertain
+R220001,R220001,True,False,7501,,Liangjunite,Powder X-ray,RAW Powder Diffraction Profile,experimental
+R220002,R220002-1,True,True,6701,6701,Schwertmannite,"Powder, sharp peak is quartz",RAW Powder Diffraction Profile,experimental
+R220010,R220010,True,False,7015,,Zhenruite,,RAW Powder Diffraction Profile,uncertain
+R220011,R220011-9,True,False,7501,,Stanevansite,Powder X-ray on a Rigaku Xtalab Synergy single crystal diffractometer (CuKα radiation) in Gandolfi powder mode at 50kV and 1mA,RAW Powder Diffraction Profile,experimental
+R220025,R220025,True,False,9501,,Lianbinite,"Powder, using Gandolfi mode",RAW Powder Diffraction Profile,experimental
+R220033,R220033,True,False,1801,,Lombardoite,"Cell parameters are from powder data, profile is calculated",RAW Powder Diffraction Profile,calculated
+R220034,R220034,True,False,1801,,Aldomarinoite,"Cell parameters are from powder data, profile is calculated",RAW Powder Diffraction Profile,calculated
+R220035,R220035,True,False,1801,,Canosioite,"Cell parameters are from powder data, profile is calculated",RAW Powder Diffraction Profile,calculated
+R220036,R220036,True,False,1801,,Castellaroite,"Cell parameters are from powder data, profile is calculated",RAW Powder Diffraction Profile,calculated
+R220038,R220038,True,False,1801,,Rudlingerite,Single crystal,RAW Powder Diffraction Profile,uncertain
+R220040,R220040,True,False,1801,,Braccoite,Calculated powder profile,RAW Powder Diffraction Profile,calculated
+R220042,R220042,True,False,1801,,Mopungite,"Powder, profile is calculated",RAW Powder Diffraction Profile,calculated
+R220043,R220043,True,False,1801,,Ottensite,"Powder, profile is calculated",RAW Powder Diffraction Profile,calculated
+R220045,R220045,True,False,1801,,Fluorcarmoite-(BaNa),"Powder, profile is calculated",RAW Powder Diffraction Profile,calculated
+R220046,R220046,True,False,1801,,Grandaite,Powder,RAW Powder Diffraction Profile,experimental
+R220048,R220048,True,False,10501,,Downsite,,RAW Powder Diffraction Profile,uncertain
+R230010,R230010,False,True,,1801,Domitrovicite,Cell parameters from micropowder in Gandolfi mode. Profile is calculated from single-crystal structural data using Cu radiation,Processed Powder Diffraction Profile,calculated
+R230012,R230012,True,False,1801,,Agakhanovite-(Y),"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R230013,R230013,True,False,1801,,Ahrensite,"Fragment recorded at synchrotron, profile is calculated",RAW Powder Diffraction Profile,calculated
+R230014,R230014-9,True,False,1801,,Adachiite,"Single crystal, powder profile is calculated",RAW Powder Diffraction Profile,calculated
+R240007,R240007,True,False,8301,,Fuchunite,Powder,RAW Powder Diffraction Profile,experimental
+R240009,R240009,False,True,,1401,Stankeithite,Powder profile is computed from its crystal structure,Processed Powder Diffraction Profile,calculated
+R250001,R250001-1,True,True,23635,23635,Alicewilsonite-(YLa),Powder,RAW Powder Diffraction Profile,experimental
+R250010,R250010,True,True,3005,3005,Dacostaite,Powder in Gandolfi mode,RAW Powder Diffraction Profile,experimental
+R250016,R250016,True,True,8696,8696,Cuprodobrovolskyite,Powder,RAW Powder Diffraction Profile,experimental
+R250018,R250018,False,True,,1801,Agaite,Single crystal,Processed Powder Diffraction Profile,uncertain
+R250019,R250019,False,True,,1801,Allantoin,Single crystal,Processed Powder Diffraction Profile,uncertain
+R250020,R250020,False,True,,1801,Natrosulfatourea,Single crystal,Processed Powder Diffraction Profile,uncertain
+R250023,R250023,False,True,,1229,Ammoniozippeite,"Powder, profile is calculated",Processed Powder Diffraction Profile,calculated
+R250050,R250050,True,True,3306,3306,Elliottite,"Powder, with contamination from minyulite",RAW Powder Diffraction Profile,experimental
+R250071,R250071,True,True,3001,3001,Jahnsite-(MnMnZn),Powder,RAW Powder Diffraction Profile,experimental
+R250123,R250123,True,False,5982,,Shiranuiite,"Powder, presence of strong peaks of tulamenite and small peaks of unknown phases",RAW Powder Diffraction Profile,experimental
+R250126,R250126,True,False,1201,,Nannoniite,Powder,RAW Powder Diffraction Profile,experimental
+R250144,R250144,True,False,3001,,Uranoclite,Powder,RAW Powder Diffraction Profile,experimental

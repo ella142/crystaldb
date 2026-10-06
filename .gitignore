@@ -73,3 +73,32 @@ paper/~*.tmp
 ~*.tmp
 
 data/mappings/cod_coverage_results.json
+
+# Laboratory XRD staged byte copies; keep manifest and summary reviewable
+data/staging/lab_xrd/txt/
+
+# COD single-crystal scientific files; retain only import metadata/manifests
+data/single_crystal/cod/cif/
+data/single_crystal/cod/hkl/
+
+# Canonical laboratory powder-XRD patterns are generated data
+data/powder/lab/patterns/
+
+# OPXRD-COD paired scientific files; keep the small pair manifest reviewable
+data/powder/opxrd/json/
+data/powder/opxrd/cif/
+
+# Local MongoDB backups; never commit database dumps
+backups/
+
+# Temporary RRUFF COD rescue staging
+data/staging/rruff_xy_not_in_dif_cod_rescue_v1/
+
+# Generated/canonical scientific data; keep manifests and provenance in Git
+data/powder/
+data/multi-phase/
+data/staging/
+data/structure/
+
+data/mappings/cod_single_crystal_import_records_v1.jsonl
+data/mappings/rescue_review_v1/rruff_rescue_candidates_v1.json

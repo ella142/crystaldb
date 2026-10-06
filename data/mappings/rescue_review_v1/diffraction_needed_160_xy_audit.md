@@ -1,0 +1,196 @@
+# Diffraction-Validation-Needed 160 XY Audit
+
+本审计只处理 `rescue_review_v1` 当前 160 条 `diffraction_validation_needed` 样品。
+未重新搜索 COD、下载 CIF、运行 diffraction matching，也未修改 807 curated、12 条 rescue-ready、177 条 DIF 外 final manifest、v2/v3、MongoDB 或正式 CrystalDB。
+
+## Summary
+
+- 160 total = 160
+- experimental_xy_available = 67
+- calculated_only = 93
+- uncertain_origin = 0
+- no_usable_xy = 0
+- four_class_sum = 160
+- four_class_sum_matches_160 = true
+
+## Classification Rules
+
+- `experimental_xy_available`: valid non-empty equal-length XY arrays exist, and the original `DIFFRACTION SAMPLE DESCRIPTION` contains `Powder` without calculated/simulated/computed wording.
+- `calculated_only`: valid XY arrays exist, but all usable profiles explicitly contain calculated/simulated/computed wording.
+- `uncertain_origin`: valid XY arrays exist, but the description does not reliably identify either origin.
+- `no_usable_xy`: no valid non-empty equal-length `two_theta` and `intensity` arrays exist.
+
+raw and processed records were merged by `filename_sample_id`; the two representations of one measurement are not counted twice.
+For shared metadata, the original description values are preserved. The source description is not inferred from the presence of raw or processed data.
+
+## Audit Rows
+
+| sample_id | filename_sample_id | has_raw | has_processed | raw_point_count | processed_point_count | diffraction_sample_description | xy_origin_status | reason |
+|---|---|---|---|---:|---:|---|---|---|
+| R040027 | R040027-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040036 | R040036-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040090 | R040090-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040091 | R040091-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040107 | R040107-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040128 | R040128-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040160 | R040160-9 | true | true | 1292 | 1292 | Powder, using Mo radiation | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040165 | R040165-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040171 | R040171-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040172 | R040172-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040173 | R040173-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040174 | R040174-1 | true | true | 8500 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R040181 | R040181-1 | true | true | 8500 | 8500 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050014 | R050014-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050024 | R050024-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050035 | R050035-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050056 | R050056-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050075 | R050075-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050089 | R050089-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050092 | R050092-1 | true | true | 8501 | 8501 | Powder, mixed with chalcopyrite [a:5.2903(5), c: 10.432(1)] | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050094 | R050094-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050149 | R050149-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050218 | R050218-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R050233 | R050233-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050279 | R050279-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050355 | R050355-1 | true | false | 8501 | null | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050385 | R050385-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050388 | R050388-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050390 | R050390-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050399 | R050399-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050403 | R050403-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050414 | R050414-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050442 | R050442-1 | true | false | 8501 | null | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050445 | R050445-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R050489 | R050489-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050501 | R050501-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050532 | R050532-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R050543 | R050543-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R050578 | R050578-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R050625 | R050625-1 | true | false | 8501 | null | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060023 | R060023-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060054 | R060054-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060060 | R060060-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060073 | R060073-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060117 | R060117-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060133 | R060133-1 | false | true | null | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060156 | R060156-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060170 | R060170-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060192 | R060192-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060198 | R060198-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060215 | R060215-1 | true | false | 8501 | null | Powder, with trace corundum contamination from the grinding process | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060237 | R060237-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060253 | R060253-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060272 | R060272-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060292 | R060292-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060300 | R060300-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060301 | R060301-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060314 | R060314-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060417 | R060417-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060467 | R060467-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060501 | R060501-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060502 | R060502-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060512 | R060512-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060516 | R060516-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060520 | R060520-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060532 | R060532-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060542 | R060542-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060580 | R060580-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060589 | R060589-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060592 | R060592-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060622 | R060622-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060639 | R060639-9 | true | true | 1479 | 1479 | Powder, using Mo radiation | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060669 | R060669-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060700 | R060700-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060725 | R060725-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060736 | R060736-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060780 | R060780-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R060796 | R060796-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060797 | R060797-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060901 | R060901-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R060902 | R060902-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061018 | R061018-9 | false | true | null | 8501 | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061020 | R061020-1 | true | true | 8501 | 8501 | Powder, mixed with andradite: a:12.0607(4) | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R061023 | R061023-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061029 | R061029-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061031 | R061031-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R061043 | R061043-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R061074 | R061074-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061076 | R061076-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R061095 | R061095-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061106 | R061106-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061131 | R061131-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R061140 | R061140-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070010 | R070010-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070099 | R070099-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070137 | R070137-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R070226 | R070226-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070229 | R070229-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R070252 | R070252-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070314 | R070314-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070317 | R070317-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070353 | R070353-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070401 | R070401-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070426 | R070426-9 | true | false | 9001 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070427 | R070427-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070440 | R070440-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070462 | R070462-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070474 | R070474-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070552 | R070552-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070584 | R070584-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070591 | R070591-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070661 | R070661-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070683 | R070683-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070686 | R070686-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R070698 | R070698-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R070719 | R070719-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080024 | R080024-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080045 | R080045-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R080070 | R080070-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080084 | R080084-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080089 | R080089-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080095 | R080095-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080118 | R080118-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080140 | R080140-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R080146 | R080146-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R090003 | R090003-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R090006 | R090006-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R090025 | R090025-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R090026 | R090026-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R090027 | R090027-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R090057 | R090057-1 | true | true | 8501 | 8501 | Powder | experimental_xy_available | Valid XY is present and the original description contains powder wording without calculated/simulated/computed wording. |
+| R100017 | R100017-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R100062 | R100062-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R100067 | R100067-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R100130 | R100130-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R100180 | R100180-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R110050 | R110050-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R110114 | R110114-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R110179 | R110179-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R110201 | R110201-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R120019 | R120019-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R120088 | R120088-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R120089 | R120089-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R120098 | R120098-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R120100 | R120100-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R120163 | R120163-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R120170 | R120170-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R130021 | R130021-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R130024 | R130024-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R130031 | R130031-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R130039 | R130039-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R130094 | R130094-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R130243 | R130243-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R130281 | R130281-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R140860 | R140860-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R140873 | R140873-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R150038 | R150038-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R150130 | R150130-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R150146 | R150146-9 | true | false | 8501 | null | Single crystal, powder profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+| R250095 | R250095 | false | true | null | 1801 | Powder, profile is calculated | calculated_only | Valid XY is present, but all usable profiles are explicitly calculated/simulated/computed in the original description. |
+
+## Exact Sources
+
+- Target sample list: `data/mappings/rescue_review_v1/rruff_rescue_summary_v1.csv` filtered by `rescue_category=diffraction_validation_needed`.
+- XY collections: MongoDB database `rruff`, collections `xy_raw` and `xy_processed`.
+- Source metadata field: `metadata["DIFFRACTION SAMPLE DESCRIPTION"]`.
+- XY validity fields: `xrd.two_theta` and `xrd.intensity`, both non-empty and equal length.

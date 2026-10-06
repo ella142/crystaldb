@@ -1,0 +1,109 @@
+{
+  "source": "Crystallography Open Database",
+  "selection": {
+    "has_fobs": true
+  },
+  "retrieval_timestamp_utc": "2026-10-02T09:08:05.918756+00:00",
+  "current_cod_id_count": 58949,
+  "processing_id_count": 1115,
+  "processing_scope": {
+    "only_missing": true,
+    "explicit_ids": null,
+    "limit": null
+  },
+  "existing_before": {
+    "cif": 57834,
+    "hkl": 57834,
+    "complete_pairs": 57834
+  },
+  "download_results": {
+    "cif_skipped": 0,
+    "cif_downloaded": 1115,
+    "cif_failed": 0,
+    "hkl_skipped": 0,
+    "hkl_downloaded": 1113,
+    "hkl_failed": 2
+  },
+  "final": {
+    "cif_count": 58949,
+    "hkl_count": 58947,
+    "complete_pairs": 58947,
+    "cif_only": 2,
+    "hkl_only": 0,
+    "target_ids_missing_cif": 0,
+    "target_ids_missing_hkl": 2,
+    "local_ids_not_in_current_target": 0,
+    "zero_byte_cif": 0,
+    "zero_byte_hkl": 0,
+    "duplicate_cif_stems": 0,
+    "duplicate_hkl_stems": 0,
+    "local_cif_ids_not_in_current_target": [],
+    "local_hkl_ids_not_in_current_target": []
+  },
+  "cif_parse_qc": {
+    "available": true,
+    "parse_ok": 58949,
+    "parse_failed": 0,
+    "parse_failed_items": []
+  },
+  "hkl_qc": {
+    "nonempty_target_files_readable": 58947,
+    "unreadable_count": 0,
+    "sample_size_requested": 5,
+    "random_seed": 20261002,
+    "samples": [
+      {
+        "cod_id": "2020474",
+        "filepath": "D:\\document\\aiformaterials\\ai4\\single_crystal_xray\\cod\\processed\\pairs\\hkl\\2020474.hkl",
+        "size_bytes": 146871,
+        "contains_nul_byte": false,
+        "preview_text": "#------------------------------------------------------------------------------\n#$Date: 2016-04-07 04:06:01 +0300 (Thu, 07 Apr 2016) $\n#$Revision: 181942 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/hkl/2/02/04/2020474.hkl $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided by IUCr Journals, http://"
+      },
+      {
+        "cod_id": "2230604",
+        "filepath": "D:\\document\\aiformaterials\\ai4\\single_crystal_xray\\cod\\processed\\pairs\\hkl\\2230604.hkl",
+        "size_bytes": 103390,
+        "contains_nul_byte": false,
+        "preview_text": "#------------------------------------------------------------------------------\n#$Date: 2016-04-03 06:23:13 +0300 (Sun, 03 Apr 2016) $\n#$Revision: 181228 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/hkl/2/23/06/2230604.hkl $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided by IUCr Journals, http://"
+      },
+      {
+        "cod_id": "2018679",
+        "filepath": "D:\\document\\aiformaterials\\ai4\\single_crystal_xray\\cod\\processed\\pairs\\hkl\\2018679.hkl",
+        "size_bytes": 76282,
+        "contains_nul_byte": false,
+        "preview_text": "#------------------------------------------------------------------------------\n#$Date: 2016-04-02 22:22:02 +0300 (Sat, 02 Apr 2016) $\n#$Revision: 180855 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/hkl/2/01/86/2018679.hkl $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided by IUCr Journals, http://"
+      },
+      {
+        "cod_id": "2243372",
+        "filepath": "D:\\document\\aiformaterials\\ai4\\single_crystal_xray\\cod\\processed\\pairs\\hkl\\2243372.hkl",
+        "size_bytes": 236134,
+        "contains_nul_byte": false,
+        "preview_text": "#------------------------------------------------------------------------------\n#$Date: 2020-04-25 05:16:59 +0300 (Sat, 25 Apr 2020) $\n#$Revision: 251177 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/hkl/2/24/33/2243372.hkl $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided by IUCr Journals, http://"
+      },
+      {
+        "cod_id": "2221604",
+        "filepath": "D:\\document\\aiformaterials\\ai4\\single_crystal_xray\\cod\\processed\\pairs\\hkl\\2221604.hkl",
+        "size_bytes": 103741,
+        "contains_nul_byte": false,
+        "preview_text": "#------------------------------------------------------------------------------\n#$Date: 2016-04-03 04:03:20 +0300 (Sun, 03 Apr 2016) $\n#$Revision: 181137 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/hkl/2/22/16/2221604.hkl $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided by IUCr Journals, http://"
+      }
+    ],
+    "size_bytes": {
+      "total": 7164425816,
+      "min": 1417,
+      "max": 7408202
+    }
+  },
+  "failed_items": [
+    {
+      "stage": "hkl_download",
+      "cod_id": "2108114",
+      "error": "OSError: COD returned an empty HKL response"
+    },
+    {
+      "stage": "hkl_download",
+      "cod_id": "2241882",
+      "error": "OSError: COD returned an empty HKL response"
+    }
+  ]
+}
