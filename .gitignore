@@ -113,3 +113,6 @@ data/mappings/rescue_review_v1/rruff_rescue_candidates_v1.json
 # Local source archives / snapshots
 data/archive/
 data/mappings/powbase_canonical_dryrun_v1.json
+
+powbase_deep_rescue_v1.csv
+powbase_deep_rescue_v1_summary.md
