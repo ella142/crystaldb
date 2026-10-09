@@ -35,6 +35,8 @@ class ScanInfo(PublicModel):
 class RadiationInfo(PublicModel):
     anode: str | None = None
     wavelength_angstrom: float | None = None
+    wavelength_kalpha2_angstrom: float | None = None
+    wavelengths_angstrom: list[float] = Field(default_factory=list)
 
 
 DatasetRole = Literal[
@@ -55,6 +57,7 @@ class Pattern(PublicModel):
     modality: str
     dataset_role: DatasetRole | None = None
     phase_character: str = "unknown"
+    material_label: str | None = None
     phase_components: list[PhaseComponent] = Field(default_factory=list)
     structure_linkage: StructureLinkage = Field(
         default_factory=lambda: StructureLinkage(status="unlinked")

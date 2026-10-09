@@ -72,6 +72,13 @@ paper/~*.tmp
 ~$*.docx
 ~*.tmp
 
+# Frontend build artifacts and dependencies
+web/node_modules/
+web/.next/
+web/out/
+web/tsconfig.tsbuildinfo
+.pnpm-store/
+
 data/mappings/cod_coverage_results.json
 
 # Laboratory XRD staged byte copies; keep manifest and summary reviewable
@@ -102,3 +109,7 @@ data/structure/
 
 data/mappings/cod_single_crystal_import_records_v1.jsonl
 data/mappings/rescue_review_v1/rruff_rescue_candidates_v1.json
+
+# Local source archives / snapshots
+data/archive/
+data/mappings/powbase_canonical_dryrun_v1.json

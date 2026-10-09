@@ -1,0 +1,3408 @@
+{
+  "schema_version": "powbase_source_structure_integration_dryrun_v1",
+  "generated_at_utc": "2026-10-07T09:54:12.995617+00:00",
+  "read_only": true,
+  "scope": {
+    "entry_ids": [
+      "106",
+      "113",
+      "116",
+      "117",
+      "124",
+      "125",
+      "157",
+      "159",
+      "160"
+    ],
+    "recovery_input": "D:\\document\\aiformaterials\\crystaldb\\data\\mappings\\powbase_source_structure_recovery_v1.json",
+    "staging_cif_root": "D:\\document\\aiformaterials\\crystaldb\\data\\staging\\powbase_source_structures_v1"
+  },
+  "structures_to_add": [
+    {
+      "structure_id": "STR_POWBASE_106_PHASE_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "106",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "106"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "LiNbWO6",
+      "space_group": {
+        "hm": "P -4 21 M",
+        "number": null
+      },
+      "cell": {
+        "a": 4.681563,
+        "b": 4.681563,
+        "c": 9.275737,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atom_site_count": 8,
+      "atomic_sites": [
+        {
+          "label": "W",
+          "type_raw": "W+6",
+          "element": "W",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.73013,
+          "b_iso": 1.22593,
+          "occupancy": 0.01838,
+          "raw_line": "!W    W+6     0.00000  0.50000  0.73013  1.22593  0.01838   0   0   0"
+        },
+        {
+          "label": "NB1",
+          "type_raw": "NB+5",
+          "element": "Nb",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.73013,
+          "b_iso": 1.22593,
+          "occupancy": 0.00162,
+          "raw_line": "!NB1  NB+5    0.00000  0.50000  0.73013  1.22593  0.00162   0   0   0"
+        },
+        {
+          "label": "NB1",
+          "type_raw": "NB+5",
+          "element": "Nb",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.08912,
+          "b_iso": 1.22593,
+          "occupancy": 0.01838,
+          "raw_line": "!NB1  NB+5    0.00000  0.50000  0.08912  1.22593  0.01838   0   0   0"
+        },
+        {
+          "label": "W1",
+          "type_raw": "W+6",
+          "element": "W",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.08912,
+          "b_iso": 1.22593,
+          "occupancy": 0.00162,
+          "raw_line": "!W1   W+6     0.00000  0.50000  0.08912  1.22593  0.00162   0   0   0"
+        },
+        {
+          "label": "LI",
+          "type_raw": "LI+1",
+          "element": "Li",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.42037,
+          "b_iso": 1.22593,
+          "occupancy": 0.07483,
+          "raw_line": "!LI   LI+1    0.00000  0.50000  0.42037  1.22593  0.07483   0   0   0"
+        },
+        {
+          "label": "O1",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.28902,
+          "y": 0.78902,
+          "z": 0.77203,
+          "b_iso": 1.22924,
+          "occupancy": 0.04,
+          "raw_line": "!O1   O-2     0.28902  0.78902  0.77203  1.22924  0.04000   0   0   0"
+        },
+        {
+          "label": "O2",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.316,
+          "y": 0.816,
+          "z": 0.08369,
+          "b_iso": 1.22924,
+          "occupancy": 0.04,
+          "raw_line": "!O2   O-2     0.31600  0.81600  0.08369  1.22924  0.04000   0   0   0"
+        },
+        {
+          "label": "O3",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.29761,
+          "y": 0.79761,
+          "z": 0.39272,
+          "b_iso": 1.22924,
+          "occupancy": 0.04,
+          "raw_line": "!O3   O-2     0.29761  0.79761  0.39272  1.22924  0.04000   0   0   0"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_106_PHASE_1.cif",
+        "sha256": "03f315d102458d85c9ea24f2c8f020f706ab615ab84ae84c3120bfb8052f1a38",
+        "size_bytes": 1185
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "106",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\106.zip",
+        "source_archive_sha256": "fec9aab8dd95f6bc4cd3329ad698ca0d2f408afcb6acfc2ebc531ce4070538c2",
+        "source_member": "106.dat",
+        "source_member_sha256": "9916c3dd094bca0fcfa52fa480b05b080af5c23c9b8e205a1e34fde05522d775",
+        "source_index_label_raw": "LiNbWO6",
+        "raw_index_text": "<A href=\"/powbase/106.zip\">106</A>#LiNbWO6#X#Cu-Kalpha#disorder; line broadening#LiNbWO6, Crystal structure of its two allotropic forms. J. L. Fourquet, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and P. A. Gillet, Mat. Res. Bull., 23 (198) 1163-1170#1999\n",
+        "raw_hash_delimited_tokens": [
+          "LiNbWO6",
+          "X",
+          "Cu-Kalpha",
+          "disorder; line broadening",
+          "LiNbWO6, Crystal structure of its two allotropic forms. J. L. Fourquet, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and P. A. Gillet, Mat. Res. Bull., 23 (198) 1163-1170",
+          "1999"
+        ],
+        "raw_bibliographic_comment_text": "#LiNbWO6#X#Cu-Kalpha#disorder; line broadening#LiNbWO6, Crystal structure of its two allotropic forms. J. L. Fourquet, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and P. A. Gillet, Mat. Res. Bull., 23 (198) 1163-1170#1999",
+        "source_model_id": "PHASE_1",
+        "source_model_name": "LiNbWO6",
+        "source_model_format": "FullProf",
+        "source_evidence": [
+          "!  Data for PHASE number:   1  ==> Current R_Bragg:     4.72",
+          "!P -4 21 M                <--Space group symbol"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_106_PHASE_1.cif",
+        "cif_sha256": "03f315d102458d85c9ea24f2c8f020f706ab615ab84ae84c3120bfb8052f1a38"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "LiNbWO6",
+        "source_model_id": "PHASE_1",
+        "source_model_name": "LiNbWO6",
+        "space_group_raw": "P -4 21 M",
+        "cell": {
+          "a": 4.681563,
+          "b": 4.681563,
+          "c": 9.275737,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "W",
+            "type_raw": "W+6",
+            "element": "W",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.73013,
+            "b_iso": 1.22593,
+            "occupancy": 0.01838,
+            "raw_line": "!W    W+6     0.00000  0.50000  0.73013  1.22593  0.01838   0   0   0"
+          },
+          {
+            "label": "NB1",
+            "type_raw": "NB+5",
+            "element": "Nb",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.73013,
+            "b_iso": 1.22593,
+            "occupancy": 0.00162,
+            "raw_line": "!NB1  NB+5    0.00000  0.50000  0.73013  1.22593  0.00162   0   0   0"
+          },
+          {
+            "label": "NB1",
+            "type_raw": "NB+5",
+            "element": "Nb",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.08912,
+            "b_iso": 1.22593,
+            "occupancy": 0.01838,
+            "raw_line": "!NB1  NB+5    0.00000  0.50000  0.08912  1.22593  0.01838   0   0   0"
+          },
+          {
+            "label": "W1",
+            "type_raw": "W+6",
+            "element": "W",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.08912,
+            "b_iso": 1.22593,
+            "occupancy": 0.00162,
+            "raw_line": "!W1   W+6     0.00000  0.50000  0.08912  1.22593  0.00162   0   0   0"
+          },
+          {
+            "label": "LI",
+            "type_raw": "LI+1",
+            "element": "Li",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.42037,
+            "b_iso": 1.22593,
+            "occupancy": 0.07483,
+            "raw_line": "!LI   LI+1    0.00000  0.50000  0.42037  1.22593  0.07483   0   0   0"
+          },
+          {
+            "label": "O1",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.28902,
+            "y": 0.78902,
+            "z": 0.77203,
+            "b_iso": 1.22924,
+            "occupancy": 0.04,
+            "raw_line": "!O1   O-2     0.28902  0.78902  0.77203  1.22924  0.04000   0   0   0"
+          },
+          {
+            "label": "O2",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.316,
+            "y": 0.816,
+            "z": 0.08369,
+            "b_iso": 1.22924,
+            "occupancy": 0.04,
+            "raw_line": "!O2   O-2     0.31600  0.81600  0.08369  1.22924  0.04000   0   0   0"
+          },
+          {
+            "label": "O3",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.29761,
+            "y": 0.79761,
+            "z": 0.39272,
+            "b_iso": 1.22924,
+            "occupancy": 0.04,
+            "raw_line": "!O3   O-2     0.29761  0.79761  0.39272  1.22924  0.04000   0   0   0"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_106_PHASE_2",
+      "api_source_code": "POWBASE",
+      "api_source_id": "106",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "106"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "LiNbWO6",
+      "space_group": {
+        "hm": "P -4 21 M",
+        "number": null
+      },
+      "cell": {
+        "a": 4.681563,
+        "b": 4.681563,
+        "c": 9.275737,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atom_site_count": 8,
+      "atomic_sites": [
+        {
+          "label": "W",
+          "type_raw": "W+6",
+          "element": "W",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.73013,
+          "b_iso": 1.22593,
+          "occupancy": 0.01838,
+          "raw_line": "!W    W+6     0.00000  0.50000  0.73013  1.22593  0.01838   0   0   0"
+        },
+        {
+          "label": "NB1",
+          "type_raw": "NB+5",
+          "element": "Nb",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.73013,
+          "b_iso": 1.22593,
+          "occupancy": 0.00162,
+          "raw_line": "!NB1  NB+5    0.00000  0.50000  0.73013  1.22593  0.00162   0   0   0"
+        },
+        {
+          "label": "NB1",
+          "type_raw": "NB+5",
+          "element": "Nb",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.08912,
+          "b_iso": 1.22593,
+          "occupancy": 0.01838,
+          "raw_line": "!NB1  NB+5    0.00000  0.50000  0.08912  1.22593  0.01838   0   0   0"
+        },
+        {
+          "label": "W1",
+          "type_raw": "W+6",
+          "element": "W",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.08912,
+          "b_iso": 1.22593,
+          "occupancy": 0.00162,
+          "raw_line": "!W1   W+6     0.00000  0.50000  0.08912  1.22593  0.00162   0   0   0"
+        },
+        {
+          "label": "LI",
+          "type_raw": "LI+1",
+          "element": "Li",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.42037,
+          "b_iso": 1.22593,
+          "occupancy": 0.07483,
+          "raw_line": "!LI   LI+1    0.00000  0.50000  0.42037  1.22593  0.07483   0   0   0"
+        },
+        {
+          "label": "O1",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.28902,
+          "y": 0.78902,
+          "z": 0.77203,
+          "b_iso": 1.22924,
+          "occupancy": 0.04,
+          "raw_line": "!O1   O-2     0.28902  0.78902  0.77203  1.22924  0.04000   0   0   0"
+        },
+        {
+          "label": "O2",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.316,
+          "y": 0.816,
+          "z": 0.08369,
+          "b_iso": 1.22924,
+          "occupancy": 0.04,
+          "raw_line": "!O2   O-2     0.31600  0.81600  0.08369  1.22924  0.04000   0   0   0"
+        },
+        {
+          "label": "O3",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.29761,
+          "y": 0.79761,
+          "z": 0.39272,
+          "b_iso": 1.22924,
+          "occupancy": 0.04,
+          "raw_line": "!O3   O-2     0.29761  0.79761  0.39272  1.22924  0.04000   0   0   0"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_106_PHASE_2.cif",
+        "sha256": "957c16a3ff8793848f6d0d31e8eedd8d1a24917a49b8932033cef01f6032643e",
+        "size_bytes": 1185
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "106",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\106.zip",
+        "source_archive_sha256": "fec9aab8dd95f6bc4cd3329ad698ca0d2f408afcb6acfc2ebc531ce4070538c2",
+        "source_member": "106.dat",
+        "source_member_sha256": "9916c3dd094bca0fcfa52fa480b05b080af5c23c9b8e205a1e34fde05522d775",
+        "source_index_label_raw": "LiNbWO6",
+        "raw_index_text": "<A href=\"/powbase/106.zip\">106</A>#LiNbWO6#X#Cu-Kalpha#disorder; line broadening#LiNbWO6, Crystal structure of its two allotropic forms. J. L. Fourquet, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and P. A. Gillet, Mat. Res. Bull., 23 (198) 1163-1170#1999\n",
+        "raw_hash_delimited_tokens": [
+          "LiNbWO6",
+          "X",
+          "Cu-Kalpha",
+          "disorder; line broadening",
+          "LiNbWO6, Crystal structure of its two allotropic forms. J. L. Fourquet, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and P. A. Gillet, Mat. Res. Bull., 23 (198) 1163-1170",
+          "1999"
+        ],
+        "raw_bibliographic_comment_text": "#LiNbWO6#X#Cu-Kalpha#disorder; line broadening#LiNbWO6, Crystal structure of its two allotropic forms. J. L. Fourquet, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and P. A. Gillet, Mat. Res. Bull., 23 (198) 1163-1170#1999",
+        "source_model_id": "PHASE_2",
+        "source_model_name": "LiNbWO6",
+        "source_model_format": "FullProf",
+        "source_evidence": [
+          "!  Data for PHASE number:   2  ==> Current R_Bragg:     7.21",
+          "!P -4 21 M                <--Space group symbol"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_106_PHASE_2.cif",
+        "cif_sha256": "957c16a3ff8793848f6d0d31e8eedd8d1a24917a49b8932033cef01f6032643e"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "LiNbWO6",
+        "source_model_id": "PHASE_2",
+        "source_model_name": "LiNbWO6",
+        "space_group_raw": "P -4 21 M",
+        "cell": {
+          "a": 4.681563,
+          "b": 4.681563,
+          "c": 9.275737,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "W",
+            "type_raw": "W+6",
+            "element": "W",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.73013,
+            "b_iso": 1.22593,
+            "occupancy": 0.01838,
+            "raw_line": "!W    W+6     0.00000  0.50000  0.73013  1.22593  0.01838   0   0   0"
+          },
+          {
+            "label": "NB1",
+            "type_raw": "NB+5",
+            "element": "Nb",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.73013,
+            "b_iso": 1.22593,
+            "occupancy": 0.00162,
+            "raw_line": "!NB1  NB+5    0.00000  0.50000  0.73013  1.22593  0.00162   0   0   0"
+          },
+          {
+            "label": "NB1",
+            "type_raw": "NB+5",
+            "element": "Nb",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.08912,
+            "b_iso": 1.22593,
+            "occupancy": 0.01838,
+            "raw_line": "!NB1  NB+5    0.00000  0.50000  0.08912  1.22593  0.01838   0   0   0"
+          },
+          {
+            "label": "W1",
+            "type_raw": "W+6",
+            "element": "W",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.08912,
+            "b_iso": 1.22593,
+            "occupancy": 0.00162,
+            "raw_line": "!W1   W+6     0.00000  0.50000  0.08912  1.22593  0.00162   0   0   0"
+          },
+          {
+            "label": "LI",
+            "type_raw": "LI+1",
+            "element": "Li",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.42037,
+            "b_iso": 1.22593,
+            "occupancy": 0.07483,
+            "raw_line": "!LI   LI+1    0.00000  0.50000  0.42037  1.22593  0.07483   0   0   0"
+          },
+          {
+            "label": "O1",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.28902,
+            "y": 0.78902,
+            "z": 0.77203,
+            "b_iso": 1.22924,
+            "occupancy": 0.04,
+            "raw_line": "!O1   O-2     0.28902  0.78902  0.77203  1.22924  0.04000   0   0   0"
+          },
+          {
+            "label": "O2",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.316,
+            "y": 0.816,
+            "z": 0.08369,
+            "b_iso": 1.22924,
+            "occupancy": 0.04,
+            "raw_line": "!O2   O-2     0.31600  0.81600  0.08369  1.22924  0.04000   0   0   0"
+          },
+          {
+            "label": "O3",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.29761,
+            "y": 0.79761,
+            "z": 0.39272,
+            "b_iso": 1.22924,
+            "occupancy": 0.04,
+            "raw_line": "!O3   O-2     0.29761  0.79761  0.39272  1.22924  0.04000   0   0   0"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_113_PHASE_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "113",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "113"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "Amphibole GM 92-163",
+      "space_group": {
+        "hm": "C 2/M",
+        "number": null
+      },
+      "cell": {
+        "a": 9.903701,
+        "b": 18.051849,
+        "c": 5.303462,
+        "alpha": 90.0,
+        "beta": 105.22937,
+        "gamma": 90.0
+      },
+      "atom_site_count": 20,
+      "atomic_sites": [
+        {
+          "label": "CA",
+          "type_raw": "CA+2",
+          "element": "Ca",
+          "x": 0.0,
+          "y": 0.2789,
+          "z": 0.5,
+          "b_iso": 1.69864,
+          "occupancy": 3.5,
+          "raw_line": "!CA   CA+2    0.00000  0.27890  0.50000  1.69864  3.50000   0   0   0"
+        },
+        {
+          "label": "NA",
+          "type_raw": "NA+1",
+          "element": "Na",
+          "x": 0.0,
+          "y": 0.2789,
+          "z": 0.5,
+          "b_iso": 1.69864,
+          "occupancy": 0.5,
+          "raw_line": "!NA   NA+1    0.00000  0.27890  0.50000  1.69864  0.50000   0   0   0"
+        },
+        {
+          "label": "MG1",
+          "type_raw": "MG+2",
+          "element": "Mg",
+          "x": 0.0,
+          "y": 0.08754,
+          "z": 0.5,
+          "b_iso": 1.34819,
+          "occupancy": 3.3598,
+          "raw_line": "!MG1  MG+2    0.00000  0.08754  0.50000  1.34819  3.35980   0   0   0"
+        },
+        {
+          "label": "FE",
+          "type_raw": "FE+2",
+          "element": "Fe",
+          "x": 0.0,
+          "y": 0.08754,
+          "z": 0.5,
+          "b_iso": 1.34819,
+          "occupancy": 0.6402,
+          "raw_line": "!FE   FE+2    0.00000  0.08754  0.50000  1.34819  0.64020   0   0   0"
+        },
+        {
+          "label": "MG2",
+          "type_raw": "MG+2",
+          "element": "Mg",
+          "x": 0.0,
+          "y": 0.17853,
+          "z": 0.0,
+          "b_iso": 1.34819,
+          "occupancy": 3.3598,
+          "raw_line": "!MG2  MG+2    0.00000  0.17853  0.00000  1.34819  3.35980   0   0   0"
+        },
+        {
+          "label": "FE",
+          "type_raw": "FE+2",
+          "element": "Fe",
+          "x": 0.0,
+          "y": 0.17853,
+          "z": 0.0,
+          "b_iso": 1.34819,
+          "occupancy": 0.6402,
+          "raw_line": "!FE   FE+2    0.00000  0.17853  0.00000  1.34819  0.64020   0   0   0"
+        },
+        {
+          "label": "MG3",
+          "type_raw": "MG+2",
+          "element": "Mg",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 1.34819,
+          "occupancy": 1.67989,
+          "raw_line": "!MG3  MG+2    0.00000  0.00000  0.00000  1.34819  1.67989   0   0   0"
+        },
+        {
+          "label": "FE",
+          "type_raw": "FE+2",
+          "element": "Fe",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 1.34819,
+          "occupancy": 0.32011,
+          "raw_line": "!FE   FE+2    0.00000  0.00000  0.00000  1.34819  0.32011   0   0   0"
+        },
+        {
+          "label": "SI1",
+          "type_raw": "SI+4",
+          "element": "Si",
+          "x": 0.27881,
+          "y": 0.08483,
+          "z": 0.30054,
+          "b_iso": 1.1157,
+          "occupancy": 6.0,
+          "raw_line": "!SI1  SI+4    0.27881  0.08483  0.30054  1.11570  6.00000   0   0   0"
+        },
+        {
+          "label": "AL",
+          "type_raw": "AL+3",
+          "element": "Al",
+          "x": 0.27881,
+          "y": 0.08483,
+          "z": 0.30054,
+          "b_iso": 1.1157,
+          "occupancy": 2.0,
+          "raw_line": "!AL   AL+3    0.27881  0.08483  0.30054  1.11570  2.00000   0   0   0"
+        },
+        {
+          "label": "SI2",
+          "type_raw": "SI+4",
+          "element": "Si",
+          "x": 0.29137,
+          "y": 0.17219,
+          "z": 0.81162,
+          "b_iso": 1.1157,
+          "occupancy": 6.0,
+          "raw_line": "!SI2  SI+4    0.29137  0.17219  0.81162  1.11570  6.00000   0   0   0"
+        },
+        {
+          "label": "AL",
+          "type_raw": "AL+3",
+          "element": "Al",
+          "x": 0.29137,
+          "y": 0.17219,
+          "z": 0.81162,
+          "b_iso": 1.1157,
+          "occupancy": 2.0,
+          "raw_line": "!AL   AL+3    0.29137  0.17219  0.81162  1.11570  2.00000   0   0   0"
+        },
+        {
+          "label": "O1",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.1062,
+          "y": 0.08932,
+          "z": 0.22111,
+          "b_iso": 2.06202,
+          "occupancy": 8.0,
+          "raw_line": "!O1   O-2     0.10620  0.08932  0.22111  2.06202  8.00000   0   0   0"
+        },
+        {
+          "label": "O2",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.123,
+          "y": 0.17392,
+          "z": 0.73309,
+          "b_iso": 2.06202,
+          "occupancy": 8.0,
+          "raw_line": "!O2   O-2     0.12300  0.17392  0.73309  2.06202  8.00000   0   0   0"
+        },
+        {
+          "label": "O3",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.11102,
+          "y": 0.0,
+          "z": 0.72246,
+          "b_iso": 2.06202,
+          "occupancy": 4.0,
+          "raw_line": "!O3   O-2     0.11102  0.00000  0.72246  2.06202  4.00000   0   0   0"
+        },
+        {
+          "label": "O4",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.36396,
+          "y": 0.24712,
+          "z": 0.78944,
+          "b_iso": 2.06202,
+          "occupancy": 8.0,
+          "raw_line": "!O4   O-2     0.36396  0.24712  0.78944  2.06202  8.00000   0   0   0"
+        },
+        {
+          "label": "O5",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.3501,
+          "y": 0.14142,
+          "z": 0.10678,
+          "b_iso": 2.06202,
+          "occupancy": 8.0,
+          "raw_line": "!O5   O-2     0.35010  0.14142  0.10678  2.06202  8.00000   0   0   0"
+        },
+        {
+          "label": "O6",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.33722,
+          "y": 0.11886,
+          "z": 0.60808,
+          "b_iso": 2.06202,
+          "occupancy": 8.0,
+          "raw_line": "!O6   O-2     0.33722  0.11886  0.60808  2.06202  8.00000   0   0   0"
+        },
+        {
+          "label": "O7",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.33293,
+          "y": 0.0,
+          "z": 0.27415,
+          "b_iso": 2.06202,
+          "occupancy": 4.0,
+          "raw_line": "!O7   O-2     0.33293  0.00000  0.27415  2.06202  4.00000   0   0   0"
+        },
+        {
+          "label": "K",
+          "type_raw": "K+1",
+          "element": "K",
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.0,
+          "b_iso": 3.0,
+          "occupancy": 1.09299,
+          "raw_line": "!K    K+1     0.00000  0.50000  0.00000  3.00000  1.09299   0   0   0"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_113_PHASE_1.cif",
+        "sha256": "cd40df987573b2c1e41261ae3929a5a3d26cd4aaa2ac21a0f9b3b1cdaed3ce10",
+        "size_bytes": 1688
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "113",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\113.zip",
+        "source_archive_sha256": "386c3ad1f4a8b6118c90b761cd83057a03cdc25737edfad8d3defd9862fca5aa",
+        "source_member": "113.dat",
+        "source_member_sha256": "550a642b7686a1109d02d014ce74ad961f47edbf2158ffbec7616196c7cf50d8",
+        "source_index_label_raw": "amphibole",
+        "raw_index_text": "<A href=\"/powbase/113.zip\">113</A>#amphibole#X#Cu-Kalpha#mineral; with Fullprof .pcr;<A href=\"/powbase/113.wrl\"> 3D</A>#Sent by <A href=\"mailto:Jean.Yves.Cottin@univ-st-etienne.fr\">J. Y. Cottin</A>#1999\n",
+        "raw_hash_delimited_tokens": [
+          "amphibole",
+          "X",
+          "Cu-Kalpha",
+          "mineral; with Fullprof .pcr;<A href=\"/powbase/113.wrl\"> 3D</A>",
+          "Sent by <A href=\"mailto:Jean.Yves.Cottin@univ-st-etienne.fr\">J. Y. Cottin</A>",
+          "1999"
+        ],
+        "raw_bibliographic_comment_text": "#amphibole#X#Cu-Kalpha#mineral; with Fullprof .pcr;<A href=\"/powbase/113.wrl\"> 3D</A>#Sent by <A href=\"mailto:Jean.Yves.Cottin@univ-st-etienne.fr\">J. Y. Cottin</A>#1999",
+        "source_model_id": "PHASE_1",
+        "source_model_name": "Amphibole GM 92-163",
+        "source_model_format": "FullProf",
+        "source_evidence": [
+          "!  Data for PHASE number:   1  ==> Current R_Bragg:     5.01",
+          "!C 2/M                    <--Space group symbol"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_113_PHASE_1.cif",
+        "cif_sha256": "cd40df987573b2c1e41261ae3929a5a3d26cd4aaa2ac21a0f9b3b1cdaed3ce10"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "amphibole",
+        "source_model_id": "PHASE_1",
+        "source_model_name": "Amphibole GM 92-163",
+        "space_group_raw": "C 2/M",
+        "cell": {
+          "a": 9.903701,
+          "b": 18.051849,
+          "c": 5.303462,
+          "alpha": 90.0,
+          "beta": 105.22937,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "CA",
+            "type_raw": "CA+2",
+            "element": "Ca",
+            "x": 0.0,
+            "y": 0.2789,
+            "z": 0.5,
+            "b_iso": 1.69864,
+            "occupancy": 3.5,
+            "raw_line": "!CA   CA+2    0.00000  0.27890  0.50000  1.69864  3.50000   0   0   0"
+          },
+          {
+            "label": "NA",
+            "type_raw": "NA+1",
+            "element": "Na",
+            "x": 0.0,
+            "y": 0.2789,
+            "z": 0.5,
+            "b_iso": 1.69864,
+            "occupancy": 0.5,
+            "raw_line": "!NA   NA+1    0.00000  0.27890  0.50000  1.69864  0.50000   0   0   0"
+          },
+          {
+            "label": "MG1",
+            "type_raw": "MG+2",
+            "element": "Mg",
+            "x": 0.0,
+            "y": 0.08754,
+            "z": 0.5,
+            "b_iso": 1.34819,
+            "occupancy": 3.3598,
+            "raw_line": "!MG1  MG+2    0.00000  0.08754  0.50000  1.34819  3.35980   0   0   0"
+          },
+          {
+            "label": "FE",
+            "type_raw": "FE+2",
+            "element": "Fe",
+            "x": 0.0,
+            "y": 0.08754,
+            "z": 0.5,
+            "b_iso": 1.34819,
+            "occupancy": 0.6402,
+            "raw_line": "!FE   FE+2    0.00000  0.08754  0.50000  1.34819  0.64020   0   0   0"
+          },
+          {
+            "label": "MG2",
+            "type_raw": "MG+2",
+            "element": "Mg",
+            "x": 0.0,
+            "y": 0.17853,
+            "z": 0.0,
+            "b_iso": 1.34819,
+            "occupancy": 3.3598,
+            "raw_line": "!MG2  MG+2    0.00000  0.17853  0.00000  1.34819  3.35980   0   0   0"
+          },
+          {
+            "label": "FE",
+            "type_raw": "FE+2",
+            "element": "Fe",
+            "x": 0.0,
+            "y": 0.17853,
+            "z": 0.0,
+            "b_iso": 1.34819,
+            "occupancy": 0.6402,
+            "raw_line": "!FE   FE+2    0.00000  0.17853  0.00000  1.34819  0.64020   0   0   0"
+          },
+          {
+            "label": "MG3",
+            "type_raw": "MG+2",
+            "element": "Mg",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 1.34819,
+            "occupancy": 1.67989,
+            "raw_line": "!MG3  MG+2    0.00000  0.00000  0.00000  1.34819  1.67989   0   0   0"
+          },
+          {
+            "label": "FE",
+            "type_raw": "FE+2",
+            "element": "Fe",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 1.34819,
+            "occupancy": 0.32011,
+            "raw_line": "!FE   FE+2    0.00000  0.00000  0.00000  1.34819  0.32011   0   0   0"
+          },
+          {
+            "label": "SI1",
+            "type_raw": "SI+4",
+            "element": "Si",
+            "x": 0.27881,
+            "y": 0.08483,
+            "z": 0.30054,
+            "b_iso": 1.1157,
+            "occupancy": 6.0,
+            "raw_line": "!SI1  SI+4    0.27881  0.08483  0.30054  1.11570  6.00000   0   0   0"
+          },
+          {
+            "label": "AL",
+            "type_raw": "AL+3",
+            "element": "Al",
+            "x": 0.27881,
+            "y": 0.08483,
+            "z": 0.30054,
+            "b_iso": 1.1157,
+            "occupancy": 2.0,
+            "raw_line": "!AL   AL+3    0.27881  0.08483  0.30054  1.11570  2.00000   0   0   0"
+          },
+          {
+            "label": "SI2",
+            "type_raw": "SI+4",
+            "element": "Si",
+            "x": 0.29137,
+            "y": 0.17219,
+            "z": 0.81162,
+            "b_iso": 1.1157,
+            "occupancy": 6.0,
+            "raw_line": "!SI2  SI+4    0.29137  0.17219  0.81162  1.11570  6.00000   0   0   0"
+          },
+          {
+            "label": "AL",
+            "type_raw": "AL+3",
+            "element": "Al",
+            "x": 0.29137,
+            "y": 0.17219,
+            "z": 0.81162,
+            "b_iso": 1.1157,
+            "occupancy": 2.0,
+            "raw_line": "!AL   AL+3    0.29137  0.17219  0.81162  1.11570  2.00000   0   0   0"
+          },
+          {
+            "label": "O1",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.1062,
+            "y": 0.08932,
+            "z": 0.22111,
+            "b_iso": 2.06202,
+            "occupancy": 8.0,
+            "raw_line": "!O1   O-2     0.10620  0.08932  0.22111  2.06202  8.00000   0   0   0"
+          },
+          {
+            "label": "O2",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.123,
+            "y": 0.17392,
+            "z": 0.73309,
+            "b_iso": 2.06202,
+            "occupancy": 8.0,
+            "raw_line": "!O2   O-2     0.12300  0.17392  0.73309  2.06202  8.00000   0   0   0"
+          },
+          {
+            "label": "O3",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.11102,
+            "y": 0.0,
+            "z": 0.72246,
+            "b_iso": 2.06202,
+            "occupancy": 4.0,
+            "raw_line": "!O3   O-2     0.11102  0.00000  0.72246  2.06202  4.00000   0   0   0"
+          },
+          {
+            "label": "O4",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.36396,
+            "y": 0.24712,
+            "z": 0.78944,
+            "b_iso": 2.06202,
+            "occupancy": 8.0,
+            "raw_line": "!O4   O-2     0.36396  0.24712  0.78944  2.06202  8.00000   0   0   0"
+          },
+          {
+            "label": "O5",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.3501,
+            "y": 0.14142,
+            "z": 0.10678,
+            "b_iso": 2.06202,
+            "occupancy": 8.0,
+            "raw_line": "!O5   O-2     0.35010  0.14142  0.10678  2.06202  8.00000   0   0   0"
+          },
+          {
+            "label": "O6",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.33722,
+            "y": 0.11886,
+            "z": 0.60808,
+            "b_iso": 2.06202,
+            "occupancy": 8.0,
+            "raw_line": "!O6   O-2     0.33722  0.11886  0.60808  2.06202  8.00000   0   0   0"
+          },
+          {
+            "label": "O7",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.33293,
+            "y": 0.0,
+            "z": 0.27415,
+            "b_iso": 2.06202,
+            "occupancy": 4.0,
+            "raw_line": "!O7   O-2     0.33293  0.00000  0.27415  2.06202  4.00000   0   0   0"
+          },
+          {
+            "label": "K",
+            "type_raw": "K+1",
+            "element": "K",
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.0,
+            "b_iso": 3.0,
+            "occupancy": 1.09299,
+            "raw_line": "!K    K+1     0.00000  0.50000  0.00000  3.00000  1.09299   0   0   0"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_116_SR5_PHASE_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "116",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "116"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "Li2Ti6O12",
+      "space_group": {
+        "hm": "C 2/M",
+        "number": null
+      },
+      "cell": {
+        "a": 14.0907,
+        "b": 2.9505,
+        "c": 4.9075,
+        "alpha": 90.0,
+        "beta": 92.2146,
+        "gamma": 90.0
+      },
+      "atom_site_count": 6,
+      "atomic_sites": [
+        {
+          "label": "TI1",
+          "type_raw": "TI+4",
+          "element": "Ti",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 0.54591,
+          "occupancy": 0.25,
+          "raw_line": "!TI1 TI+4         0.00000 0.00000 0.00000 0.54591 0.25000"
+        },
+        {
+          "label": "TI2",
+          "type_raw": "TI+4",
+          "element": "Ti",
+          "x": 0.34619,
+          "y": 0.0,
+          "z": 0.47767,
+          "b_iso": 1.0,
+          "occupancy": 0.49271,
+          "raw_line": "!TI2 TI+4         0.34619 0.00000 0.47767 1.00000 0.49271"
+        },
+        {
+          "label": "LIT",
+          "type_raw": "LI+1",
+          "element": "Li",
+          "x": 0.34619,
+          "y": 0.0,
+          "z": 0.47767,
+          "b_iso": 1.0,
+          "occupancy": 0.00729,
+          "raw_line": "!LIT LI+1         0.34619 0.00000 0.47767 1.00000 0.00729"
+        },
+        {
+          "label": "O1",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.09955,
+          "y": 0.0,
+          "z": 0.31594,
+          "b_iso": 0.68545,
+          "occupancy": 0.5,
+          "raw_line": "!O1  O-2          0.09955 0.00000 0.31594 0.68545 0.50000"
+        },
+        {
+          "label": "O2",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.22569,
+          "y": 0.0,
+          "z": 0.69514,
+          "b_iso": 0.89621,
+          "occupancy": 0.5,
+          "raw_line": "!O2  O-2          0.22569 0.00000 0.69514 0.89621 0.50000"
+        },
+        {
+          "label": "O3",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.43304,
+          "y": 0.0,
+          "z": 0.17521,
+          "b_iso": 1.11297,
+          "occupancy": 0.5,
+          "raw_line": "!O3  O-2          0.43304 0.00000 0.17521 1.11297 0.50000"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_116_SR5_PHASE_1.cif",
+        "sha256": "a939138de50086b952acfe64bce899bbb330a8a1fbc9168877768f218422d238",
+        "size_bytes": 1082
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "116",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\116.zip",
+        "source_archive_sha256": "d9517111f05bf4bfcd2d8e167ea76901f58388960a562e5978db5018298335c4",
+        "source_member": "116.dat",
+        "source_member_sha256": "4435a763c4ed5de8ead0d71cf6a1436ce994255f217ab69698ee136322500b6b",
+        "source_index_label_raw": "Li0.92Ti2.88O6",
+        "raw_index_text": "<A href=\"/powbase/116.zip\">116</A>#Li0.92Ti2.88O6#X#Cu-Kalpha#<A href=\"http://www.ccp14.ac.uk/solution/powder_structure_solution_pathways/inorganic.html\">ab initio</A>, with SR5 .inp #New Phases Formed in the Li-Ti-O System under Reducing Conditions. I.E. Grey, <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>, C. Li, L. A. Bursill, and J. L. Peng, J. Solid State Chem. 138 (1998) 74-86#1999\n",
+        "raw_hash_delimited_tokens": [
+          "Li0.92Ti2.88O6",
+          "X",
+          "Cu-Kalpha",
+          "<A href=\"http://www.ccp14.ac.uk/solution/powder_structure_solution_pathways/inorganic.html\">ab initio</A>, with SR5 .inp ",
+          "New Phases Formed in the Li-Ti-O System under Reducing Conditions. I.E. Grey, <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>, C. Li, L. A. Bursill, and J. L. Peng, J. Solid State Chem. 138 (1998) 74-86",
+          "1999"
+        ],
+        "raw_bibliographic_comment_text": "#Li0.92Ti2.88O6#X#Cu-Kalpha#<A href=\"http://www.ccp14.ac.uk/solution/powder_structure_solution_pathways/inorganic.html\">ab initio</A>, with SR5 .inp #New Phases Formed in the Li-Ti-O System under Reducing Conditions. I.E. Grey, <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>, C. Li, L. A. Bursill, and J. L. Peng, J. Solid State Chem. 138 (1998) 74-86#1999",
+        "source_model_id": "SR5_PHASE_1",
+        "source_model_name": "Li2Ti6O12",
+        "source_model_format": "SR5",
+        "source_evidence": [
+          "!C 2/M",
+          "! 14.0907  2.9505  4.9075 90.0000 92.2146 90.0000"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_116_SR5_PHASE_1.cif",
+        "cif_sha256": "a939138de50086b952acfe64bce899bbb330a8a1fbc9168877768f218422d238"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "Li0.92Ti2.88O6",
+        "source_model_id": "SR5_PHASE_1",
+        "source_model_name": "Li2Ti6O12",
+        "space_group_raw": "C 2/M",
+        "cell": {
+          "a": 14.0907,
+          "b": 2.9505,
+          "c": 4.9075,
+          "alpha": 90.0,
+          "beta": 92.2146,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "TI1",
+            "type_raw": "TI+4",
+            "element": "Ti",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 0.54591,
+            "occupancy": 0.25,
+            "raw_line": "!TI1 TI+4         0.00000 0.00000 0.00000 0.54591 0.25000"
+          },
+          {
+            "label": "TI2",
+            "type_raw": "TI+4",
+            "element": "Ti",
+            "x": 0.34619,
+            "y": 0.0,
+            "z": 0.47767,
+            "b_iso": 1.0,
+            "occupancy": 0.49271,
+            "raw_line": "!TI2 TI+4         0.34619 0.00000 0.47767 1.00000 0.49271"
+          },
+          {
+            "label": "LIT",
+            "type_raw": "LI+1",
+            "element": "Li",
+            "x": 0.34619,
+            "y": 0.0,
+            "z": 0.47767,
+            "b_iso": 1.0,
+            "occupancy": 0.00729,
+            "raw_line": "!LIT LI+1         0.34619 0.00000 0.47767 1.00000 0.00729"
+          },
+          {
+            "label": "O1",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.09955,
+            "y": 0.0,
+            "z": 0.31594,
+            "b_iso": 0.68545,
+            "occupancy": 0.5,
+            "raw_line": "!O1  O-2          0.09955 0.00000 0.31594 0.68545 0.50000"
+          },
+          {
+            "label": "O2",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.22569,
+            "y": 0.0,
+            "z": 0.69514,
+            "b_iso": 0.89621,
+            "occupancy": 0.5,
+            "raw_line": "!O2  O-2          0.22569 0.00000 0.69514 0.89621 0.50000"
+          },
+          {
+            "label": "O3",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.43304,
+            "y": 0.0,
+            "z": 0.17521,
+            "b_iso": 1.11297,
+            "occupancy": 0.5,
+            "raw_line": "!O3  O-2          0.43304 0.00000 0.17521 1.11297 0.50000"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_117_SR5_PHASE_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "117",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "117"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "Li2Ti3O7",
+      "space_group": {
+        "hm": "P N M A",
+        "number": null
+      },
+      "cell": {
+        "a": 9.5505,
+        "b": 2.9453,
+        "c": 5.0164,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atom_site_count": 3,
+      "atomic_sites": [
+        {
+          "label": "LI2",
+          "type_raw": "LI+1",
+          "element": "Li",
+          "x": 0.047,
+          "y": 0.25,
+          "z": 0.54,
+          "b_iso": 1.0,
+          "occupancy": 0.10748,
+          "raw_line": "!LI2 LI+1         0.04700 0.25000 0.54000 1.00000 0.10748"
+        },
+        {
+          "label": "OX1",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.27386,
+          "y": 0.25,
+          "z": 0.67119,
+          "b_iso": 0.91294,
+          "occupancy": 0.5,
+          "raw_line": "!OX1 O-2          0.27386 0.25000 0.67119 0.91294 0.50000"
+        },
+        {
+          "label": "OX2",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": -0.03399,
+          "y": 0.25,
+          "z": 0.20135,
+          "b_iso": 0.73,
+          "occupancy": 0.5,
+          "raw_line": "!OX2 O-2         -0.03399 0.25000 0.20135 0.73000 0.50000"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_117_SR5_PHASE_1.cif",
+        "sha256": "3840d9e835cf60f460855952ec664c90e1656402e6d50c6a66fdb760b33dbe43",
+        "size_bytes": 959
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "117",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\117.zip",
+        "source_archive_sha256": "1c069a27a86ad81d163588f9048a0f8efa3d6ab4450abe7a25660102b22b1b0d",
+        "source_member": "117.dat",
+        "source_member_sha256": "dca5f1f5455519a1e7cd66340ad682bf63ae6d49849bc9bce026652b40e40eef",
+        "source_index_label_raw": "Li2Ti3O7",
+        "raw_index_text": "<A href=\"/powbase/117.zip\">117</A>#Li2Ti3O7#X#Cu-Kalpha#with SR5 .inp#Sent by <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>#1999\n",
+        "raw_hash_delimited_tokens": [
+          "Li2Ti3O7",
+          "X",
+          "Cu-Kalpha",
+          "with SR5 .inp",
+          "Sent by <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>",
+          "1999"
+        ],
+        "raw_bibliographic_comment_text": "#Li2Ti3O7#X#Cu-Kalpha#with SR5 .inp#Sent by <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>#1999",
+        "source_model_id": "SR5_PHASE_1",
+        "source_model_name": "Li2Ti3O7",
+        "source_model_format": "SR5",
+        "source_evidence": [
+          "!P N M A",
+          "!  9.5505  2.9453  5.0164 90.0000 90.0000 90.0000"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_117_SR5_PHASE_1.cif",
+        "cif_sha256": "3840d9e835cf60f460855952ec664c90e1656402e6d50c6a66fdb760b33dbe43"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "Li2Ti3O7",
+        "source_model_id": "SR5_PHASE_1",
+        "source_model_name": "Li2Ti3O7",
+        "space_group_raw": "P N M A",
+        "cell": {
+          "a": 9.5505,
+          "b": 2.9453,
+          "c": 5.0164,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "LI2",
+            "type_raw": "LI+1",
+            "element": "Li",
+            "x": 0.047,
+            "y": 0.25,
+            "z": 0.54,
+            "b_iso": 1.0,
+            "occupancy": 0.10748,
+            "raw_line": "!LI2 LI+1         0.04700 0.25000 0.54000 1.00000 0.10748"
+          },
+          {
+            "label": "OX1",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.27386,
+            "y": 0.25,
+            "z": 0.67119,
+            "b_iso": 0.91294,
+            "occupancy": 0.5,
+            "raw_line": "!OX1 O-2          0.27386 0.25000 0.67119 0.91294 0.50000"
+          },
+          {
+            "label": "OX2",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": -0.03399,
+            "y": 0.25,
+            "z": 0.20135,
+            "b_iso": 0.73,
+            "occupancy": 0.5,
+            "raw_line": "!OX2 O-2         -0.03399 0.25000 0.20135 0.73000 0.50000"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_124_PHASE_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "124",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "124"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "Tb2BaCoO5",
+      "space_group": {
+        "hm": "I m m m",
+        "number": null
+      },
+      "cell": {
+        "a": 3.755964,
+        "b": 5.823793,
+        "c": 11.551784,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atom_site_count": 5,
+      "atomic_sites": [
+        {
+          "label": "Ba",
+          "type_raw": "BA",
+          "element": "Ba",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.0,
+          "b_iso": 0.19782,
+          "occupancy": 0.125,
+          "raw_line": "!Ba   BA      0.50000  0.50000  0.00000  0.19782  0.12500   0   0   0"
+        },
+        {
+          "label": "Tb",
+          "type_raw": "TB",
+          "element": "Tb",
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.20343,
+          "b_iso": -0.09749,
+          "occupancy": 0.25,
+          "raw_line": "!Tb   TB      0.50000  0.00000  0.20343 -0.09749  0.25000   0   0   0"
+        },
+        {
+          "label": "Co",
+          "type_raw": "CO",
+          "element": "Co",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": -0.12044,
+          "occupancy": 0.125,
+          "raw_line": "!Co   CO      0.00000  0.00000  0.00000 -0.12044  0.12500   0   0   0"
+        },
+        {
+          "label": "O1",
+          "type_raw": "O",
+          "element": "O",
+          "x": 0.0,
+          "y": 0.23406,
+          "z": 0.14801,
+          "b_iso": 0.50954,
+          "occupancy": 0.5,
+          "raw_line": "!O1   O       0.00000  0.23406  0.14801  0.50954  0.50000   0   0   0"
+        },
+        {
+          "label": "O2",
+          "type_raw": "O",
+          "element": "O",
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 0.50954,
+          "occupancy": 0.125,
+          "raw_line": "!O2   O       0.50000  0.00000  0.00000  0.50954  0.12500   0   0   0"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_124_PHASE_1.cif",
+        "sha256": "a149b94a497218a4909abf655c76734bcdd48237239bb74457bb876a4c69f7dc",
+        "size_bytes": 1019
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "124",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\124.zip",
+        "source_archive_sha256": "d387087c03c5b5a713edc883b77dd6c961a5234a38bf68cf6f05145c0929b1bb",
+        "source_member": "124.dat",
+        "source_member_sha256": "444ea0411205261942d6d0387650cd2c4a6575f13a8d24f7ba05b10fa50867d1",
+        "source_index_label_raw": "Tb2BaCoO5",
+        "raw_index_text": "<A href=\"/powbase/124.zip\">124</A>#Tb2BaCoO5#X#Cu-Kalpha#with Fullprof .pcr file#from the <A href=\"ftp://charybde.saclay.cea.fr/pub/divers/fullp/\">Fullprof</A> software test files#1999\n",
+        "raw_hash_delimited_tokens": [
+          "Tb2BaCoO5",
+          "X",
+          "Cu-Kalpha",
+          "with Fullprof .pcr file",
+          "from the <A href=\"ftp://charybde.saclay.cea.fr/pub/divers/fullp/\">Fullprof</A> software test files",
+          "1999"
+        ],
+        "raw_bibliographic_comment_text": "#Tb2BaCoO5#X#Cu-Kalpha#with Fullprof .pcr file#from the <A href=\"ftp://charybde.saclay.cea.fr/pub/divers/fullp/\">Fullprof</A> software test files#1999",
+        "source_model_id": "PHASE_1",
+        "source_model_name": "Tb2BaCoO5",
+        "source_model_format": "FullProf",
+        "source_evidence": [
+          "!  Data for PHASE number:   1  ==> Current R_Bragg:     8.91",
+          "!I m m m                  <--Space group symbol"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_124_PHASE_1.cif",
+        "cif_sha256": "a149b94a497218a4909abf655c76734bcdd48237239bb74457bb876a4c69f7dc"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "Tb2BaCoO5",
+        "source_model_id": "PHASE_1",
+        "source_model_name": "Tb2BaCoO5",
+        "space_group_raw": "I m m m",
+        "cell": {
+          "a": 3.755964,
+          "b": 5.823793,
+          "c": 11.551784,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "Ba",
+            "type_raw": "BA",
+            "element": "Ba",
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.0,
+            "b_iso": 0.19782,
+            "occupancy": 0.125,
+            "raw_line": "!Ba   BA      0.50000  0.50000  0.00000  0.19782  0.12500   0   0   0"
+          },
+          {
+            "label": "Tb",
+            "type_raw": "TB",
+            "element": "Tb",
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.20343,
+            "b_iso": -0.09749,
+            "occupancy": 0.25,
+            "raw_line": "!Tb   TB      0.50000  0.00000  0.20343 -0.09749  0.25000   0   0   0"
+          },
+          {
+            "label": "Co",
+            "type_raw": "CO",
+            "element": "Co",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": -0.12044,
+            "occupancy": 0.125,
+            "raw_line": "!Co   CO      0.00000  0.00000  0.00000 -0.12044  0.12500   0   0   0"
+          },
+          {
+            "label": "O1",
+            "type_raw": "O",
+            "element": "O",
+            "x": 0.0,
+            "y": 0.23406,
+            "z": 0.14801,
+            "b_iso": 0.50954,
+            "occupancy": 0.5,
+            "raw_line": "!O1   O       0.00000  0.23406  0.14801  0.50954  0.50000   0   0   0"
+          },
+          {
+            "label": "O2",
+            "type_raw": "O",
+            "element": "O",
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 0.50954,
+            "occupancy": 0.125,
+            "raw_line": "!O2   O       0.50000  0.00000  0.00000  0.50954  0.12500   0   0   0"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_125_STR_P_63_M_M_C",
+      "api_source_code": "POWBASE",
+      "api_source_id": "125",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "125"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "Low Oxygen Vacancy Barium Iron Titanate - Slow Cooled",
+      "space_group": {
+        "hm": "P_63/M_M_C",
+        "number": null
+      },
+      "cell": {
+        "a": 5.6915,
+        "b": 5.6915,
+        "c": 13.9521,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+      },
+      "atom_site_count": 8,
+      "atomic_sites": [
+        {
+          "label": "BA1",
+          "type_raw": "BA+2",
+          "element": "Ba",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.25,
+          "b_iso": 0.37708,
+          "occupancy": 0.08333,
+          "raw_line": "!BA1 BA+2         0.00000 0.00000 0.25000 0.37708 0.08333"
+        },
+        {
+          "label": "BA2",
+          "type_raw": "BA+2",
+          "element": "Ba",
+          "x": 0.33333,
+          "y": 0.66667,
+          "z": 0.09104,
+          "b_iso": 0.4111,
+          "occupancy": 0.16667,
+          "raw_line": "!BA2 BA+2         0.33333 0.66667 0.09104 0.41110 0.16667"
+        },
+        {
+          "label": "TI1",
+          "type_raw": "TI+4",
+          "element": "Ti",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 0.43696,
+          "occupancy": 0.02647,
+          "raw_line": "!TI1 TI+4         0.00000 0.00000 0.00000 0.43696 0.02647"
+        },
+        {
+          "label": "FE1",
+          "type_raw": "FE+3",
+          "element": "Fe",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 0.43696,
+          "occupancy": 0.05683,
+          "raw_line": "!FE1 FE+3         0.00000 0.00000 0.00000 0.43696 0.05683"
+        },
+        {
+          "label": "TI2",
+          "type_raw": "TI+4",
+          "element": "Ti",
+          "x": 0.33333,
+          "y": 0.66667,
+          "z": 0.84793,
+          "b_iso": 0.10951,
+          "occupancy": 0.05832,
+          "raw_line": "!TI2 TI+4         0.33333 0.66667 0.84793 0.10951 0.05832"
+        },
+        {
+          "label": "FE2",
+          "type_raw": "FE+3",
+          "element": "Fe",
+          "x": 0.33333,
+          "y": 0.66667,
+          "z": 0.84793,
+          "b_iso": 0.10951,
+          "occupancy": 0.10828,
+          "raw_line": "!FE2 FE+3         0.33333 0.66667 0.84793 0.10951 0.10828"
+        },
+        {
+          "label": "O1",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.52066,
+          "y": 0.04117,
+          "z": 0.25,
+          "b_iso": 1.0,
+          "occupancy": 0.27545,
+          "raw_line": "!O1  O-2          0.52066 0.04117 0.25000 1.00000 0.27545"
+        },
+        {
+          "label": "O2",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.83423,
+          "y": 0.66846,
+          "z": 0.08313,
+          "b_iso": 0.63706,
+          "occupancy": 0.5,
+          "raw_line": "!O2  O-2          0.83423 0.66846 0.08313 0.63706 0.50000"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_125_STR_P_63_M_M_C.cif",
+        "sha256": "cfd5a13846535af2b6472ad65a98b2b9a30895a36bc35e25f802db654da2403c",
+        "size_bytes": 1300
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "125",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\125.zip",
+        "source_archive_sha256": "446c72fa48d3d9ab291bfee026844477869449d6cf812ec95fc62876e9eb6f2a",
+        "source_member": "125.dat",
+        "source_member_sha256": "203b3d3b51437a8794165697c3045cd91d96fbdf8cacc0bda810bbe329efe8a5",
+        "source_index_label_raw": "BaTixFeyOz",
+        "raw_index_text": "<A href=\"/powbase/125.zip\">125</A>#BaTixFeyOz#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999\n",
+        "raw_hash_delimited_tokens": [
+          "BaTixFeyOz",
+          "X",
+          "Cu-Kalpha",
+          "with Koalariet .inp file",
+          "from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files",
+          "1999"
+        ],
+        "raw_bibliographic_comment_text": "#BaTixFeyOz#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999",
+        "source_model_id": "STR(P_63/M_M_C)",
+        "source_model_name": "Low Oxygen Vacancy Barium Iron Titanate - Slow Cooled",
+        "source_model_format": "Koalariet",
+        "source_evidence": [
+          "!STR(P_63/M_M_C) ' Low Oxygen Vacancy Barium Iron Titanate - Slow Cooled"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_125_STR_P_63_M_M_C.cif",
+        "cif_sha256": "cfd5a13846535af2b6472ad65a98b2b9a30895a36bc35e25f802db654da2403c"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "BaTixFeyOz",
+        "source_model_id": "STR(P_63/M_M_C)",
+        "source_model_name": "Low Oxygen Vacancy Barium Iron Titanate - Slow Cooled",
+        "space_group_raw": "P_63/M_M_C",
+        "cell": {
+          "a": 5.6915,
+          "b": 5.6915,
+          "c": 13.9521,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 120.0
+        },
+        "atom_sites": [
+          {
+            "label": "BA1",
+            "type_raw": "BA+2",
+            "element": "Ba",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.25,
+            "b_iso": 0.37708,
+            "occupancy": 0.08333,
+            "raw_line": "!BA1 BA+2         0.00000 0.00000 0.25000 0.37708 0.08333"
+          },
+          {
+            "label": "BA2",
+            "type_raw": "BA+2",
+            "element": "Ba",
+            "x": 0.33333,
+            "y": 0.66667,
+            "z": 0.09104,
+            "b_iso": 0.4111,
+            "occupancy": 0.16667,
+            "raw_line": "!BA2 BA+2         0.33333 0.66667 0.09104 0.41110 0.16667"
+          },
+          {
+            "label": "TI1",
+            "type_raw": "TI+4",
+            "element": "Ti",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 0.43696,
+            "occupancy": 0.02647,
+            "raw_line": "!TI1 TI+4         0.00000 0.00000 0.00000 0.43696 0.02647"
+          },
+          {
+            "label": "FE1",
+            "type_raw": "FE+3",
+            "element": "Fe",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 0.43696,
+            "occupancy": 0.05683,
+            "raw_line": "!FE1 FE+3         0.00000 0.00000 0.00000 0.43696 0.05683"
+          },
+          {
+            "label": "TI2",
+            "type_raw": "TI+4",
+            "element": "Ti",
+            "x": 0.33333,
+            "y": 0.66667,
+            "z": 0.84793,
+            "b_iso": 0.10951,
+            "occupancy": 0.05832,
+            "raw_line": "!TI2 TI+4         0.33333 0.66667 0.84793 0.10951 0.05832"
+          },
+          {
+            "label": "FE2",
+            "type_raw": "FE+3",
+            "element": "Fe",
+            "x": 0.33333,
+            "y": 0.66667,
+            "z": 0.84793,
+            "b_iso": 0.10951,
+            "occupancy": 0.10828,
+            "raw_line": "!FE2 FE+3         0.33333 0.66667 0.84793 0.10951 0.10828"
+          },
+          {
+            "label": "O1",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.52066,
+            "y": 0.04117,
+            "z": 0.25,
+            "b_iso": 1.0,
+            "occupancy": 0.27545,
+            "raw_line": "!O1  O-2          0.52066 0.04117 0.25000 1.00000 0.27545"
+          },
+          {
+            "label": "O2",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.83423,
+            "y": 0.66846,
+            "z": 0.08313,
+            "b_iso": 0.63706,
+            "occupancy": 0.5,
+            "raw_line": "!O2  O-2          0.83423 0.66846 0.08313 0.63706 0.50000"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_157_STR_C_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "157",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "157"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "Kaolinite Al4 (O H)8 (Si4 O10)",
+      "space_group": {
+        "hm": "C_1",
+        "number": null
+      },
+      "cell": {
+        "a": 5.15181,
+        "b": 8.92163,
+        "c": 7.42554,
+        "alpha": 91.67521,
+        "beta": 104.69247,
+        "gamma": 90.28946
+      },
+      "atom_site_count": 13,
+      "atomic_sites": [
+        {
+          "label": "Al",
+          "type_raw": "Al+3",
+          "element": "Al",
+          "x": 0.51323,
+          "y": 51323.0,
+          "z": -0.00477,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!     site Al    x 0.51323     y 51323     z -0.00477   occ Al+3  1  beq 0.5"
+        },
+        {
+          "label": "Al",
+          "type_raw": "Al+3",
+          "element": "Al",
+          "x": -0.01989,
+          "y": 0.33296,
+          "z": -0.00382,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!     site Al    x  -0.01989   y 0.33296   z -0.00382   occ Al+3  1  beq 0.5"
+        },
+        {
+          "label": "Si",
+          "type_raw": "Si+4",
+          "element": "Si",
+          "x": 0.79147,
+          "y": 0.33296,
+          "z": 0.3832,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!     site Si    x 0.79147     y 0.33296   z 0.38320    occ Si+4  1  beq 0.5"
+        },
+        {
+          "label": "Si",
+          "type_raw": "Si+4",
+          "element": "Si",
+          "x": 0.77873,
+          "y": 0.01371,
+          "z": 0.36825,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!     site Si    x 0.77873     y 0.01371   z 0.36825    occ Si+4  1  beq 0.5"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.72125,
+          "y": 0.31894,
+          "z": 0.15172,
+          "b_iso": 0.7,
+          "occupancy": 1.0,
+          "raw_line": "!     site O     x 0.72125     y 0.31894   z 0.15172    occ O-2   1  beq 0.7"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.70885,
+          "y": -0.00175,
+          "z": 0.15937,
+          "b_iso": 0.7,
+          "occupancy": 1.0,
+          "raw_line": "!     site O     x 0.70885     y -0.00175  z 0.15937    occ O-2   1  beq 0.7"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.81687,
+          "y": 0.16359,
+          "z": 0.46887,
+          "b_iso": 0.7,
+          "occupancy": 1.0,
+          "raw_line": "!     site O     x 0.81687     y 0.16359   z 0.46887    occ O-2   1  beq 0.7"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.60748,
+          "y": -0.1345,
+          "z": 0.45928,
+          "b_iso": 0.7,
+          "occupancy": 1.0,
+          "raw_line": "!     site O     x 0.60748     y -0.13450  z 0.45928    occ O-2   1  beq 0.7"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.11407,
+          "y": -0.0324,
+          "z": 0.46341,
+          "b_iso": 0.7,
+          "occupancy": 1.0,
+          "raw_line": "!     site O     x 0.11407     y -0.03240  z 0.46341    occ O-2   1  beq 0.7"
+        },
+        {
+          "label": "OH",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.79239,
+          "y": 0.18331,
+          "z": -0.15242,
+          "b_iso": 0.8,
+          "occupancy": 1.0,
+          "raw_line": "!     site OH    x 0.79239     y 0.18331   z -0.15242   occ O-2   1  beq 0.8"
+        },
+        {
+          "label": "OH",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.2903,
+          "y": 0.3067,
+          "z": -0.13231,
+          "b_iso": 0.8,
+          "occupancy": 1.0,
+          "raw_line": "!     site OH    x 0.29030     y 0.30670   z -0.13231   occ O-2   1  beq 0.8"
+        },
+        {
+          "label": "OH",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.31089,
+          "y": -0.01051,
+          "z": -0.13278,
+          "b_iso": 0.8,
+          "occupancy": 1.0,
+          "raw_line": "!     site OH    x 0.31089     y -0.01051  z -0.13278   occ O-2   1  beq 0.8"
+        },
+        {
+          "label": "OH",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.2073,
+          "y": 0.19319,
+          "z": 0.15733,
+          "b_iso": 0.8,
+          "occupancy": 1.0,
+          "raw_line": "!     site OH    x 0.20730     y 0.19319   z 0.15733    occ O-2   1  beq 0.8"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_157_STR_C_1.cif",
+        "sha256": "1908ea77b2f988aa8507e0a073b56479b00906e75225bde0160171342f8f76da",
+        "size_bytes": 1427
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "157",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\157.zip",
+        "source_archive_sha256": "8025a09ae7d9980fd541544ad387ccb4114b2fd200090a4b4a9188fbbf843553",
+        "source_member": "157.dat",
+        "source_member_sha256": "b7f1a23689fe5398d645595ce8cb078c1e27cf4e1f5191d959b244f47ca56d14",
+        "source_index_label_raw": "bauxite",
+        "raw_index_text": "<A href=\"/powbase/157.zip\">157</A>#bauxite#X#Cu-Kalpha#mineral; with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#2000\n",
+        "raw_hash_delimited_tokens": [
+          "bauxite",
+          "X",
+          "Cu-Kalpha",
+          "mineral; with Koalariet .inp file",
+          "from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files",
+          "2000"
+        ],
+        "raw_bibliographic_comment_text": "#bauxite#X#Cu-Kalpha#mineral; with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#2000",
+        "source_model_id": "STR(C_1)",
+        "source_model_name": "Kaolinite Al4 (O H)8 (Si4 O10)",
+        "source_model_format": "Koalariet",
+        "source_evidence": [
+          "!  STR(C_1) '  Kaolinite Al4 (O H)8 (Si4 O10)"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_157_STR_C_1.cif",
+        "cif_sha256": "1908ea77b2f988aa8507e0a073b56479b00906e75225bde0160171342f8f76da"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "bauxite",
+        "source_model_id": "STR(C_1)",
+        "source_model_name": "Kaolinite Al4 (O H)8 (Si4 O10)",
+        "space_group_raw": "C_1",
+        "cell": {
+          "a": 5.15181,
+          "b": 8.92163,
+          "c": 7.42554,
+          "alpha": 91.67521,
+          "beta": 104.69247,
+          "gamma": 90.28946
+        },
+        "atom_sites": [
+          {
+            "label": "Al",
+            "type_raw": "Al+3",
+            "element": "Al",
+            "x": 0.51323,
+            "y": 51323.0,
+            "z": -0.00477,
+            "b_iso": 0.5,
+            "occupancy": 1.0,
+            "raw_line": "!     site Al    x 0.51323     y 51323     z -0.00477   occ Al+3  1  beq 0.5"
+          },
+          {
+            "label": "Al",
+            "type_raw": "Al+3",
+            "element": "Al",
+            "x": -0.01989,
+            "y": 0.33296,
+            "z": -0.00382,
+            "b_iso": 0.5,
+            "occupancy": 1.0,
+            "raw_line": "!     site Al    x  -0.01989   y 0.33296   z -0.00382   occ Al+3  1  beq 0.5"
+          },
+          {
+            "label": "Si",
+            "type_raw": "Si+4",
+            "element": "Si",
+            "x": 0.79147,
+            "y": 0.33296,
+            "z": 0.3832,
+            "b_iso": 0.5,
+            "occupancy": 1.0,
+            "raw_line": "!     site Si    x 0.79147     y 0.33296   z 0.38320    occ Si+4  1  beq 0.5"
+          },
+          {
+            "label": "Si",
+            "type_raw": "Si+4",
+            "element": "Si",
+            "x": 0.77873,
+            "y": 0.01371,
+            "z": 0.36825,
+            "b_iso": 0.5,
+            "occupancy": 1.0,
+            "raw_line": "!     site Si    x 0.77873     y 0.01371   z 0.36825    occ Si+4  1  beq 0.5"
+          },
+          {
+            "label": "O",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.72125,
+            "y": 0.31894,
+            "z": 0.15172,
+            "b_iso": 0.7,
+            "occupancy": 1.0,
+            "raw_line": "!     site O     x 0.72125     y 0.31894   z 0.15172    occ O-2   1  beq 0.7"
+          },
+          {
+            "label": "O",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.70885,
+            "y": -0.00175,
+            "z": 0.15937,
+            "b_iso": 0.7,
+            "occupancy": 1.0,
+            "raw_line": "!     site O     x 0.70885     y -0.00175  z 0.15937    occ O-2   1  beq 0.7"
+          },
+          {
+            "label": "O",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.81687,
+            "y": 0.16359,
+            "z": 0.46887,
+            "b_iso": 0.7,
+            "occupancy": 1.0,
+            "raw_line": "!     site O     x 0.81687     y 0.16359   z 0.46887    occ O-2   1  beq 0.7"
+          },
+          {
+            "label": "O",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.60748,
+            "y": -0.1345,
+            "z": 0.45928,
+            "b_iso": 0.7,
+            "occupancy": 1.0,
+            "raw_line": "!     site O     x 0.60748     y -0.13450  z 0.45928    occ O-2   1  beq 0.7"
+          },
+          {
+            "label": "O",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.11407,
+            "y": -0.0324,
+            "z": 0.46341,
+            "b_iso": 0.7,
+            "occupancy": 1.0,
+            "raw_line": "!     site O     x 0.11407     y -0.03240  z 0.46341    occ O-2   1  beq 0.7"
+          },
+          {
+            "label": "OH",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.79239,
+            "y": 0.18331,
+            "z": -0.15242,
+            "b_iso": 0.8,
+            "occupancy": 1.0,
+            "raw_line": "!     site OH    x 0.79239     y 0.18331   z -0.15242   occ O-2   1  beq 0.8"
+          },
+          {
+            "label": "OH",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.2903,
+            "y": 0.3067,
+            "z": -0.13231,
+            "b_iso": 0.8,
+            "occupancy": 1.0,
+            "raw_line": "!     site OH    x 0.29030     y 0.30670   z -0.13231   occ O-2   1  beq 0.8"
+          },
+          {
+            "label": "OH",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.31089,
+            "y": -0.01051,
+            "z": -0.13278,
+            "b_iso": 0.8,
+            "occupancy": 1.0,
+            "raw_line": "!     site OH    x 0.31089     y -0.01051  z -0.13278   occ O-2   1  beq 0.8"
+          },
+          {
+            "label": "OH",
+            "type_raw": "O-2",
+            "element": "O",
+            "x": 0.2073,
+            "y": 0.19319,
+            "z": 0.15733,
+            "b_iso": 0.8,
+            "occupancy": 1.0,
+            "raw_line": "!     site OH    x 0.20730     y 0.19319   z 0.15733    occ O-2   1  beq 0.8"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_159_ARIT_PHASE_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "159",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "159"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "CACUO2",
+      "space_group": {
+        "hm": "FMMM",
+        "number": null
+      },
+      "cell": {
+        "a": 10.5825,
+        "b": 2.80434,
+        "c": 6.32492,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atom_site_count": 3,
+      "atomic_sites": [
+        {
+          "label": "CA",
+          "type_raw": "CA",
+          "element": "Ca",
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.25,
+          "b_iso": 5.31052,
+          "occupancy": 0.04,
+          "raw_line": "!CA / ! 1 1  0.25000  0.00000  0.25000  5.31052  0.04000"
+        },
+        {
+          "label": "CU",
+          "type_raw": "CU",
+          "element": "Cu",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 0.60959,
+          "occupancy": 0.04,
+          "raw_line": "!CU / ! 1 2  0.00000  0.00000  0.00000  0.60959  0.04000"
+        },
+        {
+          "label": "O",
+          "type_raw": "O",
+          "element": "O",
+          "x": 0.12144,
+          "y": 0.5,
+          "z": 0.0,
+          "b_iso": 3.16708,
+          "occupancy": 0.08,
+          "raw_line": "!O / ! 1 3  0.12144  0.50000  0.00000  3.16708  0.08000"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_159_ARIT_PHASE_1.cif",
+        "sha256": "bbd461bf1f77942f886a4ec29a56060c39ef466d1b9386a8ec1247a0a612ecac",
+        "size_bytes": 930
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "159",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\159.zip",
+        "source_archive_sha256": "4fcddf4a1377e992bf427a498837f67565731ddb5a77e0b1aa6a944868f3dc90",
+        "source_member": "159.dat",
+        "source_member_sha256": "728d0a654303fab44097b1ac969f21f316422d15049f39153fdc2d50c7d42394",
+        "source_index_label_raw": "CaCuO2",
+        "raw_index_text": "<A href=\"/powbase/159.zip\">159</A>#CaCuO2#X#Cu-Kalpha#unpublished#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000\n",
+        "raw_hash_delimited_tokens": [
+          "CaCuO2",
+          "X",
+          "Cu-Kalpha",
+          "unpublished",
+          "Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>",
+          "2000"
+        ],
+        "raw_bibliographic_comment_text": "#CaCuO2#X#Cu-Kalpha#unpublished#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000",
+        "source_model_id": "ARIT_PHASE_1",
+        "source_model_name": "CACUO2",
+        "source_model_format": "old Arit-style",
+        "source_evidence": [
+          "!  CACUO2   FMMM",
+          "!    10.58250     2.80434     6.32492    90.00000    90.00000    90.00000"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_159_ARIT_PHASE_1.cif",
+        "cif_sha256": "bbd461bf1f77942f886a4ec29a56060c39ef466d1b9386a8ec1247a0a612ecac"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "CaCuO2",
+        "source_model_id": "ARIT_PHASE_1",
+        "source_model_name": "CACUO2",
+        "space_group_raw": "FMMM",
+        "cell": {
+          "a": 10.5825,
+          "b": 2.80434,
+          "c": 6.32492,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "CA",
+            "type_raw": "CA",
+            "element": "Ca",
+            "x": 0.25,
+            "y": 0.0,
+            "z": 0.25,
+            "b_iso": 5.31052,
+            "occupancy": 0.04,
+            "raw_line": "!CA / ! 1 1  0.25000  0.00000  0.25000  5.31052  0.04000"
+          },
+          {
+            "label": "CU",
+            "type_raw": "CU",
+            "element": "Cu",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 0.60959,
+            "occupancy": 0.04,
+            "raw_line": "!CU / ! 1 2  0.00000  0.00000  0.00000  0.60959  0.04000"
+          },
+          {
+            "label": "O",
+            "type_raw": "O",
+            "element": "O",
+            "x": 0.12144,
+            "y": 0.5,
+            "z": 0.0,
+            "b_iso": 3.16708,
+            "occupancy": 0.08,
+            "raw_line": "!O / ! 1 3  0.12144  0.50000  0.00000  3.16708  0.08000"
+          }
+        ]
+      }
+    },
+    {
+      "structure_id": "STR_POWBASE_160_WINMPROF_PHASE_1",
+      "api_source_code": "POWBASE",
+      "api_source_id": "160",
+      "source": {
+        "code": "POWBASE",
+        "source_id": "160"
+      },
+      "data_origin": "experimental",
+      "structure_format": "CIF",
+      "formula": null,
+      "formula_normalized": null,
+      "mineral_name": "La2 Cu O4",
+      "space_group": {
+        "hm": "Fmmm",
+        "number": null
+      },
+      "cell": {
+        "a": 5.3553,
+        "b": 5.3991,
+        "c": 13.1538,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+      },
+      "atom_site_count": 4,
+      "atomic_sites": [
+        {
+          "label": "La",
+          "type_raw": "La",
+          "element": "La",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.36134,
+          "b_iso": 0.0,
+          "occupancy": null,
+          "raw_line": "!La     1   1    0.00000    0.00000    0.36134    0.00000    8.00000   1"
+        },
+        {
+          "label": "Cu",
+          "type_raw": "Cu",
+          "element": "Cu",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "b_iso": 0.0,
+          "occupancy": null,
+          "raw_line": "!Cu     1   2    0.00000    0.00000    0.00000    0.00000    4.00000   1"
+        },
+        {
+          "label": "O1",
+          "type_raw": "O1",
+          "element": "O",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.18322,
+          "b_iso": 2.0701,
+          "occupancy": null,
+          "raw_line": "!O1     1   3    0.00000    0.00000    0.18322    2.07010    8.00000   0"
+        },
+        {
+          "label": "O2",
+          "type_raw": "O2",
+          "element": "O",
+          "x": 0.25,
+          "y": 0.25,
+          "z": 0.0,
+          "b_iso": 1.05289,
+          "occupancy": null,
+          "raw_line": "!O2     1   3    0.25000    0.25000    0.00000    1.05289    8.00000   0"
+        }
+      ],
+      "file": {
+        "key": "data/staging/powbase_source_structures_v1/POWBASE_160_WINMPROF_PHASE_1.cif",
+        "sha256": "8be0dbfde568c2b5f7ae449bbdc43763bf5f4b15e058e45fbc40bccb10a1f25d",
+        "size_bytes": 954
+      },
+      "parse_status": "ok",
+      "parse_warnings": [],
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "160",
+        "source_archive_path": "data\\archive\\powbase_20261006\\archives\\160.zip",
+        "source_archive_sha256": "450fe4d44448735fc057d6379aae75efe9211d16b901921d5bbb5c42d3f2d83a",
+        "source_member": "160.dat",
+        "source_member_sha256": "ed30ae0bce5524c7c5fcbe40ee494d8decd79893f7c5313e31d544c48e0e3bf7",
+        "source_index_label_raw": "La2CuO4",
+        "raw_index_text": "<A href=\"/powbase/160.zip\">160</A>#La2CuO4#X#Cu-Kalpha#with WinMProf data#Sent by <A href=\"mailto:jouanneaux@aviion.univ-lemans.fr\">A. Jouanneaux</A>; pattern delivered with the <A href=\"http://pecdc.univ-lemans.fr/WinMProf/WinMProf.htm\">WinMProf package</A>#2000\n",
+        "raw_hash_delimited_tokens": [
+          "La2CuO4",
+          "X",
+          "Cu-Kalpha",
+          "with WinMProf data",
+          "Sent by <A href=\"mailto:jouanneaux@aviion.univ-lemans.fr\">A. Jouanneaux</A>; pattern delivered with the <A href=\"http://pecdc.univ-lemans.fr/WinMProf/WinMProf.htm\">WinMProf package</A>",
+          "2000"
+        ],
+        "raw_bibliographic_comment_text": "#La2CuO4#X#Cu-Kalpha#with WinMProf data#Sent by <A href=\"mailto:jouanneaux@aviion.univ-lemans.fr\">A. Jouanneaux</A>; pattern delivered with the <A href=\"http://pecdc.univ-lemans.fr/WinMProf/WinMProf.htm\">WinMProf package</A>#2000",
+        "source_model_id": "WINMPROF_PHASE_1",
+        "source_model_name": "La2 Cu O4",
+        "source_model_format": "WinMProf",
+        "source_evidence": [
+          "!Fmmm",
+          "!#  Cell constants"
+        ],
+        "recovery_method": "source_literal_structural_fields_only",
+        "cif_staging_path": "data\\staging\\powbase_source_structures_v1\\POWBASE_160_WINMPROF_PHASE_1.cif",
+        "cif_sha256": "8be0dbfde568c2b5f7ae449bbdc43763bf5f4b15e058e45fbc40bccb10a1f25d"
+      },
+      "source_literal_fields": {
+        "source_label_raw": "La2CuO4",
+        "source_model_id": "WINMPROF_PHASE_1",
+        "source_model_name": "La2 Cu O4",
+        "space_group_raw": "Fmmm",
+        "cell": {
+          "a": 5.3553,
+          "b": 5.3991,
+          "c": 13.1538,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "atom_sites": [
+          {
+            "label": "La",
+            "type_raw": "La",
+            "element": "La",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.36134,
+            "b_iso": 0.0,
+            "occupancy": null,
+            "raw_line": "!La     1   1    0.00000    0.00000    0.36134    0.00000    8.00000   1"
+          },
+          {
+            "label": "Cu",
+            "type_raw": "Cu",
+            "element": "Cu",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "b_iso": 0.0,
+            "occupancy": null,
+            "raw_line": "!Cu     1   2    0.00000    0.00000    0.00000    0.00000    4.00000   1"
+          },
+          {
+            "label": "O1",
+            "type_raw": "O1",
+            "element": "O",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.18322,
+            "b_iso": 2.0701,
+            "occupancy": null,
+            "raw_line": "!O1     1   3    0.00000    0.00000    0.18322    2.07010    8.00000   0"
+          },
+          {
+            "label": "O2",
+            "type_raw": "O2",
+            "element": "O",
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.0,
+            "b_iso": 1.05289,
+            "occupancy": null,
+            "raw_line": "!O2     1   3    0.25000    0.25000    0.00000    1.05289    8.00000   0"
+          }
+        ]
+      }
+    }
+  ],
+  "relations_to_add": [
+    {
+      "relation_id": "REL_POWBASE_113_STR_POWBASE_113_PHASE_1",
+      "subject_type": "pattern",
+      "subject_id": "POWBASE_PAT_113",
+      "predicate": "has_structure_linkage",
+      "object_type": "structure",
+      "object_id": "STR_POWBASE_113_PHASE_1",
+      "status": "complete",
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "113",
+        "method": "existing_recovery_source_link_supported",
+        "raw_index_text": "<A href=\"/powbase/113.zip\">113</A>#amphibole#X#Cu-Kalpha#mineral; with Fullprof .pcr;<A href=\"/powbase/113.wrl\"> 3D</A>#Sent by <A href=\"mailto:Jean.Yves.Cottin@univ-st-etienne.fr\">J. Y. Cottin</A>#1999\n"
+      }
+    },
+    {
+      "relation_id": "REL_POWBASE_116_STR_POWBASE_116_SR5_PHASE_1",
+      "subject_type": "pattern",
+      "subject_id": "POWBASE_PAT_116",
+      "predicate": "has_structure_linkage",
+      "object_type": "structure",
+      "object_id": "STR_POWBASE_116_SR5_PHASE_1",
+      "status": "complete",
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "116",
+        "method": "existing_recovery_source_link_supported",
+        "raw_index_text": "<A href=\"/powbase/116.zip\">116</A>#Li0.92Ti2.88O6#X#Cu-Kalpha#<A href=\"http://www.ccp14.ac.uk/solution/powder_structure_solution_pathways/inorganic.html\">ab initio</A>, with SR5 .inp #New Phases Formed in the Li-Ti-O System under Reducing Conditions. I.E. Grey, <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>, C. Li, L. A. Bursill, and J. L. Peng, J. Solid State Chem. 138 (1998) 74-86#1999\n"
+      }
+    },
+    {
+      "relation_id": "REL_POWBASE_117_STR_POWBASE_117_SR5_PHASE_1",
+      "subject_type": "pattern",
+      "subject_id": "POWBASE_PAT_117",
+      "predicate": "has_structure_linkage",
+      "object_type": "structure",
+      "object_id": "STR_POWBASE_117_SR5_PHASE_1",
+      "status": "complete",
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "117",
+        "method": "existing_recovery_source_link_supported",
+        "raw_index_text": "<A href=\"/powbase/117.zip\">117</A>#Li2Ti3O7#X#Cu-Kalpha#with SR5 .inp#Sent by <A href=\"mailto:L.M.D.Cranswick@dl.ac.uk\">L. M. D. Cranswick</A>#1999\n"
+      }
+    },
+    {
+      "relation_id": "REL_POWBASE_124_STR_POWBASE_124_PHASE_1",
+      "subject_type": "pattern",
+      "subject_id": "POWBASE_PAT_124",
+      "predicate": "has_structure_linkage",
+      "object_type": "structure",
+      "object_id": "STR_POWBASE_124_PHASE_1",
+      "status": "complete",
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "124",
+        "method": "existing_recovery_source_link_supported",
+        "raw_index_text": "<A href=\"/powbase/124.zip\">124</A>#Tb2BaCoO5#X#Cu-Kalpha#with Fullprof .pcr file#from the <A href=\"ftp://charybde.saclay.cea.fr/pub/divers/fullp/\">Fullprof</A> software test files#1999\n"
+      }
+    },
+    {
+      "relation_id": "REL_POWBASE_125_STR_POWBASE_125_STR_P_63_M_M_C",
+      "subject_type": "pattern",
+      "subject_id": "POWBASE_PAT_125",
+      "predicate": "has_structure_linkage",
+      "object_type": "structure",
+      "object_id": "STR_POWBASE_125_STR_P_63_M_M_C",
+      "status": "complete",
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "125",
+        "method": "existing_recovery_source_link_supported",
+        "raw_index_text": "<A href=\"/powbase/125.zip\">125</A>#BaTixFeyOz#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999\n"
+      }
+    },
+    {
+      "relation_id": "REL_POWBASE_159_STR_POWBASE_159_ARIT_PHASE_1",
+      "subject_type": "pattern",
+      "subject_id": "POWBASE_PAT_159",
+      "predicate": "has_structure_linkage",
+      "object_type": "structure",
+      "object_id": "STR_POWBASE_159_ARIT_PHASE_1",
+      "status": "complete",
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "159",
+        "method": "existing_recovery_source_link_supported",
+        "raw_index_text": "<A href=\"/powbase/159.zip\">159</A>#CaCuO2#X#Cu-Kalpha#unpublished#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000\n"
+      }
+    },
+    {
+      "relation_id": "REL_POWBASE_160_STR_POWBASE_160_WINMPROF_PHASE_1",
+      "subject_type": "pattern",
+      "subject_id": "POWBASE_PAT_160",
+      "predicate": "has_structure_linkage",
+      "object_type": "structure",
+      "object_id": "STR_POWBASE_160_WINMPROF_PHASE_1",
+      "status": "complete",
+      "provenance": {
+        "source": "POWBASE",
+        "source_id": "160",
+        "method": "existing_recovery_source_link_supported",
+        "raw_index_text": "<A href=\"/powbase/160.zip\">160</A>#La2CuO4#X#Cu-Kalpha#with WinMProf data#Sent by <A href=\"mailto:jouanneaux@aviion.univ-lemans.fr\">A. Jouanneaux</A>; pattern delivered with the <A href=\"http://pecdc.univ-lemans.fr/WinMProf/WinMProf.htm\">WinMProf package</A>#2000\n"
+      }
+    }
+  ],
+  "pattern_linkage_proposals": [
+    {
+      "pattern_id": "POWBASE_PAT_106",
+      "entry_id": "106",
+      "proposed_structure_linkage": {
+        "status": "ambiguous",
+        "coverage": "partial",
+        "certainty": "ambiguous",
+        "candidate_structure_ids": [
+          "STR_POWBASE_106_PHASE_1",
+          "STR_POWBASE_106_PHASE_2"
+        ]
+      },
+      "source_label_raw": "LiNbWO6",
+      "review_reason": "The source profile contains two explicit FullProf phase models; both CIFs are proposed, but no unique structure link is forced."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_113",
+      "entry_id": "113",
+      "proposed_structure_linkage": {
+        "status": "complete",
+        "coverage": "complete",
+        "certainty": "resolved",
+        "candidate_structure_ids": [
+          "STR_POWBASE_113_PHASE_1"
+        ]
+      },
+      "source_label_raw": "amphibole",
+      "review_reason": "One recoverable source model with source-supported linkage."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_116",
+      "entry_id": "116",
+      "proposed_structure_linkage": {
+        "status": "complete",
+        "coverage": "complete",
+        "certainty": "resolved",
+        "candidate_structure_ids": [
+          "STR_POWBASE_116_SR5_PHASE_1"
+        ]
+      },
+      "source_label_raw": "Li0.92Ti2.88O6",
+      "review_reason": "One recoverable source model with source-supported linkage."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_117",
+      "entry_id": "117",
+      "proposed_structure_linkage": {
+        "status": "complete",
+        "coverage": "complete",
+        "certainty": "resolved",
+        "candidate_structure_ids": [
+          "STR_POWBASE_117_SR5_PHASE_1"
+        ]
+      },
+      "source_label_raw": "Li2Ti3O7",
+      "review_reason": "One recoverable source model with source-supported linkage."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_124",
+      "entry_id": "124",
+      "proposed_structure_linkage": {
+        "status": "complete",
+        "coverage": "complete",
+        "certainty": "resolved",
+        "candidate_structure_ids": [
+          "STR_POWBASE_124_PHASE_1"
+        ]
+      },
+      "source_label_raw": "Tb2BaCoO5",
+      "review_reason": "One recoverable source model with source-supported linkage."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_125",
+      "entry_id": "125",
+      "proposed_structure_linkage": {
+        "status": "complete",
+        "coverage": "complete",
+        "certainty": "resolved",
+        "candidate_structure_ids": [
+          "STR_POWBASE_125_STR_P_63_M_M_C"
+        ]
+      },
+      "source_label_raw": "BaTixFeyOz",
+      "review_reason": "One recoverable source model with source-supported linkage."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_157",
+      "entry_id": "157",
+      "proposed_structure_linkage": {
+        "status": "ambiguous",
+        "coverage": "none",
+        "certainty": "ambiguous",
+        "candidate_structure_ids": []
+      },
+      "source_label_raw": "bauxite",
+      "review_reason": "The source contains five entry-157 models, but four are incomplete and the one recoverable model is not uniquely linkable."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_159",
+      "entry_id": "159",
+      "proposed_structure_linkage": {
+        "status": "complete",
+        "coverage": "complete",
+        "certainty": "resolved",
+        "candidate_structure_ids": [
+          "STR_POWBASE_159_ARIT_PHASE_1"
+        ]
+      },
+      "source_label_raw": "CaCuO2",
+      "review_reason": "One recoverable source model with source-supported linkage."
+    },
+    {
+      "pattern_id": "POWBASE_PAT_160",
+      "entry_id": "160",
+      "proposed_structure_linkage": {
+        "status": "complete",
+        "coverage": "complete",
+        "certainty": "resolved",
+        "candidate_structure_ids": [
+          "STR_POWBASE_160_WINMPROF_PHASE_1"
+        ]
+      },
+      "source_label_raw": "La2CuO4",
+      "review_reason": "One recoverable source model with source-supported linkage."
+    }
+  ],
+  "source_evidence_only_models": [
+    {
+      "entry_id": "157",
+      "pattern_id": "POWBASE_PAT_157",
+      "source_member": "157.dat",
+      "source_model_id": "STR(I_41/A_M_D_Z)",
+      "model_name": "ICSD Collection Code 202243,  Anatase Ti O2",
+      "refinement_model_format": "Koalariet",
+      "unit_cell_complete": false,
+      "cell": {
+        "a": 3.78884,
+        "b": 3.78884,
+        "c": 9.52143,
+        "alpha": null,
+        "beta": null,
+        "gamma": null
+      },
+      "space_group_raw": "I_41/A_M_D_Z",
+      "atom_site_count": 2,
+      "atom_sites": [
+        {
+          "label": "Ti",
+          "type_raw": "Ti+4",
+          "element": "Ti",
+          "x": 0.0,
+          "y": 0.25,
+          "z": 0.375,
+          "b_iso": 0.25,
+          "occupancy": 1.0,
+          "raw_line": "!      site Ti    x 0        y 0.25     z  = 3/8;  occ Ti+4  1        beq 0.25"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.0,
+          "y": 0.25,
+          "z": 0.16666666666666666,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x 0        y 0.25     z  = 1/6;  occ O-2   1        beq 0.5"
+        }
+      ],
+      "source_evidence": [
+        "!   STR(I_41/A_M_D_Z) '   ICSD Collection Code 202243,  Anatase Ti O2"
+      ],
+      "reason": "not_recoverable_missing_complete_source_fields"
+    },
+    {
+      "entry_id": "157",
+      "pattern_id": "POWBASE_PAT_157",
+      "source_member": "157.dat",
+      "source_model_id": "STR(P_1_21/N_1)",
+      "model_name": "ICSD Collection Code 6162,  Gibbsite Al (O H)3",
+      "refinement_model_format": "Koalariet",
+      "unit_cell_complete": false,
+      "cell": {
+        "a": 8.67264,
+        "b": 5.07189,
+        "c": 9.72251,
+        "alpha": null,
+        "beta": 94.42309,
+        "gamma": null
+      },
+      "space_group_raw": "P_1_21/N_1",
+      "atom_site_count": 14,
+      "atom_sites": [
+        {
+          "label": "Al",
+          "type_raw": "Al+3",
+          "element": "Al",
+          "x": 0.1679,
+          "y": 0.5295,
+          "z": -0.0023,
+          "b_iso": 1.0,
+          "occupancy": 1.0,
+          "raw_line": "!      site Al    x 0.1679   y 0.5295   z -0.0023  occ Al+3  1        beq 1.0000"
+        },
+        {
+          "label": "Al",
+          "type_raw": "Al+3",
+          "element": "Al",
+          "x": 0.3344,
+          "y": 0.0236,
+          "z": -0.0024,
+          "b_iso": 1.0,
+          "occupancy": 1.0,
+          "raw_line": "!      site Al    x 0.3344   y 0.0236   z -0.0024  occ Al+3  1        beq 1.0000"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.1779,
+          "y": 0.2183,
+          "z": -0.1115,
+          "b_iso": 1.0,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x 0.1779   y 0.2183   z -0.1115  occ O-2   1        beq 1.0000"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.6692,
+          "y": 0.6558,
+          "z": -0.1023,
+          "b_iso": 0.0,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x 0.6692   y 0.6558   z -0.1023  occ O-2   1        beq 0.0000"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.4984,
+          "y": 0.1315,
+          "z": -0.1044,
+          "b_iso": 2.0,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x 0.4984   y 0.1315   z -0.1044  occ O-2   1        beq 2.0000"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": -0.0205,
+          "y": 0.6293,
+          "z": -0.1068,
+          "b_iso": 1.0,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x -0.0205  y 0.6293   z -0.1068  occ O-2   1        beq 1.0000"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.2971,
+          "y": 0.7178,
+          "z": -0.1052,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x 0.2971   y 0.7178   z -0.1052  occ O-2   1        beq 0.5"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.8194,
+          "y": 0.1491,
+          "z": -0.1015,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x 0.8194   y 0.1491   z -0.1015  occ O-2   1        beq 0.5"
+        },
+        {
+          "label": "H",
+          "type_raw": "H",
+          "element": "H",
+          "x": 0.101,
+          "y": 0.152,
+          "z": -0.124,
+          "b_iso": 0.25,
+          "occupancy": 1.0,
+          "raw_line": "!      site H     x 0.101    y 0.152    z -0.124   occ H     1        beq 0.25"
+        },
+        {
+          "label": "H",
+          "type_raw": "H",
+          "element": "H",
+          "x": 0.595,
+          "y": 0.573,
+          "z": -0.098,
+          "b_iso": 0.25,
+          "occupancy": 1.0,
+          "raw_line": "!      site H     x 0.595    y 0.573    z -0.098   occ H     1        beq 0.25"
+        },
+        {
+          "label": "H",
+          "type_raw": "H",
+          "element": "H",
+          "x": 0.503,
+          "y": 0.137,
+          "z": -0.19,
+          "b_iso": 0.25,
+          "occupancy": 1.0,
+          "raw_line": "!      site H     x 0.503    y 0.137    z -0.19    occ H     1        beq 0.25"
+        },
+        {
+          "label": "H",
+          "type_raw": "H",
+          "element": "H",
+          "x": -0.029,
+          "y": 0.801,
+          "z": -0.107,
+          "b_iso": 0.25,
+          "occupancy": 1.0,
+          "raw_line": "!      site H     x -0.029   y 0.801    z -0.107   occ H     1        beq 0.25"
+        },
+        {
+          "label": "H",
+          "type_raw": "H",
+          "element": "H",
+          "x": 0.293,
+          "y": 0.724,
+          "z": -0.196,
+          "b_iso": 0.25,
+          "occupancy": 1.0,
+          "raw_line": "!      site H     x 0.293    y 0.724    z -0.196   occ H     1        beq 0.25"
+        },
+        {
+          "label": "H",
+          "type_raw": "H",
+          "element": "H",
+          "x": 0.815,
+          "y": 0.16,
+          "z": -0.19,
+          "b_iso": 0.25,
+          "occupancy": 1.0,
+          "raw_line": "!      site H     x 0.815    y 0.16     z -0.19    occ H     1        beq 0.25"
+        }
+      ],
+      "source_evidence": [
+        "!   STR(P_1_21/N_1) '   ICSD Collection Code 6162,  Gibbsite Al (O H)3"
+      ],
+      "reason": "not_recoverable_missing_complete_source_fields"
+    },
+    {
+      "entry_id": "157",
+      "pattern_id": "POWBASE_PAT_157",
+      "source_member": "157.dat",
+      "source_model_id": "STR(R_-3_C_H)",
+      "model_name": "ICSD Collection Code 66756,  Hematite Fe2 O3",
+      "refinement_model_format": "Koalariet",
+      "unit_cell_complete": false,
+      "cell": {
+        "a": 5.02934,
+        "b": 5.02934,
+        "c": 13.74726,
+        "alpha": null,
+        "beta": null,
+        "gamma": 120.0
+      },
+      "space_group_raw": "R_-3_C_H",
+      "atom_site_count": 2,
+      "atom_sites": [
+        {
+          "label": "Fe",
+          "type_raw": "Fe+3",
+          "element": "Fe",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3553,
+          "b_iso": 0.75,
+          "occupancy": 1.0,
+          "raw_line": "!      site Fe    x 0        y 0        z 0.3553   occ Fe+3   1   beq 0.7500"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.3072,
+          "y": 0.0,
+          "z": 0.25,
+          "b_iso": 0.87,
+          "occupancy": 1.0,
+          "raw_line": "!      site O     x 0.3072   y 0        z 0.25     occ O-2    1   beq 0.8700"
+        }
+      ],
+      "source_evidence": [
+        "!   STR(R_-3_C_H) '   ICSD Collection Code 66756,  Hematite Fe2 O3"
+      ],
+      "reason": "not_recoverable_missing_complete_source_fields"
+    },
+    {
+      "entry_id": "157",
+      "pattern_id": "POWBASE_PAT_157",
+      "source_member": "157.dat",
+      "source_model_id": "STR(P_31_2_1)",
+      "model_name": "Quartz",
+      "refinement_model_format": "Koalariet",
+      "unit_cell_complete": false,
+      "cell": {
+        "a": 4.9195,
+        "b": 4.9195,
+        "c": 5.41177,
+        "alpha": null,
+        "beta": null,
+        "gamma": 120.0
+      },
+      "space_group_raw": "P_31_2_1",
+      "atom_site_count": 2,
+      "atom_sites": [
+        {
+          "label": "Si",
+          "type_raw": "Si+4",
+          "element": "Si",
+          "x": 0.53013,
+          "y": 0.0,
+          "z": 0.3333333333333333,
+          "b_iso": 0.56,
+          "occupancy": 1.0,
+          "raw_line": "!      site Si x 0.53013 y 0      z  =1/3;    occ Si+4  1 beq  0.56"
+        },
+        {
+          "label": "O",
+          "type_raw": "O-2",
+          "element": "O",
+          "x": 0.146,
+          "y": 0.4141,
+          "z": -0.1188,
+          "b_iso": 0.96,
+          "occupancy": 1.0,
+          "raw_line": "!      site O  x 0.14600 y 0.4141 z -0.1188   occ O-2   1 beq  0.96"
+        }
+      ],
+      "source_evidence": [
+        "!\tSTR(P_31_2_1) ' Quartz"
+      ],
+      "reason": "not_recoverable_missing_complete_source_fields"
+    }
+  ],
+  "ambiguous_entries": [
+    {
+      "entry_id": "106",
+      "reason": "Two explicit source phase models; both CIFs proposed, no unique link.",
+      "candidate_structure_ids": [
+        "STR_POWBASE_106_PHASE_1",
+        "STR_POWBASE_106_PHASE_2"
+      ]
+    },
+    {
+      "entry_id": "157",
+      "reason": "Five source models; four incomplete and one recoverable, so no unique link is forced.",
+      "candidate_structure_ids": [],
+      "source_evidence_only_model_count": 4
+    }
+  ],
+  "entry_116_wavelength_fix": {
+    "entry_id": "116",
+    "pattern_id": "POWBASE_PAT_116",
+    "source_line": "!Anode Cu    Alpha1  1.54056    Alpha2  1.54439    Ratio  0.50000",
+    "explicit_wavelengths_angstrom": [
+      1.54056,
+      1.54439
+    ],
+    "proposed_primary_wavelength_angstrom": 1.54056,
+    "proposed_secondary_wavelength_angstrom": 1.54439,
+    "proposed_wavelength_values_angstrom": [
+      1.54056,
+      1.54439
+    ],
+    "current_canonical_pattern": {
+      "wavelength_angstrom": null,
+      "wavelength_kalpha2_angstrom": null
+    },
+    "current_canonical_measurement": {
+      "wavelength_angstrom": null,
+      "wavelength_kalpha2_angstrom": null
+    },
+    "reason": "The source labels Alpha1 and Alpha2 explicitly. The proposal preserves both values without changing the source or canonical record."
+  },
+  "entry_157_literal_source_value": {
+    "value": "51323",
+    "numeric_parse": 51323.0,
+    "preserved": true,
+    "note": "Preserved as source evidence; no correction or normalization applied."
+  },
+  "cif_validation": {
+    "all_passed": true,
+    "records": [
+      {
+        "entry_id": "106",
+        "source_model_id": "PHASE_1",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_106_PHASE_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_106_PHASE_1",
+        "atom_site_count": 8,
+        "space_group_raw": "'P -4 21 M'",
+        "cell": {
+          "a": 4.681563,
+          "b": 4.681563,
+          "c": 9.275737,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "sha256": "03f315d102458d85c9ea24f2c8f020f706ab615ab84ae84c3120bfb8052f1a38",
+        "size_bytes": 1185
+      },
+      {
+        "entry_id": "106",
+        "source_model_id": "PHASE_2",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_106_PHASE_2.cif",
+        "status": "passed",
+        "block_name": "POWBASE_106_PHASE_2",
+        "atom_site_count": 8,
+        "space_group_raw": "'P -4 21 M'",
+        "cell": {
+          "a": 4.681563,
+          "b": 4.681563,
+          "c": 9.275737,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "sha256": "957c16a3ff8793848f6d0d31e8eedd8d1a24917a49b8932033cef01f6032643e",
+        "size_bytes": 1185
+      },
+      {
+        "entry_id": "113",
+        "source_model_id": "PHASE_1",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_113_PHASE_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_113_PHASE_1",
+        "atom_site_count": 20,
+        "space_group_raw": "'C 2/M'",
+        "cell": {
+          "a": 9.903701,
+          "b": 18.051849,
+          "c": 5.303462,
+          "alpha": 90.0,
+          "beta": 105.22937,
+          "gamma": 90.0
+        },
+        "sha256": "cd40df987573b2c1e41261ae3929a5a3d26cd4aaa2ac21a0f9b3b1cdaed3ce10",
+        "size_bytes": 1688
+      },
+      {
+        "entry_id": "116",
+        "source_model_id": "SR5_PHASE_1",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_116_SR5_PHASE_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_116_SR5_PHASE_1",
+        "atom_site_count": 6,
+        "space_group_raw": "'C 2/M'",
+        "cell": {
+          "a": 14.0907,
+          "b": 2.9505,
+          "c": 4.9075,
+          "alpha": 90.0,
+          "beta": 92.2146,
+          "gamma": 90.0
+        },
+        "sha256": "a939138de50086b952acfe64bce899bbb330a8a1fbc9168877768f218422d238",
+        "size_bytes": 1082
+      },
+      {
+        "entry_id": "117",
+        "source_model_id": "SR5_PHASE_1",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_117_SR5_PHASE_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_117_SR5_PHASE_1",
+        "atom_site_count": 3,
+        "space_group_raw": "'P N M A'",
+        "cell": {
+          "a": 9.5505,
+          "b": 2.9453,
+          "c": 5.0164,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "sha256": "3840d9e835cf60f460855952ec664c90e1656402e6d50c6a66fdb760b33dbe43",
+        "size_bytes": 959
+      },
+      {
+        "entry_id": "124",
+        "source_model_id": "PHASE_1",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_124_PHASE_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_124_PHASE_1",
+        "atom_site_count": 5,
+        "space_group_raw": "'I m m m'",
+        "cell": {
+          "a": 3.755964,
+          "b": 5.823793,
+          "c": 11.551784,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "sha256": "a149b94a497218a4909abf655c76734bcdd48237239bb74457bb876a4c69f7dc",
+        "size_bytes": 1019
+      },
+      {
+        "entry_id": "125",
+        "source_model_id": "STR(P_63/M_M_C)",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_125_STR_P_63_M_M_C.cif",
+        "status": "passed",
+        "block_name": "POWBASE_125_STR_P_63_M_M_C_",
+        "atom_site_count": 8,
+        "space_group_raw": "'P 63/M M C'",
+        "cell": {
+          "a": 5.6915,
+          "b": 5.6915,
+          "c": 13.9521,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 120.0
+        },
+        "sha256": "cfd5a13846535af2b6472ad65a98b2b9a30895a36bc35e25f802db654da2403c",
+        "size_bytes": 1300
+      },
+      {
+        "entry_id": "157",
+        "source_model_id": "STR(C_1)",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_157_STR_C_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_157_STR_C_1_",
+        "atom_site_count": 13,
+        "space_group_raw": "'C 1'",
+        "cell": {
+          "a": 5.15181,
+          "b": 8.92163,
+          "c": 7.42554,
+          "alpha": 91.67521,
+          "beta": 104.69247,
+          "gamma": 90.28946
+        },
+        "sha256": "1908ea77b2f988aa8507e0a073b56479b00906e75225bde0160171342f8f76da",
+        "size_bytes": 1427
+      },
+      {
+        "entry_id": "159",
+        "source_model_id": "ARIT_PHASE_1",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_159_ARIT_PHASE_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_159_ARIT_PHASE_1",
+        "atom_site_count": 3,
+        "space_group_raw": "'FMMM'",
+        "cell": {
+          "a": 10.5825,
+          "b": 2.80434,
+          "c": 6.32492,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "sha256": "bbd461bf1f77942f886a4ec29a56060c39ef466d1b9386a8ec1247a0a612ecac",
+        "size_bytes": 930
+      },
+      {
+        "entry_id": "160",
+        "source_model_id": "WINMPROF_PHASE_1",
+        "path": "data\\staging\\powbase_source_structures_v1\\POWBASE_160_WINMPROF_PHASE_1.cif",
+        "status": "passed",
+        "block_name": "POWBASE_160_WINMPROF_PHASE_1",
+        "atom_site_count": 4,
+        "space_group_raw": "'Fmmm'",
+        "cell": {
+          "a": 5.3553,
+          "b": 5.3991,
+          "c": 13.1538,
+          "alpha": 90.0,
+          "beta": 90.0,
+          "gamma": 90.0
+        },
+        "sha256": "8be0dbfde568c2b5f7ae449bbdc43763bf5f4b15e058e45fbc40bccb10a1f25d",
+        "size_bytes": 954
+      }
+    ]
+  },
+  "validation": {
+    "proposed_structure_count": 10,
+    "proposed_relation_count": 7,
+    "expected_proposed_structure_count": 10,
+    "expected_proposed_relation_count": 7,
+    "local_duplicate_ids": {
+      "structure_ids": [],
+      "relation_ids": []
+    },
+    "orphan_relations": [],
+    "provenance_errors": [],
+    "source_evidence_only_entry_157_count": 4,
+    "source_evidence_only_entry_157_expected": 4,
+    "mongo_collision_check": {
+      "available": true,
+      "read_only": true,
+      "database": "crystaldb",
+      "structure_collisions": [],
+      "relation_collisions": [],
+      "error": null
+    },
+    "passed": true
+  },
+  "production_count_changes": {
+    "baseline_final_counts": {
+      "sources": 6,
+      "samples": 2932,
+      "measurements": 61966,
+      "patterns": 3019,
+      "structures": 62642,
+      "reflection_sets": 58947,
+      "relations": 65246,
+      "refinements": 0,
+      "releases": 1
+    },
+    "delta": {
+      "sources": 0,
+      "samples": 0,
+      "measurements": 0,
+      "patterns": 0,
+      "structures": 10,
+      "reflection_sets": 0,
+      "relations": 7,
+      "refinements": 0,
+      "releases": 0
+    },
+    "proposed_final_counts": {
+      "sources": 6,
+      "samples": 2932,
+      "measurements": 61966,
+      "patterns": 3019,
+      "structures": 62652,
+      "reflection_sets": 58947,
+      "relations": 65253,
+      "refinements": 0,
+      "releases": 1
+    }
+  },
+  "prohibited_operations": {
+    "mongodb_write": false,
+    "source_archive_modified": false,
+    "canonical_record_modified": false,
+    "cod_matching_run": false,
+    "git_commit_or_push": false
+  }
+}

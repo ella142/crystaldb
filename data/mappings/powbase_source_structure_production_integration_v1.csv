@@ -1,0 +1,20 @@
+﻿record_type,entry_id,identifier,action,status,details
+structure,106,STR_POWBASE_106_PHASE_1,insert,inserted,PHASE_1
+structure,106,STR_POWBASE_106_PHASE_2,insert,inserted,PHASE_2
+structure,113,STR_POWBASE_113_PHASE_1,insert,inserted,PHASE_1
+structure,116,STR_POWBASE_116_SR5_PHASE_1,insert,inserted,SR5_PHASE_1
+structure,117,STR_POWBASE_117_SR5_PHASE_1,insert,inserted,SR5_PHASE_1
+structure,124,STR_POWBASE_124_PHASE_1,insert,inserted,PHASE_1
+structure,125,STR_POWBASE_125_STR_P_63_M_M_C,insert,inserted,STR(P_63/M_M_C)
+structure,157,STR_POWBASE_157_STR_C_1,insert,inserted,STR(C_1)
+structure,159,STR_POWBASE_159_ARIT_PHASE_1,insert,inserted,ARIT_PHASE_1
+structure,160,STR_POWBASE_160_WINMPROF_PHASE_1,insert,inserted,WINMPROF_PHASE_1
+relation,113,REL_POWBASE_113_STR_POWBASE_113_PHASE_1,insert,inserted,STR_POWBASE_113_PHASE_1
+relation,116,REL_POWBASE_116_STR_POWBASE_116_SR5_PHASE_1,insert,inserted,STR_POWBASE_116_SR5_PHASE_1
+relation,117,REL_POWBASE_117_STR_POWBASE_117_SR5_PHASE_1,insert,inserted,STR_POWBASE_117_SR5_PHASE_1
+relation,124,REL_POWBASE_124_STR_POWBASE_124_PHASE_1,insert,inserted,STR_POWBASE_124_PHASE_1
+relation,125,REL_POWBASE_125_STR_POWBASE_125_STR_P_63_M_M_C,insert,inserted,STR_POWBASE_125_STR_P_63_M_M_C
+relation,159,REL_POWBASE_159_STR_POWBASE_159_ARIT_PHASE_1,insert,inserted,STR_POWBASE_159_ARIT_PHASE_1
+relation,160,REL_POWBASE_160_STR_POWBASE_160_WINMPROF_PHASE_1,insert,inserted,STR_POWBASE_160_WINMPROF_PHASE_1
+metadata,116,POWBASE_PAT_116,update,modified,"{""status"": ""modified"", ""values"": {""wavelength_angstrom"": 1.54056, ""wavelength_kalpha2_angstrom"": 1.54439}}"
+metadata,116,POWBASE_MEAS_116,update,modified,"{""status"": ""modified"", ""values"": {""wavelength_angstrom"": 1.54056, ""wavelength_kalpha2_angstrom"": 1.54439}}"

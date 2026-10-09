@@ -20,7 +20,7 @@ class Settings(BaseModel):
     mongo_db: str = Field(
         default_factory=lambda: os.environ.get(
             "CRYSTALDB_MONGO_DB",
-            os.environ.get("CRYSTALDB_MONGO_DATABASE", "crystaldb_api_pilot"),
+            os.environ.get("CRYSTALDB_MONGO_DATABASE", "crystaldb"),
         )
     )
     data_root: Path = Field(

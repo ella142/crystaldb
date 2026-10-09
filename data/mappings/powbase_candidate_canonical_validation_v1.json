@@ -1,0 +1,622 @@
+{
+  "schema_version": "powbase_candidate_canonical_validation_v1",
+  "read_only": true,
+  "scope": {
+    "entry_ids": [
+      "15",
+      "74",
+      "121",
+      "156"
+    ],
+    "existing_44_pattern_count": 3019,
+    "proposed_pattern_count_if_all_pass": 3023
+  },
+  "records": [
+    {
+      "entry_id": "15",
+      "status": "PASS",
+      "source_label_raw": "LaB6",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "sample_id": "POWBASE_SAM_15",
+      "measurement_id": "POWBASE_MEAS_15",
+      "pattern_id": "POWBASE_PAT_15",
+      "source_filename": "15.zip",
+      "member_filename": "lab6.dat",
+      "source_archive_sha256": "284772cfec54c494f3dbd7dc3d37840ee1565c4f8ef179ff03543c811bff3ca8",
+      "source_member_sha256": "237b9471090cd49653189cf05c32fdce8cddf56424bd4a30316d3d90cf58bb4e",
+      "source_extension": ".dat",
+      "detected_content_family": "uxd_style_pattern",
+      "recovery_rule": "UXD _START/_STEPSIZE/_STEPCOUNT metadata plus the _COUNTS intensity block; end is reconstructed as start + step*(count-1).",
+      "start": 18.0,
+      "step": 0.01,
+      "end": 148.02,
+      "end_explicit_in_source": false,
+      "expected_point_count": 13003,
+      "observed_point_count": 13003,
+      "canonical_point_count": 13003,
+      "monotonic_2theta": true,
+      "finite_intensities": true,
+      "wavelength_angstrom": 1.54056,
+      "wavelength_kalpha2_angstrom": 1.54439,
+      "explicit_wavelength_values_angstrom": [
+        1.54056,
+        1.54439,
+        1.39222
+      ],
+      "wavelength_notes": [],
+      "source_raw_index_text": "<A href=\"/powbase/15.zip\">15</A>#LaB6#X#Cu-Kalpha#NIST SRM 660#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, see the <A href=\"http://sdpd.univ-lemans.fr/powdif/low_fwhm_and_rp.html\">Summary on the Subject 'Low FWHM and Rp'</A>#1999\n",
+      "source_bibliographic_comment_text": "#LaB6#X#Cu-Kalpha#NIST SRM 660#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, see the <A href=\"http://sdpd.univ-lemans.fr/powdif/low_fwhm_and_rp.html\">Summary on the Subject 'Low FWHM and Rp'</A>#1999",
+      "decode_encoding": "utf-8-sig",
+      "nul_byte_count": 0,
+      "decode_note": null,
+      "validation_issues": []
+    },
+    {
+      "entry_id": "74",
+      "status": "PASS",
+      "source_label_raw": "LiCoO2",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "sample_id": "POWBASE_SAM_74",
+      "measurement_id": "POWBASE_MEAS_74",
+      "pattern_id": "POWBASE_PAT_74",
+      "source_filename": "74.zip",
+      "member_filename": "licoo2.dat",
+      "source_archive_sha256": "911a15964cc0db90e6a9cddf26c7c2d36cec33a0e54912cf461dfa89fb5af733",
+      "source_member_sha256": "2789b2eaa5aec7922b0ef4dc3204b4602320897d97652482f6144101c76bd251",
+      "source_extension": ".dat",
+      "detected_content_family": "legacy_intensity_array_with_source_suffix",
+      "recovery_rule": "Three numeric 2theta header fields followed by the literal CuKalpha suffix; retain all following numeric intensity values.",
+      "start": 16.0,
+      "step": 0.03,
+      "end": 136.0,
+      "end_explicit_in_source": true,
+      "expected_point_count": 4001,
+      "observed_point_count": 4001,
+      "canonical_point_count": 4001,
+      "monotonic_2theta": true,
+      "finite_intensities": true,
+      "wavelength_angstrom": null,
+      "wavelength_kalpha2_angstrom": null,
+      "explicit_wavelength_values_angstrom": [],
+      "wavelength_notes": [],
+      "source_raw_index_text": "<A href=\"/powbase/74.zip\">74</A>#LiCoO2#X#Cu-Kalpha# #Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "source_bibliographic_comment_text": "#LiCoO2#X#Cu-Kalpha# #Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "decode_encoding": "utf-8-sig",
+      "nul_byte_count": 0,
+      "decode_note": null,
+      "validation_issues": []
+    },
+    {
+      "entry_id": "121",
+      "status": "PASS",
+      "source_label_raw": "CeO2",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "sample_id": "POWBASE_SAM_121",
+      "measurement_id": "POWBASE_MEAS_121",
+      "pattern_id": "POWBASE_PAT_121",
+      "source_filename": "121.zip",
+      "member_filename": "121.dat",
+      "source_archive_sha256": "9e70b0fe8ae9f2db360621af5549f1c16678675058d1f23db34aa080f54f6fd1",
+      "source_member_sha256": "fa242d0119f2894c9684635e4836dc3ce99361a3ad501d4eaa783be1f3ab5667",
+      "source_extension": ".dat",
+      "detected_content_family": "koalariet_style_pattern",
+      "recovery_rule": "Koalariet source text decoded with NUL bytes replaced only in the parsing view, then the explicit three-number 2theta header and exact raw intensity count are used; source bytes are preserved.",
+      "start": 23.0,
+      "step": 0.02,
+      "end": 140.0,
+      "end_explicit_in_source": true,
+      "expected_point_count": 5851,
+      "observed_point_count": 5851,
+      "canonical_point_count": 5851,
+      "monotonic_2theta": true,
+      "finite_intensities": true,
+      "wavelength_angstrom": null,
+      "wavelength_kalpha2_angstrom": null,
+      "explicit_wavelength_values_angstrom": [],
+      "wavelength_notes": [],
+      "source_raw_index_text": "<A href=\"/powbase/121.zip\">121</A>#CeO2#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999\n",
+      "source_bibliographic_comment_text": "#CeO2#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999",
+      "decode_encoding": "rescue-utf-8-sig",
+      "nul_byte_count": 22,
+      "decode_note": "embedded NUL bytes replaced with spaces for parsing only; source bytes preserved",
+      "validation_issues": []
+    },
+    {
+      "entry_id": "156",
+      "status": "PASS",
+      "source_label_raw": "Cr2O3",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "sample_id": "POWBASE_SAM_156",
+      "measurement_id": "POWBASE_MEAS_156",
+      "pattern_id": "POWBASE_PAT_156",
+      "source_filename": "156.zip",
+      "member_filename": "156.dat",
+      "source_archive_sha256": "bf1ec1b8f7f1ab33758856438feed9d277b51ff85540fc7f8f35a7dfde35ef9c",
+      "source_member_sha256": "4409b5e30df18787e7cfa6f3cb142de2591b3d536321f65edd21f0d69f3a605c",
+      "source_extension": ".dat",
+      "detected_content_family": "koalariet_style_pattern",
+      "recovery_rule": "Koalariet source text decoded with NUL bytes replaced only in the parsing view, then the explicit three-number 2theta header and exact raw intensity count are used; source bytes are preserved.",
+      "start": 23.0,
+      "step": 0.02,
+      "end": 140.0,
+      "end_explicit_in_source": true,
+      "expected_point_count": 5851,
+      "observed_point_count": 5851,
+      "canonical_point_count": 5851,
+      "monotonic_2theta": true,
+      "finite_intensities": true,
+      "wavelength_angstrom": null,
+      "wavelength_kalpha2_angstrom": null,
+      "explicit_wavelength_values_angstrom": [],
+      "wavelength_notes": [],
+      "source_raw_index_text": "<A href=\"/powbase/156.zip\">156</A>#Cr2O3#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#2000\n",
+      "source_bibliographic_comment_text": "#Cr2O3#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#2000",
+      "decode_encoding": "rescue-utf-8-sig",
+      "nul_byte_count": 22,
+      "decode_note": "embedded NUL bytes replaced with spaces for parsing only; source bytes preserved",
+      "validation_issues": []
+    }
+  ],
+  "identifier_collision_check": {
+    "local_against_existing_44": {
+      "sample_id": [],
+      "measurement_id": [],
+      "pattern_id": []
+    },
+    "mongo_read_only": {
+      "sample_id": [],
+      "measurement_id": [],
+      "pattern_id": []
+    },
+    "mongo_report": {
+      "status": "ok",
+      "database": "crystaldb",
+      "read_only": true,
+      "collections": {
+        "samples": {
+          "source_powbase_count": 44,
+          "id_collisions": [
+            {
+              "sample_id": "POWBASE_SAM_10"
+            },
+            {
+              "sample_id": "POWBASE_SAM_106"
+            },
+            {
+              "sample_id": "POWBASE_SAM_111"
+            },
+            {
+              "sample_id": "POWBASE_SAM_113"
+            },
+            {
+              "sample_id": "POWBASE_SAM_116"
+            },
+            {
+              "sample_id": "POWBASE_SAM_117"
+            },
+            {
+              "sample_id": "POWBASE_SAM_12"
+            },
+            {
+              "sample_id": "POWBASE_SAM_124"
+            },
+            {
+              "sample_id": "POWBASE_SAM_125"
+            },
+            {
+              "sample_id": "POWBASE_SAM_126"
+            },
+            {
+              "sample_id": "POWBASE_SAM_127"
+            },
+            {
+              "sample_id": "POWBASE_SAM_128"
+            },
+            {
+              "sample_id": "POWBASE_SAM_13"
+            },
+            {
+              "sample_id": "POWBASE_SAM_133"
+            },
+            {
+              "sample_id": "POWBASE_SAM_140"
+            },
+            {
+              "sample_id": "POWBASE_SAM_149"
+            },
+            {
+              "sample_id": "POWBASE_SAM_157"
+            },
+            {
+              "sample_id": "POWBASE_SAM_159"
+            },
+            {
+              "sample_id": "POWBASE_SAM_160"
+            },
+            {
+              "sample_id": "POWBASE_SAM_162"
+            },
+            {
+              "sample_id": "POWBASE_SAM_163"
+            },
+            {
+              "sample_id": "POWBASE_SAM_164"
+            },
+            {
+              "sample_id": "POWBASE_SAM_19"
+            },
+            {
+              "sample_id": "POWBASE_SAM_38"
+            },
+            {
+              "sample_id": "POWBASE_SAM_4"
+            },
+            {
+              "sample_id": "POWBASE_SAM_43"
+            },
+            {
+              "sample_id": "POWBASE_SAM_45"
+            },
+            {
+              "sample_id": "POWBASE_SAM_46"
+            },
+            {
+              "sample_id": "POWBASE_SAM_58"
+            },
+            {
+              "sample_id": "POWBASE_SAM_60"
+            },
+            {
+              "sample_id": "POWBASE_SAM_66"
+            },
+            {
+              "sample_id": "POWBASE_SAM_67"
+            },
+            {
+              "sample_id": "POWBASE_SAM_68"
+            },
+            {
+              "sample_id": "POWBASE_SAM_69"
+            },
+            {
+              "sample_id": "POWBASE_SAM_71"
+            },
+            {
+              "sample_id": "POWBASE_SAM_72"
+            },
+            {
+              "sample_id": "POWBASE_SAM_73"
+            },
+            {
+              "sample_id": "POWBASE_SAM_75"
+            },
+            {
+              "sample_id": "POWBASE_SAM_76"
+            },
+            {
+              "sample_id": "POWBASE_SAM_77"
+            },
+            {
+              "sample_id": "POWBASE_SAM_78"
+            },
+            {
+              "sample_id": "POWBASE_SAM_79"
+            },
+            {
+              "sample_id": "POWBASE_SAM_8"
+            },
+            {
+              "sample_id": "POWBASE_SAM_80"
+            }
+          ]
+        },
+        "measurements": {
+          "source_powbase_count": 44,
+          "id_collisions": [
+            {
+              "measurement_id": "POWBASE_MEAS_10"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_106"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_111"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_113"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_116"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_117"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_12"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_124"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_125"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_126"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_127"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_128"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_13"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_133"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_140"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_149"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_157"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_159"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_160"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_162"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_163"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_164"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_19"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_38"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_4"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_43"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_45"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_46"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_58"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_60"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_66"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_67"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_68"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_69"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_71"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_72"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_73"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_75"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_76"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_77"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_78"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_79"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_8"
+            },
+            {
+              "measurement_id": "POWBASE_MEAS_80"
+            }
+          ]
+        },
+        "patterns": {
+          "source_powbase_count": 44,
+          "id_collisions": [
+            {
+              "pattern_id": "POWBASE_PAT_10"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_106"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_111"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_113"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_116"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_117"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_12"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_124"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_125"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_126"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_127"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_128"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_13"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_133"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_140"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_149"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_157"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_159"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_160"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_162"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_163"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_164"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_19"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_38"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_4"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_43"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_45"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_46"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_58"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_60"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_66"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_67"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_68"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_69"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_71"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_72"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_73"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_75"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_76"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_77"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_78"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_79"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_8"
+            },
+            {
+              "pattern_id": "POWBASE_PAT_80"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "source_archive_hash_check": {
+    "unchanged": true,
+    "before": {
+      "15": "284772cfec54c494f3dbd7dc3d37840ee1565c4f8ef179ff03543c811bff3ca8",
+      "74": "911a15964cc0db90e6a9cddf26c7c2d36cec33a0e54912cf461dfa89fb5af733",
+      "121": "9e70b0fe8ae9f2db360621af5549f1c16678675058d1f23db34aa080f54f6fd1",
+      "156": "bf1ec1b8f7f1ab33758856438feed9d277b51ff85540fc7f8f35a7dfde35ef9c"
+    },
+    "after": {
+      "15": "284772cfec54c494f3dbd7dc3d37840ee1565c4f8ef179ff03543c811bff3ca8",
+      "74": "911a15964cc0db90e6a9cddf26c7c2d36cec33a0e54912cf461dfa89fb5af733",
+      "121": "9e70b0fe8ae9f2db360621af5549f1c16678675058d1f23db34aa080f54f6fd1",
+      "156": "bf1ec1b8f7f1ab33758856438feed9d277b51ff85540fc7f8f35a7dfde35ef9c"
+    }
+  },
+  "summary": {
+    "candidate_count": 4,
+    "pass_count": 4,
+    "fail_count": 0,
+    "all_pass": true,
+    "proposed_powbase_xray_production_count": 48,
+    "proposed_crystaldb_pattern_count": 3023,
+    "mongodb_writes": false,
+    "source_archives_modified": false,
+    "canonical_records_modified": false,
+    "entry_137_processed": false,
+    "other_conditional_records_processed": false
+  }
+}

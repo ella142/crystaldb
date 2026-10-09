@@ -45,6 +45,41 @@ def _int(value: Any) -> int | None:
         return None
 
 
+def _numeric_values(*values: Any) -> list[float]:
+    result: list[float] = []
+    for value in values:
+        candidates = value if isinstance(value, (list, tuple)) else [value]
+        for candidate in candidates:
+            numeric = _float(candidate)
+            if numeric is not None and numeric not in result:
+                result.append(numeric)
+    return result
+
+
+def _material_label(document: dict[str, Any]) -> str | None:
+    direct = _first(
+        document.get("material_label"),
+        document.get("source_label"),
+        document.get("source_label_raw"),
+    )
+    if direct is not None:
+        return str(direct)
+
+    provenance = document.get("provenance")
+    provenance = provenance if isinstance(provenance, dict) else {}
+    powbase_evidence = provenance.get("powbase_source_evidence")
+    powbase_evidence = (
+        powbase_evidence if isinstance(powbase_evidence, dict) else {}
+    )
+    source_metadata = document.get("source_metadata")
+    source_metadata = source_metadata if isinstance(source_metadata, dict) else {}
+    nested = _first(
+        powbase_evidence.get("source_label_raw"),
+        source_metadata.get("source_label_raw"),
+    )
+    return str(nested) if nested is not None else None
+
+
 def _source_ref(document: dict[str, Any], *, source_key: str = "source") -> SourceRef:
     raw = document.get(source_key)
     if isinstance(raw, str):
@@ -166,7 +201,63 @@ def _phase_character(document: dict[str, Any], components: list[PhaseComponent])
 def _structure_linkage(
     document: dict[str, Any],
     components: list[PhaseComponent],
+    relation_documents: list[dict[str, Any]] | None = None,
 ) -> StructureLinkage:
+    if relation_documents is not None:
+        relations = [
+            relation
+            for relation in relation_documents
+            if relation.get("object_type") == "structure"
+            and relation.get("object_id")
+        ]
+        if relations:
+            candidate_structure_ids: list[str] = []
+            for relation in relations:
+                structure_id = str(relation["object_id"])
+                if structure_id not in candidate_structure_ids:
+                    candidate_structure_ids.append(structure_id)
+
+            if any(
+                relation.get("predicate") == "has_structure_linkage"
+                and relation.get("status") == "complete"
+                for relation in relations
+            ):
+                return StructureLinkage(
+                    status="complete",
+                    coverage="complete",
+                    certainty="resolved",
+                    candidate_structure_ids=candidate_structure_ids,
+                )
+            if any(relation.get("status") == "ambiguous" for relation in relations):
+                return StructureLinkage(
+                    status="ambiguous",
+                    coverage="partial",
+                    certainty="ambiguous",
+                    candidate_structure_ids=candidate_structure_ids,
+                )
+            if any(relation.get("status") == "inconclusive" for relation in relations):
+                return StructureLinkage(
+                    status="partial",
+                    coverage="partial",
+                    certainty="unknown",
+                    candidate_structure_ids=candidate_structure_ids,
+                )
+
+        source = document.get("source")
+        source_code = (
+            document.get("api_source_code")
+            or source.get("code")
+            if isinstance(source, dict)
+            else document.get("api_source_code")
+        )
+        if str(source_code or "").upper() == "POWBASE":
+            return StructureLinkage(
+                status="unlinked",
+                coverage="none",
+                certainty="unknown",
+                candidate_structure_ids=[],
+            )
+
     raw = document.get("structure_linkage")
     raw = raw if isinstance(raw, dict) else {}
     status = raw.get("status")
@@ -230,7 +321,13 @@ def _provenance(document: dict[str, Any], source: SourceRef) -> Provenance:
     return Provenance(
         source=source.code,
         source_id=source.source_id,
-        source_file=raw.get("source_file"),
+        source_file=_first(
+            raw.get("source_file"),
+            document.get("source_file"),
+            (document.get("file") or {}).get("key")
+            if isinstance(document.get("file"), dict)
+            else None,
+        ),
         label_type=_first(
             raw.get("phase_label_type"),
             raw.get("label_type"),
@@ -266,7 +363,10 @@ def _pattern_arrays(document: dict[str, Any]) -> tuple[list[float], list[float]]
     )
 
 
-def pattern_model(document: dict[str, Any]) -> Pattern:
+def pattern_model(
+    document: dict[str, Any],
+    relation_documents: list[dict[str, Any]] | None = None,
+) -> Pattern:
     components = _phase_components(document)
     source = _source_ref(document)
     x_values, _ = _pattern_arrays(document)
@@ -291,6 +391,19 @@ def pattern_model(document: dict[str, Any]) -> Pattern:
         radiation.get("wavelength_kalpha1_angstrom"),
         document.get("wavelength"),
     )
+    wavelength_kalpha2 = _first(
+        radiation.get("wavelength_kalpha2_angstrom"),
+        document.get("wavelength_kalpha2_angstrom"),
+    )
+    wavelengths = _numeric_values(
+        radiation.get("wavelengths_angstrom"),
+        radiation.get("wavelength_angstrom"),
+        radiation.get("wavelength_kalpha1_angstrom"),
+        radiation.get("wavelength_kalpha2_angstrom"),
+        document.get("wavelengths_angstrom"),
+        document.get("wavelength"),
+        document.get("wavelength_kalpha2_angstrom"),
+    )
     pattern_id = document["pattern_id"]
     return Pattern(
         pattern_id=pattern_id,
@@ -301,8 +414,13 @@ def pattern_model(document: dict[str, Any]) -> Pattern:
         modality=_first(document.get("modality"), document.get("acquisition_mode"), "powder_xrd"),
         dataset_role=_first(document.get("dataset_role"), document.get("representation")),
         phase_character=_phase_character(document, components),
+        material_label=_material_label(document),
         phase_components=components,
-        structure_linkage=_structure_linkage(document, components),
+        structure_linkage=_structure_linkage(
+            document,
+            components,
+            relation_documents=relation_documents,
+        ),
         scan=ScanInfo(
             axis=_first(
                 scan.get("axis"),
@@ -318,6 +436,8 @@ def pattern_model(document: dict[str, Any]) -> Pattern:
         radiation=RadiationInfo(
             anode=_first(radiation.get("anode"), radiation.get("characteristic")),
             wavelength_angstrom=_float(wavelength),
+            wavelength_kalpha2_angstrom=_float(wavelength_kalpha2),
+            wavelengths_angstrom=wavelengths,
         ),
         provenance=_provenance(document, source),
         links=Links(
@@ -395,10 +515,27 @@ def measurement_model(document: dict[str, Any]) -> Measurement:
             wavelength_angstrom=_float(
                 _first(
                     conditions.get("wavelength_angstrom"),
+                    conditions.get("wavelength_kalpha1_angstrom"),
                     radiation.get("wavelength_kalpha1_angstrom"),
                     radiation.get("wavelength"),
                     conditions.get("wavelength"),
                 )
+            ),
+            wavelength_kalpha2_angstrom=_float(
+                _first(
+                    conditions.get("wavelength_kalpha2_angstrom"),
+                    radiation.get("wavelength_kalpha2_angstrom"),
+                )
+            ),
+            wavelengths_angstrom=_numeric_values(
+                conditions.get("wavelengths_angstrom"),
+                conditions.get("wavelength_angstrom"),
+                conditions.get("wavelength_kalpha1_angstrom"),
+                conditions.get("wavelength_kalpha2_angstrom"),
+                radiation.get("wavelengths_angstrom"),
+                radiation.get("wavelength_kalpha1_angstrom"),
+                radiation.get("wavelength_kalpha2_angstrom"),
+                radiation.get("wavelength"),
             ),
             scan_range=scan_range,
             step_size=_float(

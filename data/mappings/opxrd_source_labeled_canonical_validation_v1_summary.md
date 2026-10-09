@@ -1,0 +1,391 @@
+# OPXRD Source-Labeled Canonical Validation v1
+
+- Authoritative input: `D:\document\aiformaterials\crystaldb\data\mappings\opxrd_source_label_overlap_v1.csv`
+- Source collection: `opxrd.patterns`
+- MongoDB writes: none
+- CIF matching: not performed
+
+## Results
+
+- Total input records: 1334
+- Validated: 996
+- Failed: 338
+- single_phase: 224
+- multi_phase: 1110
+- Invalid/ambiguous effective phase count: 0
+- Duplicate/collision count: 0
+
+## Phase Count Distribution
+
+```json
+{
+  "1": 224,
+  "2": 1108,
+  "3": 1,
+  "4": 1
+}
+```
+
+## Validation Checks
+
+- Input list contains exactly 1,334 records: True
+- Every authoritative source ID matched one source record: True
+- Every source ID is unique: True
+- Source metadata preserved: True
+- Effective phase counts preserved: True
+- Production ID collisions absent: True
+- Proposed IDs unique within candidate set: True
+- All 1,334 records pass: False
+- Axis rule: finite monotonic diffraction axis (increasing or decreasing) and finite intensities.
+- All 338 failures are USC records. Each has one backward axis step and one
+  duplicate axis step; representative `OPXRD/USC/pattern_0.json` jumps from
+  `66.0851466` to `64.98220287` and repeats `69.70313028`.
+
+## Failed IDs
+
+- `OPXRD/USC/pattern_0.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_1.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_10.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_100.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_101.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_102.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_103.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_104.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_105.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_106.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_107.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_108.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_109.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_11.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_110.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_111.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_112.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_113.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_114.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_115.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_116.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_117.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_118.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_119.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_12.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_120.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_121.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_122.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_123.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_124.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_125.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_126.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_127.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_128.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_129.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_13.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_130.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_131.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_132.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_133.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_134.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_135.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_136.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_137.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_138.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_139.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_14.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_140.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_141.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_142.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_143.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_144.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_145.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_146.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_147.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_148.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_149.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_15.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_150.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_151.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_152.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_153.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_154.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_155.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_156.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_157.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_158.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_159.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_16.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_160.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_161.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_162.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_163.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_164.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_165.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_166.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_167.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_168.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_169.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_17.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_170.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_171.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_172.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_173.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_174.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_175.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_176.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_177.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_178.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_179.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_18.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_180.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_181.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_182.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_183.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_184.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_185.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_186.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_187.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_188.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_189.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_19.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_190.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_191.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_192.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_193.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_194.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_195.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_196.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_197.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_198.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_199.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_2.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_20.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_200.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_201.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_202.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_203.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_204.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_205.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_206.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_207.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_208.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_209.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_21.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_210.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_211.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_212.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_213.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_214.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_215.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_216.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_217.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_218.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_219.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_22.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_220.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_221.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_222.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_223.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_224.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_225.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_226.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_227.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_228.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_229.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_23.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_230.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_231.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_232.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_233.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_234.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_235.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_236.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_237.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_238.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_239.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_24.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_240.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_241.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_242.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_243.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_244.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_245.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_246.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_247.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_248.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_249.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_25.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_250.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_251.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_252.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_253.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_254.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_255.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_256.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_257.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_258.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_259.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_26.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_260.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_261.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_262.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_263.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_264.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_265.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_266.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_267.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_268.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_269.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_27.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_270.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_271.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_272.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_273.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_274.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_275.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_276.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_277.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_278.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_279.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_28.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_280.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_281.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_282.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_283.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_284.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_285.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_286.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_287.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_288.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_289.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_29.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_290.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_291.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_292.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_293.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_294.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_295.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_296.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_297.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_298.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_299.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_3.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_30.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_300.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_301.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_302.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_303.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_304.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_305.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_306.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_307.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_308.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_309.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_31.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_310.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_311.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_312.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_313.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_314.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_315.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_316.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_317.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_318.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_319.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_32.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_320.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_321.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_322.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_323.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_324.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_325.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_326.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_327.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_328.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_329.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_33.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_330.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_331.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_332.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_333.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_334.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_335.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_336.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_337.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_34.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_35.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_36.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_37.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_38.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_39.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_4.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_40.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_41.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_42.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_43.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_44.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_45.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_46.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_47.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_48.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_49.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_5.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_50.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_51.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_52.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_53.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_54.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_55.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_56.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_57.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_58.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_59.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_6.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_60.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_61.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_62.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_63.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_64.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_65.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_66.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_67.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_68.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_69.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_7.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_70.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_71.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_72.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_73.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_74.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_75.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_76.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_77.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_78.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_79.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_8.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_80.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_81.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_82.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_83.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_84.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_85.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_86.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_87.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_88.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_89.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_9.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_90.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_91.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_92.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_93.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_94.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_95.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_96.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_97.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_98.json`: diffraction_axis_not_monotonic
+- `OPXRD/USC/pattern_99.json`: diffraction_axis_not_monotonic
+
+## Proposed Counts
+
+- Conditional OPXRD production patterns if all 1,334 pass: 2179
+- Conditional CrystalDB pattern count if all 1,334 pass: 4428
+- Current validated subset (not a production proposal): 996
+
+The proposed phase-character fields are `phase_character`, `phase_character_origin=inferred`, and `phase_character_method=opxrd_effective_phase_count_v1`.

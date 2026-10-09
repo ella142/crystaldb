@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import os
+
 import pytest
 from fastapi.testclient import TestClient
 
@@ -16,6 +18,8 @@ from crystaldb.api.services.mapping import (
 
 @pytest.fixture(scope="module")
 def client() -> TestClient:
+    # API tests may insert temporary documents; never point them at production.
+    os.environ["CRYSTALDB_MONGO_DB"] = "crystaldb_api_pilot"
     get_settings.cache_clear()
     get_client.cache_clear()
     with TestClient(app) as test_client:
@@ -28,14 +32,110 @@ def test_health(client: TestClient) -> None:
     assert response.json()["status"] == "ok"
 
 
+def test_stats_include_database_source_and_phase_breakdowns(
+    client: TestClient,
+) -> None:
+    response = client.get("/api/v1/stats")
+    assert response.status_code == 200
+    stats = response.json()
+    database = get_client()[get_settings().mongo_db]
+
+    source_counts = {
+        row["_id"]: row["count"]
+        for row in database.patterns.aggregate(
+            [
+                {"$match": {"modality": "powder_xrd"}},
+                {"$group": {"_id": "$api_source_code", "count": {"$sum": 1}}},
+            ]
+        )
+        if row.get("_id")
+    }
+    phase_counts = {
+        row["_id"]: row["count"]
+        for row in database.patterns.aggregate(
+            [
+                {
+                    "$group": {
+                        "_id": {"$ifNull": ["$phase_character", "unknown"]},
+                        "count": {"$sum": 1},
+                    }
+                }
+            ]
+        )
+    }
+
+    assert stats["powder_pattern_counts_by_source"] == source_counts
+    assert stats["phase_character_counts"] == phase_counts
+    assert sum(source_counts.values()) == stats["powder_pattern_count"]
+    assert sum(phase_counts.values()) == stats["pattern_count"]
+    expected_source_phase_counts: dict[str, dict[str, int]] = {}
+    for row in database.patterns.aggregate(
+        [
+            {
+                "$group": {
+                    "_id": {
+                        "source": "$api_source_code",
+                        "phase": {"$ifNull": ["$phase_character", "unknown"]},
+                    },
+                    "count": {"$sum": 1},
+                }
+            }
+        ]
+    ):
+        source = row["_id"].get("source")
+        phase = row["_id"].get("phase")
+        if source and phase:
+            expected_source_phase_counts.setdefault(source, {})[phase] = row["count"]
+    assert stats["source_phase_counts"] == expected_source_phase_counts
+
+
 def test_pattern_list(client: TestClient) -> None:
     response = client.get("/api/v1/patterns?limit=50")
     assert response.status_code == 200
     payload = response.json()
     assert payload["meta"]["count"] == 16
+    assert payload["meta"]["total_count"] == 16
     assert len(payload["items"]) == 16
     assert all("pattern_id" in item for item in payload["items"])
     assert "data" not in payload["items"][0]
+
+
+def test_reflection_sets_are_listed_with_total_count_and_source_filter(
+    client: TestClient,
+) -> None:
+    database = get_client()[get_settings().mongo_db]
+    response = client.get("/api/v1/reflection-sets?source=COD&limit=2")
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["meta"]["total_count"] == database.reflection_sets.count_documents(
+        {"api_source_code": "COD"}
+    )
+    assert payload["items"]
+    assert all(
+        item["modality"] == "single_crystal_xrd" for item in payload["items"]
+    )
+    assert all(item["source"]["code"] == "COD" for item in payload["items"])
+    assert all("available_fields" in item for item in payload["items"])
+
+    source_id = payload["items"][0]["source"]["source_id"]
+    query_response = client.get(
+        f"/api/v1/reflection-sets?q={source_id}&limit=5"
+    )
+    assert query_response.status_code == 200
+    assert query_response.json()["items"]
+
+
+def test_global_search_covers_rruff_record_identifiers(client: TestClient) -> None:
+    response = client.get("/api/v1/search?q=R080016")
+    assert response.status_code == 200
+    payload = response.json()
+    assert "reflection_sets" in payload
+    assert [item["pattern_id"] for item in payload["patterns"]] == [
+        "RRUFF_PAT_R080016_1"
+    ]
+    assert "RRUFF_SAM_R080016" in [
+        item["sample_id"] for item in payload["samples"]
+    ]
 
 
 def test_pattern_detail(client: TestClient) -> None:
@@ -55,9 +155,11 @@ def test_pattern_filters(client: TestClient) -> None:
     response = client.get("/api/v1/patterns?source=DARA")
     assert response.status_code == 200
     assert response.json()["meta"]["count"] == 12
+    assert response.json()["meta"]["total_count"] == 12
     response = client.get("/api/v1/patterns?phase_character=multi_phase")
     assert response.status_code == 200
     assert response.json()["meta"]["count"] == 3
+    assert response.json()["meta"]["total_count"] == 3
     legacy_role = client.get(
         "/api/v1/patterns?source=DARA&dataset_role=single_precursor"
     )
@@ -67,6 +169,18 @@ def test_pattern_filters(client: TestClient) -> None:
             "/api/v1/patterns?source=DARA&dataset_role=single_phase_precursor"
         ).json()["meta"]["count"]
         == 10
+    )
+
+
+def test_component_formula_filter_accepts_underscore_notation(client: TestClient) -> None:
+    underscore_response = client.get("/api/v1/patterns?component_formula=Ag_2_S")
+    plain_response = client.get("/api/v1/patterns?component_formula=Ag2S")
+    assert underscore_response.status_code == 200
+    assert plain_response.status_code == 200
+    assert underscore_response.json()["meta"]["total_count"] > 0
+    assert (
+        underscore_response.json()["meta"]["total_count"]
+        == plain_response.json()["meta"]["total_count"]
     )
 
 
@@ -231,6 +345,74 @@ def test_ambiguous_structure_linkage_preserves_candidates() -> None:
     phase_structure = pattern.phase_components[0].structure
     assert phase_structure.structure_id is None
     assert phase_structure.structure_ids == ["STR_A", "STR_B"]
+
+
+def test_relation_backed_pattern_linkage_is_authoritative() -> None:
+    pattern = pattern_model(
+        {
+            "pattern_id": "POWBASE_PAT_113",
+            "api_source_code": "POWBASE",
+            "structure_linkage": {
+                "status": "unlinked",
+                "coverage": "none",
+                "certainty": "unknown",
+                "candidate_structure_ids": [],
+            },
+        },
+        relation_documents=[
+            {
+                "object_type": "structure",
+                "object_id": "STR_POWBASE_113_PHASE_1",
+                "predicate": "has_structure_linkage",
+                "status": "complete",
+            }
+        ],
+    )
+    assert pattern.structure_linkage.status == "complete"
+    assert pattern.structure_linkage.candidate_structure_ids == [
+        "STR_POWBASE_113_PHASE_1"
+    ]
+
+
+def test_powbase_structure_without_relation_is_not_promoted() -> None:
+    pattern = pattern_model(
+        {
+            "pattern_id": "POWBASE_PAT_106",
+            "api_source_code": "POWBASE",
+            "linked_structure_ids": ["STR_POWBASE_106_PHASE_1"],
+            "structure_linkage": {
+                "status": "complete",
+                "coverage": "complete",
+                "certainty": "resolved",
+                "candidate_structure_ids": ["STR_POWBASE_106_PHASE_1"],
+            },
+        },
+        relation_documents=[],
+    )
+    assert pattern.structure_linkage.status == "unlinked"
+    assert pattern.structure_linkage.candidate_structure_ids == []
+
+
+def test_powbase_label_and_multiple_wavelengths_are_preserved() -> None:
+    pattern = pattern_model(
+        {
+            "pattern_id": "POWBASE_PAT_113",
+            "api_source_code": "POWBASE",
+            "provenance": {
+                "powbase_source_evidence": {
+                    "source_label_raw": "amphibole",
+                }
+            },
+            "radiation": {
+                "wavelength_angstrom": 1.54056,
+                "wavelength_kalpha2_angstrom": 1.54439,
+            },
+        }
+    )
+    assert pattern.material_label == "amphibole"
+    assert pattern.radiation.wavelengths_angstrom == pytest.approx(
+        [1.54056, 1.54439]
+    )
 
 
 def test_xy_point_count_consistency(client: TestClient) -> None:

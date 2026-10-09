@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import re
+
 from fastapi import APIRouter, Depends, HTTPException, Query
 from fastapi.responses import FileResponse
 from pymongo.database import Database
@@ -20,6 +22,8 @@ router = APIRouter(prefix="/reflection-sets", tags=["reflection-sets"])
 @router.get("", response_model=PaginatedResponse[ReflectionSet])
 def list_reflection_sets(
     source: str | None = Query(default=None),
+    q: str | None = Query(default=None, max_length=200),
+    structure_id: str | None = Query(default=None),
     limit: int = Query(default=50, ge=1, le=500),
     cursor: str | None = Query(default=None),
     database: Database = Depends(get_database),
@@ -31,6 +35,22 @@ def list_reflection_sets(
     query: dict[str, object] = {}
     if source:
         query["api_source_code"] = source.upper()
+    if structure_id:
+        query["structure_id"] = structure_id
+    if q and q.strip():
+        regex = re.escape(q.strip())
+        query["$or"] = [
+            {"reflection_set_id": {"$regex": regex, "$options": "i"}},
+            {"measurement_id": {"$regex": regex, "$options": "i"}},
+            {"api_source_id": {"$regex": regex, "$options": "i"}},
+            {"source_record_id": {"$regex": regex, "$options": "i"}},
+            {"source.source_id": {"$regex": regex, "$options": "i"}},
+            {"provenance.source_id": {"$regex": regex, "$options": "i"}},
+            {"structure_id": {"$regex": regex, "$options": "i"}},
+            {"observed_quantity": {"$regex": regex, "$options": "i"}},
+            {"reflection_fields": {"$regex": regex, "$options": "i"}},
+        ]
+    total_count = database.reflection_sets.count_documents(query)
     documents = ReflectionRepository(database.reflection_sets).list(
         query,
         limit=limit + 1,
@@ -42,7 +62,11 @@ def list_reflection_sets(
     next_cursor = encode_cursor(documents[-1]["reflection_set_id"]) if has_next and documents else None
     return PaginatedResponse(
         items=[reflection_model(document) for document in documents],
-        meta={"count": len(documents), "next_cursor": next_cursor},
+        meta={
+            "count": len(documents),
+            "total_count": total_count,
+            "next_cursor": next_cursor,
+        },
     )
 
 

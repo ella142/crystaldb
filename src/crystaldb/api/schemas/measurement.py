@@ -11,6 +11,8 @@ class MeasurementConditions(PublicModel):
     anode: str | None = None
     radiation: str | None = None
     wavelength_angstrom: float | None = None
+    wavelength_kalpha2_angstrom: float | None = None
+    wavelengths_angstrom: list[float] = Field(default_factory=list)
     scan_range: list[float] | None = None
     step_size: float | None = None
     counting_time_seconds: float | None = None

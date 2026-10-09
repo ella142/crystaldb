@@ -1,0 +1,4367 @@
+{
+  "scope": {
+    "entry_ids": [
+      "1",
+      "20",
+      "22",
+      "26",
+      "28",
+      "32",
+      "33",
+      "34",
+      "37",
+      "44",
+      "54",
+      "55",
+      "57",
+      "59",
+      "62",
+      "70",
+      "81",
+      "88",
+      "90",
+      "98",
+      "103",
+      "104",
+      "112",
+      "121",
+      "144",
+      "155",
+      "156",
+      "158",
+      "161",
+      "165"
+    ],
+    "record_count": 30,
+    "source_manifest": "D:\\document\\aiformaterials\\crystaldb\\data\\mappings\\powbase_v1_inclusion_manifest.csv",
+    "archive_root": "D:\\document\\aiformaterials\\crystaldb\\data\\archive\\powbase_20261006\\archives"
+  },
+  "method": {
+    "profile_recovery_rule": "Recover only when a valid source three-number start/step/end header exists, its implied grid is aligned, and the raw observed intensity count equals round((end-start)/step)+1.",
+    "padding_policy": "Terminal zeros and fixed-width row candidates are reported only. No source value is trimmed, padded, interpolated, resampled, or normalized.",
+    "fallback_text_policy": "If the base decoder rejects a member but the bytes are readable legacy text, decode for audit parsing and replace embedded NUL bytes with spaces in the analysis string only. The original member bytes and SHA256 are preserved."
+  },
+  "counts": {
+    "total_records": 30,
+    "fullprof_evidence": 3,
+    "cif_evidence": 1,
+    "any_refinement_or_model_evidence": 8,
+    "embedded_model_content": 6,
+    "profile_safely_recoverable": 2,
+    "still_unresolved": 28
+  },
+  "by_classification": {
+    "A_model_and_profile_recoverable": [
+      "121",
+      "156"
+    ],
+    "B_model_present_profile_unresolved": [
+      "1",
+      "81",
+      "90",
+      "112",
+      "144",
+      "155"
+    ],
+    "C_profile_recoverable_without_model": [],
+    "D_still_unresolved": [
+      "20",
+      "22",
+      "26",
+      "28",
+      "32",
+      "33",
+      "34",
+      "37",
+      "44",
+      "54",
+      "55",
+      "57",
+      "59",
+      "62",
+      "70",
+      "88",
+      "98",
+      "103",
+      "104",
+      "158",
+      "161",
+      "165"
+    ]
+  },
+  "records": [
+    {
+      "entry_id": "1",
+      "source_label_raw": "<A href=\"http://sdpd.univ-lemans.fr/motm/talf3n.html\">t-AlF3</A>",
+      "source_label_text": "t-AlF3",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/1.zip\">1</A>#<A href=\"http://sdpd.univ-lemans.fr/motm/talf3n.html\">t-AlF3</A>#X#Cu-Kalpha#ab initio; Fullprof .pcr;<A href=\"/powbase/1.wrl\"> 3D</A>; <A href=\"/powbase/1.gif\">.gif</A>#t-AlF3, Crystal Structure Determination from X-Ray Powder Diffraction Data. A New MX3 Corner-Sharing Octahedra 3D Network. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. L. Fourquet and U. Bentrup, J. Solid State Chem., 100 (1992) 151-159#1999\n",
+      "raw_hash_delimited_tokens": "[\"<A href=\\\"http://sdpd.univ-lemans.fr/motm/talf3n.html\\\">t-AlF3</A>\", \"X\", \"Cu-Kalpha\", \"ab initio; Fullprof .pcr;<A href=\\\"/powbase/1.wrl\\\"> 3D</A>; <A href=\\\"/powbase/1.gif\\\">.gif</A>\", \"t-AlF3, Crystal Structure Determination from X-Ray Powder Diffraction Data. A New MX3 Corner-Sharing Octahedra 3D Network. <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, J. L. Fourquet and U. Bentrup, J. Solid State Chem., 100 (1992) 151-159\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#<A href=\"http://sdpd.univ-lemans.fr/motm/talf3n.html\">t-AlF3</A>#X#Cu-Kalpha#ab initio; Fullprof .pcr;<A href=\"/powbase/1.wrl\"> 3D</A>; <A href=\"/powbase/1.gif\">.gif</A>#t-AlF3, Crystal Structure Determination from X-Ray Powder Diffraction Data. A New MX3 Corner-Sharing Octahedra 3D Network. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. L. Fourquet and U. Bentrup, J. Solid State Chem., 100 (1992) 151-159#1999",
+      "archive_filename": "1.zip",
+      "archive_sha256": "49397c15cbd41fe4f1190fbf8a78ed9d6eab9febeee3d0e67944ccf6352862c2",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "1.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "1.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "700439bc96ca5dc16afaf4e6b082456619e45a5bc4ec33ceb8f63a4e85ee550f",
+      "member_size_bytes": 57028,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/1.zip\">1</A>#<A href=\"http://sdpd.univ-lemans.fr/motm/talf3n.html\">t-AlF3</A>#X#Cu-Kalpha#ab initio; Fullprof .pcr;<A href=\"/powbase/1.wrl\"> 3D</A>; <A href=\"/powbase/1.gif\">.gif</A>#t-AlF3, Crystal Structure Determination from X-Ray Powder Diffraction Data. A New MX3 Corner-Sharing Octahedra 3D Network. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. L. Fourquet and U. Bentrup, J. Solid State Chem., 100 (1992) 151-159#1999"
+          ],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/1.zip\">1</A>#<A href=\"http://sdpd.univ-lemans.fr/motm/talf3n.html\">t-AlF3</A>#X#Cu-Kalpha#ab initio; Fullprof .pcr;<A href=\"/powbase/1.wrl\"> 3D</A>; <A href=\"/powbase/1.gif\">.gif</A>#t-AlF3, Crystal Structure Determination from X-Ray Powder Diffraction Data. A New MX3 Corner-Sharing Octahedra 3D Network. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. L. Fourquet and U. Bentrup, J. Solid State Chem., 100 (1992) 151-159#1999"
+          ],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/1.zip\">1</A>#<A href=\"http://sdpd.univ-lemans.fr/motm/talf3n.html\">t-AlF3</A>#X#Cu-Kalpha#ab initio; Fullprof .pcr;<A href=\"/powbase/1.wrl\"> 3D</A>; <A href=\"/powbase/1.gif\">.gif</A>#t-AlF3, Crystal Structure Determination from X-Ray Powder Diffraction Data. A New MX3 Corner-Sharing Octahedra 3D Network. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. L. Fourquet and U. Bentrup, J. Solid State Chem., 100 (1992) 151-159#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": true,
+      "model_content_present": false,
+      "model_evidence_present": true,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 4,
+        "header_raw_text": "   9.700    .020   145.00                                             ",
+        "two_theta_start_raw": "9.700",
+        "step_raw": ".020",
+        "two_theta_end_raw": "145.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 6766,
+        "observed_intensity_count": 7008,
+        "raw_numeric_value_count": 7008,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (7008) differs from expected point count (6766)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 7,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 7001,
+          "dominant_data_column_count": 8,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "8": 876
+        }
+      },
+      "classification": "B_model_present_profile_unresolved",
+      "classification_reason": "Refinement/model evidence is present, but the experimental profile remains unresolved because the raw count does not match the implied grid or the source profile cannot be validated. Source reference evidence: fullprof, pcr.",
+      "source_sha256": "49397c15cbd41fe4f1190fbf8a78ed9d6eab9febeee3d0e67944ccf6352862c2"
+    },
+    {
+      "entry_id": "20",
+      "source_label_raw": "KVO2HPO4",
+      "source_label_text": "KVO2HPO4",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/20.zip\">20</A>#KVO2HPO4#X#Cu-Kalpha#ab initio#Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563#1999\n",
+      "raw_hash_delimited_tokens": "[\"KVO2HPO4\", \"X\", \"Cu-Kalpha\", \"ab initio\", \"Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#KVO2HPO4#X#Cu-Kalpha#ab initio#Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563#1999",
+      "archive_filename": "20.zip",
+      "archive_sha256": "3ff16713228ec10d70ed3ed6e46f803a4509c7a8e1e619f65a845deff76faf78",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "kvo2hpo4.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "kvo2hpo4.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "998bdf31e5506d0844fd7870afc277b7c913efe8d71d5175fc0a860d5773c6e2",
+      "member_size_bytes": 40253,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/20.zip\">20</A>#KVO2HPO4#X#Cu-Kalpha#ab initio#Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "       8.00    0.02   118.00",
+        "two_theta_start_raw": "8.00",
+        "step_raw": "0.02",
+        "two_theta_end_raw": "118.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 5501,
+        "observed_intensity_count": 5510,
+        "raw_numeric_value_count": 5510,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (5510) differs from expected point count (5501)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 5510,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 551
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "3ff16713228ec10d70ed3ed6e46f803a4509c7a8e1e619f65a845deff76faf78"
+    },
+    {
+      "entry_id": "22",
+      "source_label_raw": "Cu3V2O7(OH)2.2H2O",
+      "source_label_text": "Cu3V2O7(OH)2.2H2O",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/22.zip\">22</A>#Cu3V2O7(OH)2.2H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/22.wrl\"> 3D</A>#Copper-Containing Minerals-I. Cu3V2O7(OH)2.2H2O. The Synthetic Homolog of Volborthite ; Crystal Structure Determination from X-Ray and Neutron Data ; Structural Correlations. M. A. Lafontaine, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and G. Ferey, J. Solid State Chem. 85 (1990) 220-227#1999\n",
+      "raw_hash_delimited_tokens": "[\"Cu3V2O7(OH)2.2H2O\", \"X\", \"Cu-Kalpha\", \"ab initio;<A href=\\\"/powbase/22.wrl\\\"> 3D</A>\", \"Copper-Containing Minerals-I. Cu3V2O7(OH)2.2H2O. The Synthetic Homolog of Volborthite ; Crystal Structure Determination from X-Ray and Neutron Data ; Structural Correlations. M. A. Lafontaine, <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A> and G. Ferey, J. Solid State Chem. 85 (1990) 220-227\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#Cu3V2O7(OH)2.2H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/22.wrl\"> 3D</A>#Copper-Containing Minerals-I. Cu3V2O7(OH)2.2H2O. The Synthetic Homolog of Volborthite ; Crystal Structure Determination from X-Ray and Neutron Data ; Structural Correlations. M. A. Lafontaine, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and G. Ferey, J. Solid State Chem. 85 (1990) 220-227#1999",
+      "archive_filename": "22.zip",
+      "archive_sha256": "ffc75290a6647759328ffa96984413f7ff0f96f993b6c6dd3507a9cfe034efa5",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "VOLB.DAT"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "VOLB.DAT",
+      "member_source_extension": ".DAT",
+      "member_sha256": "8d1cc2518f0f4dde91f934e4f0521283ea790d69a7cbe482ca0bcf1bba1ec7df",
+      "member_size_bytes": 23069,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/22.zip\">22</A>#Cu3V2O7(OH)2.2H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/22.wrl\"> 3D</A>#Copper-Containing Minerals-I. Cu3V2O7(OH)2.2H2O. The Synthetic Homolog of Volborthite ; Crystal Structure Determination from X-Ray and Neutron Data ; Structural Correlations. M. A. Lafontaine, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A> and G. Ferey, J. Solid State Chem. 85 (1990) 220-227#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      5.00     0.04   120.00",
+        "two_theta_start_raw": "5.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "120.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 2876,
+        "observed_intensity_count": 2880,
+        "raw_numeric_value_count": 2880,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2880) differs from expected point count (2876)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2880,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 288
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "ffc75290a6647759328ffa96984413f7ff0f96f993b6c6dd3507a9cfe034efa5"
+    },
+    {
+      "entry_id": "26",
+      "source_label_raw": "NaPbFe2F9",
+      "source_label_text": "NaPbFe2F9",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/26.zip\">26</A>#NaPbFe2F9#X#Cu-Kalpha#ab initio#Crystal Determination of NaPbFe2F9 by X-Ray Powder Diffraction. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. Solid State Chem. 83 (1989) 267-171#1999\n",
+      "raw_hash_delimited_tokens": "[\"NaPbFe2F9\", \"X\", \"Cu-Kalpha\", \"ab initio\", \"Crystal Determination of NaPbFe2F9 by X-Ray Powder Diffraction. <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, J. Solid State Chem. 83 (1989) 267-171\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#NaPbFe2F9#X#Cu-Kalpha#ab initio#Crystal Determination of NaPbFe2F9 by X-Ray Powder Diffraction. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. Solid State Chem. 83 (1989) 267-171#1999",
+      "archive_filename": "26.zip",
+      "archive_sha256": "513adf0c2ed9899e1b6d532ad7b847734b5f2b901afa31e8f4af5fa0b3173b44",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "napbfef9.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "napbfef9.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "b00f638e427349c3f2a16e1b26521ad0fbeffc2324aba26416fc652bca3a78d9",
+      "member_size_bytes": 20109,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/26.zip\">26</A>#NaPbFe2F9#X#Cu-Kalpha#ab initio#Crystal Determination of NaPbFe2F9 by X-Ray Powder Diffraction. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, J. Solid State Chem. 83 (1989) 267-171#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "    10.00     0.04   110.00 ",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "110.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 2501,
+        "observed_intensity_count": 2510,
+        "raw_numeric_value_count": 2510,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2510) differs from expected point count (2501)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2510,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 251
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "513adf0c2ed9899e1b6d532ad7b847734b5f2b901afa31e8f4af5fa0b3173b44"
+    },
+    {
+      "entry_id": "28",
+      "source_label_raw": "alpha-VOHPO4.2H2O",
+      "source_label_text": "alpha-VOHPO4.2H2O",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/28.zip\">28</A>#alpha-VOHPO4.2H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/28.wrl\"> 3D</A>#Structure of vanadyl hydrogenphosphate dihydrate alpha-VO(HPO4).2H2O solved from X-ray and neutron powder diffraction. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey, P. Amoros and D. Beltran-Porter, Eur. J. Solid State Inorg. Chem., 26 (1989) 419#1999\n",
+      "raw_hash_delimited_tokens": "[\"alpha-VOHPO4.2H2O\", \"X\", \"Cu-Kalpha\", \"ab initio;<A href=\\\"/powbase/28.wrl\\\"> 3D</A>\", \"Structure of vanadyl hydrogenphosphate dihydrate alpha-VO(HPO4).2H2O solved from X-ray and neutron powder diffraction. <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, G. Ferey, P. Amoros and D. Beltran-Porter, Eur. J. Solid State Inorg. Chem., 26 (1989) 419\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#alpha-VOHPO4.2H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/28.wrl\"> 3D</A>#Structure of vanadyl hydrogenphosphate dihydrate alpha-VO(HPO4).2H2O solved from X-ray and neutron powder diffraction. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey, P. Amoros and D. Beltran-Porter, Eur. J. Solid State Inorg. Chem., 26 (1989) 419#1999",
+      "archive_filename": "28.zip",
+      "archive_sha256": "87d55fa8712bbf50fa452b4fbd61c01fe9c5fff35929e4d6ead2a97d5361a2e0",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "a-vohpo4-2h2o.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "a-vohpo4-2h2o.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "944f4720437ea337a3ecf5aac890c4b985c90914bcbcb7c9276e5917d08ae43d",
+      "member_size_bytes": 24711,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/28.zip\">28</A>#alpha-VOHPO4.2H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/28.wrl\"> 3D</A>#Structure of vanadyl hydrogenphosphate dihydrate alpha-VO(HPO4).2H2O solved from X-ray and neutron powder diffraction. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey, P. Amoros and D. Beltran-Porter, Eur. J. Solid State Inorg. Chem., 26 (1989) 419#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      10.00    0.04  130.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "130.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3001,
+        "observed_intensity_count": 3010,
+        "raw_numeric_value_count": 3010,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (3010) differs from expected point count (3001)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 3010,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 301
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "87d55fa8712bbf50fa452b4fbd61c01fe9c5fff35929e4d6ead2a97d5361a2e0"
+    },
+    {
+      "entry_id": "32",
+      "source_label_raw": "BaGaF5.2H2O",
+      "source_label_text": "BaGaF5.2H2O",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/32.zip\">32</A>#BaGaF5.2H2O#X#1.30098 A#synchrotron; ab initio;<A href=\"/powbase/32.wrl\"> 3D</A>#Structure of BaGaF5.2H2O from conventional and synchrotron powder diffraction data. A. Jouanneaux and <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem., 34 (1997) 925-936#1999\n",
+      "raw_hash_delimited_tokens": "[\"BaGaF5.2H2O\", \"X\", \"1.30098 A\", \"synchrotron; ab initio;<A href=\\\"/powbase/32.wrl\\\"> 3D</A>\", \"Structure of BaGaF5.2H2O from conventional and synchrotron powder diffraction data. A. Jouanneaux and <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem., 34 (1997) 925-936\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#BaGaF5.2H2O#X#1.30098 A#synchrotron; ab initio;<A href=\"/powbase/32.wrl\"> 3D</A>#Structure of BaGaF5.2H2O from conventional and synchrotron powder diffraction data. A. Jouanneaux and <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem., 34 (1997) 925-936#1999",
+      "archive_filename": "32.zip",
+      "archive_sha256": "5f69e3802e4bdb3c4c66f7feb6d4f523eb298a0971b0fdeb6b7409d1413a017a",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "bagaf5.2h2O.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "bagaf5.2h2O.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "6195b6abb5ca80ff21905e5ad628bf3042fdaa30649d492f353052be625e4393",
+      "member_size_bytes": 54232,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/32.zip\">32</A>#BaGaF5.2H2O#X#1.30098 A#synchrotron; ab initio;<A href=\"/powbase/32.wrl\"> 3D</A>#Structure of BaGaF5.2H2O from conventional and synchrotron powder diffraction data. A. Jouanneaux and <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem., 34 (1997) 925-936#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      14.00    0.01    80.00",
+        "two_theta_start_raw": "14.00",
+        "step_raw": "0.01",
+        "two_theta_end_raw": "80.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 6601,
+        "observed_intensity_count": 6610,
+        "raw_numeric_value_count": 6610,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (6610) differs from expected point count (6601)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 10,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 6600,
+          "dominant_data_column_count": 10,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 661
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "5f69e3802e4bdb3c4c66f7feb6d4f523eb298a0971b0fdeb6b7409d1413a017a"
+    },
+    {
+      "entry_id": "33",
+      "source_label_raw": "NiF2",
+      "source_label_text": "NiF2",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/33.zip\">33</A>#NiF2#X#Cu-Kalpha#well crystallized#Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)#1999\n",
+      "raw_hash_delimited_tokens": "[\"NiF2\", \"X\", \"Cu-Kalpha\", \"well crystallized\", \"Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#NiF2#X#Cu-Kalpha#well crystallized#Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)#1999",
+      "archive_filename": "33.zip",
+      "archive_sha256": "7fe2bf528b771644d3a300df0f29f955450b63723dc319050cd2161a3ebd9ea9",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "nif2.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "nif2.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "017da7f1d0f26d3865639948863914e123950579ec94f0775451ee46f8125495",
+      "member_size_bytes": 26679,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      20.0    0.04   148.96",
+        "two_theta_start_raw": "20.0",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "148.96",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3225,
+        "observed_intensity_count": 3250,
+        "raw_numeric_value_count": 3250,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (3250) differs from expected point count (3225)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 3250,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 325
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "7fe2bf528b771644d3a300df0f29f955450b63723dc319050cd2161a3ebd9ea9"
+    },
+    {
+      "entry_id": "34",
+      "source_label_raw": "NiF2",
+      "source_label_text": "NiF2",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/34.zip\">34</A>#NiF2#X#Cu-Kalpha#line broadening due to crushing#Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)#1999\n",
+      "raw_hash_delimited_tokens": "[\"NiF2\", \"X\", \"Cu-Kalpha\", \"line broadening due to crushing\", \"Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#NiF2#X#Cu-Kalpha#line broadening due to crushing#Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)#1999",
+      "archive_filename": "34.zip",
+      "archive_sha256": "2fb7b88c0a69c9d9777d89a18abc3fb44516e4ad50041865ca74ce45295d457d",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "nif2b.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "nif2b.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "81af317c18212d96ba1a635180b7e5c5a5d53f70bee1b53f334de2cd8a528d33",
+      "member_size_bytes": 28730,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      10.00    0.04   132.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "132.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3051,
+        "observed_intensity_count": 3500,
+        "raw_numeric_value_count": 3500,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (3500) differs from expected point count (3051)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 3500,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 350
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "2fb7b88c0a69c9d9777d89a18abc3fb44516e4ad50041865ca74ce45295d457d"
+    },
+    {
+      "entry_id": "37",
+      "source_label_raw": "ZnO",
+      "source_label_text": "ZnO",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/37.zip\">37</A>#ZnO#X#Cu-Kalpha#well crystallized#Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)#1999\n",
+      "raw_hash_delimited_tokens": "[\"ZnO\", \"X\", \"Cu-Kalpha\", \"well crystallized\", \"Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#ZnO#X#Cu-Kalpha#well crystallized#Analyse globale des spectres de diffraction des matériaux mal cristallisés. <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Comptes Rendus- 10ème Colloque Siemens sur les Rayons X 45-58, Grenoble (1985)#1999",
+      "archive_filename": "37.zip",
+      "archive_sha256": "db0c3d394900d01851c706cd79077df69e33498199c6b5a677945e9cd86e2cbb",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "zno.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "zno.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "9b34045aeddfa6af164b6b9671ec51bdcdd2ef79a2458326699dbc4fcc6c296b",
+      "member_size_bytes": 32830,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      27.00    0.03   146.37",
+        "two_theta_start_raw": "27.00",
+        "step_raw": "0.03",
+        "two_theta_end_raw": "146.37",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3980,
+        "observed_intensity_count": 4000,
+        "raw_numeric_value_count": 4000,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (4000) differs from expected point count (3980)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 23,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 3977,
+          "dominant_data_column_count": 10,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 400
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "db0c3d394900d01851c706cd79077df69e33498199c6b5a677945e9cd86e2cbb"
+    },
+    {
+      "entry_id": "44",
+      "source_label_raw": "Li8Bi2PdO10",
+      "source_label_text": "Li8Bi2PdO10",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/44.zip\">44</A>#Li8Bi2PdO10#X#Cu-Kalpha#ab initio;<A href=\"/powbase/44.wrl\"> 3D</A>#Synthesis and Crystal Structure of Li8Bi2PdO10 Determined Ab Initio from X-ray Powder Diffraction Data. <A href=\"mailto:yvon.laligant@univ-lemans.fr\">Y. Laligant</A> and A. Le Bail, Eur. J. Solid State Inorg. Chem. 30 (1993) 689-698#1999\n",
+      "raw_hash_delimited_tokens": "[\"Li8Bi2PdO10\", \"X\", \"Cu-Kalpha\", \"ab initio;<A href=\\\"/powbase/44.wrl\\\"> 3D</A>\", \"Synthesis and Crystal Structure of Li8Bi2PdO10 Determined Ab Initio from X-ray Powder Diffraction Data. <A href=\\\"mailto:yvon.laligant@univ-lemans.fr\\\">Y. Laligant</A> and A. Le Bail, Eur. J. Solid State Inorg. Chem. 30 (1993) 689-698\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#Li8Bi2PdO10#X#Cu-Kalpha#ab initio;<A href=\"/powbase/44.wrl\"> 3D</A>#Synthesis and Crystal Structure of Li8Bi2PdO10 Determined Ab Initio from X-ray Powder Diffraction Data. <A href=\"mailto:yvon.laligant@univ-lemans.fr\">Y. Laligant</A> and A. Le Bail, Eur. J. Solid State Inorg. Chem. 30 (1993) 689-698#1999",
+      "archive_filename": "44.zip",
+      "archive_sha256": "8012aadb4f0d3d7459d7e0041f8d79d1b1775da064e19a4afd521811ec3959f8",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "li8bi2pdo10.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "li8bi2pdo10.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "9a13ea6a28c4304685218ab53781040a5ef2bc3742c66ac30e1276fc9b272662",
+      "member_size_bytes": 48669,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/44.zip\">44</A>#Li8Bi2PdO10#X#Cu-Kalpha#ab initio;<A href=\"/powbase/44.wrl\"> 3D</A>#Synthesis and Crystal Structure of Li8Bi2PdO10 Determined Ab Initio from X-ray Powder Diffraction Data. <A href=\"mailto:yvon.laligant@univ-lemans.fr\">Y. Laligant</A> and A. Le Bail, Eur. J. Solid State Inorg. Chem. 30 (1993) 689-698#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "     10.00    0.02   130.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.02",
+        "two_theta_end_raw": "130.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 6001,
+        "observed_intensity_count": 6080,
+        "raw_numeric_value_count": 6080,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (6080) differs from expected point count (6001)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 6,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 6074,
+          "dominant_data_column_count": 10,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 608
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "8012aadb4f0d3d7459d7e0041f8d79d1b1775da064e19a4afd521811ec3959f8"
+    },
+    {
+      "entry_id": "54",
+      "source_label_raw": "Zn2Al(OH)6.Br.XH2O",
+      "source_label_text": "Zn2Al(OH)6.Br.XH2O",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/54.zip\">54</A>#Zn2Al(OH)6.Br.XH2O#X#Cu-Kalpha#line broadening due to turbostratic effects#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "raw_hash_delimited_tokens": "[\"Zn2Al(OH)6.Br.XH2O\", \"X\", \"Cu-Kalpha\", \"line broadening due to turbostratic effects\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#Zn2Al(OH)6.Br.XH2O#X#Cu-Kalpha#line broadening due to turbostratic effects#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "archive_filename": "54.zip",
+      "archive_sha256": "971c6c55f366cdc9c5321f78d19810d4d9c30f409091e7d88acf5dd669228524",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "zn2albr.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "zn2albr.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "df97daccb9182c3d9bfba49ddac8edef06a811a1a67a80124e5b524dcbf21512",
+      "member_size_bytes": 20610,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "       5.00  0.04   105.00",
+        "two_theta_start_raw": "5.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "105.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 2501,
+        "observed_intensity_count": 2510,
+        "raw_numeric_value_count": 2510,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2510) differs from expected point count (2501)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2510,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 251
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "971c6c55f366cdc9c5321f78d19810d4d9c30f409091e7d88acf5dd669228524"
+    },
+    {
+      "entry_id": "55",
+      "source_label_raw": "Zn2Al(OH)6.1/2CO2.XH2O",
+      "source_label_text": "Zn2Al(OH)6.1/2CO2.XH2O",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/55.zip\">55</A>#Zn2Al(OH)6.1/2CO2.XH2O#X#Cu-Kalpha#line broadening due to turbostratic effects#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "raw_hash_delimited_tokens": "[\"Zn2Al(OH)6.1/2CO2.XH2O\", \"X\", \"Cu-Kalpha\", \"line broadening due to turbostratic effects\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#Zn2Al(OH)6.1/2CO2.XH2O#X#Cu-Kalpha#line broadening due to turbostratic effects#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "archive_filename": "55.zip",
+      "archive_sha256": "f34165126c484f3598682dd93b9de4c26eaeff144fb455280488fef563f03528",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "zn2alco.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "zn2alco.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "5a281e613bb776c95d790cb29c0b9e0be344e6a3d96c172427d148e1cae61891",
+      "member_size_bytes": 20612,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "       5.00    0.04   105.00",
+        "two_theta_start_raw": "5.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "105.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 2501,
+        "observed_intensity_count": 2510,
+        "raw_numeric_value_count": 2510,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2510) differs from expected point count (2501)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2510,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 251
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "f34165126c484f3598682dd93b9de4c26eaeff144fb455280488fef563f03528"
+    },
+    {
+      "entry_id": "57",
+      "source_label_raw": "GaF3",
+      "source_label_text": "GaF3",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/57.zip\">57</A>#GaF3#X#Cu-Kalpha#line broadening due to low temperature synthesis#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "raw_hash_delimited_tokens": "[\"GaF3\", \"X\", \"Cu-Kalpha\", \"line broadening due to low temperature synthesis\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#GaF3#X#Cu-Kalpha#line broadening due to low temperature synthesis#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "archive_filename": "57.zip",
+      "archive_sha256": "9e602f2b2ec3923c07f115bdd520f26a95e43f1ea8d4028f037d28023b0c5f7e",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "gaf3.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "gaf3.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "25e915209dfbb379bbc3bc5f3e05c0bc463031d215587cc9132fc4a708436ff0",
+      "member_size_bytes": 27744,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      15.00   0.04  150.00",
+        "two_theta_start_raw": "15.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "150.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3376,
+        "observed_intensity_count": 3380,
+        "raw_numeric_value_count": 3380,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (3380) differs from expected point count (3376)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 3380,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 338
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "9e602f2b2ec3923c07f115bdd520f26a95e43f1ea8d4028f037d28023b0c5f7e"
+    },
+    {
+      "entry_id": "59",
+      "source_label_raw": "VF3",
+      "source_label_text": "VF3",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/59.zip\">59</A>#VF3#X#Cu-Kalpha#line broadening due to low temperature synthesis#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "raw_hash_delimited_tokens": "[\"VF3\", \"X\", \"Cu-Kalpha\", \"line broadening due to low temperature synthesis\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#VF3#X#Cu-Kalpha#line broadening due to low temperature synthesis#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "archive_filename": "59.zip",
+      "archive_sha256": "46f92c2ac0662ec7e13fb8cbee25a9fdd0aed75fb687445f2432945b062f947d",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "vf3.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "vf3.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "f23a94422e0f65dd1904fca790d9b6d41cdbf8ed7ef341c4e147f2bcb75ab9b1",
+      "member_size_bytes": 27744,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      15.00  0.04   150.00",
+        "two_theta_start_raw": "15.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "150.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3376,
+        "observed_intensity_count": 3380,
+        "raw_numeric_value_count": 3380,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (3380) differs from expected point count (3376)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 3380,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 338
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "46f92c2ac0662ec7e13fb8cbee25a9fdd0aed75fb687445f2432945b062f947d"
+    },
+    {
+      "entry_id": "62",
+      "source_label_raw": "CsVO2HPO4",
+      "source_label_text": "CsVO2HPO4",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/62.zip\">62</A>#CsVO2HPO4#X#Cu-Kalpha#ab initio#Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563#1999\n",
+      "raw_hash_delimited_tokens": "[\"CsVO2HPO4\", \"X\", \"Cu-Kalpha\", \"ab initio\", \"Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#CsVO2HPO4#X#Cu-Kalpha#ab initio#Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563#1999",
+      "archive_filename": "62.zip",
+      "archive_sha256": "91226ff8989be832720e8252bd13cd2d68459a61c2d974fad8a1e3aeeacb0787",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "csvo2hpo4.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "csvo2hpo4.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "38219aed2958f91eaa49ade13b01f0fe151ae8acf612beea876902d3451606ba",
+      "member_size_bytes": 20612,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/62.zip\">62</A>#CsVO2HPO4#X#Cu-Kalpha#ab initio#Crystal structure of A(VO2)(HPO4) (A=NH4+, K+, Rb+) solved from X-Ray powder diffraction. P. Amoros, D. Beltran-Porter, <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, G. Ferey and G. Villeneuve, Eur. J. Solid State Inorg. Chem., 25 (1988) 599-563#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      10.00     0.4   110.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.4",
+        "two_theta_end_raw": "110.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 251,
+        "observed_intensity_count": 2510,
+        "raw_numeric_value_count": 2510,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2510) differs from expected point count (251)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 9,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2501,
+          "dominant_data_column_count": 10,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 251
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "91226ff8989be832720e8252bd13cd2d68459a61c2d974fad8a1e3aeeacb0787"
+    },
+    {
+      "entry_id": "70",
+      "source_label_raw": "K2TiSi3O9.H2O",
+      "source_label_text": "K2TiSi3O9.H2O",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/70.zip\">70</A>#K2TiSi3O9.H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/70.wrl\"> 3D</A>#Structure of zeolitic K2TiSi3O9.H2O determined ab initio from powder diffraction data. M.S. Dadachov and <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem. 34 (1997) 381-390#1999\n",
+      "raw_hash_delimited_tokens": "[\"K2TiSi3O9.H2O\", \"X\", \"Cu-Kalpha\", \"ab initio;<A href=\\\"/powbase/70.wrl\\\"> 3D</A>\", \"Structure of zeolitic K2TiSi3O9.H2O determined ab initio from powder diffraction data. M.S. Dadachov and <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem. 34 (1997) 381-390\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#K2TiSi3O9.H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/70.wrl\"> 3D</A>#Structure of zeolitic K2TiSi3O9.H2O determined ab initio from powder diffraction data. M.S. Dadachov and <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem. 34 (1997) 381-390#1999",
+      "archive_filename": "70.zip",
+      "archive_sha256": "a3f1ac1b876486dcb131cc88fa5782ebad505ffef4f46d81884dbef2c06ab225",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "k2tisi3.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "k2tisi3.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "0c358960f5e150b042770c914d13dd8f4a62d22c9bd9f977d45f55290a348f9d",
+      "member_size_bytes": 63759,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/70.zip\">70</A>#K2TiSi3O9.H2O#X#Cu-Kalpha#ab initio;<A href=\"/powbase/70.wrl\"> 3D</A>#Structure of zeolitic K2TiSi3O9.H2O determined ab initio from powder diffraction data. M.S. Dadachov and <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>, Eur. J. Solid State Inorg. Chem. 34 (1997) 381-390#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "    5.00 0.02 126.50",
+        "two_theta_start_raw": "5.00",
+        "step_raw": "0.02",
+        "two_theta_end_raw": "126.50",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 6076,
+        "observed_intensity_count": 6295,
+        "raw_numeric_value_count": 6295,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (6295) differs from expected point count (6076)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 6295,
+          "dominant_data_column_count": 8,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "7": 1,
+          "8": 786
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "a3f1ac1b876486dcb131cc88fa5782ebad505ffef4f46d81884dbef2c06ab225"
+    },
+    {
+      "entry_id": "81",
+      "source_label_raw": "Y2O3",
+      "source_label_text": "Y2O3",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/81.zip\">81</A>#Y2O3#X#Cu-Kalpha#with Fullprof .pcr#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "raw_hash_delimited_tokens": "[\"Y2O3\", \"X\", \"Cu-Kalpha\", \"with Fullprof .pcr\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#Y2O3#X#Cu-Kalpha#with Fullprof .pcr#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "archive_filename": "81.zip",
+      "archive_sha256": "d3ff7d2195cd3db7b9dcb0da4aeca6f7509dbf986186b3157e147737abc018ba",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "y2o3.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "y2o3.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "e5ec65717d3c0774cd2216fb76320fce649dffe42ca777b64be90b19acd18f63",
+      "member_size_bytes": 135321,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "fullprof_style_pattern",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [
+        "! Files => DAT-file: y2o3d8,  PCR-file: y2o3d8",
+        "!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor",
+        "! lambda1 Lambda2    Ratio   Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz",
+        "!NCY Eps R_at R_an R_pr R_gl     Thmin       Step       Thmax    PSD    Sent0"
+      ],
+      "fullprof_phase_block_identifiers": [
+        "PHASE_1"
+      ],
+      "fullprof_phase_names": [
+        "Y2O3"
+      ],
+      "reference_flags": {
+        "fullprof": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/81.zip\">81</A>#Y2O3#X#Cu-Kalpha#with Fullprof .pcr#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999"
+          ],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": true,
+          "index_present": true,
+          "content_present": true,
+          "index_evidence": [
+            "<A href=\"/powbase/81.zip\">81</A>#Y2O3#X#Cu-Kalpha#with Fullprof .pcr#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999"
+          ],
+          "content_evidence": [
+            "! Files => DAT-file: y2o3d8,  PCR-file: y2o3d8"
+          ]
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": false,
+          "content_present": true,
+          "index_evidence": [],
+          "content_evidence": [
+            "!       9    !Number of refined parameters",
+            "!  Scale       Shape1      Bov     Str1     Str2     Str3    Strain-Model",
+            "!      U        V         W          X         Y       GauSiz   LorSiz Size-Model"
+          ]
+        }
+      },
+      "model_reference_present": true,
+      "model_content_present": true,
+      "model_evidence_present": true,
+      "model_content_evidence": {
+        "fullprof_phase_block": [
+          "!  Data for PHASE number:   1  ==> Current R_Bragg:     1.68"
+        ],
+        "fullprof_space_group": [
+          "!I A 3                    <--Space group symbol"
+        ]
+      },
+      "embedded_fullprof_phase_count": 1,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 1,
+      "source_phase_names": [
+        "Y2O3"
+      ],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 59,
+        "header_raw_text": "    15.00 0.01 145.90",
+        "two_theta_start_raw": "15.00",
+        "step_raw": "0.01",
+        "two_theta_end_raw": "145.90",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 13091,
+        "observed_intensity_count": 13100,
+        "raw_numeric_value_count": 13100,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (13100) differs from expected point count (13091)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 13100,
+          "dominant_data_column_count": 8,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "4": 1,
+          "8": 1637
+        }
+      },
+      "classification": "B_model_present_profile_unresolved",
+      "classification_reason": "Refinement/model evidence is present, but the experimental profile remains unresolved because the raw count does not match the implied grid or the source profile cannot be validated. Embedded model evidence: fullprof_phase_block, fullprof_space_group. Source reference evidence: fullprof, pcr.",
+      "source_sha256": "d3ff7d2195cd3db7b9dcb0da4aeca6f7509dbf986186b3157e147737abc018ba"
+    },
+    {
+      "entry_id": "88",
+      "source_label_raw": "C12H26Cl2N4",
+      "source_label_text": "C12H26Cl2N4",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/88.zip\">88</A>#C12H26Cl2N4#X#1.54059 A#ab initio#3,12-Diaza-6,9-diazoniadispiro[5.2.5.2]hexadecane dichloride from X-ray powder data. <A href=\"mailto:cher@biocryst.phys.msu.su\">V. V. Chernyshev</A>, A. V. Yatsenko, V. A. Tafeenko, V. A. Makarov, E. J. Sonneveld and H. Schenk, Acta Cryst. C55 (1999) 1099-1101#1999\n",
+      "raw_hash_delimited_tokens": "[\"C12H26Cl2N4\", \"X\", \"1.54059 A\", \"ab initio\", \"3,12-Diaza-6,9-diazoniadispiro[5.2.5.2]hexadecane dichloride from X-ray powder data. <A href=\\\"mailto:cher@biocryst.phys.msu.su\\\">V. V. Chernyshev</A>, A. V. Yatsenko, V. A. Tafeenko, V. A. Makarov, E. J. Sonneveld and H. Schenk, Acta Cryst. C55 (1999) 1099-1101\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#C12H26Cl2N4#X#1.54059 A#ab initio#3,12-Diaza-6,9-diazoniadispiro[5.2.5.2]hexadecane dichloride from X-ray powder data. <A href=\"mailto:cher@biocryst.phys.msu.su\">V. V. Chernyshev</A>, A. V. Yatsenko, V. A. Tafeenko, V. A. Makarov, E. J. Sonneveld and H. Schenk, Acta Cryst. C55 (1999) 1099-1101#1999",
+      "archive_filename": "88.zip",
+      "archive_sha256": "189ba232e90fd3f0858949f36c57b70ab7015120c70082ee7b00db65665db7e1",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "88.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "88.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "f6216799fc7d9a659452edc3eadd7bd53167eb6da6c38c7678ecf6e0c94d6e0b",
+      "member_size_bytes": 76208,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/88.zip\">88</A>#C12H26Cl2N4#X#1.54059 A#ab initio#3,12-Diaza-6,9-diazoniadispiro[5.2.5.2]hexadecane dichloride from X-ray powder data. <A href=\"mailto:cher@biocryst.phys.msu.su\">V. V. Chernyshev</A>, A. V. Yatsenko, V. A. Tafeenko, V. A. Makarov, E. J. Sonneveld and H. Schenk, Acta Cryst. C55 (1999) 1099-1101#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 3,
+        "header_raw_text": "     4.02   0.01   75.13  ",
+        "two_theta_start_raw": "4.02",
+        "step_raw": "0.01",
+        "two_theta_end_raw": "75.13",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 7112,
+        "observed_intensity_count": 7520,
+        "raw_numeric_value_count": 7520,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (7520) differs from expected point count (7112)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 7,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 7513,
+          "dominant_data_column_count": 8,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "8": 940
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "189ba232e90fd3f0858949f36c57b70ab7015120c70082ee7b00db65665db7e1"
+    },
+    {
+      "entry_id": "90",
+      "source_label_raw": "C54H44O8S2",
+      "source_label_text": "C54H44O8S2",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/90.zip\">90</A>#C54H44O8S2#X#1.54056 A# #Crystal structures of a solvated and unsolvated sulfone cyclic oligomer. <A href=\"mailto:kaduk@amoco.com\">J. A. Kaduk</A>, P. J. Cahill and L. N. Venkateshwaran, J. Appl. Cryst. 32 (1999) 15-20#1999\n",
+      "raw_hash_delimited_tokens": "[\"C54H44O8S2\", \"X\", \"1.54056 A\", \" \", \"Crystal structures of a solvated and unsolvated sulfone cyclic oligomer. <A href=\\\"mailto:kaduk@amoco.com\\\">J. A. Kaduk</A>, P. J. Cahill and L. N. Venkateshwaran, J. Appl. Cryst. 32 (1999) 15-20\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#C54H44O8S2#X#1.54056 A# #Crystal structures of a solvated and unsolvated sulfone cyclic oligomer. <A href=\"mailto:kaduk@amoco.com\">J. A. Kaduk</A>, P. J. Cahill and L. N. Venkateshwaran, J. Appl. Cryst. 32 (1999) 15-20#1999",
+      "archive_filename": "90.zip",
+      "archive_sha256": "f9712d3b197f0c8062e8042ac41f5210bf3d7fb16505af6151d0860065291e8d",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "90.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "90.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "53f34d19fa03505b2128a8a84b601a17625892a8a79c40f6723548dee5b725b3",
+      "member_size_bytes": 26999,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "commented_pdcif",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": true,
+          "index_present": false,
+          "content_present": true,
+          "index_evidence": [],
+          "content_evidence": [
+            "!_audit_creation_method   \"from EXP file using GSAS2CIF\"",
+            "!; 1998-04-05T11:24            Initial CIF as created by GSAS2CIF",
+            "!      _pd_meas_intensity_total",
+            "!      _pd_calc_intensity_total",
+            "!      _pd_proc_intensity_calc_bkg",
+            "!      _pd_proc_ls_weight"
+          ]
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": true,
+          "index_present": false,
+          "content_present": true,
+          "index_evidence": [],
+          "content_evidence": [
+            "!_audit_creation_method   \"from EXP file using GSAS2CIF\"",
+            "!; 1998-04-05T11:24            Initial CIF as created by GSAS2CIF"
+          ]
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": false,
+          "content_present": true,
+          "index_evidence": [],
+          "content_evidence": [
+            "!refinement has been submitted to ICDD, and is presently in the editorial"
+          ]
+        }
+      },
+      "model_reference_present": true,
+      "model_content_present": false,
+      "model_evidence_present": true,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 57,
+        "header_raw_text": "     10.00   0.02    60.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.02",
+        "two_theta_end_raw": "60.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 2501,
+        "observed_intensity_count": 2504,
+        "raw_numeric_value_count": 2504,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2504) differs from expected point count (2501)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 6,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2498,
+          "dominant_data_column_count": 8,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "8": 313
+        }
+      },
+      "classification": "B_model_present_profile_unresolved",
+      "classification_reason": "Refinement/model evidence is present, but the experimental profile remains unresolved because the raw count does not match the implied grid or the source profile cannot be validated. Source reference evidence: gsas.",
+      "source_sha256": "f9712d3b197f0c8062e8042ac41f5210bf3d7fb16505af6151d0860065291e8d"
+    },
+    {
+      "entry_id": "98",
+      "source_label_raw": "[Li(C10H15)]",
+      "source_label_text": "[Li(C10H15)]",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/98.zip\">98</A>#[Li(C10H15)]#X#0.84979 A#synchrotron, ab initio, RT#Disorder determined by high-resolution powder diffraction: structure of pentamethylcyclopentadienyllithium. <A href=\"mailto:robert.dinnebier@uni-bayreuth.de\">R. E. Dinnebier</A>, M. Schneider, S. van Smaalen, F. Olbrich and U. Behrens, Acta Cryst. B55 (1999) 35-44#1999\n",
+      "raw_hash_delimited_tokens": "[\"[Li(C10H15)]\", \"X\", \"0.84979 A\", \"synchrotron, ab initio, RT\", \"Disorder determined by high-resolution powder diffraction: structure of pentamethylcyclopentadienyllithium. <A href=\\\"mailto:robert.dinnebier@uni-bayreuth.de\\\">R. E. Dinnebier</A>, M. Schneider, S. van Smaalen, F. Olbrich and U. Behrens, Acta Cryst. B55 (1999) 35-44\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#[Li(C10H15)]#X#0.84979 A#synchrotron, ab initio, RT#Disorder determined by high-resolution powder diffraction: structure of pentamethylcyclopentadienyllithium. <A href=\"mailto:robert.dinnebier@uni-bayreuth.de\">R. E. Dinnebier</A>, M. Schneider, S. van Smaalen, F. Olbrich and U. Behrens, Acta Cryst. B55 (1999) 35-44#1999",
+      "archive_filename": "98.zip",
+      "archive_sha256": "cac86851877bf0d0dc2648252b11d4dc59222111a614b93ff1534a27f7f58541",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "98.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "98.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "def556243e7739b974e6ad5a91b9c9082190a6feed118d19321b9a2b5a8650e2",
+      "member_size_bytes": 137646,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/98.zip\">98</A>#[Li(C10H15)]#X#0.84979 A#synchrotron, ab initio, RT#Disorder determined by high-resolution powder diffraction: structure of pentamethylcyclopentadienyllithium. <A href=\"mailto:robert.dinnebier@uni-bayreuth.de\">R. E. Dinnebier</A>, M. Schneider, S. van Smaalen, F. Olbrich and U. Behrens, Acta Cryst. B55 (1999) 35-44#1999"
+          ],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "   0.000   0.005   68.030",
+        "two_theta_start_raw": "0.000",
+        "step_raw": "0.005",
+        "two_theta_end_raw": "68.030",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 13607,
+        "observed_intensity_count": 13592,
+        "raw_numeric_value_count": 13592,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (13592) differs from expected point count (13607)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 6,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 13586,
+          "dominant_data_column_count": 8,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "8": 1699
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "cac86851877bf0d0dc2648252b11d4dc59222111a614b93ff1534a27f7f58541"
+    },
+    {
+      "entry_id": "103",
+      "source_label_raw": "WO3",
+      "source_label_text": "WO3",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/103.zip\">103</A>#WO3#X#Cu-Kalpha#HTB; line broadening due to stacking faults#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "raw_hash_delimited_tokens": "[\"WO3\", \"X\", \"Cu-Kalpha\", \"HTB; line broadening due to stacking faults\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#WO3#X#Cu-Kalpha#HTB; line broadening due to stacking faults#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "archive_filename": "103.zip",
+      "archive_sha256": "25f1654e7148bc24d501fe3708832bb02114fa66c9542afa191501649fd3b3fb",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "wo3x.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "wo3x.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "f46d472beffed24284f4b4255269c56f4cbaf85ace120d7c5e2203091e9d0164",
+      "member_size_bytes": 22580,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      10.00    0.04   120.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "120.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 2751,
+        "observed_intensity_count": 2750,
+        "raw_numeric_value_count": 2750,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2750) differs from expected point count (2751)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2750,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 275
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "25f1654e7148bc24d501fe3708832bb02114fa66c9542afa191501649fd3b3fb"
+    },
+    {
+      "entry_id": "104",
+      "source_label_raw": "WO3.1/3H2O",
+      "source_label_text": "WO3.1/3H2O",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/104.zip\">104</A>#WO3.1/3H2O#X#Cu-Kalpha#orthorhombic; line broadening due to size effect#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999\n",
+      "raw_hash_delimited_tokens": "[\"WO3.1/3H2O\", \"X\", \"Cu-Kalpha\", \"orthorhombic; line broadening due to size effect\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#WO3.1/3H2O#X#Cu-Kalpha#orthorhombic; line broadening due to size effect#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#1999",
+      "archive_filename": "104.zip",
+      "archive_sha256": "07f592925b9201e7e6251ee5d34b59dc7e9a5f9a69d2e9fae9d0782f9a6a8b21",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "whx.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "whx.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "a884639f2317654b29497690a87015664f9b0ee6339eb7d0d383bc493a73df7b",
+      "member_size_bytes": 20612,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 1,
+        "header_raw_text": "      10.00    0.04   110.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "110.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 2501,
+        "observed_intensity_count": 2510,
+        "raw_numeric_value_count": 2510,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (2510) differs from expected point count (2501)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 2510,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 251
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "07f592925b9201e7e6251ee5d34b59dc7e9a5f9a69d2e9fae9d0782f9a6a8b21"
+    },
+    {
+      "entry_id": "112",
+      "source_label_raw": "LiBaZr2F11",
+      "source_label_text": "LiBaZr2F11",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/112.zip\">112</A>#LiBaZr2F11#X#Cu-Kalpha#with Fullprof .pcr#Crystal structure determination of LiBaZr2F11. <A href=\"mailto:gao@fluo.univ-lemans.fr\">Y. Gao</A>, J. Guery and C. Jacoboni, Eur. J. Solid State Inorg. Chem., 29 (1992) 1243-1252#1999\n",
+      "raw_hash_delimited_tokens": "[\"LiBaZr2F11\", \"X\", \"Cu-Kalpha\", \"with Fullprof .pcr\", \"Crystal structure determination of LiBaZr2F11. <A href=\\\"mailto:gao@fluo.univ-lemans.fr\\\">Y. Gao</A>, J. Guery and C. Jacoboni, Eur. J. Solid State Inorg. Chem., 29 (1992) 1243-1252\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#LiBaZr2F11#X#Cu-Kalpha#with Fullprof .pcr#Crystal structure determination of LiBaZr2F11. <A href=\"mailto:gao@fluo.univ-lemans.fr\">Y. Gao</A>, J. Guery and C. Jacoboni, Eur. J. Solid State Inorg. Chem., 29 (1992) 1243-1252#1999",
+      "archive_filename": "112.zip",
+      "archive_sha256": "869e2f31551ccaad043eec3de0ccab20164fd99fa7220fc566ed650b2b2c52a5",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "112.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "112.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "f854bb8eb3a073b565af1e815647460717d15025ee0f26a3de1c8303aacaee2f",
+      "member_size_bytes": 39103,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "fullprof_style_pattern",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [
+        "! Files => DAT-file: Lbz,  PCR-file: Lbz",
+        "!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor",
+        "! lambda1 Lambda2    Ratio   Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz",
+        "!NCY Eps R_at R_an R_pr R_gl     Thmin       Step       Thmax    PSD    Sent0"
+      ],
+      "fullprof_phase_block_identifiers": [
+        "PHASE_1"
+      ],
+      "fullprof_phase_names": [
+        "LIBAZR2F11  I 4/M"
+      ],
+      "reference_flags": {
+        "fullprof": {
+          "present": true,
+          "index_present": true,
+          "content_present": false,
+          "index_evidence": [
+            "<A href=\"/powbase/112.zip\">112</A>#LiBaZr2F11#X#Cu-Kalpha#with Fullprof .pcr#Crystal structure determination of LiBaZr2F11. <A href=\"mailto:gao@fluo.univ-lemans.fr\">Y. Gao</A>, J. Guery and C. Jacoboni, Eur. J. Solid State Inorg. Chem., 29 (1992) 1243-1252#1999"
+          ],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": true,
+          "index_present": true,
+          "content_present": true,
+          "index_evidence": [
+            "<A href=\"/powbase/112.zip\">112</A>#LiBaZr2F11#X#Cu-Kalpha#with Fullprof .pcr#Crystal structure determination of LiBaZr2F11. <A href=\"mailto:gao@fluo.univ-lemans.fr\">Y. Gao</A>, J. Guery and C. Jacoboni, Eur. J. Solid State Inorg. Chem., 29 (1992) 1243-1252#1999"
+          ],
+          "content_evidence": [
+            "! Files => DAT-file: Lbz,  PCR-file: Lbz"
+          ]
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": true,
+          "index_present": false,
+          "content_present": true,
+          "index_evidence": [],
+          "content_evidence": [
+            "!      34    !Number of refined parameters",
+            "!  Scale       Shape1      Bov     Str1     Str2     Str3    Strain-Model",
+            "!      U        V         W          X         Y       GauSiz   LorSiz Size-Model"
+          ]
+        }
+      },
+      "model_reference_present": true,
+      "model_content_present": true,
+      "model_evidence_present": true,
+      "model_content_evidence": {
+        "fullprof_phase_block": [
+          "!  Data for PHASE number:   1  ==> Current R_Bragg:     4.64"
+        ],
+        "fullprof_space_group": [
+          "! I 4/M                   <--Space group symbol"
+        ],
+        "fullprof_atom_coordinates": [
+          "!Atom Typ       X        Y        Z     Biso      Occ     In Fin N_t  /Codes"
+        ]
+      },
+      "embedded_fullprof_phase_count": 1,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 1,
+      "source_phase_names": [
+        "LIBAZR2F11  I 4/M"
+      ],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 66,
+        "header_raw_text": "      10.00       0.03   100.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.03",
+        "two_theta_end_raw": "100.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3001,
+        "observed_intensity_count": 4340,
+        "raw_numeric_value_count": 4340,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (4340) differs from expected point count (3001)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 7,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 4333,
+          "dominant_data_column_count": 10,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 434
+        }
+      },
+      "classification": "B_model_present_profile_unresolved",
+      "classification_reason": "Refinement/model evidence is present, but the experimental profile remains unresolved because the raw count does not match the implied grid or the source profile cannot be validated. Embedded model evidence: fullprof_phase_block, fullprof_space_group, fullprof_atom_coordinates. Source reference evidence: fullprof, pcr.",
+      "source_sha256": "869e2f31551ccaad043eec3de0ccab20164fd99fa7220fc566ed650b2b2c52a5"
+    },
+    {
+      "entry_id": "121",
+      "source_label_raw": "CeO2",
+      "source_label_text": "CeO2",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/121.zip\">121</A>#CeO2#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999\n",
+      "raw_hash_delimited_tokens": "[\"CeO2\", \"X\", \"Cu-Kalpha\", \"with Koalariet .inp file\", \"from the <A href=\\\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\\\">Koalariet</A> software test files\", \"1999\"]",
+      "raw_bibliographic_comment_text": "#CeO2#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999",
+      "archive_filename": "121.zip",
+      "archive_sha256": "9e70b0fe8ae9f2db360621af5549f1c16678675058d1f23db34aa080f54f6fd1",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "121.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "121.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "fa242d0119f2894c9684635e4836dc3ce99361a3ad501d4eaa783be1f3ab5667",
+      "member_size_bytes": 50137,
+      "text_decode_encoding": "rescue-utf-8-sig",
+      "text_nul_byte_count": 22,
+      "text_decode_note": "embedded NUL bytes replaced with spaces for parsing only; source bytes preserved",
+      "detected_content_family": "koalariet_style_pattern",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": true,
+          "index_present": true,
+          "content_present": true,
+          "index_evidence": [
+            "<A href=\"/powbase/121.zip\">121</A>#CeO2#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#1999"
+          ],
+          "content_evidence": [
+            "!      riet.hlp",
+            "!include \"\\koalarie\\std.inp\"",
+            "!   \\koalarie\\examples\\ce1.xdd  ' File name for observed pattern (Input)",
+            "!   \\koalarie\\examples\\ce1.cal  ' File name for calculated pattern (Output)",
+            "!      create_hkl_intensity_file \\koalarie\\examples\\ceo2.int"
+          ]
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": true,
+      "model_content_present": true,
+      "model_evidence_present": true,
+      "model_content_evidence": {
+        "fullprof_atom_coordinates": [
+          "!      site  Ce XYZ(,0)    occ Ce+4  1  beq 0.2431",
+          "!      site  O  XYZ(,0.25) occ O-2   1  beq 0.5995"
+        ],
+        "koalariet_structure_block": [
+          "!   STR(F_M_3_M) ' CeO2"
+        ],
+        "koalariet_site_coordinates": [
+          "!      site  Ce XYZ(,0)    occ Ce+4  1  beq 0.2431",
+          "!      site  O  XYZ(,0.25) occ O-2   1  beq 0.5995"
+        ]
+      },
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 1,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 2,
+      "explicit_phase_block_count": 1,
+      "source_phase_names": [
+        "CeO2"
+      ],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 64,
+        "header_raw_text": "  23.000   0.020 140.000",
+        "two_theta_start_raw": "23.000",
+        "step_raw": "0.020",
+        "two_theta_end_raw": "140.000",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 5851,
+        "observed_intensity_count": 5851,
+        "raw_numeric_value_count": 5851,
+        "point_count_consistency": true,
+        "profile_safely_recoverable": true,
+        "profile_recovery_rule": "Use the source three-number 2theta header exactly as written and retain all raw intensity values because observed count equals round((end-start)/step)+1.",
+        "profile_failure_reason": null,
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 5851,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "1": 1,
+          "10": 585
+        }
+      },
+      "classification": "A_model_and_profile_recoverable",
+      "classification_reason": "Embedded model evidence and an exact source-header/profile point-count match are present.",
+      "source_sha256": "9e70b0fe8ae9f2db360621af5549f1c16678675058d1f23db34aa080f54f6fd1"
+    },
+    {
+      "entry_id": "144",
+      "source_label_raw": "Pb3FeF9",
+      "source_label_text": "Pb3FeF9",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/144.zip\">144</A>#Pb3FeF9#X#Cu-Kalpha#unpublished, with old <A href=\"http://sdpd.univ-lemans.fr/arit.html\">Arit</A> .dat file#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000\n",
+      "raw_hash_delimited_tokens": "[\"Pb3FeF9\", \"X\", \"Cu-Kalpha\", \"unpublished, with old <A href=\\\"http://sdpd.univ-lemans.fr/arit.html\\\">Arit</A> .dat file\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"2000\"]",
+      "raw_bibliographic_comment_text": "#Pb3FeF9#X#Cu-Kalpha#unpublished, with old <A href=\"http://sdpd.univ-lemans.fr/arit.html\">Arit</A> .dat file#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000",
+      "archive_filename": "144.zip",
+      "archive_sha256": "1564a1cf7027e2745bc47694d53af89e6a31fefd652866a2020ac2bd051d2c6a",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "144.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "144.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "0e49db6d84f6e8c8f116a8250d2bea92a69e3ac7d8dc4698c67717fbd8c2692a",
+      "member_size_bytes": 50546,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "arit_style_pattern",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": true,
+          "index_present": true,
+          "content_present": true,
+          "index_evidence": [
+            "<A href=\"/powbase/144.zip\">144</A>#Pb3FeF9#X#Cu-Kalpha#unpublished, with old <A href=\"http://sdpd.univ-lemans.fr/arit.html\">Arit</A> .dat file#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000"
+          ],
+          "content_evidence": [
+            "!   3PBF2-FEF3   ARIT4 CMMM"
+          ]
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": true,
+      "model_content_present": true,
+      "model_evidence_present": true,
+      "model_content_evidence": {
+        "legacy_arit_structure_block": [
+          "!   3PBF2-FEF3   ARIT4 CMMM"
+        ]
+      },
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 1,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 1,
+      "source_phase_names": [
+        "3PBF2-FEF3"
+      ],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 77,
+        "header_raw_text": "      5.00    0.02    125.00",
+        "two_theta_start_raw": "5.00",
+        "step_raw": "0.02",
+        "two_theta_end_raw": "125.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 6001,
+        "observed_intensity_count": 6010,
+        "raw_numeric_value_count": 6010,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (6010) differs from expected point count (6001)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 6010,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 601
+        }
+      },
+      "classification": "B_model_present_profile_unresolved",
+      "classification_reason": "Refinement/model evidence is present, but the experimental profile remains unresolved because the raw count does not match the implied grid or the source profile cannot be validated. Embedded model evidence: legacy_arit_structure_block. Source reference evidence: arit.",
+      "source_sha256": "1564a1cf7027e2745bc47694d53af89e6a31fefd652866a2020ac2bd051d2c6a"
+    },
+    {
+      "entry_id": "155",
+      "source_label_raw": "VO(H2AsO4)2",
+      "source_label_text": "VO(H2AsO4)2",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/155.zip\">155</A>#VO(H2AsO4)2#X#Cu-Kalpha#unpublished,<A href=\"/powbase/155.wrl\"> 3D</A>#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000\n",
+      "raw_hash_delimited_tokens": "[\"VO(H2AsO4)2\", \"X\", \"Cu-Kalpha\", \"unpublished,<A href=\\\"/powbase/155.wrl\\\"> 3D</A>\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"2000\"]",
+      "raw_bibliographic_comment_text": "#VO(H2AsO4)2#X#Cu-Kalpha#unpublished,<A href=\"/powbase/155.wrl\"> 3D</A>#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000",
+      "archive_filename": "155.zip",
+      "archive_sha256": "b288b5949597cb417887254052451b3c204dca5ae994a1751dadecfa2e25d100",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "155.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "155.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "6603bbd4f220a501dee544ef52b46c0627ac05f74b6c1268069b01fa4b9407e7",
+      "member_size_bytes": 26298,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "arit_style_pattern",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": true,
+      "model_evidence_present": true,
+      "model_content_evidence": {
+        "legacy_arit_structure_block": [
+          "!   VO(H2ASO4)2 P 4/N C C"
+        ]
+      },
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 1,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 1,
+      "source_phase_names": [
+        "VO(H2ASO4)2"
+      ],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 76,
+        "header_raw_text": "      10.00    0.04   130.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.04",
+        "two_theta_end_raw": "130.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 3001,
+        "observed_intensity_count": 3010,
+        "raw_numeric_value_count": 3010,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (3010) differs from expected point count (3001)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 3010,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 301
+        }
+      },
+      "classification": "B_model_present_profile_unresolved",
+      "classification_reason": "Refinement/model evidence is present, but the experimental profile remains unresolved because the raw count does not match the implied grid or the source profile cannot be validated. Embedded model evidence: legacy_arit_structure_block.",
+      "source_sha256": "b288b5949597cb417887254052451b3c204dca5ae994a1751dadecfa2e25d100"
+    },
+    {
+      "entry_id": "156",
+      "source_label_raw": "Cr2O3",
+      "source_label_text": "Cr2O3",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/156.zip\">156</A>#Cr2O3#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#2000\n",
+      "raw_hash_delimited_tokens": "[\"Cr2O3\", \"X\", \"Cu-Kalpha\", \"with Koalariet .inp file\", \"from the <A href=\\\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\\\">Koalariet</A> software test files\", \"2000\"]",
+      "raw_bibliographic_comment_text": "#Cr2O3#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#2000",
+      "archive_filename": "156.zip",
+      "archive_sha256": "bf1ec1b8f7f1ab33758856438feed9d277b51ff85540fc7f8f35a7dfde35ef9c",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "156.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "156.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "4409b5e30df18787e7cfa6f3cb142de2591b3d536321f65edd21f0d69f3a605c",
+      "member_size_bytes": 50287,
+      "text_decode_encoding": "rescue-utf-8-sig",
+      "text_nul_byte_count": 22,
+      "text_decode_note": "embedded NUL bytes replaced with spaces for parsing only; source bytes preserved",
+      "detected_content_family": "koalariet_style_pattern",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": true,
+          "index_present": true,
+          "content_present": true,
+          "index_evidence": [
+            "<A href=\"/powbase/156.zip\">156</A>#Cr2O3#X#Cu-Kalpha#with Koalariet .inp file#from the <A href=\"http://www.ccp14.ac.uk/tutorial/xfit-95/xfit.htm\">Koalariet</A> software test files#2000"
+          ],
+          "content_evidence": [
+            "!      riet.hlp",
+            "!include \"\\koalarie\\std.inp\"",
+            "!   \\koalarie\\examples\\cr1.xdd  ' File name for observed pattern (Input)",
+            "!   \\koalarie\\examples\\cr1.cal  ' File name for calculated pattern (Output)",
+            "!      create_hkl_intensity_file \\koalarie\\examples\\cr2o3.int"
+          ]
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": true,
+      "model_content_present": true,
+      "model_evidence_present": true,
+      "model_content_evidence": {
+        "fullprof_atom_coordinates": [
+          "!      site Cr  x 0        y 0  z 0.34733  occ Cr+3  1  beq 0.2440",
+          "!      site O   x 0.30596  y 0  z 0.25000  occ O-2   1  beq 0.4756"
+        ],
+        "koalariet_structure_block": [
+          "!   STR(R_-3_c) ' Cr2O3"
+        ],
+        "koalariet_site_coordinates": [
+          "!      site Cr  x 0        y 0  z 0.34733  occ Cr+3  1  beq 0.2440",
+          "!      site O   x 0.30596  y 0  z 0.25000  occ O-2   1  beq 0.4756"
+        ]
+      },
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 1,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 2,
+      "explicit_phase_block_count": 1,
+      "source_phase_names": [
+        "Cr2O3"
+      ],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 68,
+        "header_raw_text": "  23.000   0.020 140.000",
+        "two_theta_start_raw": "23.000",
+        "step_raw": "0.020",
+        "two_theta_end_raw": "140.000",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 5851,
+        "observed_intensity_count": 5851,
+        "raw_numeric_value_count": 5851,
+        "point_count_consistency": true,
+        "profile_safely_recoverable": true,
+        "profile_recovery_rule": "Use the source three-number 2theta header exactly as written and retain all raw intensity values because observed count equals round((end-start)/step)+1.",
+        "profile_failure_reason": null,
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 5851,
+          "dominant_data_column_count": 10,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "1": 1,
+          "10": 585
+        }
+      },
+      "classification": "A_model_and_profile_recoverable",
+      "classification_reason": "Embedded model evidence and an exact source-header/profile point-count match are present.",
+      "source_sha256": "bf1ec1b8f7f1ab33758856438feed9d277b51ff85540fc7f8f35a7dfde35ef9c"
+    },
+    {
+      "entry_id": "158",
+      "source_label_raw": "PbC2O4",
+      "source_label_text": "PbC2O4",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/158.zip\">158</A>#PbC2O4#X#1.315 A#Synchrotron, line broadening due to stacking faults#PbC2O4 from synchrotron X-ray and neutron powder diffraction data, A. Norlund Christensen, D.E. Cox and M.S. Lehmann, Acta Chem. Scand. 43  (1989) 19-25.#2000\n",
+      "raw_hash_delimited_tokens": "[\"PbC2O4\", \"X\", \"1.315 A\", \"Synchrotron, line broadening due to stacking faults\", \"PbC2O4 from synchrotron X-ray and neutron powder diffraction data, A. Norlund Christensen, D.E. Cox and M.S. Lehmann, Acta Chem. Scand. 43  (1989) 19-25.\", \"2000\"]",
+      "raw_bibliographic_comment_text": "#PbC2O4#X#1.315 A#Synchrotron, line broadening due to stacking faults#PbC2O4 from synchrotron X-ray and neutron powder diffraction data, A. Norlund Christensen, D.E. Cox and M.S. Lehmann, Acta Chem. Scand. 43  (1989) 19-25.#2000",
+      "archive_filename": "158.zip",
+      "archive_sha256": "8d6985616c8eb3cc80835435c2dee3515ad9b0e2879c58e33f1819059552a9e0",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "158.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "158.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "90d57de9594edb8db8aef8bcc4952c37e794bcc64b161bfd7c4f3bcb418ec890",
+      "member_size_bytes": 48976,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 10,
+        "header_raw_text": "     10.00  0.01     70.00",
+        "two_theta_start_raw": "10.00",
+        "step_raw": "0.01",
+        "two_theta_end_raw": "70.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 6001,
+        "observed_intensity_count": 6010,
+        "raw_numeric_value_count": 6010,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (6010) differs from expected point count (6001)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 10,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 6000,
+          "dominant_data_column_count": 10,
+          "review_reason": "terminal zero run does not resolve the implied-grid count mismatch",
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "10": 601
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "8d6985616c8eb3cc80835435c2dee3515ad9b0e2879c58e33f1819059552a9e0"
+    },
+    {
+      "entry_id": "161",
+      "source_label_raw": "BaHF3 (+?)",
+      "source_label_text": "BaHF3 (+?)",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/161.zip\">161</A>#BaHF3 (+?)#X#Cu-Kalpha# #Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000\n",
+      "raw_hash_delimited_tokens": "[\"BaHF3 (+?)\", \"X\", \"Cu-Kalpha\", \" \", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"2000\"]",
+      "raw_bibliographic_comment_text": "#BaHF3 (+?)#X#Cu-Kalpha# #Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000",
+      "archive_filename": "161.zip",
+      "archive_sha256": "eb0b313df9615cd074a73d2b54f16cc5caef382fbf0b0b520354884dc53c0d86",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "161.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "161.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "3967c4d31db19666cabd77c983f177a88b7052a4b861aff21b56a9cd07d8cbd5",
+      "member_size_bytes": 46052,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "commented_pdcif",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 23,
+        "header_raw_text": "   5.00   0.02   90.00",
+        "two_theta_start_raw": "5.00",
+        "step_raw": "0.02",
+        "two_theta_end_raw": "90.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 4251,
+        "observed_intensity_count": 4501,
+        "raw_numeric_value_count": 4501,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (4501) differs from expected point count (4251)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 4501,
+          "dominant_data_column_count": 8,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "5": 1,
+          "8": 562
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "eb0b313df9615cd074a73d2b54f16cc5caef382fbf0b0b520354884dc53c0d86"
+    },
+    {
+      "entry_id": "165",
+      "source_label_raw": "Co",
+      "source_label_text": "Co",
+      "source_modality_raw": "X",
+      "source_modality_class": "x-ray",
+      "raw_index_text": "<A href=\"/powbase/165.zip\">165</A>#Co#X#Cu-Kalpha#line broadening#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000\n",
+      "raw_hash_delimited_tokens": "[\"Co\", \"X\", \"Cu-Kalpha\", \"line broadening\", \"Sent by <A href=\\\"mailto:alb@cristal.org\\\">A. Le Bail</A>\", \"2000\"]",
+      "raw_bibliographic_comment_text": "#Co#X#Cu-Kalpha#line broadening#Sent by <A href=\"mailto:alb@cristal.org\">A. Le Bail</A>#2000",
+      "archive_filename": "165.zip",
+      "archive_sha256": "cea3ee4bd455ed3a475d654edd09c36a72c309ee9cced2e3e83b679ef04b87a4",
+      "archive_sha256_matches_manifest": true,
+      "archive_error": null,
+      "archive_member_filenames": [
+        "165.dat"
+      ],
+      "archive_member_count": 1,
+      "member_filename": "165.dat",
+      "member_source_extension": ".dat",
+      "member_sha256": "a684ad2b063b9740d5ae5179aaee8d71d276f5e075377d31a0e8948fe2acded8",
+      "member_size_bytes": 59647,
+      "text_decode_encoding": "utf-8-sig",
+      "text_nul_byte_count": 0,
+      "text_decode_note": null,
+      "detected_content_family": "legacy_intensity_array",
+      "numeric_array_present": true,
+      "fullprof_content_evidence": [],
+      "fullprof_phase_block_identifiers": [],
+      "fullprof_phase_names": [],
+      "reference_flags": {
+        "fullprof": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "pcr": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "cif": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietveld": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "gsas": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "koalariet": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "rietica": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "arit": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        },
+        "other_refinement_or_model": {
+          "present": false,
+          "index_present": false,
+          "content_present": false,
+          "index_evidence": [],
+          "content_evidence": []
+        }
+      },
+      "model_reference_present": false,
+      "model_content_present": false,
+      "model_evidence_present": false,
+      "model_content_evidence": {},
+      "embedded_fullprof_phase_count": 0,
+      "embedded_koalariet_structure_block_count": 0,
+      "embedded_legacy_arit_model_block_count": 0,
+      "embedded_koalariet_site_count": 0,
+      "explicit_phase_block_count": 0,
+      "source_phase_names": [],
+      "profile": {
+        "header_found": true,
+        "header_line_number": 4,
+        "header_raw_text": "    20.00  0.02  130.00",
+        "two_theta_start_raw": "20.00",
+        "step_raw": "0.02",
+        "two_theta_end_raw": "130.00",
+        "header_values_valid": true,
+        "grid_alignment_exact": true,
+        "expected_point_count": 5501,
+        "observed_intensity_count": 5887,
+        "raw_numeric_value_count": 5887,
+        "point_count_consistency": false,
+        "profile_safely_recoverable": false,
+        "profile_recovery_rule": null,
+        "profile_failure_reason": "raw observed intensity count (5887) differs from expected point count (5501)",
+        "padding_evidence": {
+          "trailing_zero_padding_count": 0,
+          "trailing_zero_padding_candidate": false,
+          "fixed_width_padding_candidate": false,
+          "observed_count_excluding_trailing_zero_padding": 5887,
+          "dominant_data_column_count": 8,
+          "review_reason": null,
+          "policy": "candidate only; values are retained and no trimming or padding is performed"
+        },
+        "data_column_counts": {
+          "7": 1,
+          "8": 735
+        }
+      },
+      "classification": "D_still_unresolved",
+      "classification_reason": "No qualifying refinement/model evidence was found and the experimental profile is not safely recoverable under the exact-count rule.",
+      "source_sha256": "cea3ee4bd455ed3a475d654edd09c36a72c309ee9cced2e3e83b679ef04b87a4"
+    }
+  ]
+}

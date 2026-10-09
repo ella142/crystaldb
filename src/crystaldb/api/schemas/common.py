@@ -27,7 +27,25 @@ class Links(PublicModel):
 
 class PageMeta(PublicModel):
     count: int
+    total_count: int | None = None
     next_cursor: str | None = None
+
+
+class APIStats(PublicModel):
+    powder_pattern_count: int = 0
+    single_crystal_dataset_count: int = 0
+    multiphase_pattern_count: int = 0
+    source_count: int = 0
+    sample_count: int = 0
+    measurement_count: int = 0
+    pattern_count: int = 0
+    structure_count: int = 0
+    reflection_set_count: int = 0
+    relation_count: int = 0
+    powbase_xray_pattern_count: int = 0
+    powder_pattern_counts_by_source: dict[str, int] = Field(default_factory=dict)
+    phase_character_counts: dict[str, int] = Field(default_factory=dict)
+    source_phase_counts: dict[str, dict[str, int]] = Field(default_factory=dict)
 
 
 ItemT = TypeVar("ItemT")

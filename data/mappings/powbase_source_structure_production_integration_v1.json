@@ -1,0 +1,398 @@
+{
+  "schema_version": "powbase_source_structure_production_integration_v1",
+  "generated_at_utc": "2026-10-07T10:27:05.170911+00:00",
+  "database": "crystaldb",
+  "production_database_written": true,
+  "dryrun_input": "D:\\document\\aiformaterials\\crystaldb\\data\\mappings\\powbase_source_structure_integration_dryrun_v1.json",
+  "backup": {
+    "path": "D:\\document\\aiformaterials\\crystaldb\\backups\\powbase_source_structure_pre_integration_20261007_181825",
+    "database": "crystaldb",
+    "timestamp_utc": "2026-10-07T10:18:25.654310+00:00",
+    "collection_counts": {
+      "sources": 6,
+      "samples": 2932,
+      "measurements": 61966,
+      "patterns": 3019,
+      "structures": 62642,
+      "reflection_sets": 58947,
+      "relations": 65246,
+      "refinements": 0,
+      "releases": 1
+    },
+    "errors": [],
+    "complete": true
+  },
+  "scope": {
+    "entry_ids": [
+      "106",
+      "113",
+      "116",
+      "117",
+      "124",
+      "125",
+      "157",
+      "159",
+      "160"
+    ],
+    "ambiguous_entry_ids": [
+      "106",
+      "157"
+    ],
+    "incomplete_entry_157_models_registered": 0
+  },
+  "counts": {
+    "before": {
+      "sources": 6,
+      "samples": 2932,
+      "measurements": 61966,
+      "patterns": 3019,
+      "structures": 62642,
+      "reflection_sets": 58947,
+      "relations": 65246,
+      "refinements": 0,
+      "releases": 1
+    },
+    "after": {
+      "sources": 6,
+      "samples": 2932,
+      "measurements": 61966,
+      "patterns": 3019,
+      "structures": 62652,
+      "reflection_sets": 58947,
+      "relations": 65253,
+      "refinements": 0,
+      "releases": 1
+    }
+  },
+  "write_counts": {
+    "structures_inserted": 10,
+    "relations_inserted": 7,
+    "entry_116_pattern_modified": 1,
+    "entry_116_measurement_modified": 1
+  },
+  "write_sets": {
+    "structures": [
+      {
+        "entry_id": "106",
+        "structure_id": "STR_POWBASE_106_PHASE_1",
+        "source_model_id": "PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "106",
+        "structure_id": "STR_POWBASE_106_PHASE_2",
+        "source_model_id": "PHASE_2",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "113",
+        "structure_id": "STR_POWBASE_113_PHASE_1",
+        "source_model_id": "PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "116",
+        "structure_id": "STR_POWBASE_116_SR5_PHASE_1",
+        "source_model_id": "SR5_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "117",
+        "structure_id": "STR_POWBASE_117_SR5_PHASE_1",
+        "source_model_id": "SR5_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "124",
+        "structure_id": "STR_POWBASE_124_PHASE_1",
+        "source_model_id": "PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "125",
+        "structure_id": "STR_POWBASE_125_STR_P_63_M_M_C",
+        "source_model_id": "STR(P_63/M_M_C)",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "157",
+        "structure_id": "STR_POWBASE_157_STR_C_1",
+        "source_model_id": "STR(C_1)",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "159",
+        "structure_id": "STR_POWBASE_159_ARIT_PHASE_1",
+        "source_model_id": "ARIT_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "160",
+        "structure_id": "STR_POWBASE_160_WINMPROF_PHASE_1",
+        "source_model_id": "WINMPROF_PHASE_1",
+        "status": "inserted"
+      }
+    ],
+    "relations": [
+      {
+        "entry_id": "113",
+        "relation_id": "REL_POWBASE_113_STR_POWBASE_113_PHASE_1",
+        "subject_id": "POWBASE_PAT_113",
+        "object_id": "STR_POWBASE_113_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "116",
+        "relation_id": "REL_POWBASE_116_STR_POWBASE_116_SR5_PHASE_1",
+        "subject_id": "POWBASE_PAT_116",
+        "object_id": "STR_POWBASE_116_SR5_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "117",
+        "relation_id": "REL_POWBASE_117_STR_POWBASE_117_SR5_PHASE_1",
+        "subject_id": "POWBASE_PAT_117",
+        "object_id": "STR_POWBASE_117_SR5_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "124",
+        "relation_id": "REL_POWBASE_124_STR_POWBASE_124_PHASE_1",
+        "subject_id": "POWBASE_PAT_124",
+        "object_id": "STR_POWBASE_124_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "125",
+        "relation_id": "REL_POWBASE_125_STR_POWBASE_125_STR_P_63_M_M_C",
+        "subject_id": "POWBASE_PAT_125",
+        "object_id": "STR_POWBASE_125_STR_P_63_M_M_C",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "159",
+        "relation_id": "REL_POWBASE_159_STR_POWBASE_159_ARIT_PHASE_1",
+        "subject_id": "POWBASE_PAT_159",
+        "object_id": "STR_POWBASE_159_ARIT_PHASE_1",
+        "status": "inserted"
+      },
+      {
+        "entry_id": "160",
+        "relation_id": "REL_POWBASE_160_STR_POWBASE_160_WINMPROF_PHASE_1",
+        "subject_id": "POWBASE_PAT_160",
+        "object_id": "STR_POWBASE_160_WINMPROF_PHASE_1",
+        "status": "inserted"
+      }
+    ],
+    "entry_116_pattern_update": {
+      "status": "modified",
+      "values": {
+        "wavelength_angstrom": 1.54056,
+        "wavelength_kalpha2_angstrom": 1.54439
+      }
+    },
+    "entry_116_measurement_update": {
+      "status": "modified",
+      "values": {
+        "wavelength_angstrom": 1.54056,
+        "wavelength_kalpha2_angstrom": 1.54439
+      }
+    }
+  },
+  "cif_validation": {
+    "count": 10,
+    "all_gemmi_parse": true,
+    "records": [
+      {
+        "structure_id": "STR_POWBASE_106_PHASE_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_106_PHASE_1.cif",
+        "block_name": "POWBASE_106_PHASE_1",
+        "atom_site_count": 8,
+        "sha256": "03f315d102458d85c9ea24f2c8f020f706ab615ab84ae84c3120bfb8052f1a38"
+      },
+      {
+        "structure_id": "STR_POWBASE_106_PHASE_2",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_106_PHASE_2.cif",
+        "block_name": "POWBASE_106_PHASE_2",
+        "atom_site_count": 8,
+        "sha256": "957c16a3ff8793848f6d0d31e8eedd8d1a24917a49b8932033cef01f6032643e"
+      },
+      {
+        "structure_id": "STR_POWBASE_113_PHASE_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_113_PHASE_1.cif",
+        "block_name": "POWBASE_113_PHASE_1",
+        "atom_site_count": 20,
+        "sha256": "cd40df987573b2c1e41261ae3929a5a3d26cd4aaa2ac21a0f9b3b1cdaed3ce10"
+      },
+      {
+        "structure_id": "STR_POWBASE_116_SR5_PHASE_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_116_SR5_PHASE_1.cif",
+        "block_name": "POWBASE_116_SR5_PHASE_1",
+        "atom_site_count": 6,
+        "sha256": "a939138de50086b952acfe64bce899bbb330a8a1fbc9168877768f218422d238"
+      },
+      {
+        "structure_id": "STR_POWBASE_117_SR5_PHASE_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_117_SR5_PHASE_1.cif",
+        "block_name": "POWBASE_117_SR5_PHASE_1",
+        "atom_site_count": 3,
+        "sha256": "3840d9e835cf60f460855952ec664c90e1656402e6d50c6a66fdb760b33dbe43"
+      },
+      {
+        "structure_id": "STR_POWBASE_124_PHASE_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_124_PHASE_1.cif",
+        "block_name": "POWBASE_124_PHASE_1",
+        "atom_site_count": 5,
+        "sha256": "a149b94a497218a4909abf655c76734bcdd48237239bb74457bb876a4c69f7dc"
+      },
+      {
+        "structure_id": "STR_POWBASE_125_STR_P_63_M_M_C",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_125_STR_P_63_M_M_C.cif",
+        "block_name": "POWBASE_125_STR_P_63_M_M_C_",
+        "atom_site_count": 8,
+        "sha256": "cfd5a13846535af2b6472ad65a98b2b9a30895a36bc35e25f802db654da2403c"
+      },
+      {
+        "structure_id": "STR_POWBASE_157_STR_C_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_157_STR_C_1.cif",
+        "block_name": "POWBASE_157_STR_C_1_",
+        "atom_site_count": 13,
+        "sha256": "1908ea77b2f988aa8507e0a073b56479b00906e75225bde0160171342f8f76da"
+      },
+      {
+        "structure_id": "STR_POWBASE_159_ARIT_PHASE_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_159_ARIT_PHASE_1.cif",
+        "block_name": "POWBASE_159_ARIT_PHASE_1",
+        "atom_site_count": 3,
+        "sha256": "bbd461bf1f77942f886a4ec29a56060c39ef466d1b9386a8ec1247a0a612ecac"
+      },
+      {
+        "structure_id": "STR_POWBASE_160_WINMPROF_PHASE_1",
+        "path": "data/staging/powbase_source_structures_v1/POWBASE_160_WINMPROF_PHASE_1.cif",
+        "block_name": "POWBASE_160_WINMPROF_PHASE_1",
+        "atom_site_count": 4,
+        "sha256": "8be0dbfde568c2b5f7ae449bbdc43763bf5f4b15e058e45fbc40bccb10a1f25d"
+      }
+    ]
+  },
+  "validation": {
+    "structure_delta_exact": true,
+    "relation_delta_exact": true,
+    "pattern_count_unchanged": true,
+    "duplicate_ids": {
+      "structures": [],
+      "relations": [],
+      "patterns": [],
+      "measurements": [],
+      "samples": []
+    },
+    "duplicate_ids_total": 0,
+    "orphan_relations": [],
+    "gemmi_parse_count": 10,
+    "gemmi_parse_all": true,
+    "ambiguous_linkage": {
+      "relation_counts": {
+        "106": 0,
+        "157": 0
+      },
+      "clear": true
+    },
+    "entry_157_literal": {
+      "structure_present": true,
+      "literal_51323_preserved": true,
+      "matching_sites": [
+        {
+          "label": "Al",
+          "type_raw": "Al+3",
+          "element": "Al",
+          "x": 0.51323,
+          "y": 51323.0,
+          "z": -0.00477,
+          "b_iso": 0.5,
+          "occupancy": 1.0,
+          "raw_line": "!     site Al    x 0.51323     y 51323     z -0.00477   occ Al+3  1  beq 0.5"
+        }
+      ]
+    },
+    "incomplete_entry_157": {
+      "expected_incomplete_structure_ids": [
+        "STR_POWBASE_157_STR_I_41_A_M_D_Z",
+        "STR_POWBASE_157_STR_P_1_21_N_1",
+        "STR_POWBASE_157_STR_R__3_C_H",
+        "STR_POWBASE_157_STR_P_31_2_1"
+      ],
+      "present_in_production": [],
+      "clear": true
+    },
+    "entry_157_only_recoverable_cif": true,
+    "idempotent_exact_matches": true,
+    "second_structure_preflight": {
+      "new_ids": [],
+      "exact_ids": [
+        "STR_POWBASE_106_PHASE_1",
+        "STR_POWBASE_106_PHASE_2",
+        "STR_POWBASE_113_PHASE_1",
+        "STR_POWBASE_116_SR5_PHASE_1",
+        "STR_POWBASE_117_SR5_PHASE_1",
+        "STR_POWBASE_124_PHASE_1",
+        "STR_POWBASE_125_STR_P_63_M_M_C",
+        "STR_POWBASE_157_STR_C_1",
+        "STR_POWBASE_159_ARIT_PHASE_1",
+        "STR_POWBASE_160_WINMPROF_PHASE_1"
+      ],
+      "conflicts": []
+    },
+    "second_relation_preflight": {
+      "new_ids": [],
+      "exact_ids": [
+        "REL_POWBASE_113_STR_POWBASE_113_PHASE_1",
+        "REL_POWBASE_116_STR_POWBASE_116_SR5_PHASE_1",
+        "REL_POWBASE_117_STR_POWBASE_117_SR5_PHASE_1",
+        "REL_POWBASE_124_STR_POWBASE_124_PHASE_1",
+        "REL_POWBASE_125_STR_POWBASE_125_STR_P_63_M_M_C",
+        "REL_POWBASE_159_STR_POWBASE_159_ARIT_PHASE_1",
+        "REL_POWBASE_160_STR_POWBASE_160_WINMPROF_PHASE_1"
+      ],
+      "conflicts": []
+    },
+    "second_metadata_preflight": {
+      "current": {
+        "pattern": {
+          "wavelength_angstrom": 1.54056,
+          "wavelength_kalpha2_angstrom": 1.54439
+        },
+        "measurement": {
+          "wavelength_angstrom": 1.54056,
+          "wavelength_kalpha2_angstrom": 1.54439
+        }
+      },
+      "expected": {
+        "pattern": {
+          "wavelength_angstrom": 1.54056,
+          "wavelength_kalpha2_angstrom": 1.54439
+        },
+        "measurement": {
+          "wavelength_angstrom": 1.54056,
+          "wavelength_kalpha2_angstrom": 1.54439
+        }
+      },
+      "conflicts": [],
+      "needs_pattern_update": false,
+      "needs_measurement_update": false
+    }
+  },
+  "integration_passed": true,
+  "prohibited_operations": {
+    "new_powbase_patterns": false,
+    "entries_15_74_121_156_processed": false,
+    "cod_matching": false,
+    "source_archives_modified": false,
+    "website_manuscript_release_updated": false,
+    "git_commit_or_push": false
+  },
+  "outputs": {
+    "json": "D:\\document\\aiformaterials\\crystaldb\\data\\mappings\\powbase_source_structure_production_integration_v1.json",
+    "csv": "D:\\document\\aiformaterials\\crystaldb\\data\\mappings\\powbase_source_structure_production_integration_v1.csv",
+    "summary": "D:\\document\\aiformaterials\\crystaldb\\data\\mappings\\powbase_source_structure_production_integration_v1_summary.md"
+  }
+}

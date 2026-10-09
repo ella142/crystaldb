@@ -5,7 +5,7 @@ from __future__ import annotations
 import csv
 import io
 import json
-from typing import Literal
+from typing import Any, Literal
 
 from fastapi import APIRouter, Depends, HTTPException, Query
 from fastapi.responses import Response
@@ -19,6 +19,61 @@ from crystaldb.api.services.mapping import _pattern_arrays, pattern_model
 from crystaldb.api.services.pagination import decode_cursor, encode_cursor
 
 router = APIRouter(prefix="/patterns", tags=["patterns"])
+
+
+def _pattern_relations(
+    database: Database,
+    pattern_ids: list[str],
+) -> dict[str, list[dict[str, Any]]]:
+    if not pattern_ids:
+        return {}
+    documents = database.relations.find(
+        {
+            "subject_type": "pattern",
+            "subject_id": {"$in": pattern_ids},
+            "object_type": "structure",
+            "predicate": {"$in": ["has_structure_linkage", "has_structure_candidate"]},
+            "status": {"$in": ["complete", "ambiguous", "inconclusive"]},
+        },
+        {
+            "_id": 0,
+            "subject_id": 1,
+            "object_id": 1,
+            "object_type": 1,
+            "predicate": 1,
+            "status": 1,
+        },
+    )
+    result: dict[str, list[dict[str, Any]]] = {}
+    for document in documents:
+        subject_id = document.get("subject_id")
+        if subject_id:
+            result.setdefault(str(subject_id), []).append(dict(document))
+    return result
+
+
+def _structure_relation_pattern_ids(
+    database: Database,
+    structure_id: str | None,
+) -> list[str] | None:
+    if not structure_id:
+        return None
+    return [
+        str(value)
+        for value in database.relations.distinct(
+            "subject_id",
+            {
+                "subject_type": "pattern",
+                "object_type": "structure",
+                "object_id": structure_id,
+                "predicate": {
+                    "$in": ["has_structure_linkage", "has_structure_candidate"]
+                },
+                "status": {"$in": ["complete", "ambiguous", "inconclusive"]},
+            },
+        )
+        if value
+    ]
 
 
 @router.get("", response_model=PaginatedResponse[Pattern])
@@ -39,6 +94,17 @@ def list_patterns(
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     repository = PatternRepository(database.patterns)
+    relation_pattern_ids = _structure_relation_pattern_ids(database, structure_id)
+    total_count = repository.count_filtered(
+        source=source,
+        modality=modality,
+        phase_character=phase_character,
+        component_formula=component_formula,
+        structure_linkage=structure_linkage,
+        structure_id=structure_id,
+        dataset_role=dataset_role,
+        relation_pattern_ids=relation_pattern_ids,
+    )
     documents = repository.list_filtered(
         source=source,
         modality=modality,
@@ -47,15 +113,27 @@ def list_patterns(
         structure_linkage=structure_linkage,
         structure_id=structure_id,
         dataset_role=dataset_role,
+        relation_pattern_ids=relation_pattern_ids,
         limit=limit + 1,
         after_id=after_id,
     )
     has_next = len(documents) > limit
     documents = documents[:limit]
     next_cursor = encode_cursor(documents[-1]["pattern_id"]) if has_next and documents else None
+    relations = _pattern_relations(
+        database,
+        [document["pattern_id"] for document in documents],
+    )
     return PaginatedResponse(
-        items=[pattern_model(document) for document in documents],
-        meta={"count": len(documents), "next_cursor": next_cursor},
+        items=[
+            pattern_model(document, relations.get(document["pattern_id"], []))
+            for document in documents
+        ],
+        meta={
+            "count": len(documents),
+            "total_count": total_count,
+            "next_cursor": next_cursor,
+        },
     )
 
 
@@ -64,7 +142,8 @@ def get_pattern(pattern_id: str, database: Database = Depends(get_database)) -> 
     document = database.patterns.find_one({"pattern_id": pattern_id}, {"_id": 0})
     if document is None:
         raise HTTPException(status_code=404, detail="pattern not found")
-    return pattern_model(document)
+    relations = _pattern_relations(database, [pattern_id])
+    return pattern_model(document, relations.get(pattern_id, []))
 
 
 @router.get("/{pattern_id}/xy", response_model=PatternXY)
